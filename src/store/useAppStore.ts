@@ -57,7 +57,7 @@ export const useAppStore = create<AppState>((set, get) => ({
   currentDesign: createEmptyDesign(),
   apiConfig: loadFromLocalStorage<APIConfig>('tdg-api-config', {
     ...DEFAULT_API_CONFIG.deepseek,
-    apiKey: 'sk-59c9aaf183a94f9bae4226b4a1b15b6d',
+    apiKey: '',
   }),
   selectedTemplate: 'standard',
   history: loadFromLocalStorage<TeachingDesign[]>('tdg-history', []),

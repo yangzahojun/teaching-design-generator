@@ -113,7 +113,7 @@ ${reflection.targetAchievement || '（待评估）'}
 
 ---
 
-*本教学设计由「教学设计生成器」基于UbD逆向设计框架（Wiggins & McTighe）生成*
+*本教案由「困难的教育价值——教案设计器」基于UbD逆向设计框架（Wiggins & McTighe）生成*
 `;
 }
 

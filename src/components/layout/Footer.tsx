@@ -6,7 +6,7 @@ export default function Footer() {
           基于2022版义务教育课程标准 · 融合维果茨基最近发展区、Bjork理想困难理论、Kapur有效失败理论
         </p>
         <p className="text-xs text-[#94A3B8]">
-          教学设计生成器 v1.0 · MIT License
+          困难的教育价值——教案设计器 v1.0 · MIT License
         </p>
       </div>
     </footer>
