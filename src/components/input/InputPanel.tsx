@@ -1,16 +1,19 @@
-import { Plus, Trash2, ChevronDown, ChevronUp } from 'lucide-react';
+import { Plus, Trash2, ChevronDown, ChevronUp, Sparkles, Loader2, AlertCircle, CheckCircle2 } from 'lucide-react';
 import { useState } from 'react';
 import { useAppStore } from '../../store/useAppStore';
 import { SUBJECTS, getGradesForSubject, TEXTBOOK_VERSIONS } from '../../data/subjects';
 import { getCompetenciesForSubject, BOPPPS_PHASES } from '../../data/core-competencies';
 import type { LearningObjective, TeachingActivity, CoreCompetency } from '../../types/teaching-design';
+import { aiAutoGenerate } from '../../ai/full-generator';
 import Button from '../shared/Button';
 import Select from '../shared/Select';
 import TextInput from '../shared/TextInput';
 import Card from '../shared/Card';
 
 export default function InputPanel() {
-  const { currentDesign, updateMeta, updateSection } = useAppStore();
+  const { currentDesign, apiConfig, updateMeta, updateSection } = useAppStore();
+  const [aiGenerating, setAiGenerating] = useState(false);
+  const [aiToast, setAiToast] = useState<{ type: 'success' | 'error'; message: string } | null>(null);
   const { meta, standardAnalysis, textbookAnalysis, learnerAnalysis,
     learningObjectives, assessmentTasks, activities, homework, boardDesign,
     reflection, difficultyDesign } = currentDesign;
@@ -99,9 +102,60 @@ export default function InputPanel() {
     }
   };
 
+  const handleAIGenerate = async () => {
+    setAiGenerating(true);
+    setAiToast(null);
+    try {
+      const result = await aiAutoGenerate(
+        apiConfig,
+        meta.subject || '小学数学',
+        meta.grade || '五年级',
+        meta.title || '',
+        meta.textbookVersion || '人教版',
+        meta.duration || 40
+      );
+      setAiToast({ type: result.success ? 'success' : 'error', message: result.message });
+    } catch (e: unknown) {
+      setAiToast({ type: 'error', message: e instanceof Error ? e.message : '生成失败' });
+    }
+    setAiGenerating(false);
+  };
+
   return (
     <div className="space-y-3 overflow-y-auto max-h-[calc(100vh-120px)] pr-1">
-      {/* ===== 基本信息 ===== */}
+      {/* ===== AI 一键生成按钮 ===== */}
+
+      <div className="bg-gradient-to-r from-[#DBEAFE] via-[#E0E7FF] to-[#DBEAFE] border border-[#2563EB]/20 rounded-xl p-4">
+        <div className="flex items-center gap-3">
+          <div className="w-10 h-10 bg-gradient-to-br from-[#2563EB] to-[#06B6D4] rounded-xl flex items-center justify-center flex-shrink-0">
+            <Sparkles size={20} className="text-white" />
+          </div>
+          <div className="flex-1 min-w-0">
+            <h3 className="text-sm font-semibold text-[#1D4ED8]">AI 一键生成教学设计</h3>
+            <p className="text-[11px] text-[#64748B] mt-0.5">
+              填写左侧基本信息（课题名称必填），点击按钮，AI自动生成全部9大板块
+            </p>
+          </div>
+          <Button
+            variant="primary"
+            size="md"
+            loading={aiGenerating}
+            onClick={handleAIGenerate}
+            icon={aiGenerating ? <Loader2 size={16} className="animate-spin" /> : <Sparkles size={16} />}
+            className="flex-shrink-0"
+          >
+            {aiGenerating ? '生成中...' : '一键生成'}
+          </Button>
+        </div>
+        {aiToast && (
+          <div className={`mt-2 flex items-center gap-1.5 text-xs px-3 py-1.5 rounded-lg ${
+            aiToast.type === 'success' ? 'bg-emerald-50 text-emerald-700' : 'bg-red-50 text-red-600'
+          }`}>
+            {aiToast.type === 'success' ? <CheckCircle2 size={13} /> : <AlertCircle size={13} />}
+            {aiToast.message}
+          </div>
+        )}
+      </div>
       <Card padding="sm">
         <SectionHeader id="basic" title="基本信息" icon="📋" />
         {expandedSections.basic && (
