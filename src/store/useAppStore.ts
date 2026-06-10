@@ -9,6 +9,7 @@ import {
   createEmptyDesign,
   DEFAULT_API_CONFIG,
 } from '../types/teaching-design';
+import { BUILTIN_API_CONFIG } from '../ai/builtin-key';
 
 interface AppState {
   // 当前教学设计
@@ -56,8 +57,10 @@ function saveToLocalStorage(key: string, value: unknown) {
 export const useAppStore = create<AppState>((set, get) => ({
   currentDesign: createEmptyDesign(),
   apiConfig: loadFromLocalStorage<APIConfig>('tdg-api-config', {
-    ...DEFAULT_API_CONFIG.deepseek,
-    apiKey: '',
+    provider: 'deepseek',
+    baseUrl: 'https://api.deepseek.com/v1',
+    model: 'deepseek-chat',
+    apiKey: BUILTIN_API_CONFIG.apiKey,
   }),
   selectedTemplate: 'standard',
   history: loadFromLocalStorage<TeachingDesign[]>('tdg-history', []),

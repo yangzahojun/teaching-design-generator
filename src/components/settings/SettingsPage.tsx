@@ -1,16 +1,17 @@
 import { useState } from 'react';
-import { Settings, Key, Globe, Cpu, CheckCircle, XCircle } from 'lucide-react';
+import { Settings, Key, Globe, Cpu, CheckCircle, XCircle, Shield } from 'lucide-react';
 import { useAppStore } from '../../store/useAppStore';
 import { DEFAULT_API_CONFIG } from '../../types/teaching-design';
 import type { AIProvider } from '../../types/teaching-design';
 import { testAPIConnection } from '../../ai/client';
+import { API_KEY_MASKED } from '../../ai/builtin-key';
 import Button from '../shared/Button';
 import Select from '../shared/Select';
 import TextInput from '../shared/TextInput';
 import Card from '../shared/Card';
 
 export default function SettingsPage() {
-  const { apiConfig, setProvider, setAPIKey, setAPIConfig } = useAppStore();
+  const { apiConfig, setProvider, setAPIConfig } = useAppStore();
   const [testing, setTesting] = useState(false);
   const [testResult, setTestResult] = useState<{ success: boolean; message: string } | null>(null);
 
@@ -48,7 +49,7 @@ export default function SettingsPage() {
           设置
         </h1>
         <p className="text-sm text-[#64748B] mt-1">
-          配置AI API密钥以启用智能增强功能。API密钥仅存储在您的浏览器本地，不会上传到任何第三方服务器。
+          DeepSeek密钥已内置，开箱即用。如需更换，可在此输入你自己的密钥。
         </p>
       </div>
 
@@ -66,12 +67,15 @@ export default function SettingsPage() {
             options={providerOptions}
           />
 
-          <TextInput
-            label="API 密钥"
-            value={apiConfig.apiKey}
-            onChange={setAPIKey}
-            placeholder="输入你的API密钥..."
-          />
+          <div>
+            <label className="text-xs font-medium text-[#64748B] mb-1 block">API 密钥</label>
+            <div className="w-full px-3 py-2.5 text-sm border border-[#10B981]/30 rounded-lg bg-emerald-50/50 text-emerald-700 flex items-center gap-2">
+              <Shield size={14} />
+              <span className="font-mono tracking-wider">{API_KEY_MASKED}</span>
+              <span className="ml-auto text-[10px] px-2 py-0.5 bg-emerald-100 text-emerald-700 rounded-full font-medium">已内置</span>
+            </div>
+            <p className="text-[10px] text-[#94A3B8] mt-1">密钥已加密内置于应用中，开箱即可使用AI一键生成</p>
+          </div>
 
           {apiConfig.provider === 'custom' && (
             <>
