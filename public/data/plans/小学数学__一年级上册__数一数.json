@@ -1,0 +1,154 @@
+{
+  "standardAnalysis": {
+    "contentRequirement": "《义务教育数学课程标准（2022年版）》第一学段（1~2年级）数与运算领域：能熟练地数出数量在20以内物体的个数，会区分几个和第几个。",
+    "academicRequirement": "学生能正确数出图中人或物的数量，并能用相应的数表示，初步建立数感。",
+    "teachingHint": "课标建议：通过具体情境和操作活动，帮助学生理解数的意义，注重从实际情境中抽象出数的过程。",
+    "coreCompetencyNames": [
+      "数感",
+      "观察能力",
+      "数学抽象"
+    ]
+  },
+  "textbookAnalysis": {
+    "verticalAnalysis": "《数一数》是人教版一年级上册第一单元“准备课”的第一课时。本课是小学数学的起始课，为后续学习数字书写、比较大小、数的运算等奠定基础。学生从幼儿园进入小学，首次系统接触数学概念，本课通过数校园图中的事物，帮助学生建立数与物的对应关系。",
+    "crossAnalysis": "相比北师大版教材以“可爱的校园”为主题，人教版更侧重于静态场景图；苏教版则以“数一数”为名，但情境图更简单。人教版教材特色在于场景丰富（如国旗、小鸟、花朵等），便于学生多角度观察和数数。",
+    "bigConcept": "数是物体数量的抽象表示，数数的本质是建立一一对应关系。",
+    "keyKnowledge": [
+      "能按顺序数数（1~10）",
+      "能手口一致地点数",
+      "能说出总数"
+    ],
+    "difficulties": [
+      "教学重点：正确数出1~10各数，并说出总数",
+      "教学难点：手口一致地点数，不重复、不遗漏"
+    ]
+  },
+  "learnerAnalysis": {
+    "priorKnowledge": "大部分学生在幼儿园或家庭教育中已能口头数数1~10，但部分学生可能数序不熟或不能正确点数。",
+    "priorExperience": "学生有数玩具、数水果等生活经验，对“数”有初步感知。",
+    "cognitiveDifficulty": "学生容易在点数时出现手口不一致（如手指移动快于口头数数），或数完不知总数。",
+    "preAssessment": "课前通过“数一数你的铅笔有几支”的简单任务，观察学生点数能力，记录常见错误。"
+  },
+  "learningObjectives": [
+    {
+      "content": "学生通过观察校园情境图，能正确数出图中1~10个物体，并说出总数。",
+      "category": "knowledge",
+      "competencyLink": "数感",
+      "assessmentMethod": "课堂观察+口头提问"
+    },
+    {
+      "content": "学生通过动手点数学具（小棒、圆片），能手口一致地数出1~10，不重复、不遗漏。",
+      "category": "skill",
+      "competencyLink": "观察能力",
+      "assessmentMethod": "操作任务评价"
+    },
+    {
+      "content": "学生在数数活动中，体会数学与生活的联系，产生对数学学习的兴趣。",
+      "category": "attitude",
+      "competencyLink": "数学抽象",
+      "assessmentMethod": "课堂表现记录"
+    }
+  ],
+  "assessmentTasks": {
+    "preMethod": "课前个别访谈或小组观察，让学生数一数桌上的小棒。",
+    "preQuestions": [
+      "你能数一数这里有几根小棒吗？",
+      "数的时候要注意什么？"
+    ],
+    "prePurpose": "了解学生已有的数数能力（数序、手口一致、总数意识）。",
+    "postMethod": "课堂后测：出示新的情境图（如教室一角），让学生独立数数并记录。",
+    "postTasks": [
+      "数一数图中几朵花？",
+      "数一数几个同学？并写出数字。"
+    ],
+    "postRubric": "优秀：能正确、有序地数出所有物体，并说出总数；合格：基本能数出，偶有遗漏或重复；需辅导：不能正确点数，需教师协助。"
+  },
+  "activities": [
+    {
+      "phase": "B",
+      "title": "校园情境导入",
+      "duration": 3,
+      "teacherAction": "出示课本第2~3页校园情境图，提问：“图上有什么？你能数一数吗？”",
+      "studentAction": "观察情境图，自由发言，尝试数数。",
+      "designIntent": "利用学生熟悉的校园场景激发兴趣，建立数学与生活的联系（动机优先）。",
+      "assessmentEmbedded": "教师巡视，观察学生是否能主动观察和数数。"
+    },
+    {
+      "phase": "O",
+      "title": "明确学习目标",
+      "duration": 2,
+      "teacherAction": "告诉学生：“今天我们要学会数数，要数得又对又快，还要知道总数。”",
+      "studentAction": "倾听目标，产生期待。",
+      "designIntent": "让学生明确学习任务，激发目标感。",
+      "assessmentEmbedded": ""
+    },
+    {
+      "phase": "P-participatory",
+      "title": "核心探索：数一数校园里的物体",
+      "duration": 15,
+      "teacherAction": "教师先让学生独立尝试数国旗（1面）、小鸟（4只）等，不提示方法。然后请学生展示，暴露错误（如手口不一、漏数）。再引导讨论：“怎样数才不会漏？”总结方法：按顺序、手指指、口数数。",
+      "studentAction": "学生先独立点数，再小组交流方法，最后全班分享。",
+      "designIntent": "困难前置：先让学生经历数错的困惑，再引导发现正确方法；过程保留：学生展示错误，教师不急于纠正，让同伴互助。",
+      "assessmentEmbedded": "教师记录学生数数中的典型错误，作为后续指导依据。"
+    },
+    {
+      "phase": "P-post",
+      "title": "后测练习：数一数学具",
+      "duration": 8,
+      "teacherAction": "每组发不同数量的小棒（3~8根），要求：先数一数，再在纸上画相应数量的圆圈。",
+      "studentAction": "独立数小棒并画圈，同桌互相检查。",
+      "designIntent": "检测学生是否掌握点数方法，并实现从实物到符号的抽象。",
+      "assessmentEmbedded": "教师观察学生操作，收集后测数据。"
+    },
+    {
+      "phase": "S",
+      "title": "课堂总结",
+      "duration": 5,
+      "teacherAction": "提问：“今天我们学会了什么？数数要注意什么？”引导学生总结。",
+      "studentAction": "回顾并分享收获。",
+      "designIntent": "归纳数数方法，为后续学习数字书写做铺垫。",
+      "assessmentEmbedded": ""
+    }
+  ],
+  "homework": {
+    "requiredTitle1": "数一数家里的物品",
+    "requiredDesc1": "回家后数一数家里的椅子、窗户等物品（至少3样），并告诉家长总数。",
+    "requiredTitle2": "画一画",
+    "requiredDesc2": "在纸上画5个三角形，并数一数。",
+    "optionalTitle": "挑战题",
+    "optionalDesc": "数一数家里有多少个门（包括柜门），并记录下来。",
+    "designIntent": "分层设计：必做巩固基础点数能力，选做拓展观察范围，满足不同水平学生。",
+    "differentiationNote": "对于数数困难的学生，建议家长陪同点数；对于能力强的学生，鼓励其用数字记录。"
+  },
+  "boardDesign": {
+    "layout": "左侧：情境图简笔画（国旗、花朵等）；中间：数字1~10；右侧：数数方法（按顺序、手指指、口数数）。",
+    "keyElements": [
+      "情境图",
+      "数字1~10",
+      "数数方法"
+    ],
+    "structureLogic": "从左到右：从具体情境抽象出数字，再总结方法，体现从直观到抽象的过程。"
+  },
+  "reflection": {
+    "targetAchievement": "预计80%学生能正确数出1~10并说出总数，20%学生需课后个别辅导。",
+    "improvementMeasures": [
+      "增加小组内互帮互助环节",
+      "对困难学生提前准备更多学具练习",
+      "后续课中加强数字书写与数数的结合"
+    ],
+    "notableObservations": "注意手口不协调的学生，可能源于精细动作发展不足，需耐心指导。"
+  },
+  "difficultyDesign": {
+    "targetDifficulty": "核心困难：手口一致地点数，不重复、不遗漏。",
+    "educationalValue": "这个困难能帮助学生建立一一对应和有序思考的习惯，对后续数学学习至关重要。",
+    "zpdAlignment": "通过前测了解学生已有数数基础，将困难设置在“能口头数数但不能正确点数”的区域，通过同伴示范和教师引导突破。",
+    "meaninglessObstacles": [
+      "避免一次性数过多物体（如超过10个）",
+      "避免复杂背景干扰（如颜色混杂）"
+    ],
+    "motivationStrategy": "自主性：让学生选择自己感兴趣的物体数；胜任感：数对后给予鼓励；关系感：小组合作，互相帮助。",
+    "difficultyFirst": "在核心探索活动中，先让学生独立数，暴露错误，再讨论方法。",
+    "processPreservation": "学生展示错误时，不直接否定，而是引导其他学生分析原因，保留思维过程。",
+    "abstractionProtection": "在数小棒后，要求画圆圈表示数量，从实物到符号的过渡中，允许学生用图画表达，不强制使用数字。"
+  }
+}

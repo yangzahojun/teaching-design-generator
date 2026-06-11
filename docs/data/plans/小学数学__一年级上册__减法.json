@@ -1,0 +1,153 @@
+{
+  "standardAnalysis": {
+    "contentRequirement": "能在具体情境中理解减法运算的意义，能熟练口算5以内数的减法。",
+    "academicRequirement": "能正确计算5以内数的减法，并能用减法解决简单的实际问题。",
+    "teachingHint": "通过具体情境和操作活动，帮助学生理解减法的含义，注重数感和符号意识的培养。",
+    "coreCompetencyNames": [
+      "数感",
+      "符号意识",
+      "运算能力"
+    ]
+  },
+  "textbookAnalysis": {
+    "verticalAnalysis": "本课是人教版一年级上册第三单元《1~5的认识和加减法》中的第4课时。在此之前，学生已学习了1~5各数的认识和加法，本课是学生首次接触减法概念，为后续学习10以内加减法及更复杂的运算奠定基础。教材通过情境图（小丑气球）和操作活动（摆小棒、画图）引入减法，强调从“去掉”到“减法算式”的抽象过程。",
+    "crossAnalysis": "与北师大版相比，人教版更强调情境的连贯性和算式的规范书写；苏教版则更注重从分与合的角度引入减法。人教版本课特色是使用统一的情境（小丑气球）贯穿始终，突出“总数-部分=另一部分”的模型。",
+    "bigConcept": "减法表示从一个数量中移除一部分后剩余的数量，是加法的逆运算。",
+    "keyKnowledge": [
+      "减法的含义",
+      "减法算式的读写法",
+      "5以内减法的计算方法"
+    ],
+    "difficulties": [
+      "教学重点：理解减法的含义，能正确计算5以内减法",
+      "教学难点：理解减法算式中各部分的实际意义（总数、去掉的部分、剩下的部分）"
+    ]
+  },
+  "learnerAnalysis": {
+    "priorKnowledge": "学生已认识1~5各数，能正确书写，理解加法的含义并会计算5以内加法。",
+    "priorExperience": "学生在生活中有“拿走了”“吃掉了”等减少的经验，但未抽象为减法。",
+    "cognitiveDifficulty": "学生易将减法理解为“去掉”，但难以将“去掉”与“减法算式”中的数字一一对应，尤其是理解减号的含义。",
+    "preAssessment": "通过口头提问：“盘子里有3个苹果，你吃了1个，还剩几个？”观察学生能否用语言描述“去掉”的过程，并尝试说出数字结果。"
+  },
+  "learningObjectives": [
+    {
+      "content": "通过观察情境图（小丑气球）和操作小棒，能说出减法的含义，正确列出减法算式。",
+      "category": "knowledge",
+      "competencyLink": "数感、符号意识",
+      "assessmentMethod": "课堂提问、操作展示"
+    },
+    {
+      "content": "能正确计算5以内数的减法，并熟练写出减法算式。",
+      "category": "skill",
+      "competencyLink": "运算能力",
+      "assessmentMethod": "课堂练习、后测"
+    },
+    {
+      "content": "在解决实际问题（如分水果）的过程中，感受减法与生活的联系，培养数学应用意识。",
+      "category": "attitude",
+      "competencyLink": "应用意识",
+      "assessmentMethod": "情境任务表现"
+    }
+  ],
+  "assessmentTasks": {
+    "preMethod": "口头提问和简单操作",
+    "preQuestions": [
+      "你有3块糖，妈妈拿走了1块，还剩几块？",
+      "你能用小棒摆一摆，表示3去掉1吗？"
+    ],
+    "prePurpose": "了解学生对“去掉”概念的直观理解程度，以及是否具备初步的数量对应能力。",
+    "postMethod": "纸笔测试和口头陈述",
+    "postTasks": [
+      "计算：4-1=？ 5-3=？",
+      "看图列式：图中有5个气球，飞走2个，列出减法算式。"
+    ],
+    "postRubric": "优秀：能正确列式计算，并能说出算式中每个数字的含义；合格：能正确计算，但含义表述不清；需辅导：计算有误或无法列式。"
+  },
+  "activities": [
+    {
+      "phase": "B",
+      "title": "气球不见了",
+      "duration": 3,
+      "teacherAction": "出示小丑气球图：小丑有4个气球，飞走了1个。提问：还剩几个？你能用算式表示吗？",
+      "studentAction": "观察情境，口头回答，尝试用数字和符号表示。",
+      "designIntent": "用生动情境激发兴趣，引出减法问题。",
+      "assessmentEmbedded": "观察学生能否说出“4去掉1”"
+    },
+    {
+      "phase": "O",
+      "title": "明确学习目标",
+      "duration": 2,
+      "teacherAction": "展示本课目标：理解减法含义，学会计算5以内减法。",
+      "studentAction": "听讲，明确学习任务。",
+      "designIntent": "让学生知道学什么、怎么学。",
+      "assessmentEmbedded": ""
+    },
+    {
+      "phase": "P-participatory",
+      "title": "探索减法的含义",
+      "duration": 15,
+      "teacherAction": "先让学生独立尝试用小棒表示“4个气球飞走1个”，再组织交流。教师引导：4去掉1，可以用减号“-”表示，写成4-1=3。",
+      "studentAction": "先独立摆小棒，再同桌交流，最后全班分享。",
+      "designIntent": "困难前置：学生先经历“如何表示去掉”的困惑，再接受减法符号；过程保留：通过操作保留思维痕迹。",
+      "assessmentEmbedded": "观察学生摆法和算式表达是否正确"
+    },
+    {
+      "phase": "P-post",
+      "title": "练习巩固",
+      "duration": 8,
+      "teacherAction": "出示练习题：3-1=？ 5-2=？ 看图列式。巡视指导，个别纠错。",
+      "studentAction": "独立完成练习，同桌互批，纠正错误。",
+      "designIntent": "检测学习效果，及时反馈。",
+      "assessmentEmbedded": "练习正确率"
+    },
+    {
+      "phase": "S",
+      "title": "课堂总结",
+      "duration": 5,
+      "teacherAction": "引导学生回顾：今天学了什么？减法算式各部分表示什么？",
+      "studentAction": "用自己的语言总结减法的含义和计算方法。",
+      "designIntent": "归纳核心内容，为后续学习铺垫。",
+      "assessmentEmbedded": ""
+    }
+  ],
+  "homework": {
+    "requiredTitle1": "口算练习",
+    "requiredDesc1": "完成口算卡：5以内减法5题（如2-1, 4-3等）。",
+    "requiredTitle2": "生活故事",
+    "requiredDesc2": "画一幅图，编一个用减法解决的生活小故事，并写出算式。",
+    "optionalTitle": "挑战题",
+    "optionalDesc": "小华有5个苹果，分给小明一些后还剩2个，小华分给小明几个？列出算式。",
+    "designIntent": "基础口算巩固技能，生活故事培养应用意识，挑战题激发思维。",
+    "differentiationNote": "基础薄弱学生可减少口算题量，重点完成必做1；学有余力学生鼓励完成挑战题。"
+  },
+  "boardDesign": {
+    "layout": "左侧：情境图（小丑气球）→ 中间：减法算式 4-1=3（读作：4减1等于3）→ 右侧：操作图（小棒图）及含义（总数-去掉的部分=剩下的部分）",
+    "keyElements": [
+      "4-1=3",
+      "减号“-”",
+      "总数、去掉的部分、剩下的部分"
+    ],
+    "structureLogic": "从情境到操作再到算式，逐步抽象，突出减法的含义。"
+  },
+  "reflection": {
+    "targetAchievement": "预计90%学生能正确计算5以内减法，70%学生能清晰表述减法含义。",
+    "improvementMeasures": [
+      "增加更多生活情境帮助学生理解",
+      "对表述困难的学生进行个别指导"
+    ],
+    "notableObservations": "注意区分“去掉”与“拿走”的语言差异，避免混淆。"
+  },
+  "difficultyDesign": {
+    "targetDifficulty": "核心困难：如何将“去掉”的直观动作抽象为减法算式。",
+    "educationalValue": "这个困难帮助学生建立符号意识，理解数学符号与生活经验的对应关系，是数学抽象能力的关键一步。",
+    "zpdAlignment": "学生已会用数字表示数量，但未接触符号运算。通过操作小棒和教师引导，困难在最近发展区内。",
+    "meaninglessObstacles": [
+      "复杂的语言描述",
+      "过多无关情境干扰"
+    ],
+    "motivationStrategy": "自主性：让学生选择自己喜欢的方式（小棒、画图）表示“去掉”；胜任感：通过简单问题逐步成功；关系感：同桌合作交流。",
+    "difficultyFirst": "先让学生独立尝试表示“4个气球飞走1个”，经历困惑后再引入减法符号。",
+    "processPreservation": "保留学生的小棒摆法和画图，作为思维痕迹供讨论。",
+    "abstractionProtection": "在引入减号后，仍保留情境图和操作图，帮助学生理解符号的意义。"
+  }
+}
