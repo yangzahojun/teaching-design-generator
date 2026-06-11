@@ -98,9 +98,24 @@ ${standardAnalysis.contentRequirement || '（待填写）'}
 **关联核心素养**：${standardAnalysis.coreCompetencies.map(c => c.name).join('、') || '（待关联）'}
 
 ### 教材分析
-- **大概念**：${textbookAnalysis.bigConcept || '（待提炼）'}
-- **重点**：${textbookAnalysis.keyKnowledge?.join('、') || '（待填写）'}
-- **难点**：${textbookAnalysis.difficulties?.join('、') || '（待填写）'}
+
+#### 纵向分析（学段中的位置）
+${textbookAnalysis.verticalAnalysis || '（待填写）'}
+
+#### 横向对比（多版本教材处理差异）
+${textbookAnalysis.crossAnalysis || '（待填写）'}
+
+#### 大概念
+> **${textbookAnalysis.bigConcept || '（待提炼）'}**
+
+#### 核心知识点
+${textbookAnalysis.keyKnowledge?.join('、') || '（待填写）'}
+
+#### 教学重点
+${textbookAnalysis.difficulties?.[0] || '（待填写）'}
+
+#### 教学难点与突破
+${textbookAnalysis.difficulties?.length > 1 ? textbookAnalysis.difficulties.slice(1).map(d => `- ${d}`).join('\n') : '（待填写）'}
 
 ### 学情分析
 - 已有基础：${learnerAnalysis.priorKnowledge || '（待填写）'}

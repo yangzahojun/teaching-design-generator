@@ -12,12 +12,12 @@ interface TextInputProps {
 export default function TextInput({
   label, value, onChange, placeholder, multiline, rows = 3, className = '', required,
 }: TextInputProps) {
-  const baseClasses = "w-full px-3 py-2 text-sm border border-[#E2E8F0] rounded-lg bg-white text-[#1E293B] placeholder-[#94A3B8] focus:outline-none focus:ring-2 focus:ring-[#2563EB] focus:border-transparent transition-all duration-150";
+  const baseClasses = "w-full px-3.5 py-2.5 text-sm border border-[#E2E8F0] rounded-lg bg-white text-[#1E293B] placeholder-[#94A3B8] focus:outline-none focus:ring-2 focus:ring-[#2563EB] focus:border-transparent transition-all duration-150";
 
   return (
     <div className={`flex flex-col gap-1 ${className}`}>
       {label && (
-        <label className="text-xs font-medium text-[#64748B]">
+        <label className="text-sm font-medium text-[#64748B]">
           {label}{required && <span className="text-[#EF4444] ml-0.5">*</span>}
         </label>
       )}

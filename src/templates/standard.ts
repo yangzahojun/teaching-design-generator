@@ -4,7 +4,7 @@ import type { TeachingDesign } from '../types/teaching-design';
 export function renderStandardTemplate(design: TeachingDesign): string {
   const { meta, standardAnalysis, textbookAnalysis, learnerAnalysis,
     learningObjectives, assessmentTasks, activities, homework,
-    boardDesign, reflection, alignmentMatrix, difficultyDesign, aiRoleDefinition } = design;
+    boardDesign, reflection, alignmentMatrix, difficultyDesign } = design;
 
   const phaseLabels: Record<string, string> = {
     B: 'B 导入 (Bridge-in)', O: 'O 目标 (Objective)',
@@ -47,23 +47,34 @@ ${standardAnalysis.coreCompetencies.length > 0
 
 ## 二、教材分析
 
-### 2.1 纵向分析（本课在学段中的位置）
+### 2.1 纵向分析（本课在学段/单元中的位置）
+> 分析本课在该学科教材体系中的坐标位置，包括与前后知识的联系、在学段中的定位、对后续学习的铺垫作用。
+
 ${textbookAnalysis.verticalAnalysis || '（待填写）'}
 
-### 2.2 横向对比（不同版本教材处理方式）
+### 2.2 横向对比（不同版本教材的处理方式）
+> 对比不同版本教材（如人教版 vs 北师大版/苏教版/统编版）对本课内容的呈现差异，分析各版本的特色和取舍逻辑。
+
 ${textbookAnalysis.crossAnalysis || '（待填写）'}
 
-### 2.3 大概念（Big Idea）
-> ${textbookAnalysis.bigConcept || '（待提炼）'}
+### 2.3 教材编排与内容解析
+> 详细分析所用教材（${meta.textbookVersion}）对这一内容的编排思路——包括教材中的情境导入方式、例题设计的递进逻辑、探究活动的安排、习题的分布与梯度、图文配合的意图等方面。这是教学设计最直接的依据。
 
-### 2.4 核心知识点与重难点
 ${textbookAnalysis.keyKnowledge.length > 0
-    ? textbookAnalysis.keyKnowledge.map(k => `- ${k}`).join('\n')
+    ? '本课核心知识包括：' + textbookAnalysis.keyKnowledge.join('、') + '。' + (textbookAnalysis.verticalAnalysis || '')
     : '（待填写）'}
 
-**教学重难点：**
-${textbookAnalysis.difficulties.length > 0
-    ? textbookAnalysis.difficulties.map((d) => `- ${d}`).join('\n')
+### 2.4 大概念（Big Idea）
+> 大概念是本课内容背后的学科核心思想，具有统摄性、迁移性和持久性。一个好的大概念表述能帮助教师把握教学方向。
+
+> **${textbookAnalysis.bigConcept || '（待提炼）'}**
+
+### 2.5 教学重难点与突破策略
+**教学重点：**${textbookAnalysis.difficulties?.[0] || '（待填写）'}
+
+**教学难点与突破建议：**
+${textbookAnalysis.difficulties.length > 1
+    ? textbookAnalysis.difficulties.slice(1).map((d) => `- ${d}`).join('\n')
     : '（待填写）'}
 
 ---
@@ -202,17 +213,6 @@ ${alignmentMatrix.map(entry =>
 | **困难前置** | ${difficultyDesign?.difficultyFirst || '（待设计）'} |
 | **过程保留** | ${difficultyDesign?.processPreservation || '（待设计）'} |
 | **抽象保护** | ${difficultyDesign?.abstractionProtection || '（待设计）'} |
-
----
-
-## ★ 十二、AI在教学设计中的角色
-
-| 角色 | 定位 |
-|------|------|
-| **困难设计者** | ${aiRoleDefinition?.asDifficultyDesigner || '借助AI分析能力，为不同学生设计个性化的有教育价值的困难任务'} |
-| **动机激发者** | ${aiRoleDefinition?.asMotivationEnhancer || '通过即时、面向过程的反馈增强学生自我效能感'} |
-| **障碍清除者** | ${aiRoleDefinition?.asObstacleRemover || '识别并移除因信息缺失造成的外部障碍，但不干预核心思维过程'} |
-| **核心边界** | ${aiRoleDefinition?.coreBoundary || 'AI不能替代学生亲身经历思考的过程——不愤不启，不悱不发。'} |
 
 ---
 

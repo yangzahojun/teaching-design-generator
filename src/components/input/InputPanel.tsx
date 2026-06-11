@@ -44,7 +44,7 @@ export default function InputPanel() {
       onClick={() => toggleSection(id)}
       className="w-full flex items-center justify-between py-2.5 hover:bg-[#F8FAFC] rounded-lg px-1 transition-colors cursor-pointer"
     >
-      <span className="flex items-center gap-2 text-sm font-semibold text-[#1E293B]">
+      <span className="flex items-center gap-2 text-base font-semibold text-[#1E293B]">
         <span className="text-base">{icon}</span> {title}
       </span>
       {expandedSections[id] ? <ChevronUp size={16} className="text-[#94A3B8]" /> : <ChevronDown size={16} className="text-[#94A3B8]" />}
