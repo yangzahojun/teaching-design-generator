@@ -57,17 +57,9 @@ function saveToLocalStorage(key: string, value: unknown) {
 export const useAppStore = create<AppState>((set, get) => ({
   currentDesign: createEmptyDesign(),
   apiConfig: (() => {
-    // 清除旧版空key缓存，避免覆盖内置密钥
-    const old = localStorage.getItem('tdg-api-config');
-    if (old) {
-      try {
-        const parsed = JSON.parse(old);
-        if (!parsed.apiKey || parsed.apiKey === '') {
-          localStorage.removeItem('tdg-api-config');
-        }
-      } catch { localStorage.removeItem('tdg-api-config'); }
-    }
-    return loadFromLocalStorage<APIConfig>('tdg-api-config', {
+    // 移除旧缓存，确保新内置密钥生效
+    localStorage.removeItem('tdg-api-key');
+    return loadFromLocalStorage<APIConfig>('tdg-api-key', {
       provider: 'deepseek',
       baseUrl: 'https://api.deepseek.com/v1',
       model: 'deepseek-chat',
@@ -103,7 +95,7 @@ export const useAppStore = create<AppState>((set, get) => ({
   setAPIConfig: (config) =>
     set((s) => {
       const newConfig = { ...s.apiConfig, ...config };
-      saveToLocalStorage('tdg-api-config', newConfig);
+      saveToLocalStorage('tdg-api-key', newConfig);
       return { apiConfig: newConfig };
     }),
 
@@ -111,7 +103,7 @@ export const useAppStore = create<AppState>((set, get) => ({
     const defaults = DEFAULT_API_CONFIG[provider];
     set((s) => {
       const newConfig = { ...defaults, apiKey: s.apiConfig.apiKey };
-      saveToLocalStorage('tdg-api-config', newConfig);
+      saveToLocalStorage('tdg-api-key', newConfig);
       return { apiConfig: newConfig };
     });
   },
@@ -119,7 +111,7 @@ export const useAppStore = create<AppState>((set, get) => ({
   setAPIKey: (key) =>
     set((s) => {
       const newConfig = { ...s.apiConfig, apiKey: key };
-      saveToLocalStorage('tdg-api-config', newConfig);
+      saveToLocalStorage('tdg-api-key', newConfig);
       return { apiConfig: newConfig };
     }),
 

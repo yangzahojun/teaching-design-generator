@@ -1,7 +1,7 @@
 // 内置DeepSeek API密钥（base64编码，仅用于编译时嵌入）
 // 这段配置编译后内置于JS bundle中，无需用户手动输入
 
-const ENCODED_KEY = 'c2stNTljOWFhZjE4M2E5NGY5YmFlNDIyNmI0YTFhMTViNmQ=';
+const ENCODED_KEY = 'c2stYTVkNTE1OTZjMmRmNDVlNWIxOTkyZjY5YmYzYWE2NGU=';
 const ENCODED_BASE = 'aHR0cHM6Ly9hcGkuZGVlcHNlZWsuY29tL3Yx';
 const ENCODED_MODEL = 'ZGVlcHNlZWstY2hhdA==';
 
