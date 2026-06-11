@@ -111,6 +111,18 @@ export default function InputPanel() {
     if (value.trim().length >= 1) {
       const results = searchCurriculum(value);
       setTopicSuggestions(results);
+      // 精确匹配关键词 → 自动填充
+      const exactMatch = results.find(r => r.keywords.some(kw => kw === value.trim()));
+      if (exactMatch) {
+        updateMeta({
+          subject: exactMatch.subject as typeof meta.subject,
+          grade: exactMatch.grade as typeof meta.grade,
+          textbookVersion: exactMatch.textbook,
+          unit: exactMatch.unit,
+        });
+        setShowSuggestions(false);
+        return;
+      }
       setShowSuggestions(results.length > 0);
     } else {
       setTopicSuggestions([]);
