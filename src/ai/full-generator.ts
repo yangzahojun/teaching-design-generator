@@ -173,14 +173,14 @@ export async function aiAutoGenerate(
     const builtin = await loadFromBuiltinLibrary(subject, grade, topic);
     if (builtin) {
       applyPlanData(builtin);
-      return { success: true, message: `📚 《${topic}》从教案库中秒出！零token消耗。` };
+      return { success: true, message: '已生成' };
     }
 
     // ★ 第二步：尝试从localStorage缓存加载（之前API生成过的）
     const cached = loadFromLocalCache(subject, grade, topic);
     if (cached) {
       applyPlanData(cached);
-      return { success: true, message: `💾 《${topic}》从本地缓存加载（曾用API生成过）` };
+      return { success: true, message: '已生成' };
     }
 
     // ★ 第三步：都没有 → 调API生成
@@ -206,7 +206,7 @@ export async function aiAutoGenerate(
     // 保存到localStorage，下次秒开
     saveToLocalCache(subject, grade, topic, data);
 
-    return { success: true, message: `🤖 《${topic}》已生成并缓存（本次消耗~0.008元）。下次同样课题秒出！` };
+    return { success: true, message: '已生成' };
   } catch (e: unknown) {
     const msg = e instanceof Error ? e.message : '未知错误';
     if (msg.includes('JSON')) {

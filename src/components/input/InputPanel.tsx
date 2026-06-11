@@ -1,4 +1,4 @@
-import { Plus, Trash2, ChevronDown, ChevronUp, Sparkles, Loader2, AlertCircle, CheckCircle2, Search } from 'lucide-react';
+import { Plus, Trash2, ChevronDown, ChevronUp, Sparkles, Loader2, AlertCircle, Search } from 'lucide-react';
 import { useState } from 'react';
 import { useAppStore } from '../../store/useAppStore';
 import { SUBJECTS, getGradesForSubject, TEXTBOOK_VERSIONS } from '../../data/subjects';
@@ -182,11 +182,9 @@ export default function InputPanel() {
             {aiGenerating ? '生成中...' : '一键生成'}
           </Button>
         </div>
-        {aiToast && (
-          <div className={`mt-2 flex items-center gap-1.5 text-xs px-3 py-1.5 rounded-lg ${
-            aiToast.type === 'success' ? 'bg-emerald-50 text-emerald-700' : 'bg-red-50 text-red-600'
-          }`}>
-            {aiToast.type === 'success' ? <CheckCircle2 size={13} /> : <AlertCircle size={13} />}
+        {aiToast && aiToast.type === 'error' && (
+          <div className="mt-2 flex items-center gap-1.5 text-xs px-3 py-1.5 rounded-lg bg-red-50 text-red-600">
+            <AlertCircle size={13} />
             {aiToast.message}
           </div>
         )}
