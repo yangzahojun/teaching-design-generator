@@ -4,7 +4,7 @@ import type { TeachingDesign } from '../types/teaching-design';
 export function renderStandardTemplate(design: TeachingDesign): string {
   const { meta, standardAnalysis, textbookAnalysis, learnerAnalysis,
     learningObjectives, assessmentTasks, activities, homework,
-    boardDesign, reflection, alignmentMatrix, difficultyDesign } = design;
+    boardDesign, reflection, difficultyDesign } = design;
 
   const phaseLabels: Record<string, string> = {
     B: 'B 导入 (Bridge-in)', O: 'O 目标 (Objective)',
@@ -69,13 +69,17 @@ ${textbookAnalysis.keyKnowledge.length > 0
 
 > **${textbookAnalysis.bigConcept || '（待提炼）'}**
 
-### 2.5 教学重难点与突破策略
-**教学重点：**${textbookAnalysis.difficulties?.[0] || '（待填写）'}
+### 2.5 教学重点
 
-**教学难点与突破建议：**
-${textbookAnalysis.difficulties.length > 1
-    ? textbookAnalysis.difficulties.slice(1).map((d) => `- ${d}`).join('\n')
-    : '（待填写）'}
+${textbookAnalysis.difficulties?.[0] || '（待填写）'}
+
+### 2.6 教学难点
+
+${textbookAnalysis.difficulties?.[1] || '（待填写）'}
+
+### 2.7 突破策略
+
+${textbookAnalysis.difficulties?.[2] || '（待填写：请结合学情分析，设计帮助学生克服上述难点的具体策略）'}
 
 ---
 
@@ -172,23 +176,11 @@ ${boardDesign.layout || '（待设计）'}
 | **特别关注** | ${reflection.notableObservations || '（待填写）'} |
 
 ---
-
-## 十、教学评一致性矩阵
-
-${alignmentMatrix.length > 0
-    ? `| 学习目标 | 评价任务 | 教学活动 | 一致性说明 |
-|----------|----------|----------|------------|
-${alignmentMatrix.map(entry =>
-      `| ${entry.objectiveId} | ${entry.assessmentTaskId} | ${entry.activityIds.join(', ')} | ${entry.consistencyNote} |`).join('\n')}`
-    : '（待自动生成）'}
-
----
-
-## ★ 十一、困难设计框架
+## 十、困难设计框架
 
 > 核心问题：什么困难值得保留？如何激发学生面对困难的内在意愿？
 
-### 11.1 困难甄别
+### 10.1 困难甄别
 
 | 维度 | 分析 |
 |------|------|
@@ -197,7 +189,7 @@ ${alignmentMatrix.map(entry =>
 | **最近发展区对齐** | ${difficultyDesign?.zpdAlignment || '（待分析）'} |
 | **待清除的无意义障碍** | ${difficultyDesign?.meaninglessObstacles?.join('；') || '（待识别）'} |
 
-### 11.2 动机激发设计（基于SDT自我决定理论）
+### 10.2 动机激发设计（基于SDT自我决定理论）
 
 | 原则 | 策略 |
 |------|------|
@@ -206,7 +198,7 @@ ${alignmentMatrix.map(entry =>
 | **胜任感铺垫** | ${difficultyDesign?.competenceScaffold || '（待设计）'} |
 | **关系感联结** | ${difficultyDesign?.relatednessConnection || '（待设计）'} |
 
-### 11.3 过程设计
+### 10.3 过程设计
 
 | 原则 | 策略 |
 |------|------|

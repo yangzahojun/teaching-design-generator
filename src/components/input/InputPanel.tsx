@@ -301,7 +301,9 @@ export default function InputPanel() {
             <TextInput label="纵向分析" value={textbookAnalysis.verticalAnalysis || ''} onChange={(v) => updateSection('textbookAnalysis', { verticalAnalysis: v })} placeholder="本课在学段/单元中的前后联系..." multiline rows={2} />
             <TextInput label="横向对比" value={textbookAnalysis.crossAnalysis || ''} onChange={(v) => updateSection('textbookAnalysis', { crossAnalysis: v })} placeholder="不同版本教材的处理方式有何异同..." multiline rows={2} />
             <TextInput label="大概念(Big Idea)" value={textbookAnalysis.bigConcept || ''} onChange={(v) => updateSection('textbookAnalysis', { bigConcept: v })} placeholder="本课背后的核心概念..." />
-            <TextInput label="重难点" value={textbookAnalysis.difficulties?.join('；') || ''} onChange={(v) => updateSection('textbookAnalysis', { difficulties: v.split('；').filter(Boolean) })} placeholder="用分号(；)分隔多个重难点" />
+            <TextInput label="教学重点" value={textbookAnalysis.difficulties?.[0] || ''} onChange={(v) => { const arr = [...(textbookAnalysis.difficulties||[])]; arr[0] = v; updateSection('textbookAnalysis', { difficulties: arr }); }} placeholder="本课的教学重点" />
+            <TextInput label="教学难点" value={textbookAnalysis.difficulties?.[1] || ''} onChange={(v) => { const arr = [...(textbookAnalysis.difficulties||[])]; arr[1] = v; updateSection('textbookAnalysis', { difficulties: arr }); }} placeholder="学生可能遇到的最大障碍" />
+            <TextInput label="突破策略" value={textbookAnalysis.difficulties?.[2] || ''} onChange={(v) => { const arr = [...(textbookAnalysis.difficulties||[])]; arr[2] = v; updateSection('textbookAnalysis', { difficulties: arr }); }} placeholder="帮助学生突破难点的具体教学策略..." multiline rows={2} />
           </div>
         )}
       </Card>

@@ -35,7 +35,7 @@ export const FULL_DESIGN_JSON_PROMPT = (subject: string, grade: string, topic: s
     "crossAnalysis": "不同版本教材处理方式对比",
     "bigConcept": "本课背后的大概念（一句话）",
     "keyKnowledge": ["知识点1", "知识点2", "知识点3"],
-    "difficulties": ["重点1", "难点1"]
+    "difficulties": ["教学重点内容", "教学难点内容", "突破策略与建议"],
   },
   "learnerAnalysis": {
     "priorKnowledge": "学生已有的知识基础",
