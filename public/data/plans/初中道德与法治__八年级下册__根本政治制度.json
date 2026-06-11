@@ -1,0 +1,156 @@
+{
+  "standardAnalysis": {
+    "contentRequirement": "了解人民代表大会制度是我国的根本政治制度，理解人民当家作主的制度保障。",
+    "academicRequirement": "能够运用所学知识，分析说明人民代表大会制度是适合我国国情的好制度，增强制度自信。",
+    "teachingHint": "建议结合实例，引导学生认识人民代表大会制度的优越性，通过模拟活动加深理解。",
+    "coreCompetencyNames": [
+      "政治认同",
+      "法治观念",
+      "责任意识"
+    ]
+  },
+  "textbookAnalysis": {
+    "verticalAnalysis": "本课位于统编版八年级下册第三单元《人民当家作主》第五课《我国基本制度》第一框。在上一单元学习了宪法知识后，本单元聚焦国家制度，本框作为开篇，介绍根本政治制度，为后续学习基本政治制度、经济制度奠定基础。教材通过“探究与分享”活动引入，呈现人大代表选举和履职的图文资料，帮助学生理解制度内涵。",
+    "crossAnalysis": "与其他版本（如人教版旧版）相比，统编版更强调制度自信和法治实践，通过真实案例和活动设计增强体验。本教材特色在于将制度知识与学生生活紧密联系，如通过模拟人大代表提案活动，突出学生主体性。",
+    "bigConcept": "人民当家作主的制度保障",
+    "keyKnowledge": [
+      "人民代表大会制度是我国的根本政治制度",
+      "人民代表大会制度的运行机制",
+      "人民代表大会制度的优越性"
+    ],
+    "difficulties": [
+      "教学重点：人民代表大会制度的内涵和优越性",
+      "教学难点：理解人民代表大会制度如何保障人民当家作主"
+    ]
+  },
+  "learnerAnalysis": {
+    "priorKnowledge": "学生已学习宪法中关于国家性质和人民主权的知识，了解公民基本权利和义务。",
+    "priorExperience": "学生通过新闻、身边选举活动等，对人大和人大代表有初步感性认识，但缺乏系统理解。",
+    "cognitiveDifficulty": "学生可能难以理解抽象的制度运行逻辑，如人大代表如何代表人民、制度如何保障民主。",
+    "preAssessment": "通过课堂提问和简短的问卷，了解学生对人大和人大代表职责的已有认知。"
+  },
+  "learningObjectives": [
+    {
+      "content": "通过分析人大代表履职案例，能够准确说出人民代表大会制度的地位和基本内容。",
+      "category": "knowledge",
+      "competencyLink": "政治认同",
+      "assessmentMethod": "课堂提问与书面练习"
+    },
+    {
+      "content": "通过模拟人大代表提案活动，能够运用制度知识分析实际政治现象。",
+      "category": "skill",
+      "competencyLink": "法治观念",
+      "assessmentMethod": "活动表现观察与成果评价"
+    },
+    {
+      "content": "通过感悟制度优势，增强对中国特色社会主义制度的认同感和自豪感。",
+      "category": "attitude",
+      "competencyLink": "责任意识",
+      "assessmentMethod": "课堂表现与反思日志"
+    }
+  ],
+  "assessmentTasks": {
+    "preMethod": "课堂提问与简短问卷",
+    "preQuestions": [
+      "你知道我国有哪些政治制度？",
+      "人大代表是如何产生的？他们做什么？"
+    ],
+    "prePurpose": "了解学生对本课主题的已有知识基础和生活经验，为教学设计提供依据。",
+    "postMethod": "课堂练习与活动成果评价",
+    "postTasks": [
+      "完成一道选择题和一道简答题，考查制度基本内容",
+      "小组提交一份模拟人大代表提案（简要版）"
+    ],
+    "postRubric": "优秀：准确理解制度内涵，提案有可行性且体现民意；合格：能说出制度要点，提案基本合理；需辅导：概念模糊，提案缺乏逻辑。"
+  },
+  "activities": [
+    {
+      "phase": "B",
+      "title": "新闻导入：人大代表在身边",
+      "duration": 3,
+      "teacherAction": "播放一段本地人大代表履职的新闻视频，提问：人大代表如何代表我们？",
+      "studentAction": "观看视频，自由发言分享感受",
+      "designIntent": "从学生生活经验出发，激发学习兴趣，引出主题",
+      "assessmentEmbedded": "观察学生发言的积极性与初步认知"
+    },
+    {
+      "phase": "O",
+      "title": "明确学习目标",
+      "duration": 2,
+      "teacherAction": "展示本课学习目标，简要解释各目标要求",
+      "studentAction": "阅读目标，明确本课要学什么、怎么学",
+      "designIntent": "让学生清晰学习方向和评价标准",
+      "assessmentEmbedded": ""
+    },
+    {
+      "phase": "P-participatory",
+      "title": "模拟人大代表提案活动",
+      "duration": 15,
+      "teacherAction": "提供校园或社区问题情境（如垃圾分类），指导学生分组模拟人大代表收集民意、撰写提案；先让学生尝试，再提供人大代表履职案例作为支架",
+      "studentAction": "小组讨论，先独立提出想法，再合作形成提案，最后代表展示",
+      "designIntent": "困难前置：学生先经历提案困难，再通过案例学习理解制度运行；过程保留：保留讨论和修改痕迹",
+      "assessmentEmbedded": "观察小组合作质量，收集提案初稿"
+    },
+    {
+      "phase": "P-post",
+      "title": "后测练习与反馈",
+      "duration": 8,
+      "teacherAction": "发放练习题（选择题+简答题），巡视指导，及时反馈",
+      "studentAction": "独立完成练习，同桌互批，纠错讨论",
+      "designIntent": "检测知识掌握情况，巩固核心概念",
+      "assessmentEmbedded": "练习正确率统计，针对性讲解"
+    },
+    {
+      "phase": "S",
+      "title": "总结升华：制度自信",
+      "duration": 5,
+      "teacherAction": "引导学生回顾本课核心内容，强调人民代表大会制度的优越性，联系国家发展成就",
+      "studentAction": "分享学习收获，齐读教材最后一段话",
+      "designIntent": "归纳总结，情感升华，为下一框学习铺垫",
+      "assessmentEmbedded": "口头反馈"
+    }
+  ],
+  "homework": {
+    "requiredTitle1": "知识梳理",
+    "requiredDesc1": "绘制本课知识结构图（包括制度地位、运行机制、优越性）",
+    "requiredTitle2": "实践观察",
+    "requiredDesc2": "采访一位人大代表或查找其履职报道，写一段150字感想",
+    "optionalTitle": "挑战思考",
+    "optionalDesc": "结合实例，分析人民代表大会制度如何体现民主集中制原则",
+    "designIntent": "分层设计：基础巩固、实践拓展、思维提升，满足不同水平学生需求",
+    "differentiationNote": "必做作业1适合全体学生；必做作业2鼓励实践；选做作业适合学有余力学生，可小组合作完成"
+  },
+  "boardDesign": {
+    "layout": "中心写课题《根本政治制度》，左侧列出制度地位（根本政治制度），中间用箭头连接“人民→人大代表→人大→其他国家机关”，右侧总结优越性（保障民主、集中效率等），下方留白用于学生生成内容。",
+    "keyElements": [
+      "根本政治制度",
+      "人民代表大会",
+      "人大代表",
+      "民主集中制",
+      "人民当家作主"
+    ],
+    "structureLogic": "以制度运行逻辑为主线，从人民到国家机关的流程清晰呈现，突出核心概念"
+  },
+  "reflection": {
+    "targetAchievement": "预计多数学生能掌握制度基本内容，部分学生能深入分析制度优越性，模拟活动可能耗时需调整。",
+    "improvementMeasures": [
+      "增加人大代表视频案例的多样性",
+      "模拟活动前提供更清晰的步骤指导",
+      "后测练习增加开放性题目"
+    ],
+    "notableObservations": "关注学生在模拟活动中的参与度，及时调整分组策略，确保每个学生都有任务"
+  },
+  "difficultyDesign": {
+    "targetDifficulty": "核心困难：如何理解人大代表与人民的关系及制度运行机制",
+    "educationalValue": "这一困难能促使学生从感性认识上升到理性分析，培养政治思维",
+    "zpdAlignment": "通过生活化情境（校园提案）降低抽象度，借助案例支架帮助跨越最近发展区",
+    "meaninglessObstacles": [
+      "避免过多法律术语",
+      "不要求记忆具体数字或选举流程细节"
+    ],
+    "motivationStrategy": "自主性：让学生选择提案主题；胜任感：提供案例参考和小组支持；关系感：小组合作与展示",
+    "difficultyFirst": "在模拟提案活动中先让学生尝试，暴露困难，再引入人大代表履职案例作为学习支架",
+    "processPreservation": "保留小组讨论的原始记录和修改痕迹，用于反思和评价",
+    "abstractionProtection": "使用具体案例（如校园垃圾分类提案）作为抽象制度的载体，避免直接灌输概念"
+  }
+}

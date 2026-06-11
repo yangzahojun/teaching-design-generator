@@ -1,0 +1,156 @@
+{
+  "standardAnalysis": {
+    "contentRequirement": "能在教师的帮助和图片的提示下，理解并朗读关于个人日常活动安排的对话和短文；能围绕个人日常活动安排，运用核心句型‘What do you have on...? I have...’进行简单的信息交流；能正确书写星期词汇和核心句型。",
+    "academicRequirement": "能借助图片、动作等非语言手段，理解简单对话和短文；能就个人日常活动安排，用所学语言进行简单交流，表达基本完整、达意；能正确书写核心词汇和句型。",
+    "teachingHint": "创设真实语境，通过听、说、读、写等语言实践活动，帮助学生理解和运用核心语言；注重语言的整体性和语用功能，避免孤立操练词汇和句型；关注学生学习策略的培养，如借助图片预测内容、利用上下文理解词义等。",
+    "coreCompetencyNames": [
+      "语言能力",
+      "文化意识",
+      "思维品质",
+      "学习能力"
+    ]
+  },
+  "textbookAnalysis": {
+    "verticalAnalysis": "本课选自PEP小学英语五年级上册Unit 2 My week，是单元第1课时（Part A Let's talk & Let's learn）。本单元围绕‘一周活动安排’展开，属于‘人与自我’主题范畴。在三年级下册已学习过星期词汇（Monday, Tuesday等）和日常活动短语（如play football, read books），四年级下册学习过时间表达和一般现在时。本课在此基础上，引入核心句型‘What do you have on Mondays? I have...’以及课程名词（Chinese, English, maths等），为后续学习谈论具体活动（Part B）和读写综合运用（Read and write）奠定基础。在学段中，本课是学生从简单描述日常活动向结构化表达一周安排过渡的关键节点。",
+    "crossAnalysis": "与其他版本教材（如外研版、牛津版）相比，PEP版本更注重对话情境的创设和语言交际功能。本课通过Let's talk的对话引入核心句型，Let's learn以图文匹配形式呈现星期和课程词汇，强调在语境中理解和运用。特色在于将星期词汇与课程名词结合，贴近学生学校生活实际，便于学生迁移运用；不足在于未专门设计语音板块，需教师补充。",
+    "bigConcept": "语言是用于描述和安排个人生活的工具；一周的时间安排体现规律性和计划性。",
+    "keyKnowledge": [
+      "星期词汇：Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday",
+      "课程名词：Chinese, English, maths, science, music, art, PE",
+      "核心句型：What do you have on...? I have..."
+    ],
+    "difficulties": [
+      "教学重点：掌握星期词汇和课程名词，并能用核心句型进行问答",
+      "教学难点：Wednesday, Saturday等较长词汇的拼读与记忆；在真实语境中灵活运用句型描述一周课程安排"
+    ]
+  },
+  "learnerAnalysis": {
+    "priorKnowledge": "学生已掌握三年级下册的星期词汇（Monday, Tuesday, Wednesday, Thursday, Friday）和四年级下册的日常活动短语（如play football, read books），能简单描述个人活动。",
+    "priorExperience": "学生每天都有课程表，对一周课程安排有直接生活经验；部分学生可能已有用英语简单谈论课程的经历。",
+    "cognitiveDifficulty": "学生可能混淆星期词汇的发音和拼写（如Tuesday和Thursday）；在真实交际中，可能忘记课程名词或句型结构；部分学生缺乏将语言迁移到自身实际的能力。",
+    "preAssessment": "前测采用口头问答和图片匹配形式：教师展示一周课程表图片，询问‘What day is it?’和‘What do you have on this day?’，观察学生能否识别星期和说出课程名称。"
+  },
+  "learningObjectives": [
+    {
+      "content": "学生通过观察图片和听录音，能准确识别并说出Monday至Sunday共7个星期词汇，以及Chinese、English等8个课程名词，发音基本正确。",
+      "category": "knowledge",
+      "competencyLink": "语言能力",
+      "assessmentMethod": "课堂观察、口头检测"
+    },
+    {
+      "content": "学生能在教师创设的‘课程表’情境中，运用句型‘What do you have on...? I have...’进行问答，介绍自己一周的课程安排，表达基本完整、达意。",
+      "category": "skill",
+      "competencyLink": "语言能力、思维品质",
+      "assessmentMethod": "角色扮演、小组对话"
+    },
+    {
+      "content": "学生能通过小组合作制定‘理想课程表’，并运用所学语言进行展示，体会合理安排时间的重要性，增强学习英语的兴趣和自信。",
+      "category": "attitude",
+      "competencyLink": "文化意识、学习能力",
+      "assessmentMethod": "作品展示、自评互评"
+    }
+  ],
+  "assessmentTasks": {
+    "preMethod": "口头问答与图片匹配（教师展示课程表图片，随机指问星期和课程）",
+    "preQuestions": [
+      "What day is it? (指图片中的Monday)",
+      "What do you have on Monday? (指课程表)"
+    ],
+    "prePurpose": "了解学生对星期词汇和课程名词的已有认知水平，以及句型掌握情况，为教学调整提供依据。",
+    "postMethod": "角色扮演对话和‘理想课程表’展示",
+    "postTasks": [
+      "同桌合作，用‘What do you have on...? I have...’互相问答各自一周课程安排",
+      "小组合作，用A4纸制作一张‘理想课程表’，并用英语向全班介绍"
+    ],
+    "postRubric": "优秀：能正确使用所有星期词汇和课程名词，句型表达完整、流利，介绍内容丰富有逻辑；合格：能使用大部分词汇，句型基本正确，表达较流畅但偶有停顿；需辅导：词汇和句型掌握不足，表达不完整，需要教师或同伴帮助。"
+  },
+  "activities": [
+    {
+      "phase": "B",
+      "title": "歌曲导入：Days of the Week",
+      "duration": 3,
+      "teacherAction": "播放‘Days of the Week’英文歌曲，引导学生跟唱，并提问‘What days do you hear?’",
+      "studentAction": "跟唱歌曲，并尝试说出听到的星期词汇。",
+      "designIntent": "利用歌曲激发兴趣，激活学生已有的星期词汇，为新课做铺垫，体现动机优先原则。",
+      "assessmentEmbedded": "观察学生跟唱和回答情况，了解星期词汇基础。"
+    },
+    {
+      "phase": "O",
+      "title": "明确学习目标",
+      "duration": 2,
+      "teacherAction": "展示本课学习目标（学会星期和课程词汇，能用句型问答课程安排），并说明课堂活动流程。",
+      "studentAction": "认真倾听，明确本课要学什么、做什么。",
+      "designIntent": "让学生明确学习目标和任务，增强学习的目的性和主动性。",
+      "assessmentEmbedded": ""
+    },
+    {
+      "phase": "P-participatory",
+      "title": "核心探索：课程表大揭秘",
+      "duration": 15,
+      "teacherAction": "1. 呈现教材Let's talk的对话图，提问‘What day is it? What does John have?’，引导学生观察并猜测（困难前置）。2. 播放录音，学生听后核对猜测。3. 板书核心句型，并示范问答。4. 组织同桌练习，教师巡视指导，对困难学生提供支架（如单词卡片）。",
+      "studentAction": "1. 观察图片，尝试回答教师问题（可能出错）。2. 听录音，核对答案。3. 跟读模仿，理解句型。4. 同桌合作，用句型互相问答（先独立尝试，再互相帮助）。",
+      "designIntent": "通过观察—猜测—听音验证的环节，让学生先经历认知冲突再获得正确信息，体现困难前置和过程保留原则；同桌练习保留学生尝试过程。",
+      "assessmentEmbedded": "教师巡视时记录学生典型错误，作为后续纠正依据；同桌互评。"
+    },
+    {
+      "phase": "P-post",
+      "title": "后测练习：角色扮演",
+      "duration": 8,
+      "teacherAction": "1. 展示一张新的课程表（如Amy的课程表）。2. 示范角色扮演：教师扮演Amy，学生提问。3. 组织学生两人一组，一人扮演Amy，一人提问，进行对话。4. 邀请2-3组展示。",
+      "studentAction": "1. 观察新课程表。2. 参与示范。3. 角色扮演对话。4. 展示并互评。",
+      "designIntent": "通过角色扮演检测学生对核心句型的掌握和运用能力，同时提供真实交际语境。",
+      "assessmentEmbedded": "教师观察对话流畅度和准确性；学生互评（使用简单评价表：语音、内容、合作）。"
+    },
+    {
+      "phase": "S",
+      "title": "课堂总结与理想课程表",
+      "duration": 5,
+      "teacherAction": "1. 引导学生总结本课所学词汇和句型。2. 布置课后任务：小组合作制作‘理想课程表’。3. 强调合理安排时间的重要性。",
+      "studentAction": "1. 回顾并说出本课重点。2. 明确课后任务。3. 思考如何合理安排课程。",
+      "designIntent": "归纳核心内容，为后续学习（Part B具体活动）做铺垫，同时渗透文化意识。",
+      "assessmentEmbedded": "学生口头总结，教师补充。"
+    }
+  ],
+  "homework": {
+    "requiredTitle1": "基础练习：单词与句型抄写",
+    "requiredDesc1": "抄写星期词汇和课程名词各2遍，并用‘What do you have on...? I have...’写2组问答句。",
+    "requiredTitle2": "口语作业：课程表介绍",
+    "requiredDesc2": "用英语向家人介绍自己本周的课程安排，至少包含3天，录音或视频提交。",
+    "optionalTitle": "挑战题：制作理想课程表",
+    "optionalDesc": "设计一张理想的一周课程表（可包含非课程活动，如play football），并用英语写一段描述（至少5句话）。",
+    "designIntent": "分层设计满足不同水平学生：基础作业巩固词汇句型；口语作业训练真实交际；挑战题鼓励拓展创新。",
+    "differentiationNote": "基础薄弱学生只完成必做1；中等学生完成必做1和2；学有余力学生鼓励完成挑战题，教师可提供句型支架。"
+  },
+  "boardDesign": {
+    "layout": "中央上方：课题‘My Week’；左侧：星期词汇（Monday-Sunday，配简笔画日历）；右侧：课程名词（Chinese, English等，配图标）；下方：核心句型‘What do you have on Mondays? I have...’（彩色粉笔标注关键词）",
+    "keyElements": [
+      "星期词汇",
+      "课程名词",
+      "核心句型",
+      "课程表图示"
+    ],
+    "structureLogic": "按‘主题—词汇—句型—应用’的逻辑呈现，词汇分类排列，句型突出结构，便于学生整体把握和记忆。"
+  },
+  "reflection": {
+    "targetAchievement": "预计80%学生能掌握核心词汇和句型，60%学生能在真实语境中灵活运用，20%学生需要课后巩固。",
+    "improvementMeasures": [
+      "增加游戏环节（如‘星期接龙’）强化词汇记忆",
+      "提供更多课程表范例，降低句型运用难度",
+      "对困难学生进行个别辅导或同伴互助"
+    ],
+    "notableObservations": "关注学生对Wednesday、Saturday等长单词的发音和拼写，及时纠正；注意小组合作中学生的参与度，避免个别学生‘搭便车’。"
+  },
+  "difficultyDesign": {
+    "targetDifficulty": "本课核心困难：在真实语境中，学生需要同时调用星期词汇和课程名词，并用完整句型进行问答，容易产生信息提取和表达障碍。",
+    "educationalValue": "这个困难能促使学生主动整合已有知识和新学内容，锻炼语言组织和交际应变能力，具有重要的语用价值。",
+    "zpdAlignment": "学生已掌握部分星期词汇和日常活动表达，本课新增课程名词和句型，难度适中。教师通过图片、录音和示范提供支架，确保困难在最近发展区内。",
+    "meaninglessObstacles": [
+      "不需要学生记忆所有课程名词的中文对应（可通过图片理解）",
+      "不需要学生掌握星期词汇的拼写规则（仅要求认读和简单书写）"
+    ],
+    "motivationStrategy": "自主性：让学生选择自己感兴趣的一天进行介绍；胜任感：通过同伴互助和教师示范，让学生体验成功；关系感：小组合作制作理想课程表，增强归属感。",
+    "difficultyFirst": "在导入后立即呈现对话图，让学生猜测内容（可能猜错），制造认知冲突，激发探究欲望。",
+    "processPreservation": "在角色扮演环节，先让学生独立尝试组织语言，再与同伴交流，教师不急于纠正，保留学生思考过程。",
+    "abstractionProtection": "通过板书和课程表图示，将抽象的星期和课程概念具体化、结构化，帮助学生理解和记忆。"
+  }
+}

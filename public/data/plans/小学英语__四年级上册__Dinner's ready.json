@@ -1,0 +1,156 @@
+{
+  "standardAnalysis": {
+    "contentRequirement": "能在教师帮助下，借助图片、动作、表情等，理解日常生活中的简单对话；能围绕相关主题，运用所学语言进行简单的交流，如询问和描述食物偏好。",
+    "academicRequirement": "能就个人喜好和需求，运用‘What would you like? I'd like...’等句型进行简单的信息交换；能在语境中理解并运用与饮食相关的词汇。",
+    "teachingHint": "创设真实的语言交际情境，如模拟点餐场景，鼓励学生在做中学；利用多媒体资源呈现食物图片和对话，激发学生兴趣；通过角色扮演等活动，促进语言实践。",
+    "coreCompetencyNames": [
+      "语言能力",
+      "文化意识",
+      "思维品质",
+      "学习能力"
+    ]
+  },
+  "textbookAnalysis": {
+    "verticalAnalysis": "本课是PEP四年级上册Unit 5 Dinner's ready的第一课时（A Let's talk & Let's play）。在单元中起导入和奠基作用。学生已在三年级下册学习过食物单词（如rice, fish, cake）和‘I like...’句型。本课将学习‘What would you like? I'd like some...’核心句型及新词（chicken, beef, noodles, soup, vegetables）。为后续B部分学习‘Would you like some...?’及C故事阅读做语言和情境铺垫。本课处于小学中段，侧重从单词向简单对话过渡。",
+    "crossAnalysis": "相比其他版本（如外研社、牛津），PEP本单元更强调真实点餐情境，通过Let's talk中妈妈和Mike的对话呈现核心句型，Let's play通过转盘游戏操练。PEP特色在于情境化、趣味性强，但词汇量适中，注重听说先行。本课没有直接呈现语法解释，而是通过语境自然感知‘would like’的用法。",
+    "bigConcept": "语言是用于在真实生活情境中表达需求、进行社会交往的工具。",
+    "keyKnowledge": [
+      "核心句型‘What would you like? I'd like some...’",
+      "食物词汇: chicken, beef, noodles, soup, vegetables",
+      "礼貌表达‘I'd like...’与‘Please’的运用"
+    ],
+    "difficulties": [
+      "教学重点：在点餐情境中运用句型‘What would you like? I'd like some...’进行问答。",
+      "教学难点：‘would like’的缩略形式和正确发音（I'd like），以及‘some’在肯定句中的使用。"
+    ]
+  },
+  "learnerAnalysis": {
+    "priorKnowledge": "学生已掌握常见食物单词（rice, fish, cake, bread, milk, juice）及句型‘I like...’；能进行简单的自我介绍和喜好表达。",
+    "priorExperience": "学生有和家人一起外出就餐或在家中讨论晚餐吃什么的生活经验，对点餐话题有天然兴趣。",
+    "cognitiveDifficulty": "学生可能混淆‘I like’和‘I'd like’的用法，对‘would like’表示‘想要’的委婉语气理解不足；‘some’后接可数名词复数或不可数名词的规则需在语境中感知。",
+    "preAssessment": "课堂前测：展示食物图片（rice, fish, cake, chicken, noodles），让学生用‘I like...’说出自己喜欢的食物，并尝试认读新词chicken, noodles。"
+  },
+  "learningObjectives": [
+    {
+      "content": "学生通过观看动画和听录音，能在图片提示下，正确认读并说出chicken, beef, noodles, soup, vegetables五个新词。",
+      "category": "knowledge",
+      "competencyLink": "语言能力",
+      "assessmentMethod": "课堂观察：学生指图说词的正确率；后测单词配对"
+    },
+    {
+      "content": "学生通过角色扮演和游戏活动，能运用‘What would you like? I'd like some...’句型进行点餐对话，语音语调基本正确。",
+      "category": "skill",
+      "competencyLink": "语言能力、学习能力",
+      "assessmentMethod": "表现性评价：角色扮演中句型和词汇的使用情况"
+    },
+    {
+      "content": "学生通过模拟点餐情境，能体会礼貌用语（Please）的重要性，并愿意在小组活动中合作交流。",
+      "category": "attitude",
+      "competencyLink": "文化意识、思维品质",
+      "assessmentMethod": "观察记录：学生在活动中使用礼貌用语和合作表现"
+    }
+  ],
+  "assessmentTasks": {
+    "preMethod": "课堂问答和图片认读",
+    "preQuestions": [
+      "Look at this picture. What food do you like?",
+      "Can you name this? (出示chicken图片)"
+    ],
+    "prePurpose": "了解学生对已学食物词汇的掌握程度以及对新词的初步感知，为教学起点提供依据。",
+    "postMethod": "角色扮演展示和听力选择",
+    "postTasks": [
+      "Task 1: 两人一组表演点餐对话（至少包含两个食物）。",
+      "Task 2: 听录音，选出Mike晚餐想吃的食物（A. chicken B. fish C. noodles）。"
+    ],
+    "postRubric": "优秀：能流利运用句型，语音正确，词汇使用准确，包含礼貌用语；合格：能基本完成对话，有个别词汇或句型错误；需辅导：无法独立完成对话，需要教师提示。"
+  },
+  "activities": [
+    {
+      "phase": "B",
+      "title": "歌曲导入：What would you like?",
+      "duration": 3,
+      "teacherAction": "播放食物主题英文歌曲（如‘What would you like for dinner?’），引导学生跟唱。",
+      "studentAction": "跟唱歌曲，感知本课核心句型。",
+      "designIntent": "通过轻松歌曲激活学生已有食物词汇，初步感知目标句型，激发学习兴趣（动机优先）。",
+      "assessmentEmbedded": ""
+    },
+    {
+      "phase": "O",
+      "title": "明确学习目标",
+      "duration": 2,
+      "teacherAction": "展示本课学习目标（能学会食物单词、能用句型点餐），并用中文简述。",
+      "studentAction": "倾听并知道本课要学什么。",
+      "designIntent": "让学生明确学习任务和预期成果，增强学习的目的性和自主性。",
+      "assessmentEmbedded": ""
+    },
+    {
+      "phase": "P-participatory",
+      "title": "核心探索：点餐对话",
+      "duration": 15,
+      "teacherAction": "1. 呈现Mike和妈妈在厨房的图片，播放对话录音，提问‘What would Mike like?’。2. 困难前置：先让学生尝试猜测Mike想吃什么，再播放录音验证。3. 板书核心句型，带读。4. 组织小组练习：学生用转盘游戏（Let's play）随机选择食物，互相问答。教师巡视，对困难学生提供支架（如提示句型卡片）。",
+      "studentAction": "1. 观察图片，尝试猜测对话内容。2. 听录音，找出答案。3. 跟读并模仿语音。4. 小组内用转盘游戏操练句型，先自己尝试说，再与同伴合作练习。",
+      "designIntent": "困难前置：先猜测再验证，激发思考；过程保留：学生先尝试再说，保留学习轨迹；抽象保护：通过实物转盘和图片，降低抽象度。",
+      "assessmentEmbedded": "教师巡视时记录学生句型使用情况，小组互评（同伴是否说出完整句子）。"
+    },
+    {
+      "phase": "P-post",
+      "title": "后测练习：角色扮演",
+      "duration": 8,
+      "teacherAction": "创设餐厅情境，教师扮演服务员，邀请学生点餐。然后让学生两人一组自由扮演。",
+      "studentAction": "组内角色扮演，一人问‘What would you like?’，另一人回答‘I'd like some..., please.’",
+      "designIntent": "在模拟真实情境中检测学生是否掌握核心句型和词汇，实现迁移应用。",
+      "assessmentEmbedded": "教师观察并用量规评价小组展示；学生自评（是否使用了礼貌用语）。"
+    },
+    {
+      "phase": "S",
+      "title": "课堂总结",
+      "duration": 5,
+      "teacherAction": "引导学生总结本课所学单词和句型，强调礼貌用语。布置作业。",
+      "studentAction": "回忆并复述本课重点词汇和句型，分享自己最喜欢的食物表达。",
+      "designIntent": "归纳核心内容，强化记忆，为后续学习（B部分‘Would you like...?’）做铺垫。",
+      "assessmentEmbedded": ""
+    }
+  ],
+  "homework": {
+    "requiredTitle1": "单词朗读",
+    "requiredDesc1": "听录音，跟读P48 Let's talk部分对话5遍，并尝试自己朗读。",
+    "requiredTitle2": "家庭点餐单",
+    "requiredDesc2": "用英语为家人制作一份晚餐菜单，包含至少4个本课学过的食物单词，并写一句‘What would you like?’。",
+    "optionalTitle": "创意对话",
+    "optionalDesc": "和爸爸妈妈用英语模拟一次点餐对话（至少4个话轮），并录制成小视频分享。",
+    "designIntent": "分层设计：基础作业巩固朗读，提高作业运用书写，挑战作业鼓励真实交际。",
+    "differentiationNote": "学困生只需完成单词朗读；中等生完成菜单制作；学优生鼓励完成创意对话。"
+  },
+  "boardDesign": {
+    "layout": "中央：核心句型‘What would you like? I'd like some...’；左侧：食物图片及单词（chicken, beef, noodles, soup, vegetables）；右侧：礼貌用语‘please’及评价星星。",
+    "keyElements": [
+      "What would you like?",
+      "I'd like some...",
+      "chicken, beef, noodles, soup, vegetables",
+      "please"
+    ],
+    "structureLogic": "以核心句型为中心，词汇围绕展开，礼貌用语强调，形成点餐情境的结构化板书。"
+  },
+  "reflection": {
+    "targetAchievement": "预估80%学生能正确使用句型进行点餐对话，70%能准确认读新词。",
+    "improvementMeasures": [
+      "增加更多食物图片帮助学生记忆词汇",
+      "对‘I'd like’发音进行更细致的分解带读",
+      "在角色扮演前增加示范环节"
+    ],
+    "notableObservations": "关注学生在角色扮演中是否自然使用礼貌用语，以及小组合作中是否有学生被边缘化。"
+  },
+  "difficultyDesign": {
+    "targetDifficulty": "核心困难：学生从‘I like’过渡到‘I'd like’的语义和语用理解，尤其是‘would like’的委婉语气。",
+    "educationalValue": "这个困难帮助学生区分‘喜欢’和‘想要’的语用差异，培养语言的准确性和礼貌性，具有真实的交际价值。",
+    "zpdAlignment": "通过图片、情境和教师示范，将困难置于学生已有知识（I like）和教师支持之间，确保可及性。",
+    "meaninglessObstacles": [
+      "无需记忆‘would like’的语法术语",
+      "无需区分‘some’和‘any’的用法"
+    ],
+    "motivationStrategy": "自主性：让学生选择自己想吃的东西；胜任感：通过小组练习和转盘游戏降低焦虑；关系感：角色扮演中与同伴互动。",
+    "difficultyFirst": "在听录音前先让学生猜测Mike想吃什么，制造认知冲突，再通过录音验证。",
+    "processPreservation": "学生在小组练习中先自己尝试说，再互相纠正，保留尝试过程。",
+    "abstractionProtection": "使用实物图片和转盘道具，将抽象语法（would like）具体化到点餐行为中。"
+  }
+}

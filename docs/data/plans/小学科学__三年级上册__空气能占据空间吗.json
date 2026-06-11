@@ -1,0 +1,153 @@
+{
+  "standardAnalysis": {
+    "contentRequirement": "3～4年级：知道空气具有质量并占有一定的空间，空气会流动形成风。",
+    "academicRequirement": "能通过实验观察空气占据空间的现象，并能用语言或图画描述自己的发现。",
+    "teachingHint": "建议通过学生动手实验，观察和描述空气占据空间的现象，注重实验安全与操作规范。",
+    "coreCompetencyNames": [
+      "科学探究",
+      "科学态度",
+      "科学思维"
+    ]
+  },
+  "textbookAnalysis": {
+    "verticalAnalysis": "本课是教科版三年级上册《空气》单元的第2课，位于《我们知道的空气》之后，是学生首次通过实验探究空气的物理性质。前课已初步认识空气的存在，本课聚焦“占据空间”这一核心概念，为后续《空气有质量吗》《空气的流动》等课奠定基础。教材通过“压杯入水”“打气排水”等典型实验，引导学生从现象中抽象出“空气占据空间”的结论。",
+    "crossAnalysis": "与苏教版、湘教版相比，教科版更强调学生自主设计实验验证猜想，实验材料简单（水槽、杯子、纸巾、打气筒等），注重过程记录与表达；本版特色在于通过“小魔术”情境激发兴趣，用对比实验（纸团湿与不湿）引发认知冲突。",
+    "bigConcept": "物质与能量——物质具有一定的特性，空气作为物质的一种，占据空间且能流动。",
+    "keyKnowledge": [
+      "空气占据空间",
+      "实验现象与结论的对应",
+      "科学探究的步骤：猜想-验证-结论"
+    ],
+    "difficulties": [
+      "教学重点：通过实验证明空气能占据空间",
+      "教学难点：理解“占据空间”的含义，区分固体与气体占据空间的不同"
+    ]
+  },
+  "learnerAnalysis": {
+    "priorKnowledge": "学生已知道空气是真实存在的，但对空气是否占据空间缺乏明确认知；具备基本的观察和描述能力。",
+    "priorExperience": "生活中学生有吹气球、给自行车打气等经验，但未将“空气占据空间”概念化。",
+    "cognitiveDifficulty": "学生可能认为“空间”是固体或液体才有的属性，难以理解看不见的气体也能占据空间；对“占据”一词的理解可能停留在“占有并充满”的层面。",
+    "preAssessment": "课前通过提问“空气能像水一样占据空间吗？”让学生画图或写话表达想法，了解前概念。"
+  },
+  "learningObjectives": [
+    {
+      "content": "通过“压杯入水”实验，学生能描述空气占据空间的现象，并画出或写出自己的观察结果。",
+      "category": "knowledge",
+      "competencyLink": "科学探究",
+      "assessmentMethod": "观察记录单评价"
+    },
+    {
+      "content": "学生能根据实验现象，运用“空气占据空间”解释为什么纸团不会湿。",
+      "category": "skill",
+      "competencyLink": "科学思维",
+      "assessmentMethod": "课堂提问与讨论表现"
+    },
+    {
+      "content": "在小组合作中，学生能认真倾听他人观点，愿意分享自己的发现，形成尊重证据的科学态度。",
+      "category": "attitude",
+      "competencyLink": "科学态度",
+      "assessmentMethod": "教师观察与自评表"
+    }
+  ],
+  "assessmentTasks": {
+    "preMethod": "课堂提问与画图",
+    "preQuestions": [
+      "你认为空气能像水一样占据空间吗？为什么？",
+      "如果把一个杯子倒扣在水里，杯底的纸会湿吗？"
+    ],
+    "prePurpose": "了解学生对空气占据空间的已有认知与迷思概念",
+    "postMethod": "实验记录单与口头解释",
+    "postTasks": [
+      "完成实验记录单，包括预测、观察、结论",
+      "向同伴解释为什么用打气筒能把水从瓶子里挤出来"
+    ],
+    "postRubric": "优秀：能准确描述现象并正确归因；合格：能描述现象但归因不完整；需辅导：现象描述不清或错误归因"
+  },
+  "activities": [
+    {
+      "phase": "B",
+      "title": "魔术激趣：纸团会湿吗？",
+      "duration": 5,
+      "teacherAction": "展示一个倒扣入水中的杯子，杯底有纸团，取出后纸团未湿，引发学生猜测",
+      "studentAction": "观察魔术，提出自己的猜想和理由",
+      "designIntent": "利用认知冲突激发探究兴趣，动机优先",
+      "assessmentEmbedded": ""
+    },
+    {
+      "phase": "O",
+      "title": "明确学习目标",
+      "duration": 2,
+      "teacherAction": "板书课题并简要说明本节课要探究的问题和达成目标",
+      "studentAction": "倾听并明确自己的学习任务",
+      "designIntent": "让学生知道学什么、怎么学",
+      "assessmentEmbedded": ""
+    },
+    {
+      "phase": "P-participatory",
+      "title": "核心探索：空气占据空间实验",
+      "duration": 18,
+      "teacherAction": "提供材料（水槽、杯子、纸巾、打气筒、瓶子），先让学生预测并尝试，再引导小组合作完成实验，巡回指导，适时追问",
+      "studentAction": "先独立预测并记录，再小组合作进行实验（压杯入水、打气排水），观察并记录现象，讨论原因",
+      "designIntent": "困难前置：先让学生经历预测失败或困惑；过程保留：完整记录实验步骤与发现；抽象保护：用图画和语言描述现象",
+      "assessmentEmbedded": "教师观察小组合作情况，记录典型发言"
+    },
+    {
+      "phase": "P-post",
+      "title": "后测练习：解释现象",
+      "duration": 8,
+      "teacherAction": "出示新情境（如用打气筒把水从瓶中挤出），要求学生用“空气占据空间”解释",
+      "studentAction": "独立完成解释，小组内交流，代表汇报",
+      "designIntent": "检测学生能否迁移应用所学概念",
+      "assessmentEmbedded": "口头解释评价"
+    },
+    {
+      "phase": "S",
+      "title": "课堂总结与拓展",
+      "duration": 5,
+      "teacherAction": "引导学生总结空气占据空间的证据，并预告下节课研究空气是否有质量",
+      "studentAction": "回顾本课所学，分享收获与疑问",
+      "designIntent": "归纳核心内容，为后续学习铺垫",
+      "assessmentEmbedded": ""
+    }
+  ],
+  "homework": {
+    "requiredTitle1": "实验记录单完善",
+    "requiredDesc1": "完善课堂实验记录单，包括预测、观察、结论，并画出示意图",
+    "requiredTitle2": "生活小调查",
+    "requiredDesc2": "回家找一找生活中利用“空气占据空间”的例子（如充气玩具、轮胎等），写或画下来",
+    "optionalTitle": "挑战题：空气能占据多少空间？",
+    "optionalDesc": "设计一个实验，证明空气占据的空间可以被压缩或改变（提示：注射器实验）",
+    "designIntent": "巩固核心概念，联系生活实际，分层满足不同学生需求",
+    "differentiationNote": "基础薄弱学生完成必做1即可；学有余力学生可选做挑战题，鼓励与家长合作"
+  },
+  "boardDesign": {
+    "layout": "左侧：魔术引入（纸团未湿）；中间：实验步骤与现象（压杯入水、打气排水）；右侧：结论“空气占据空间”+学生典型记录",
+    "keyElements": [
+      "空气占据空间",
+      "实验现象",
+      "结论"
+    ],
+    "structureLogic": "从现象到结论，突出证据与推理过程"
+  },
+  "reflection": {
+    "targetAchievement": "预计85%学生能通过实验得出正确结论并解释现象，15%学生需要课后个别辅导",
+    "improvementMeasures": [
+      "增加小组讨论时间，让更多学生有机会表达",
+      "准备视频辅助材料，帮助理解能力弱的学生"
+    ],
+    "notableObservations": "关注学生在“打气排水”实验中的操作安全，防止水溅出"
+  },
+  "difficultyDesign": {
+    "targetDifficulty": "核心困难：理解看不见的空气如何“占据”看得见的空间",
+    "educationalValue": "这一困难促使学生从具体现象（纸团不湿）抽象出气体性质，培养科学思维",
+    "zpdAlignment": "学生已有“杯子占据空间”的生活经验，通过实验将“占据”概念迁移到空气，符合最近发展区",
+    "meaninglessObstacles": [
+      "材料准备不充分导致实验失败",
+      "过于复杂的实验步骤干扰核心观察"
+    ],
+    "motivationStrategy": "通过魔术引起好奇心（自主性）；小组合作让每个学生都有角色（胜任感）；教师及时肯定鼓励（关系感）",
+    "difficultyFirst": "先让学生预测“纸团会不会湿”，多数学生预测会湿，制造认知冲突，再实验验证",
+    "processPreservation": "要求学生边实验边记录，保留完整实验过程，不跳过任何步骤",
+    "abstractionProtection": "先让学生用图画和简单文字记录现象，再引导用“空气占据空间”这一抽象概念解释"
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "standardAnalysis": {
+    "contentRequirement": "能在日常生活中理解和运用有关交通方式的简单表达，如询问和描述出行方式、距离和时间；能借助图片、表格等非文字信息理解简单语篇；能围绕相关话题进行简单的信息交流。",
+    "academicRequirement": "能就日常出行话题，运用所学词汇和句型进行简单的问答和描述，表达基本准确；能在教师帮助下参与角色扮演或对话活动。",
+    "teachingHint": "创设真实语境，通过听、说、读、看、写等活动，帮助学生理解和运用目标语言；注重语言实践，鼓励学生在交际中学习和使用英语。",
+    "coreCompetencyNames": [
+      "语言能力",
+      "文化意识",
+      "思维品质",
+      "学习能力"
+    ]
+  },
+  "textbookAnalysis": {
+    "verticalAnalysis": "本课是人教版七年级下册Unit 3《How do you get to school?》的第一课时（Section A 1a-2e）。在教材体系中，本单元前承七年级上册Unit 4《Where's my schoolbag?》和Unit 5《Do you have a soccer ball?》中涉及地点和物品的简单表达，后启本册Unit 4《Don't eat in class.》和Unit 5《Why do you like pandas?》等话题。本课聚焦交通方式，是学生首次系统学习交通工具和出行表达，为后续学习更复杂的旅行、交通话题打下基础。教材通过图片、听力、对话和角色扮演呈现核心句型“How do/does... get to...?”及交通方式词汇。",
+    "crossAnalysis": "相比外研版（如Module 7 Around town）直接引入问路和指路，本版本更注重日常出行方式的表达，与学生生活更贴近。北师大版类似话题（Unit 2 On the Way）更侧重距离和时间。人教版特色在于通过真实场景对话和听力训练，逐步引导学生从词到句再到简单交际，符合七年级学生认知水平。本教材取舍：弱化复杂地图和方位，强化基本交通方式问答。",
+    "bigConcept": "语言交际功能：如何用英语询问和描述日常出行方式。",
+    "keyKnowledge": [
+      "交通方式词汇：bike, bus, train, car, subway, walk",
+      "核心句型：How do/does you/he/she get to school? I/He/She get(s) to school by/on...",
+      "听力策略：通过关键词（交通方式）获取信息"
+    ],
+    "difficulties": [
+      "教学重点：掌握交通方式词汇和核心句型，能进行简单问答",
+      "教学难点：第三人称单数动词变化（gets, takes）的正确使用；区分“by + 交通工具”和“on/in + a/the + 交通工具”"
+    ]
+  },
+  "learnerAnalysis": {
+    "priorKnowledge": "学生已学过一些交通工具词汇（如bike, bus, car）和简单动词（如go, take）；能理解一般现在时基本结构，但对第三人称单数变化不熟练。",
+    "priorExperience": "学生每天上学，对交通方式有直接体验；部分学生可能熟悉用中文或简单英语表达出行方式。",
+    "cognitiveDifficulty": "区分“by bus”和“on a bus”的细微差别；将动词正确变为第三人称单数（如go→goes, take→takes）。",
+    "preAssessment": "课堂前测：通过快速问答“How do you come to school today?”和图片配对活动，了解学生已知词汇和句型掌握情况。"
+  },
+  "learningObjectives": [
+    {
+      "content": "学生能通过听录音和看图片，正确识别并说出至少6种交通方式词汇（bike, bus, train, car, subway, walk）。",
+      "category": "knowledge",
+      "competencyLink": "语言能力",
+      "assessmentMethod": "课堂观察、词汇配对测试"
+    },
+    {
+      "content": "学生能运用核心句型“How do you get to school? I get to school by...”进行两两问答，并尝试用第三人称转述同伴的出行方式。",
+      "category": "skill",
+      "competencyLink": "语言能力、学习能力",
+      "assessmentMethod": "角色扮演表演、对话录音评价"
+    },
+    {
+      "content": "学生能通过讨论不同交通方式的优缺点，初步形成绿色出行、安全出行的意识。",
+      "category": "attitude",
+      "competencyLink": "文化意识、思维品质",
+      "assessmentMethod": "课堂讨论表现、反思日志"
+    }
+  ],
+  "assessmentTasks": {
+    "preMethod": "快速问答和图片配对",
+    "preQuestions": [
+      "How do you get to school every day?",
+      "Can you match these pictures with the words?"
+    ],
+    "prePurpose": "了解学生已知交通方式词汇和句型基础，确定教学起点。",
+    "postMethod": "角色扮演和书面填空",
+    "postTasks": [
+      "任务1：两人一组，互相采访并记录对方上学方式，然后向全班汇报。",
+      "任务2：完成课本2d填空练习（补全对话）。"
+    ],
+    "postRubric": "优秀：能流利用完整句子问答，正确使用第三人称单数，汇报清晰；合格：能基本完成问答，偶有语法错误，但能理解；需辅导：词汇或句型掌握不足，需要教师提示才能完成。"
+  },
+  "activities": [
+    {
+      "phase": "B",
+      "title": "交通方式大猜想",
+      "duration": 3,
+      "teacherAction": "播放一段包含多种交通工具声音的音频（如汽车鸣笛、自行车铃、地铁报站等），引导学生猜测并说出听到的交通方式。",
+      "studentAction": "听音频，举手说出猜测的交通方式（可用中文或简单英语）。",
+      "designIntent": "以听觉刺激激发兴趣，激活学生已有生活经验，自然导入主题。",
+      "assessmentEmbedded": "观察学生反应，记录已知词汇。"
+    },
+    {
+      "phase": "O",
+      "title": "明确学习目标",
+      "duration": 2,
+      "teacherAction": "展示本课目标（用中文简单说明）：学会用英语问和答上学方式，并说说同学的上学方式。",
+      "studentAction": "看板书或PPT，了解本课要学什么。",
+      "designIntent": "让学生明确学习方向，增强目标感。",
+      "assessmentEmbedded": ""
+    },
+    {
+      "phase": "P-participatory",
+      "title": "核心探索：交通方式大采访",
+      "duration": 15,
+      "teacherAction": "1. 展示课本1a图片，引导学生说出图中交通方式，板书词汇。2. 播放1b听力，学生完成匹配。3. 设计困难：先让学生尝试用“How do you get to school?”互相采访（困难前置），教师巡视但不立即纠正。4. 收集常见错误（如第三人称单数、by/on混淆），集中讲解。5. 再播放2a听力，引导学生注意第三人称用法。",
+      "studentAction": "1. 看图说出词汇。2. 听录音完成匹配。3. 先两人一组尝试采访（即使犯错）。4. 听教师讲解后修正。5. 再听录音，关注第三人称。",
+      "designIntent": "困难前置：先让学生尝试犯错，再针对性讲解，加深印象；过程保留：学生经历从错误到正确的完整学习过程。",
+      "assessmentEmbedded": "教师巡视记录典型错误，用于后续讲解；学生互评采访表现。"
+    },
+    {
+      "phase": "P-post",
+      "title": "后测：角色扮演与汇报",
+      "duration": 8,
+      "teacherAction": "1. 组织学生两人一组进行角色扮演（A采访B，然后B采访A）。2. 请2-3组上台展示。3. 布置书面填空练习（2d）。",
+      "studentAction": "1. 两人合作完成采访。2. 上台展示或观看同学展示。3. 独立完成填空。",
+      "designIntent": "检测学生是否能运用目标语言进行真实交际，巩固所学。",
+      "assessmentEmbedded": "教师根据展示和填空完成情况评价，使用后测量规。学生互相评价。"
+    },
+    {
+      "phase": "S",
+      "title": "课堂总结与拓展",
+      "duration": 5,
+      "teacherAction": "1. 引导学生总结本课核心词汇和句型。2. 提问：What can we learn from different ways to get to school?（如环保、安全）3. 布置分层作业。",
+      "studentAction": "1. 回顾并说出关键词句。2. 简单讨论出行方式的优缺点。3. 记录作业。",
+      "designIntent": "巩固知识，联系生活，培养文化意识，为后续学习铺垫。",
+      "assessmentEmbedded": ""
+    }
+  ],
+  "homework": {
+    "requiredTitle1": "基础巩固：词汇与句型",
+    "requiredDesc1": "抄写并记忆本课6个交通方式词汇和3个核心句型（含第三人称），每个写3遍。",
+    "requiredTitle2": "交际实践：采访家人",
+    "requiredDesc2": "用英语采访一位家人（如父母、兄弟姐妹）的上学或上班方式，记录并准备下节课汇报。",
+    "optionalTitle": "挑战任务：出行方式小调查",
+    "optionalDesc": "调查班上5位同学的上学方式，用英语写成简短报告（含统计，如3人by bus, 2人by bike），尝试使用第三人称。",
+    "designIntent": "分层设计：必做作业巩固基础，选做作业拓展综合运用能力，满足不同水平学生需求。",
+    "differentiationNote": "基础薄弱学生只完成必做作业；学有余力学生鼓励完成选做任务，教师可提供句型支架。"
+  },
+  "boardDesign": {
+    "layout": "左侧：Unit 3 How do you get to school?\n核心词汇（配图）\n1. bike 2. bus 3. train 4. car 5. subway 6. walk\n\n中间：核心句型\nHow do you get to school?\nI get to school by bike/bus...\nHow does he/she get to school?\nHe/She gets to school by...\n\n右侧：注意点\nby + 交通工具（无冠词）\non/in + a/the + 交通工具\n第三人称单数：动词加-s/-es",
+    "keyElements": [
+      "交通方式词汇",
+      "核心句型",
+      "语法注意点"
+    ],
+    "structureLogic": "从左到右：词汇→句型→语法细节，层层递进，便于学生回顾。"
+  },
+  "reflection": {
+    "targetAchievement": "预计大多数学生能掌握核心词汇和句型，约70%学生能正确使用第三人称单数，部分学生需要课后巩固。",
+    "improvementMeasures": [
+      "增加更多听力输入，强化第三人称听觉感知",
+      "设计更多结对练习，提高开口率",
+      "对后进生提供词汇卡片等辅助材料"
+    ],
+    "notableObservations": "关注学生在角色扮演中的自然表达，避免过度纠错打击积极性。"
+  },
+  "difficultyDesign": {
+    "targetDifficulty": "正确使用第三人称单数动词形式（如gets, takes）以及区分“by”和“on/in”的用法。",
+    "educationalValue": "这是英语语法的基础，掌握后能显著提升表达的准确性，为后续时态学习奠定基础。",
+    "zpdAlignment": "学生已学过一般现在时第一人称，第三人称单数是自然延伸，通过采访活动（犯错-纠正）在最近发展区内逐步掌握。",
+    "meaninglessObstacles": [
+      "复杂地图方位",
+      "不常见的交通工具词汇（如ferry, cable car）"
+    ],
+    "motivationStrategy": "自主性：让学生选择采访对象；胜任感：通过逐步挑战（从第一人称到第三人称）建立信心；关系感：小组合作和互相评价增强归属感。",
+    "difficultyFirst": "在核心探索活动开始时，直接让学生尝试采访，允许犯错，使困难前置。",
+    "processPreservation": "记录学生采访中的错误，在集中讲解时展示，让学生看到自己从错误到正确的过程。",
+    "abstractionProtection": "先通过具体例子（如He takes a bus）引入，再归纳规则，避免直接讲解抽象语法。"
+  }
+}

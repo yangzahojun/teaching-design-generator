@@ -1,0 +1,156 @@
+{
+  "standardAnalysis": {
+    "contentRequirement": "能在教师帮助下，借助图片、动作、表情等，理解有关动物特征、描述动物外形等简单话语或语篇；能围绕相关主题，运用所学语言进行简单的交流，表达自己的喜好或描述事物特征。",
+    "academicRequirement": "能借助图片、动作等提示，理解有关动物外形的简单描述；能围绕动物特征，用所学语言进行简单的问答或描述，语音、语调基本正确。",
+    "teachingHint": "创设真实、有趣的语境，通过多模态语篇（如图片、视频、歌曲）激发学生兴趣；注重在语境中整体输入语言，通过模仿、角色扮演等活动发展语用能力；关注学生的情感体验，鼓励大胆表达。",
+    "coreCompetencyNames": [
+      "语言能力",
+      "文化意识",
+      "思维品质",
+      "学习能力"
+    ]
+  },
+  "textbookAnalysis": {
+    "verticalAnalysis": "本课是PEP三年级下册Unit 3 At the zoo的第一课时（A Let's talk & Let's learn）。本单元围绕“动物”主题展开，前接二年级下册Unit 4 Animals（已学常见动物名称如cat, dog, monkey等），后续三年级下册Unit 4 Where is my car?（方位介词）。本课为单元起始课，通过对话呈现描述动物外形的核心句型（Look at the... It's tall/short/fat...）及形容词（tall, short, fat, thin, big, small）。教材以动物园为场景，通过Zoom和Zip的对话引出核心语言，词汇和句型融合在语境中呈现。",
+    "crossAnalysis": "与译林版三年级下册Unit 5 How old are you?（动物主题）相比，PEP更侧重外形描述而非年龄；与外研版三年级起点Module 5 Animals相比，PEP将形容词集中呈现，便于学生对比理解。本版本特色在于通过生动插图、真实对话和歌曲强化语用，取舍在于未单独呈现语法规则，强调在语境中感知。",
+    "bigConcept": "语言是描述和表达事物特征的符号系统；形容词用于比较和描述事物属性。",
+    "keyKnowledge": [
+      "核心句型: Look at the... It's tall/short/fat/thin/big/small.",
+      "核心词汇: tall, short, fat, thin, big, small",
+      "语用功能: 描述动物外形特征，表达观察与喜好"
+    ],
+    "difficulties": [
+      "教学重点: 运用句型Look at the... It's...描述动物特征",
+      "教学难点: tall/short, fat/thin, big/small三组反义词的区分与正确运用；在真实语境中灵活运用句型进行表达"
+    ]
+  },
+  "learnerAnalysis": {
+    "priorKnowledge": "学生已掌握常见动物词汇（cat, dog, monkey, elephant, bird, fish等），能简单问候和介绍自己，初步接触过形容词（如happy, sad），但未系统学习描述外形的形容词。",
+    "priorExperience": "绝大多数学生去过动物园或看过动物图片，对动物外形有直观认知；部分学生有英文绘本或动画中接触过tall, short等词。",
+    "cognitiveDifficulty": "学生可能混淆tall/short与big/small的适用对象（如认为大象既是tall也是big）；对fat/thin的褒贬色彩感知模糊；在句子中正确使用形容词的语序（It's tall. vs It's a tall elephant.）存在困难。",
+    "preAssessment": "通过课堂热身活动“动物猜猜猜”（教师描述外形，学生猜动物）检测学生对已有动物词汇和简单形容词的掌握程度；通过看图片指认活动（Show me tall/short）了解学生对反义词的认知基础。"
+  },
+  "learningObjectives": [
+    {
+      "content": "学生能借助图片和动作，听懂、会说、认读核心词汇tall, short, fat, thin, big, small，并能正确区分其含义。",
+      "category": "knowledge",
+      "competencyLink": "语言能力",
+      "assessmentMethod": "课堂观察：词汇指认与配对游戏"
+    },
+    {
+      "content": "学生能运用句型Look at the... It's...在模拟动物园场景中描述动物外形特征，语音语调基本正确。",
+      "category": "skill",
+      "competencyLink": "语言能力、思维品质",
+      "assessmentMethod": "角色扮演对话、小组展示"
+    },
+    {
+      "content": "学生能主动观察、比较动物特征，乐于参与小组合作与交流，增强爱护动物的意识。",
+      "category": "attitude",
+      "competencyLink": "文化意识、学习能力",
+      "assessmentMethod": "课堂参与度、合作表现、情感反馈"
+    }
+  ],
+  "assessmentTasks": {
+    "preMethod": "课堂热身活动“动物猜猜猜”+“反义词配对”小游戏",
+    "preQuestions": [
+      "你能用英语说出这些动物的名字吗？（展示cat, elephant, monkey图片）",
+      "哪只动物高？哪只矮？（展示长颈鹿和老鼠图片，引导说tall/short）"
+    ],
+    "prePurpose": "检测学生对已有动物词汇的掌握，了解学生对tall/short等形容词的前概念，为调整教学起点提供依据。",
+    "postMethod": "小组合作任务“小小解说员”：学生选择2-3种动物图片，用所学句型进行介绍，教师根据量规评价。",
+    "postTasks": [
+      "任务1: 用Look at the... It's...描述图片中的动物外形",
+      "任务2: 听教师描述，快速指出对应的动物图片（听力理解）"
+    ],
+    "postRubric": "优秀：能准确使用3组以上反义词描述动物，语音语调自然，表达流畅；合格：能使用2组核心词汇描述，基本正确，但偶有停顿；需辅导：仅能说出单词，无法连成句子，或混淆词义。"
+  },
+  "activities": [
+    {
+      "phase": "B",
+      "title": "动物模仿秀",
+      "duration": 3,
+      "teacherAction": "教师播放歌曲《Old MacDonald Had a Farm》，引导学生模仿动物动作和叫声；随后出示长颈鹿和老鼠图片，用动作引出tall和short。",
+      "studentAction": "学生跟随歌曲做动作，模仿动物；看图片回答教师问题（如：Is it tall?），初步感知tall/short。",
+      "designIntent": "通过歌曲和动作激活学生已有知识，营造轻松氛围，激发学习兴趣（动机优先原则）。",
+      "assessmentEmbedded": "观察学生能否正确模仿动作和回答简单问题，了解前概念。"
+    },
+    {
+      "phase": "O",
+      "title": "明确学习目标",
+      "duration": 2,
+      "teacherAction": "教师展示本课核心图片（动物园场景），提问：今天我们要去动物园，你们想知道怎么描述动物吗？板书课题并出示目标：学会tall/short等词，用Look at the... It's...描述动物。",
+      "studentAction": "学生看图片，了解本课任务，明确学习方向。",
+      "designIntent": "让学生清楚学什么、怎么学，增强学习的目的性和自主性。",
+      "assessmentEmbedded": ""
+    },
+    {
+      "phase": "P-participatory",
+      "title": "核心探索：认识反义词",
+      "duration": 15,
+      "teacherAction": "教师出示对比图片（如大象和老鼠：big/small；胖猫和瘦猫：fat/thin），先让学生尝试描述（困难前置：学生可能只会说big/small，说不出fat/thin），教师再示范正确发音和用法，引导对比。然后播放Let's learn录音，学生跟读。最后组织“反义词配对”游戏：每组一套反义词卡片，学生配对并造句。",
+      "studentAction": "学生先观察图片，尝试用自己的语言描述（可能有困难）；听录音跟读；小组内合作配对反义词卡片，并用Look at the... It's...造句（如Look at the elephant. It's big.）。",
+      "designIntent": "通过对比图片制造认知冲突（困难前置），激发学生主动思考；小组合作降低焦虑，保留探索过程（过程保留原则）；反义词配对帮助抽象概念具体化（抽象保护原则）。",
+      "assessmentEmbedded": "教师巡视，观察学生配对是否准确、造句是否完整，及时给予反馈。"
+    },
+    {
+      "phase": "P-post",
+      "title": "后测练习：动物园解说员",
+      "duration": 8,
+      "teacherAction": "教师布置任务：每组领取一张动物园场景图（含多种动物），小组内一人扮演解说员，用Look at the... It's...介绍动物，其他组员听并指出动物。教师提供语言支架（如It's tall/short/fat...）。",
+      "studentAction": "小组内轮流担任解说员和听众，进行口语实践；展示环节，2-3组上台表演。",
+      "designIntent": "在真实语境中检测学习效果，巩固核心语言，培养合作与表达能力。",
+      "assessmentEmbedded": "教师根据量规（发音、词汇准确性、流利度）对展示小组进行评价，学生互评。"
+    },
+    {
+      "phase": "S",
+      "title": "课堂总结与情感升华",
+      "duration": 5,
+      "teacherAction": "教师引导学生总结本课所学（反义词、句型），并展示动物园动物受保护图片，引导学生说出We love animals. 然后布置作业。",
+      "studentAction": "学生回顾所学，跟读板书内容，表达对动物的喜爱。",
+      "designIntent": "归纳核心内容，强化记忆；渗透爱护动物意识，为后续学习铺垫。",
+      "assessmentEmbedded": ""
+    }
+  ],
+  "homework": {
+    "requiredTitle1": "词汇小画家",
+    "requiredDesc1": "画一画你最喜欢的动物，并用英语标出它的特征（如tall, big等），至少用3个词。",
+    "requiredTitle2": "小主播",
+    "requiredDesc2": "录制一个30秒的音频或视频，用Look at the... It's...介绍你画的动物，发到班级群。",
+    "optionalTitle": "动物侦探",
+    "optionalDesc": "观察家中宠物或小区里的动物，用英语描述其特征，写2-3句话（如I see a dog. It's small and fat.）。",
+    "designIntent": "必做作业巩固核心词汇和句型，选做作业鼓励迁移运用，满足不同层次学生需求。",
+    "differentiationNote": "基础较弱的学生可只完成词汇小画家（标注中文），小主播可模仿课本录音；学有余力的学生完成选做作业，鼓励创造性表达。"
+  },
+  "boardDesign": {
+    "layout": "左侧：课题At the Zoo + 动物园背景图；中间：核心句型Look at the... It's... 下方分两列：tall↔short, fat↔thin, big↔small；右侧：学生作品展示区（贴画或词卡）",
+    "keyElements": [
+      "课题At the Zoo",
+      "核心句型Look at the... It's...",
+      "反义词对tall/short, fat/thin, big/small"
+    ],
+    "structureLogic": "以动物园场景为背景，突出核心句型，通过反义词对呈现词汇，体现对比与系统化。"
+  },
+  "reflection": {
+    "targetAchievement": "预计85%学生能掌握核心词汇并运用句型进行简单描述，15%学生需课后个别辅导。",
+    "improvementMeasures": [
+      "增加更多对比图片或实物（如玩偶）帮助理解反义词",
+      "对后进生提供更多句型支架（如It's ___.）",
+      "考虑加入听音指图活动强化听力"
+    ],
+    "notableObservations": "注意学生对fat一词是否产生负面联想，可结合动物保护引导正确认知；关注小组合作中参与度不均的问题。"
+  },
+  "difficultyDesign": {
+    "targetDifficulty": "核心困难：学生难以在真实语境中同时运用三组反义词描述不同动物的外形特征，容易混淆词义或遗漏形容词。",
+    "educationalValue": "这个困难促使学生主动比较、分类和选择词汇，发展观察力和逻辑思维能力，同时强化语言交际的真实性。",
+    "zpdAlignment": "通过对比图片（如大象vs老鼠、长颈鹿vs狗）提供视觉支架，降低认知负荷；小组合作中同伴互助，确保困难在最近发展区内。",
+    "meaninglessObstacles": [
+      "避免一次性呈现过多动物和形容词",
+      "不要求学生同时掌握所有反义词的拼写",
+      "不要求区分tall和big的细微差别（可后续补充）"
+    ],
+    "motivationStrategy": "自主性：让学生选择自己喜欢的动物描述；胜任感：通过配对游戏和支架降低难度，确保成功体验；关系感：小组合作和展示增强归属感。",
+    "difficultyFirst": "在核心探索环节，先让学生尝试描述对比图片（如大象和老鼠），学生可能只会说big/small，遇到困难后再学习fat/thin等新词，激发求知欲。",
+    "processPreservation": "小组配对游戏和角色扮演中，教师不急于纠正错误，而是让学生先试错、讨论，再通过示范和反馈修正，保留学生的思维过程。",
+    "abstractionProtection": "通过实物图片、动作演示和反义词配对卡片，将抽象形容词具象化；使用对比（如tall vs short）帮助学生理解相对概念，避免孤立记忆。"
+  }
+}

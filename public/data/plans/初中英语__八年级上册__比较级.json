@@ -1,0 +1,153 @@
+{
+  "standardAnalysis": {
+    "contentRequirement": "能在口语和书面语中使用形容词和副词的比较级形式描述人物或事物的特征，表达比较关系。",
+    "academicRequirement": "能运用所学语言知识进行简单的比较和描述，表达基本准确，语音语调自然。",
+    "teachingHint": "创设真实语境，引导学生在交际中感知、理解和运用比较级；注重语言实践，通过对比活动培养学生的观察和表达能力。",
+    "coreCompetencyNames": [
+      "语言能力",
+      "思维品质",
+      "文化意识"
+    ]
+  },
+  "textbookAnalysis": {
+    "verticalAnalysis": "本课是人教版八年级上册Unit 3《I'm more outgoing than my sister》的第一课时（Section A 1a-2c）。在七年级下册Unit 9《What does he look like?》中，学生已学习描述人物外貌和性格的基础词汇（如tall, short, quiet, funny等）及一般现在时。本课在此基础上引入比较级结构，是学生首次系统学习形容词比较级。后续Unit 4《What's the best movie theater?》将学习最高级，本课为比较级奠定基础。教材通过图片对比、听力对话和配对练习呈现比较级，强调在真实语境中运用。",
+    "crossAnalysis": "与其他版本（如外研版）相比，人教版更注重通过对比图片和听力输入自然引出比较级，语法规则讲解较少，强调在语境中感知。本单元特色是围绕“朋友”话题展开，贴近学生生活，通过比较同学、家人等熟悉对象，降低学习难度。",
+    "bigConcept": "比较级是描述事物差异的语言工具，其核心是通过形态变化（加-er或more）表达程度差异，体现语言的交际功能。",
+    "keyKnowledge": [
+      "形容词比较级的构成规则（单音节加-er，多音节加more）",
+      "比较级句型结构：主语+be+比较级+than+比较对象",
+      "描述人物性格和外观的形容词（outgoing, tall, funny, smart等）"
+    ],
+    "difficulties": [
+      "教学重点：比较级的构成和句型结构",
+      "教学难点：多音节形容词比较级的正确使用（more+原级），以及比较对象的一致性（than后接名词/代词主格）"
+    ]
+  },
+  "learnerAnalysis": {
+    "priorKnowledge": "学生已掌握描述人物的基础形容词（如tall, short, thin, funny, quiet等）和一般现在时be动词用法，能简单描述自己和他人。",
+    "priorExperience": "学生在生活中经常比较同学、朋友、家人的外貌和性格，有丰富的比较经验，但缺乏英语比较级的系统表达。",
+    "cognitiveDifficulty": "学生可能混淆单音节和多音节形容词的比较级构成（如误用more tall），或忘记than后的比较对象（如说I'm taller than.），以及不规则变化（good-better）。",
+    "preAssessment": "通过课前小问卷或口头提问，让学生用已学词汇描述自己和同桌的不同（如I am tall. My friend is short.），检测学生对形容词的掌握和比较意识。"
+  },
+  "learningObjectives": [
+    {
+      "content": "学生通过观察图片和听力活动，能够正确识别并说出形容词比较级的构成规则（加-er或more），准确率90%以上。",
+      "category": "knowledge",
+      "competencyLink": "语言能力",
+      "assessmentMethod": "课堂提问和听力检测"
+    },
+    {
+      "content": "学生能在小组活动中，运用比较级句型（主语+be+比较级+than+比较对象）比较同学的外貌和性格，表达基本准确。",
+      "category": "skill",
+      "competencyLink": "语言能力、思维品质",
+      "assessmentMethod": "小组对话展示和教师观察"
+    },
+    {
+      "content": "学生能通过比较活动，理解并尊重人与人之间的差异，培养积极的人际交往态度。",
+      "category": "attitude",
+      "competencyLink": "文化意识",
+      "assessmentMethod": "课堂表现和反思小贴纸"
+    }
+  ],
+  "assessmentTasks": {
+    "preMethod": "口头提问和简单填空练习",
+    "preQuestions": [
+      "请用英语描述你和你最好的朋友的不同（如身高、性格）。",
+      "如果想说‘我比我妹妹更高’，用英语怎么说？"
+    ],
+    "prePurpose": "了解学生对比较级的已有认知，诊断常见错误（如词序、比较级形式）。",
+    "postMethod": "书面填空和口语展示",
+    "postTasks": [
+      "完成教材Section A 2d的角色扮演对话填空",
+      "两人一组，用比较级句型口头比较自己的两个朋友，并录制视频提交。"
+    ],
+    "postRubric": "优秀：能正确使用比较级（含不规则变化），句型完整，表达流畅；合格：比较级形式基本正确，偶有错误，但能表达意思；需辅导：比较级构成错误较多，句型不完整，需要额外练习。"
+  },
+  "activities": [
+    {
+      "phase": "B",
+      "title": "猜朋友",
+      "duration": 3,
+      "teacherAction": "教师描述一位学生（如She is tall and quiet.），让学生猜是谁；然后说But my best friend is taller and more outgoing. 引出比较。",
+      "studentAction": "学生猜测并观察教师如何比较。",
+      "designIntent": "利用学生熟悉的人物激发兴趣，自然引出比较级话题。",
+      "assessmentEmbedded": "观察学生能否理解比较级意图"
+    },
+    {
+      "phase": "O",
+      "title": "明确学习目标",
+      "duration": 2,
+      "teacherAction": "展示本课目标：学会用比较级比较人物；板书关键词：taller, more outgoing, than。",
+      "studentAction": "学生齐读目标，明确学习任务。",
+      "designIntent": "让学生清楚本节课要学什么和怎么学。",
+      "assessmentEmbedded": ""
+    },
+    {
+      "phase": "P-participatory",
+      "title": "探索比较级规则",
+      "duration": 15,
+      "teacherAction": "展示教材1a图片（三对人物对比），提问Who is taller? 引导学生观察。播放1b听力，让学生完成匹配。然后呈现两组词：tall→taller, funny→funnier, outgoing→more outgoing，引导学生自主发现规则。教师不直接讲解，先让学生分组讨论规则，再提供帮助补充（如y变i加er）。",
+      "studentAction": "学生先独立观察图片和听力，尝试总结规则；然后小组内交流发现；最后全班分享，教师补充。",
+      "designIntent": "困难前置：先让学生面对规则困惑，再通过合作和教师引导解决，体现过程保留。",
+      "assessmentEmbedded": "小组讨论时教师巡视，记录学生发现的规则和错误，用于后续纠正。"
+    },
+    {
+      "phase": "P-post",
+      "title": "后测练习",
+      "duration": 8,
+      "teacherAction": "出示教材2c的对话框架，让学生两人一组替换关键词（如smarter, more hard-working）进行练习；教师巡视纠正。",
+      "studentAction": "学生两人一组，用比较级造句并展示。",
+      "designIntent": "检测学生对比较级形式和句型的掌握。",
+      "assessmentEmbedded": "教师用观察表记录学生正确率，针对错误集中讲解。"
+    },
+    {
+      "phase": "S",
+      "title": "总结与升华",
+      "duration": 5,
+      "teacherAction": "引导学生总结比较级规则（加-er还是more），并强调不规则变化（good-better）。提问：比较是为了什么？引导学生理解比较是为了尊重差异，不是分出优劣。",
+      "studentAction": "学生齐读规则，并分享自己的理解。",
+      "designIntent": "巩固知识，渗透情感教育，为后续学习最高级铺垫。",
+      "assessmentEmbedded": ""
+    }
+  ],
+  "homework": {
+    "requiredTitle1": "基础练习",
+    "requiredDesc1": "完成教材Section A 2d的角色扮演填空，并朗读录音提交。",
+    "requiredTitle2": "书面比较",
+    "requiredDesc2": "写3个句子，比较你和你的同桌（如I am taller than my deskmate. She is more outgoing than me.），注意比较级形式。",
+    "optionalTitle": "挑战任务",
+    "optionalDesc": "用比较级描述你的两个家人（如My father is older than my mother.），并录制一个1分钟短视频。",
+    "designIntent": "分层设计，基础题巩固核心知识，挑战题鼓励创造性运用。",
+    "differentiationNote": "基础薄弱学生只需完成必做1和2；学有余力学生可挑战选做，并尝试使用不规则比较级。"
+  },
+  "boardDesign": {
+    "layout": "左侧：比较级构成规则（加-er / more / 不规则）; 中间：句型结构（A + be + 比较级 + than + B）; 右侧：示例句子（如Tina is taller than Tara.）",
+    "keyElements": [
+      "比较级构成：-er, more, irregular (good-better)",
+      "句型：A + be + 比较级 + than + B",
+      "示例：Tom is more outgoing than Jerry."
+    ],
+    "structureLogic": "由规则到句型再到实例，层层递进，便于学生记忆和模仿。"
+  },
+  "reflection": {
+    "targetAchievement": "预估大部分学生能掌握比较级基本规则和句型，但多音节词和不规则变化可能仍有混淆，需在后续课中巩固。",
+    "improvementMeasures": [
+      "增加不规则比较级的趣味记忆活动（如歌谣）",
+      "在小组活动中加入更多真实比较场景（如比较书包、文具）"
+    ],
+    "notableObservations": "关注学生是否在口语中习惯性漏掉than，以及是否将more用于单音节形容词。"
+  },
+  "difficultyDesign": {
+    "targetDifficulty": "核心困难：如何区分单音节和多音节形容词的比较级构成（-er vs more），以及记住不规则变化。",
+    "educationalValue": "这个困难能促使学生观察语言规律，培养归纳和分类能力，而不仅仅是死记硬背。",
+    "zpdAlignment": "学生已有形容词基础，通过图片和听力输入提供脚手架，使困难处于学生通过合作和教师引导可解决的范围。",
+    "meaninglessObstacles": [
+      "避免过早引入复杂拼写规则（如双写辅音）",
+      "避免一次性呈现所有不规则变化"
+    ],
+    "motivationStrategy": "通过“猜朋友”游戏和小组竞赛激发自主性；提供清晰的成功标准（如正确造句可得贴纸）增强胜任感；小组合作营造关系感。",
+    "difficultyFirst": "在探索环节先让学生观察并尝试总结规则（困难前置），教师不提前讲解，让学生经历困惑。",
+    "processPreservation": "学生分组讨论时保留原始发现过程，即使有错误也不打断，在全班分享时再纠正。",
+    "abstractionProtection": "先通过具体例句（如tall→taller, outgoing→more outgoing）建立直观印象，再抽象出规则，避免过早给出语法术语。"
+  }
+}

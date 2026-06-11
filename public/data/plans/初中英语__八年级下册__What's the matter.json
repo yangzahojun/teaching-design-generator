@@ -1,0 +1,155 @@
+{
+  "standardAnalysis": {
+    "contentRequirement": "能在日常生活中理解和运用有关身体不适、健康问题和建议的简单英语表达方式；能借助图片、上下文等理解简单对话和短文；能围绕主题进行简单的语言交际活动。",
+    "academicRequirement": "能就身体不适等话题进行简单的信息交流，表达自己的感受和需求，并对他人的关切做出回应；能运用所学语言提出合理的建议。",
+    "teachingHint": "创设真实或接近真实的语境，通过听说读写等活动，帮助学生理解和运用核心句型；注重语言实践，鼓励学生在模拟真实场景中运用所学语言。",
+    "coreCompetencyNames": [
+      "语言能力",
+      "文化意识",
+      "思维品质",
+      "学习能力"
+    ]
+  },
+  "textbookAnalysis": {
+    "verticalAnalysis": "本课为人教版八年级下册Unit 1 What's the matter?的第一课时（Section A 1a-2d）。在七年级已学习过一般现在时、现在进行时、祈使句等基础时态和句型，以及一些表示身体部位的词汇（如head, arm, leg等）。本单元在此基础上，进一步学习描述身体不适的常见表达（如have a cold, have a stomachache等）和提出建议的句型（如You should.../You shouldn't...）。本课是单元起始课，为后续学习更复杂的对话和阅读打下基础。",
+    "crossAnalysis": "与其他版本（如外研版、牛津版）相比，人教版本单元以‘身体不适与建议’为核心话题，更强调在真实情境中的交际功能，突出‘看病’这一常见生活场景。教材通过图片、对话、听力等多种形式呈现核心语言，注重听说先行，读写跟进。本版特色在于话题贴近学生生活，语言实用，活动设计循序渐进。",
+    "bigConcept": "健康与疾病：表达身体不适并提供合理建议",
+    "keyKnowledge": [
+      "身体部位词汇（head, stomach, tooth, back等）",
+      "描述身体不适的短语（have a cold, have a stomachache, have a sore throat等）",
+      "提出建议的句型（You should.../You shouldn't.../What's the matter?）"
+    ],
+    "difficulties": [
+      "教学重点：掌握描述身体不适的短语和提出建议的句型",
+      "教学难点：正确使用should/shouldn't提出建议，并在真实情境中灵活运用"
+    ]
+  },
+  "learnerAnalysis": {
+    "priorKnowledge": "学生已掌握基本的身体部位词汇（如head, eye, ear, nose, mouth, arm, leg, foot等），能简单描述身体健康状况（如I'm sick. I have a headache.），但表达不够准确和丰富。",
+    "priorExperience": "学生有过生病或身体不适的经历，熟悉看病或寻求帮助的场景，对‘健康’话题有生活体验和兴趣。",
+    "cognitiveDifficulty": "学生可能对部分身体不适短语的搭配（如have a sore throat vs. have a stomachache）感到混淆；在提出建议时，可能不熟悉should的用法，或无法区分should与must/have to的差异。",
+    "preAssessment": "前测方式：课堂提问和简单图片匹配。设计：出示几张身体不适的图片（如头痛、牙痛、肚子痛），让学生说出对应的英文表达；同时询问学生‘如果你感冒了，你会怎么做？’引出学生对建议表达的初步认识。"
+  },
+  "learningObjectives": [
+    {
+      "content": "学生能借助图片和听力材料，准确说出并写出描述常见身体不适的短语（如have a cold, have a stomachache等）。",
+      "category": "knowledge",
+      "competencyLink": "语言能力",
+      "assessmentMethod": "课堂观察、听力填空、图片配对"
+    },
+    {
+      "content": "学生能在模拟的‘看病’情境中，运用What's the matter?和I have a...进行问答，并用You should.../You shouldn't...提出至少2条建议。",
+      "category": "skill",
+      "competencyLink": "语言能力、思维品质",
+      "assessmentMethod": "角色扮演、口语展示"
+    },
+    {
+      "content": "学生能通过对比中西文化中表达身体不适和寻求建议的异同，增强跨文化意识，并愿意在真实生活中关心他人健康。",
+      "category": "attitude",
+      "competencyLink": "文化意识、学习能力",
+      "assessmentMethod": "课堂讨论、反思日志"
+    }
+  ],
+  "assessmentTasks": {
+    "preMethod": "课堂提问与图片匹配活动",
+    "preQuestions": [
+      "你能说出这些身体部位（出示图片）的英文吗？",
+      "如果你感冒了，你会怎么说？"
+    ],
+    "prePurpose": "了解学生对身体部位词汇和基本表达方式的掌握程度，为教学重难点设计提供依据。",
+    "postMethod": "角色扮演（模拟看病）和书面填空练习",
+    "postTasks": [
+      "两人一组，一人扮演病人，一人扮演医生，进行至少3轮问答，包含描述症状和给出建议。",
+      "完成课本2d的填空练习，并仿写一段关于朋友身体不适的对话。"
+    ],
+    "postRubric": "优秀：能准确使用核心词汇和句型，对话自然流畅，建议合理；合格：能使用大部分核心词汇，对话基本完整，但偶有语法错误；需辅导：核心词汇掌握不足，对话简单或错误较多，需进一步练习。"
+  },
+  "activities": [
+    {
+      "phase": "B",
+      "title": "热身导入：身体部位快速反应",
+      "duration": 3,
+      "teacherAction": "教师快速出示身体部位图片（head, stomach, tooth, back等），学生抢答英文单词，教师随机抽查。",
+      "studentAction": "学生举手抢答，被点名学生说出单词。",
+      "designIntent": "激活学生已有知识，快速进入英语学习状态，为新课词汇做铺垫。",
+      "assessmentEmbedded": "观察学生反应速度和正确率，判断基础词汇掌握情况。"
+    },
+    {
+      "phase": "O",
+      "title": "明确学习目标",
+      "duration": 2,
+      "teacherAction": "教师呈现本课学习目标（PPT展示），并简要解释目标内容。",
+      "studentAction": "学生看目标，同桌互相复述目标要点。",
+      "designIntent": "让学生明确本节课要学什么、达到什么水平，增强学习的方向感。",
+      "assessmentEmbedded": ""
+    },
+    {
+      "phase": "P-participatory",
+      "title": "核心探索：描述症状与提出建议",
+      "duration": 15,
+      "teacherAction": "教师创设‘看病’情境：出示一张学生头痛的图片，问‘What's the matter?’，引导学生尝试回答。然后播放听力（1b），让学生完成匹配。之后，教师提出新情境（如牙痛），让学生先独立尝试用‘I have a...’和‘You should...’造句，再小组内交流，最后全班展示并纠正。教师适时讲解should的用法。",
+      "studentAction": "学生先看图片猜测，听听力完成匹配；然后独立尝试造句，再小组内分享和讨论，最后代表展示。",
+      "designIntent": "通过困难前置（先让学生尝试表达，再提供帮助）和过程保留（学生先独立再合作），让学生在实践中掌握核心表达。",
+      "assessmentEmbedded": "教师巡视，观察学生造句情况，选取典型错误进行全班纠正；小组互评。"
+    },
+    {
+      "phase": "P-post",
+      "title": "角色扮演巩固练习",
+      "duration": 8,
+      "teacherAction": "教师提供几个常见症状（如发烧、咳嗽、胃痛）的图片和提示词，让学生两人一组进行角色扮演。教师提供评价标准（语音、内容、流利度）。",
+      "studentAction": "学生两人一组，一人问‘What's the matter?’，另一人回答并描述症状，然后角色互换，轮流提出建议。",
+      "designIntent": "通过模拟真实场景，检测学生对核心知识的掌握和运用能力。",
+      "assessmentEmbedded": "教师选取2-3组展示，全班根据标准进行评价；教师点评。"
+    },
+    {
+      "phase": "S",
+      "title": "课堂总结与情感升华",
+      "duration": 5,
+      "teacherAction": "教师引导学生总结本课核心词汇和句型，并提问‘你觉得关心他人健康重要吗？你在生活中会如何表达关心？’",
+      "studentAction": "学生总结词汇和句型，分享自己的观点和经历。",
+      "designIntent": "归纳本课内容，同时渗透文化意识和情感教育，培养关心他人的品质。",
+      "assessmentEmbedded": ""
+    }
+  ],
+  "homework": {
+    "requiredTitle1": "基础练习：词汇配对",
+    "requiredDesc1": "完成课本P2 1c的词汇与图片配对练习，并抄写核心短语（have a cold, have a stomachache等）各2遍。",
+    "requiredTitle2": "口语作业：录制对话",
+    "requiredDesc2": "两人一组，录制一段关于‘看病’的对话（至少4轮问答），发送语音或视频到班级群。",
+    "optionalTitle": "挑战作业：写建议信",
+    "optionalDesc": "假设你的朋友Tom因为长时间玩手机而脖子痛，写一封简短的英文信（3-5句话），描述他的问题并给出至少2条建议。",
+    "designIntent": "分层设计，满足不同水平学生的需求：基础作业巩固词汇，口语作业提升交际能力，挑战作业拓展写作和综合运用能力。",
+    "differentiationNote": "基础薄弱学生可只完成必做作业1和2的简单版本（如只录音2轮对话）；学有余力的学生可挑战选做作业，并尝试使用更多建议句型（如Why don't you...?）。"
+  },
+  "boardDesign": {
+    "layout": "左侧：核心词汇（身体部位+症状短语）；中间：核心句型（What's the matter? I have a... / You should...）；右侧：学生生成示例对话。",
+    "keyElements": [
+      "What's the matter?",
+      "I have a cold/headache/stomachache",
+      "You should drink water / see a doctor / rest"
+    ],
+    "structureLogic": "按照‘症状描述’到‘提出建议’的逻辑顺序呈现，便于学生快速回顾和模仿。"
+  },
+  "reflection": {
+    "targetAchievement": "预计大部分学生能掌握核心词汇和句型，并在角色扮演中基本运用；部分学生可能在should的否定形式（shouldn't）上出现错误，需在后续课时巩固。",
+    "improvementMeasures": [
+      "增加更多听力输入，如不同语速的对话",
+      "在角色扮演前提供示范视频或教师示范",
+      "针对should用法设计专项小练习"
+    ],
+    "notableObservations": "关注学生在角色扮演中的参与度和语言输出质量，尤其是性格内向的学生，可鼓励其先与搭档练习再展示。"
+  },
+  "difficultyDesign": {
+    "targetDifficulty": "本课核心困难：学生能否在真实情境中准确运用should提出合理建议。",
+    "educationalValue": "这个困难能促使学生思考‘什么建议是合理的’，锻炼其逻辑思维和健康意识，超越单纯语言点记忆。",
+    "zpdAlignment": "通过前测了解学生已有表达水平，再提供图片、关键词等支架，确保困难在最近发展区内。",
+    "meaninglessObstacles": [
+      "生僻词汇（如sore作为形容词的用法）",
+      "复杂的语法术语（如情态动词）"
+    ],
+    "motivationStrategy": "自主性：让学生自主选择扮演‘医生’或‘病人’；胜任感：通过小组合作降低焦虑；关系感：角色扮演中需要互动，增强同伴联系。",
+    "difficultyFirst": "在核心探索活动开始时，先让学生尝试描述症状和提出建议，即使犯错也不急于纠正，让学生经历困惑后再提供帮助。",
+    "processPreservation": "学生在独立造句后，保留其原始句子，再在小组中讨论修改，最后全班展示对比，让学生看到自己的进步。",
+    "abstractionProtection": "在总结环节，不直接给出‘should+动词原形’的抽象规则，而是通过多个例句让学生自己归纳，教师再补充完善。"
+  }
+}

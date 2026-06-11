@@ -1,0 +1,154 @@
+{
+  "standardAnalysis": {
+    "contentRequirement": "能在教师帮助下，借助图片、实物等，理解简单对话或小故事；能围绕个人情况、家庭、学校生活等话题，运用所学语言进行简单交流；能正确朗读所学的对话、故事和文段。",
+    "academicRequirement": "能借助图片、动作等非语言手段，理解简单对话的基本内容；能围绕个人情况、家庭与朋友等话题，运用所学语言进行简单的日常交流，表达基本情感和态度。",
+    "teachingHint": "创设真实、有意义的语言情境，鼓励学生在语境中感知、理解和运用语言；注重听说实践，发展学生语音、词汇和基本句型；关注学生情感态度，培养合作精神和学习兴趣。",
+    "coreCompetencyNames": [
+      "语言能力",
+      "文化意识",
+      "思维品质",
+      "学习能力"
+    ]
+  },
+  "textbookAnalysis": {
+    "verticalAnalysis": "本课是PEP小学英语四年级上册Unit 3 My friends的第二课时（Part A Let's talk & Let's play）。本单元主题为‘我的朋友’，属于‘人与社会’范畴下‘同伴交往’主题群。此前学生在三年级下册Unit 3 At the zoo和Unit 4 Where is my car?中已学过描述动物特征和物品位置的形容词（如tall, short, big, small, long, on, in, under等），为本课描述人物外貌特征（tall and strong, short and thin, friendly, quiet等）奠定基础。后续Unit 5 Dinner's ready和Unit 6 Meet my family将进一步拓展有关食物、家庭成员的描述。本课处于单元起始部分，承担核心句型呈现与初步操练功能。",
+    "crossAnalysis": "与译林版、外研版等教材相比，PEP版更注重对话情境的真实性和交际性，本课通过John和Mike的对话呈现核心句型‘Who is he? He is... He has...’及描述性词汇。本版本特色在于将词汇学习融入对话语境，并通过Let's play游戏活动巩固句型，趣味性强。取舍上，本课未单独教授词汇，而是通过对话整体输入，符合整体语言教学理念。",
+    "bigConcept": "语言是描述和认识世界（包括他人）的工具；通过描述人物特征，可以建立和深化人际关系。",
+    "keyKnowledge": [
+      "核心句型：Who is he? He is... He has...",
+      "描述性词汇：tall and strong, short and thin, friendly, quiet",
+      "人称代词he/she的区分与运用"
+    ],
+    "difficulties": [
+      "教学重点：运用核心句型描述朋友的外貌和性格特征",
+      "教学难点：he/she的准确区分与运用；friendly和quiet等抽象形容词的理解与使用"
+    ]
+  },
+  "learnerAnalysis": {
+    "priorKnowledge": "学生已掌握tall, short, big, small, long等基础形容词；能运用‘It is...’描述动物特征；熟悉‘Who is...?’句型（三年级下册已接触）。",
+    "priorExperience": "学生在日常生活中经常与同伴交往，有描述朋友外貌和性格的初步经验；对‘我的朋友’话题有较高兴趣。",
+    "cognitiveDifficulty": "学生可能混淆he/she的人称对应；对friendly, quiet等抽象形容词理解不深；在真实交际中灵活运用描述性词汇和句型存在困难。",
+    "preAssessment": "前测方式：课堂提问与图片匹配活动。设计：教师展示两幅人物图片（一男一女），提问‘Who is he/she? He/She is...’，观察学生能否正确使用he/she及简单形容词。"
+  },
+  "learningObjectives": [
+    {
+      "content": "学生通过观察图片和听录音，能理解对话大意，识别出描述朋友外貌和性格的关键信息（如tall and strong, friendly等）。",
+      "category": "knowledge",
+      "competencyLink": "语言能力",
+      "assessmentMethod": "课堂提问与图片匹配"
+    },
+    {
+      "content": "学生在教师帮助下，能运用‘Who is he/she? He/She is... He/She has...’句型，结合描述性词汇，准确介绍自己的一位朋友。",
+      "category": "skill",
+      "competencyLink": "语言能力、思维品质",
+      "assessmentMethod": "角色扮演与口语展示"
+    },
+    {
+      "content": "学生通过小组活动，能主动与同伴交流朋友信息，体会到友谊的珍贵，增强合作意识。",
+      "category": "attitude",
+      "competencyLink": "文化意识、学习能力",
+      "assessmentMethod": "课堂观察与同伴互评"
+    }
+  ],
+  "assessmentTasks": {
+    "preMethod": "前测方式：教师展示两幅人物图片，引导学生用‘He/She is...’进行描述，记录学生he/she使用及形容词掌握情况。",
+    "preQuestions": [
+      "你能用英语描述这个男孩吗？他是谁？",
+      "这个女孩看起来怎么样？她是高还是矮？"
+    ],
+    "prePurpose": "了解学生对he/she人称代词和基础形容词的掌握程度，为后续教学重点调整提供依据。",
+    "postMethod": "后测方式：学生两人一组，互相介绍自己的朋友（可借助照片或简笔画），教师和同伴根据量规评价。",
+    "postTasks": [
+      "用3-4句话介绍一位朋友的外貌和性格",
+      "回答同伴关于朋友的问题（如Who is he? Is he tall?）"
+    ],
+    "postRubric": "优秀：能准确运用he/she及描述性词汇，语句完整，表达流畅；合格：能基本描述，偶有he/she混淆或词汇不准；需辅导：无法完成描述或he/she严重混淆。"
+  },
+  "activities": [
+    {
+      "phase": "B",
+      "title": "歌曲导入：Friends Song",
+      "duration": 3,
+      "teacherAction": "播放歌曲‘The More We Get Together’，引导学生跟唱并做动作。",
+      "studentAction": "跟唱歌曲，做拍手、握手等动作。",
+      "designIntent": "通过欢快的歌曲激活课堂氛围，引出‘朋友’话题，调动学生已有生活经验，体现动机优先原则。",
+      "assessmentEmbedded": "观察学生参与度与歌曲理解情况"
+    },
+    {
+      "phase": "O",
+      "title": "明确学习目标",
+      "duration": 2,
+      "teacherAction": "展示学习目标卡片（I can describe my friend. I can use he/she.），用中文简要解释。",
+      "studentAction": "齐读目标卡片，明确本课任务。",
+      "designIntent": "让学生提前知晓学习重点和评价标准，增强目标意识。",
+      "assessmentEmbedded": ""
+    },
+    {
+      "phase": "P-participatory",
+      "title": "探索对话：认识John的朋友",
+      "duration": 15,
+      "teacherAction": "1. 出示对话图片，提问‘Who are they? What are they talking about?’（困难前置）；2. 播放录音，让学生尝试找出描述朋友的词汇（先独立听，再小组核对）；3. 逐句讲解，板书核心句型，引导学生注意he/she区别；4. 组织角色扮演。",
+      "studentAction": "1. 观察图片，猜测对话内容；2. 听录音，独立完成‘Listen and circle’练习（圈出听到的描述词）；3. 小组内核对答案，讨论he/she用法；4. 两人一组角色扮演对话。",
+      "designIntent": "通过猜测、听辨、讨论等活动，让学生先经历困惑（听不懂、分不清he/she），再在教师引导下解决问题，体现困难前置、过程保留原则；角色扮演提供实践机会。",
+      "assessmentEmbedded": "教师巡视观察学生听辨和角色扮演情况，记录典型错误用于后续指导"
+    },
+    {
+      "phase": "P-post",
+      "title": "后测练习：介绍我的朋友",
+      "duration": 8,
+      "teacherAction": "1. 示范介绍一位朋友（用简笔画辅助）；2. 提供句式支架（This is my friend. He/She is... He/She has...）；3. 组织学生两人一组互练，然后邀请代表展示。",
+      "studentAction": "1. 画出或展示朋友照片；2. 借助句式支架，向同伴介绍朋友；3. 代表上台展示，其他同学根据量规评价。",
+      "designIntent": "检测学生是否能运用本课核心句型与词汇进行真实交流，巩固学习成果。",
+      "assessmentEmbedded": "同伴互评与教师点评相结合，使用后测量规"
+    },
+    {
+      "phase": "S",
+      "title": "课堂总结与情感升华",
+      "duration": 5,
+      "teacherAction": "1. 引导学生总结本课所学词汇和句型；2. 播放简短友谊视频，强调朋友的重要性。",
+      "studentAction": "1. 回顾并说出本课学到的描述词和句型；2. 观看视频，分享感受。",
+      "designIntent": "归纳核心知识，渗透情感教育，为下一课时学习描述更多特征（如眼镜、书包等）做铺垫。",
+      "assessmentEmbedded": ""
+    }
+  ],
+  "homework": {
+    "requiredTitle1": "听录音并跟读对话",
+    "requiredDesc1": "听Unit 3 Part A Let's talk录音3遍，模仿语音语调，并跟读。",
+    "requiredTitle2": "画一画、写一写我的朋友",
+    "requiredDesc2": "画一幅朋友的简笔画，并写3-4句话介绍他/她（用He/She is... He/She has...）。",
+    "optionalTitle": "采访家人",
+    "optionalDesc": "用英语采访一位家人，问‘Who is your friend?’并记录描述，下节课分享。",
+    "designIntent": "分层设计：必做作业巩固基础（听读与简单写作），选做作业拓展运用，满足不同水平学生需求。",
+    "differentiationNote": "基础薄弱学生可只完成必做作业1，并提供句式卡片辅助；学有余力学生鼓励完成选做作业，培养交际能力。"
+  },
+  "boardDesign": {
+    "layout": "中央标题：Unit 3 My friends（Part A Let's talk）\n左侧：核心句型（Who is he? He is... He has...）\n右侧：描述词分类（外貌：tall, strong, short, thin；性格：friendly, quiet）\n底部：he/she对比图",
+    "keyElements": [
+      "核心句型",
+      "描述性词汇",
+      "he/she区分"
+    ],
+    "structureLogic": "从对话中提取核心句型，再归纳描述词，最后通过he/she对比强化人称意识，体现从整体到局部再聚焦难点的逻辑。"
+  },
+  "reflection": {
+    "targetAchievement": "预计85%学生能基本掌握核心句型与描述词汇，70%学生能较准确区分he/she；部分学生可能在friendly、quiet的理解上需要额外练习。",
+    "improvementMeasures": [
+      "增加he/she区分的专项练习（如快速反应游戏）",
+      "为friendly和quiet提供更多图片和情境例句"
+    ],
+    "notableObservations": "注意观察性格内向学生的参与度，鼓励他们与固定伙伴合作，降低焦虑。"
+  },
+  "difficultyDesign": {
+    "targetDifficulty": "本课核心困难：在真实交际中准确区分并使用he/she，以及理解friendly、quiet等抽象形容词。",
+    "educationalValue": "这个困难促使学生关注英语中性别代词的重要性，培养语言准确性；同时，理解抽象形容词有助于学生更丰富地描述人物，发展思维品质。",
+    "zpdAlignment": "借助图片、动作和语境，将抽象词汇具体化（如friendly配微笑握手图，quiet配嘘声图）；he/she通过男女人物对比强化，确保困难处于学生通过努力可达到的水平。",
+    "meaninglessObstacles": [
+      "生僻词汇（如本课无）",
+      "复杂语法结构（如本课未涉及过去时）"
+    ],
+    "motivationStrategy": "自主性：让学生选择介绍自己的朋友；胜任感：提供句式支架和同伴支持，确保成功体验；关系感：小组合作与角色扮演增强同伴互动。",
+    "difficultyFirst": "在核心探索活动开始时，先让学生听录音尝试找出描述词（不提供任何帮助），经历困惑后再逐步引导，体现困难前置。",
+    "processPreservation": "学生在听辨和角色扮演中保留自己的尝试过程（如先独立完成‘Listen and circle’，再小组讨论），教师不过早纠正，允许犯错。",
+    "abstractionProtection": "通过图片、动作、简笔画等直观手段，将抽象词汇具体化；用he/she人物对比图降低抽象度，保护学生理解过程。"
+  }
+}

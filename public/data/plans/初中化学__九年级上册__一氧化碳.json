@@ -1,0 +1,155 @@
+{
+  "standardAnalysis": {
+    "contentRequirement": "认识一氧化碳的可燃性、还原性等主要性质及其用途。",
+    "academicRequirement": "能基于物质的性质和用途，从辩证的角度初步分析和讨论相关的实际问题。",
+    "teachingHint": "结合实验探究，引导学生从化学视角认识物质的性质，发展学生的科学探究能力和物质观。",
+    "coreCompetencyNames": [
+      "科学探究与创新意识",
+      "科学态度与社会责任",
+      "宏观辨识与微观探析"
+    ]
+  },
+  "textbookAnalysis": {
+    "verticalAnalysis": "本课位于人教版九年级上册第六单元《碳和碳的氧化物》课题3《二氧化碳和一氧化碳》的第二部分。本单元前两课时已学习了碳单质的性质及实验室制取二氧化碳，学生已具备一定的物质性质和制备知识。本课在一氧化碳部分，教材重点介绍其可燃性和还原性，并与二氧化碳对比，为后续学习金属的冶炼（如铁的冶炼）打下基础。在学段中，本课是学生首次系统学习一种有毒气体的性质，对培养安全意识和辩证思维有重要意义。",
+    "crossAnalysis": "人教版教材将一氧化碳与二氧化碳合为一个课题，通过对比突出两者的差异，强调性质与用途的关系。其他版本（如鲁教版）可能将一氧化碳单独成节或放在金属冶炼单元中。人教版的特点是紧扣教材实验（如CO还原CuO），注重实验现象的观察和推理，内容编排循序渐进，便于学生理解。",
+    "bigConcept": "物质的性质决定用途，用途反映性质；化学变化中物质的转化与守恒。",
+    "keyKnowledge": [
+      "一氧化碳的可燃性",
+      "一氧化碳的还原性（还原氧化铜）",
+      "一氧化碳的毒性及安全使用"
+    ],
+    "difficulties": [
+      "教学重点：一氧化碳的可燃性和还原性",
+      "教学难点：一氧化碳还原氧化铜的实验操作及现象分析"
+    ]
+  },
+  "learnerAnalysis": {
+    "priorKnowledge": "学生已学习碳单质的物理和化学性质、二氧化碳的性质和用途、实验室制取二氧化碳的方法，对气体性质有初步认识。",
+    "priorExperience": "生活中学生可能接触过煤气（主要成分含CO）、汽车尾气等，对一氧化碳的毒性有模糊认知，但缺乏系统理解。",
+    "cognitiveDifficulty": "学生可能混淆一氧化碳和二氧化碳的性质（如是否支持燃烧），对一氧化碳还原氧化铜的化学原理（还原反应）理解困难，且对实验安全（尾气处理）缺乏意识。",
+    "preAssessment": "通过课堂提问（如一氧化碳和二氧化碳有什么不同？）和简短的填空题（如CO燃烧产物是____）进行前测。"
+  },
+  "learningObjectives": [
+    {
+      "content": "通过观察演示实验，能说出一氧化碳的可燃性和还原性，并正确书写相关化学方程式。",
+      "category": "knowledge",
+      "competencyLink": "宏观辨识与微观探析",
+      "assessmentMethod": "课堂提问、实验报告填写"
+    },
+    {
+      "content": "通过分析一氧化碳还原氧化铜的实验，能解释实验现象，并设计简单的尾气处理方案。",
+      "category": "skill",
+      "competencyLink": "科学探究与创新意识",
+      "assessmentMethod": "小组讨论、实验方案设计"
+    },
+    {
+      "content": "通过了解一氧化碳的毒性和用途，能辩证看待化学物质，增强安全意识和环保意识。",
+      "category": "attitude",
+      "competencyLink": "科学态度与社会责任",
+      "assessmentMethod": "课堂讨论、课后反思"
+    }
+  ],
+  "assessmentTasks": {
+    "preMethod": "课堂口头提问与简答",
+    "preQuestions": [
+      "你知道一氧化碳和二氧化碳有什么不同吗？",
+      "一氧化碳燃烧会生成什么？"
+    ],
+    "prePurpose": "了解学生对一氧化碳的已有认知，诊断混淆点。",
+    "postMethod": "实验报告评价与课堂练习",
+    "postTasks": [
+      "完成一氧化碳还原氧化铜的实验报告",
+      "完成课后练习第2、3题"
+    ],
+    "postRubric": "优秀：能准确解释实验现象，正确书写化学方程式，并能设计尾气处理方案；合格：能写出主要现象和方程式，但解释不够完整；需辅导：现象描述有误，方程式书写错误。"
+  },
+  "activities": [
+    {
+      "phase": "B",
+      "title": "情境导入：煤气中毒事件",
+      "duration": 3,
+      "teacherAction": "展示一则煤气中毒新闻，提问：为什么煤气会让人中毒？一氧化碳有什么性质？",
+      "studentAction": "思考并回答，激发兴趣。",
+      "designIntent": "联系生活实际，激发学生探究一氧化碳性质的动机。",
+      "assessmentEmbedded": ""
+    },
+    {
+      "phase": "O",
+      "title": "明确学习目标",
+      "duration": 2,
+      "teacherAction": "展示本课学习目标，简要说明重点。",
+      "studentAction": "阅读目标，明确任务。",
+      "designIntent": "让学生明确学什么、怎么学。",
+      "assessmentEmbedded": ""
+    },
+    {
+      "phase": "P-participatory",
+      "title": "核心探索：一氧化碳的还原性",
+      "duration": 15,
+      "teacherAction": "演示CO还原CuO实验（先通CO后加热），引导学生观察现象（黑色变红色、澄清石灰水变浑浊）。提问：为什么先通CO？尾气如何处理？先让学生讨论，再讲解。",
+      "studentAction": "先独立观察并记录现象，尝试解释；再小组讨论尾气处理方案，交流后听取教师讲解。",
+      "designIntent": "体现困难前置（先让学生思考尾气处理）、过程保留（记录观察）、抽象保护（实验现象到化学方程式的过渡）。",
+      "assessmentEmbedded": "观察学生记录是否完整，小组讨论参与度。"
+    },
+    {
+      "phase": "P-post",
+      "title": "后测练习",
+      "duration": 8,
+      "teacherAction": "发放练习题：写出CO燃烧和还原CuO的化学方程式，并判断反应类型。",
+      "studentAction": "独立完成练习，同桌互批。",
+      "designIntent": "检测学习效果，巩固核心知识。",
+      "assessmentEmbedded": "批改结果反馈。"
+    },
+    {
+      "phase": "S",
+      "title": "课堂总结",
+      "duration": 5,
+      "teacherAction": "引导学生总结一氧化碳的性质（可燃性、还原性、毒性），并强调安全使用。",
+      "studentAction": "总结发言，记录笔记。",
+      "designIntent": "归纳本课核心内容，为后续学习（如金属冶炼）铺垫。",
+      "assessmentEmbedded": ""
+    }
+  ],
+  "homework": {
+    "requiredTitle1": "基础巩固：化学方程式书写",
+    "requiredDesc1": "书写CO燃烧和还原CuO的化学方程式，并配平。",
+    "requiredTitle2": "应用提升：安全宣传",
+    "requiredDesc2": "写一段关于冬季取暖安全使用煤炉的注意事项，涉及一氧化碳的毒性。",
+    "optionalTitle": "挑战题：尾气处理设计",
+    "optionalDesc": "设计一个实验装置，用于处理CO还原CuO的尾气，画出装置图并说明原理。",
+    "designIntent": "分层设计，基础题巩固知识，提升题联系生活，挑战题培养创新思维。",
+    "differentiationNote": "基础薄弱学生完成必做1，中等学生完成必做1和2，学有余力学生完成选做题。"
+  },
+  "boardDesign": {
+    "layout": "左侧：一氧化碳的性质（可燃性、还原性、毒性）；中间：化学方程式（2CO+O2→2CO2，CO+CuO→Cu+CO2）；右侧：注意事项（安全、尾气处理）。",
+    "keyElements": [
+      "一氧化碳的可燃性",
+      "一氧化碳的还原性",
+      "一氧化碳的毒性",
+      "化学方程式",
+      "尾气处理"
+    ],
+    "structureLogic": "性质→方程式→应用与安全，体现性质决定用途的脉络。"
+  },
+  "reflection": {
+    "targetAchievement": "预计80%学生能掌握一氧化碳的主要性质并书写方程式，60%能设计尾气处理方案。",
+    "improvementMeasures": [
+      "增加学生分组实验机会，增强体验",
+      "对尾气处理部分可引入更多讨论，加深理解"
+    ],
+    "notableObservations": "注意学生对CO还原CuO中先通CO后加热的安全步骤理解，防止混淆。"
+  },
+  "difficultyDesign": {
+    "targetDifficulty": "一氧化碳还原氧化铜实验中的操作顺序（先通CO后加热）及尾气处理的设计。",
+    "educationalValue": "该困难涉及实验安全和科学思维（排除空气干扰、防止污染），有助于培养严谨的科学态度。",
+    "zpdAlignment": "学生已学CO2的实验室制法，对气体操作有基础；通过引导讨论，学生能在合作中解决。",
+    "meaninglessObstacles": [
+      "复杂的装置连接术语",
+      "过度强调化学计量数配平"
+    ],
+    "motivationStrategy": "通过煤气中毒情境激发自主性（自主探究安全方案），小组合作增强胜任感，教师鼓励增强关系感。",
+    "difficultyFirst": "在演示实验前，先让学生预测操作顺序和尾气处理方案，暴露困惑。",
+    "processPreservation": "让学生记录实验现象和讨论过程，保留思维痕迹。",
+    "abstractionProtection": "在解释还原性时，先以宏观现象（黑色变红色）切入，再引入微观电子转移概念（不深入），最后用化学方程式抽象。"
+  }
+}

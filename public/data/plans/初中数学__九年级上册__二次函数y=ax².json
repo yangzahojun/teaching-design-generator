@@ -1,0 +1,156 @@
+{
+  "standardAnalysis": {
+    "contentRequirement": "理解二次函数的意义，能画二次函数的图象，通过图象了解二次函数的性质，知道二次函数与一元二次方程之间的关系。",
+    "academicRequirement": "能利用二次函数的图象和性质解决简单的实际问题，体会数形结合的思想方法。",
+    "teachingHint": "通过具体情境引入二次函数，借助图象直观理解性质，注重学生自主探索与合作交流。",
+    "coreCompetencyNames": [
+      "数学抽象",
+      "逻辑推理",
+      "数学建模",
+      "直观想象"
+    ]
+  },
+  "textbookAnalysis": {
+    "verticalAnalysis": "本课位于人教版九年级上册第二十二章《二次函数》第一节第二课时。学生在之前已学习了一次函数、反比例函数，具备函数图象绘制与性质分析的基础。本课是二次函数学习的起点，重点研究y=ax²的图象和性质，为后续学习y=ax²+bx+c以及二次函数的应用奠定基础。教材通过具体实例（如正方体表面积与棱长关系）引入二次函数，再通过列表、描点、连线绘制y=x²和y=-x²的图象，观察归纳性质。",
+    "crossAnalysis": "相比北师大版，人教版更强调从实际问题引入，图象绘制步骤详细，注重数形结合。本版本特色是图象与性质紧密关联，通过对比y=x²和y=-x²的异同，帮助学生理解a对开口方向、对称轴、顶点的影响。",
+    "bigConcept": "二次函数的图象与性质（形与数的统一）",
+    "keyKnowledge": [
+      "二次函数y=ax²的图象是抛物线",
+      "a的符号决定开口方向",
+      "对称轴是y轴，顶点是原点"
+    ],
+    "difficulties": [
+      "教学重点：用描点法画y=ax²的图象并归纳性质",
+      "教学难点：理解a对抛物线开口方向和开口大小的影响"
+    ]
+  },
+  "learnerAnalysis": {
+    "priorKnowledge": "学生已经学习了一次函数、反比例函数的图象和性质，掌握描点法作图，了解函数的基本概念。",
+    "priorExperience": "生活中常见抛物线形状（如喷泉、投篮轨迹），但缺乏数学抽象。",
+    "cognitiveDifficulty": "从一次函数的直线过渡到二次函数的曲线，学生可能难以接受图象的对称性和顶点概念；对a的绝对值大小与开口宽窄的关系可能理解不足。",
+    "preAssessment": "通过课堂提问和简短前测卷，检查学生对函数作图步骤和一次函数性质的掌握情况。"
+  },
+  "learningObjectives": [
+    {
+      "content": "学生通过列表、描点、连线，能准确画出y=x²和y=-x²的图象，并说出图象的特征。",
+      "category": "knowledge",
+      "competencyLink": "直观想象",
+      "assessmentMethod": "课堂观察、绘图作品评价"
+    },
+    {
+      "content": "学生通过观察图象，能归纳出二次函数y=ax²的开口方向、对称轴和顶点坐标，并能解释a对图象的影响。",
+      "category": "skill",
+      "competencyLink": "逻辑推理",
+      "assessmentMethod": "小组讨论、口头回答"
+    },
+    {
+      "content": "学生通过小组合作探究，体验从特殊到一般的归纳过程，感受数学的对称美，增强学习兴趣。",
+      "category": "attitude",
+      "competencyLink": "数学抽象",
+      "assessmentMethod": "课堂参与度、反思日志"
+    }
+  ],
+  "assessmentTasks": {
+    "preMethod": "课前发放简短前测卷（5分钟）",
+    "preQuestions": [
+      "请描述一次函数y=2x+1的图象特点。",
+      "如何用描点法画函数图象？步骤是什么？"
+    ],
+    "prePurpose": "了解学生对函数作图步骤和一次函数性质的掌握程度，诊断潜在困难。",
+    "postMethod": "课后完成课堂练习和小组展示",
+    "postTasks": [
+      "画出y=2x²和y=-0.5x²的图象，并指出开口方向、对称轴和顶点。",
+      "讨论：a的值对抛物线开口大小有何影响？"
+    ],
+    "postRubric": "优秀：图象准确、性质归纳完整、能解释a的影响；合格：图象基本正确、性质基本正确；需辅导：图象绘制有误、性质理解模糊"
+  },
+  "activities": [
+    {
+      "phase": "B",
+      "title": "情境导入：生活中的抛物线",
+      "duration": 3,
+      "teacherAction": "展示喷泉、篮球投篮等图片，提问：这些轨迹是什么形状？你能用数学语言描述吗？",
+      "studentAction": "观察图片，自由发言，猜测是抛物线。",
+      "designIntent": "从生活情境出发，激发兴趣，引出二次函数图象。",
+      "assessmentEmbedded": "观察学生参与度"
+    },
+    {
+      "phase": "O",
+      "title": "明确学习目标",
+      "duration": 2,
+      "teacherAction": "板书课题并呈现本课目标：学会画y=ax²的图象，归纳性质。",
+      "studentAction": "聆听并记录目标。",
+      "designIntent": "让学生明确学习方向。",
+      "assessmentEmbedded": ""
+    },
+    {
+      "phase": "P-participatory",
+      "title": "核心探索：画图与归纳",
+      "duration": 15,
+      "teacherAction": "布置任务：画出y=x²的图象。先让学生独立尝试，巡视发现共性问题（如描点不足、连线不光滑）。之后引导小组交流，请代表展示，教师补充强调对称性和顶点。再让学生画y=-x²，对比异同。",
+      "studentAction": "独立画图，遇到困难时与组员讨论，展示作品，总结性质。",
+      "designIntent": "困难前置，让学生先经历困惑，再通过合作和教师引导突破难点。",
+      "assessmentEmbedded": "巡视时记录学生绘图错误，及时反馈"
+    },
+    {
+      "phase": "P-post",
+      "title": "后测练习",
+      "duration": 8,
+      "teacherAction": "布置练习：画y=2x²和y=-0.5x²的图象，并填写性质表。巡回指导，个别辅导。",
+      "studentAction": "独立完成练习，小组内互评。",
+      "designIntent": "检测学生对知识的迁移和应用能力。",
+      "assessmentEmbedded": "练习结果即时反馈"
+    },
+    {
+      "phase": "S",
+      "title": "课堂总结",
+      "duration": 5,
+      "teacherAction": "引导学生回顾本课知识：y=ax²的图象是抛物线，a决定开口方向和大小，对称轴是y轴，顶点是原点。",
+      "studentAction": "口头总结，记录关键结论。",
+      "designIntent": "梳理知识脉络，为后续学习铺垫。",
+      "assessmentEmbedded": ""
+    }
+  ],
+  "homework": {
+    "requiredTitle1": "基础巩固：绘制图象",
+    "requiredDesc1": "画出y=3x²和y=-2x²的图象，并写出开口方向、对称轴和顶点坐标。",
+    "requiredTitle2": "性质归纳",
+    "requiredDesc2": "完成表格：对比y=x², y=2x², y=0.5x²的开口大小，总结规律。",
+    "optionalTitle": "挑战题：生活中的抛物线",
+    "optionalDesc": "收集一个生活中的抛物线实例，尝试用y=ax²近似描述，并说明a的取值。",
+    "designIntent": "分层设计，基础题巩固核心知识，挑战题拓展应用能力。",
+    "differentiationNote": "基础薄弱学生只完成必做作业；学有余力学生可选做挑战题。"
+  },
+  "boardDesign": {
+    "layout": "左侧：课题与目标；中间：y=x²和y=-x²的图象；右侧：性质总结（开口方向、对称轴、顶点、a的作用）。",
+    "keyElements": [
+      "y=ax²",
+      "抛物线",
+      "开口方向",
+      "对称轴",
+      "顶点"
+    ],
+    "structureLogic": "从左到右：引入→图象→性质，层层递进。"
+  },
+  "reflection": {
+    "targetAchievement": "预计80%学生能正确画图并归纳性质，20%学生需课后辅导。",
+    "improvementMeasures": [
+      "增加小组讨论时间，促进互助",
+      "对绘图困难学生提供模板或微视频"
+    ],
+    "notableObservations": "注意学生是否混淆a的符号与开口方向的关系，及时纠正。"
+  },
+  "difficultyDesign": {
+    "targetDifficulty": "核心困难：从一次函数直线思维过渡到二次函数曲线，以及理解a对开口大小的影响。",
+    "educationalValue": "这个困难有助于学生突破函数认知的线性局限，发展函数图象的多样性思维。",
+    "zpdAlignment": "通过前测了解学生画图基础，课堂中先独立尝试再小组合作，教师适时指导，确保困难在可接受范围内。",
+    "meaninglessObstacles": [
+      "避免过早引入复杂计算",
+      "简化列表数据，只用整数点"
+    ],
+    "motivationStrategy": "通过生活实例和小组竞赛激发兴趣，给予学生自主尝试和表达的机会（自主性），提供成功体验（胜任感），鼓励合作交流（关系感）。",
+    "difficultyFirst": "先让学生独立画y=x²图象，经历绘图不准确或连线不光滑的困惑，再通过小组讨论和教师引导解决。",
+    "processPreservation": "保留学生原始绘图作品，展示错误案例，讨论改进方法，不急于给出标准答案。",
+    "abstractionProtection": "用具体数值和图象支撑抽象性质，避免直接背诵结论；通过对比不同a值的图象，逐步抽象出一般规律。"
+  }
+}

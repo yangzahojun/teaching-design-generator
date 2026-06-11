@@ -1,0 +1,156 @@
+{
+  "standardAnalysis": {
+    "contentRequirement": "能理解和运用简单的日常交际用语，如问候、介绍自己和他人；能在具体语境中运用正确的语法结构，如be动词的一般现在时（am/is/are）及人称代词（I, you, he, she, it）的用法。",
+    "academicRequirement": "能根据图片或提示，用简单的英语介绍自己或他人的姓名、年龄等基本信息；能参与简短的对话，正确使用问候语和自我介绍用语。",
+    "teachingHint": "创设真实或模拟的交际情境，让学生在活动中学习和运用语言；注重听说领先，读写跟上；鼓励学生在小组活动中合作交流，培养语用能力。",
+    "coreCompetencyNames": [
+      "语言能力",
+      "文化意识",
+      "思维品质",
+      "学习能力"
+    ]
+  },
+  "textbookAnalysis": {
+    "verticalAnalysis": "本课是人教版七年级上册Unit1《My name's Gina》的第一课时（Section A 1a-2d）。在小学阶段，学生已学过简单的问候语（如Hello, Hi, Good morning）和介绍自己的句子（如I'm...）。本课是初中英语的起始单元，重点学习用“My name's.../I'm...”介绍自己，用“What's your/his/her name?”询问他人姓名，并掌握be动词am/is与第一、二、三人称的搭配。后续单元将拓展到更多日常交际话题和时态。",
+    "crossAnalysis": "与其他版本（如外研版、牛津版）相比，人教版本课以对话和听力为主，更注重听说技能，词汇量较少但句型实用。教材通过图片、配对活动（1a匹配单词与图片）、听力填空（1b）、角色扮演（1c）和扩展对话（2d）层层递进，体现了“任务型教学”理念，强调在真实语境中运用。",
+    "bigConcept": "用英语自我介绍和询问他人姓名是人际交往的基本技能，涉及be动词的一般现在时和人称代词的运用，体现了语言形式与交际功能的结合。",
+    "keyKnowledge": [
+      "词汇：name, nice, meet, your, his, her, my, I'm, what's",
+      "句型：What's your/his/her name? My name's.../I'm...",
+      "语法：be动词am/is的用法；形容词性物主代词my, your, his, her"
+    ],
+    "difficulties": [
+      "教学重点：正确使用be动词am/is介绍自己和询问他人",
+      "教学难点：区分并正确使用his和her；在口语中自然使用缩写形式（如I'm, what's, name's）"
+    ]
+  },
+  "learnerAnalysis": {
+    "priorKnowledge": "学生已在小学阶段学习过26个字母、简单的问候语（Hello, Hi, Good morning）及自我介绍（I'm...），但可能对be动词的完整形式（am, is）和缩写形式（'m, 's）不熟悉，对his/her的区分可能模糊。",
+    "priorExperience": "学生在日常生活中经常需要介绍自己或询问他人姓名（如开学认识新同学），有一定的生活经验。",
+    "cognitiveDifficulty": "学生可能混淆his和her的用法，以及be动词am和is的搭配（如将He name is...误说成His name is...）；缩写形式（如name's）的发音和拼写可能有困难。",
+    "preAssessment": "通过课前小问卷或口头提问，了解学生对小学所学自我介绍句型的掌握情况，以及对his/her的初步认知。"
+  },
+  "learningObjectives": [
+    {
+      "content": "学生能听懂并准确说出本课核心词汇（name, nice, meet, your, his, her, my, I'm, what's），并能在语境中正确拼写。",
+      "category": "knowledge",
+      "competencyLink": "语言能力",
+      "assessmentMethod": "听写单词、填空练习"
+    },
+    {
+      "content": "学生能运用句型“What's your/his/her name? My name's.../I'm...”进行自我介绍和询问他人姓名，语音语调自然。",
+      "category": "skill",
+      "competencyLink": "语言能力、学习能力",
+      "assessmentMethod": "角色扮演、对话展示"
+    },
+    {
+      "content": "学生能在小组活动中尊重他人，主动用英语交流，体验用英语交友的乐趣。",
+      "category": "attitude",
+      "competencyLink": "文化意识、思维品质",
+      "assessmentMethod": "课堂观察、同伴互评"
+    }
+  ],
+  "assessmentTasks": {
+    "preMethod": "课前口头提问和简单问卷",
+    "preQuestions": [
+      "你会用英语介绍自己吗？请说一句。",
+      "你知道his和her的区别吗？请举例。"
+    ],
+    "prePurpose": "了解学生对自我介绍句型和his/her的已有知识，以便调整教学起点。",
+    "postMethod": "课堂角色扮演和填空练习",
+    "postTasks": [
+      "两人一组，用所学句型互相介绍并询问对方姓名，然后向全班展示。",
+      "完成课本2d后的填空练习（如：A: What's ___ name? B: ___ name is Tom.）"
+    ],
+    "postRubric": "优秀：能流利使用完整句型，his/her使用正确，语音语调自然；合格：能基本使用句型，有个别错误但仍可理解；需辅导：无法独立完成，需要教师或同伴帮助。"
+  },
+  "activities": [
+    {
+      "phase": "B",
+      "title": "歌曲导入：Hello, Hello!",
+      "duration": 3,
+      "teacherAction": "播放英文问候歌曲（如Hello Song），引导学生跟唱，然后提问：How do you introduce yourself in English?",
+      "studentAction": "跟唱歌曲，回忆旧知，尝试回答教师问题。",
+      "designIntent": "利用歌曲激活学生已有知识，营造轻松氛围，激发学习兴趣（动机优先原则）。",
+      "assessmentEmbedded": "观察学生跟唱和回答情况，评估学生对自我介绍句型的掌握程度。"
+    },
+    {
+      "phase": "O",
+      "title": "明确学习目标",
+      "duration": 2,
+      "teacherAction": "展示本课学习目标（用中文或简单英文），解释今天要学什么、为什么学、怎么学。",
+      "studentAction": "认真听，明确学习任务。",
+      "designIntent": "让学生清楚学习方向和评价标准，增强目标意识。",
+      "assessmentEmbedded": ""
+    },
+    {
+      "phase": "P-participatory",
+      "title": "核心探索：询问姓名与自我介绍",
+      "duration": 15,
+      "teacherAction": "1. 呈现新词汇和句型（板书核心句子），但先不解释his/her区别。2. 设计“猜人名”活动：教师出示几张名人图片（如姚明、杨幂），问“What's his/her name?”，让学生先尝试回答。3. 在学生出错（如混淆his/her）时，引导观察和讨论，再给出正确规则。",
+      "studentAction": "1. 听教师示范，跟读单词和句子。2. 独立尝试回答教师提问（可能出错）。3. 小组讨论his/her的区别，并尝试纠正错误。4. 两两练习：用句型互相介绍。",
+      "designIntent": "困难前置：先让学生经历混淆his/her的困难，再通过讨论和教师点拨解决，加深理解。过程保留：学生先独立尝试，再合作交流，保留学习痕迹。",
+      "assessmentEmbedded": "教师巡视，观察学生讨论和练习情况，记录常见错误，进行即时反馈。"
+    },
+    {
+      "phase": "P-post",
+      "title": "后测练习：角色扮演",
+      "duration": 8,
+      "teacherAction": "布置任务：两人一组，模拟开学第一天认识新同学，用所学句型对话。要求至少包含两个问题（询问对方姓名和另一个同学姓名）。请几组展示。",
+      "studentAction": "组内练习，然后自愿或指定展示。其他同学听并评价（his/her使用是否正确）。",
+      "designIntent": "检测学生对核心句型的掌握和运用能力，同时培养合作与评价能力。",
+      "assessmentEmbedded": "教师和同伴根据评价量规进行口头评价。"
+    },
+    {
+      "phase": "S",
+      "title": "课堂总结：知识树",
+      "duration": 5,
+      "teacherAction": "引导学生总结本课所学词汇和句型，板书知识树（核心词汇、句型、his/her用法）。强调be动词am/is的区分。",
+      "studentAction": "回忆并口头总结，补充板书内容。",
+      "designIntent": "帮助学生梳理知识结构，形成系统记忆，为后续学习铺垫。",
+      "assessmentEmbedded": ""
+    }
+  ],
+  "homework": {
+    "requiredTitle1": "基础练习：单词与句型",
+    "requiredDesc1": "完成课本2d的填空练习，并抄写核心词汇（name, nice, meet, your, his, her）各两遍。",
+    "requiredTitle2": "口语作业：自我介绍视频",
+    "requiredDesc2": "录制一段30秒的英语自我介绍视频，包含姓名、问候语，并询问一个朋友的名字。上传至班级群。",
+    "optionalTitle": "拓展挑战：采访家人",
+    "optionalDesc": "用英语采访三位家人或朋友，询问他们的英文名（或中文名拼音），记录并写出句子（如：His name is... Her name is...）。",
+    "designIntent": "分层设计：基础作业巩固词汇和句型；口语作业培养语用能力；选做作业拓展应用，满足不同水平学生需求。",
+    "differentiationNote": "对于基础薄弱的学生，可只完成必做1和简化版必做2（只说一句自我介绍）；对于学有余力的学生，鼓励完成选做作业并尝试更多句子。"
+  },
+  "boardDesign": {
+    "layout": "左侧：核心词汇（my, your, his, her, name, nice, meet）；中间：核心句型（What's your/his/her name? My name's.../I'm...）及be动词搭配（I am, He/She is）；右侧：his/her区分示例（姚明→his, 杨幂→her）。",
+    "keyElements": [
+      "核心词汇",
+      "核心句型",
+      "be动词am/is",
+      "his/her对比"
+    ],
+    "structureLogic": "从词汇到句型再到语法规则，体现由浅入深的结构化逻辑。"
+  },
+  "reflection": {
+    "targetAchievement": "预计大部分学生能掌握核心句型和his/her的基本用法，但部分学生可能在口语中混淆his/her，需要后续持续练习。",
+    "improvementMeasures": [
+      "增加更多图片和实物操练his/her",
+      "设计更丰富的游戏巩固（如“猜猜他是谁”）",
+      "课后提供微课视频供学生反复观看"
+    ],
+    "notableObservations": "注意不同小学毕业生的英语基础差异，对基础薄弱的学生给予更多示范和鼓励。"
+  },
+  "difficultyDesign": {
+    "targetDifficulty": "区分并正确使用his和her，以及在口语中自然使用缩写形式（如name's）。",
+    "educationalValue": "his/her是英语中重要的物主代词，区分不清会影响交际准确性，且为后续学习所有格奠定基础。",
+    "zpdAlignment": "学生已有I'm和my的基础，但his/her是全新内容。通过图片、语境和小组讨论，将困难控制在学生通过努力可以解决的范围内。",
+    "meaninglessObstacles": [
+      "避免过多语法术语讲解",
+      "避免一次性教授所有物主代词（如its, our）"
+    ],
+    "motivationStrategy": "自主性：让学生选择自己感兴趣的名人图片来练习；胜任感：通过小组合作降低难度，及时表扬进步；关系感：创设“认识新朋友”的真实情境，增强交流动机。",
+    "difficultyFirst": "在核心探索环节，先让学生尝试回答“What's his/her name?”（不提供his/her规则），让他们在犯错中意识到困难，再引导发现规律。",
+    "processPreservation": "学生在草稿纸上记录自己的尝试和错误，小组讨论时分享思考过程，教师保留学生的错误例子作为教学资源。",
+    "abstractionProtection": "通过具体名人图片（男/女）和实物场景，将抽象的his/her规则具象化，避免过早抽象讲解。"
+  }
+}

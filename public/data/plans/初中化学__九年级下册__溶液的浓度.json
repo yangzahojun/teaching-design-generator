@@ -1,0 +1,154 @@
+{
+  "standardAnalysis": {
+    "contentRequirement": "认识溶质质量分数的含义，能进行简单的计算。",
+    "academicRequirement": "能进行溶质质量分数的简单计算，并能完成相关实验。",
+    "teachingHint": "通过配制一定溶质质量分数的溶液，帮助学生理解溶质质量分数的概念，并进行计算。",
+    "coreCompetencyNames": [
+      "科学探究与实践",
+      "科学思维",
+      "科学态度与责任"
+    ]
+  },
+  "textbookAnalysis": {
+    "verticalAnalysis": "本课位于人教版九年级下册第九单元《溶液》的课题3。在此之前，学生已学习了溶液的形成（课题1）和溶解度（课题2），掌握了溶液的基本概念、组成、饱和溶液与不饱和溶液等知识。本课是溶液知识的深化和定量化应用，为后续学习酸碱盐及复分解反应中的溶液计算奠定基础。教材从生活实例（如药液浓度）引入，通过实验探究配制溶液，建立溶质质量分数的概念，再通过例题和练习巩固计算。",
+    "crossAnalysis": "不同版本教材（如鲁教版、沪教版）均强调溶质质量分数的概念和计算，但人教版更注重从生活情境出发，通过实验活动（配制溶液）帮助学生理解概念，淡化纯计算技巧，突出科学探究。本版本特色在于将计算与实验操作紧密结合，体现“做中学”理念。",
+    "bigConcept": "溶液的组成可以用溶质质量分数进行定量描述",
+    "keyKnowledge": [
+      "溶质质量分数的概念和公式",
+      "溶质质量分数的简单计算",
+      "配制一定溶质质量分数溶液的方法"
+    ],
+    "difficulties": [
+      "教学重点：溶质质量分数的概念及计算",
+      "教学难点：理解溶质质量分数的含义，以及配制实验中误差分析"
+    ]
+  },
+  "learnerAnalysis": {
+    "priorKnowledge": "学生已掌握溶液、溶剂、溶质的概念，了解饱和溶液与不饱和溶液，能进行简单的质量计算。",
+    "priorExperience": "学生在生活中接触过盐水、糖水、消毒液等溶液，对“浓度”有模糊的感性认识（如越咸浓度越大）。",
+    "cognitiveDifficulty": "学生可能混淆溶质质量分数与溶解度，对质量分数的抽象概念理解困难，计算时容易忽略单位换算或公式变形。",
+    "preAssessment": "通过课堂提问和填空题前测，了解学生对溶液组成和比例的已有理解。"
+  },
+  "learningObjectives": [
+    {
+      "content": "通过生活实例和实验，学生能说出溶质质量分数的含义，并写出计算公式。",
+      "category": "knowledge",
+      "competencyLink": "科学思维",
+      "assessmentMethod": "课堂提问、实验报告"
+    },
+    {
+      "content": "通过配制一定溶质质量分数的氯化钠溶液实验，学生能正确操作并计算所需溶质和溶剂的质量。",
+      "category": "skill",
+      "competencyLink": "科学探究与实践",
+      "assessmentMethod": "实验操作观察、实验报告"
+    },
+    {
+      "content": "通过讨论溶液浓度在生活中的应用，学生能体会化学定量研究对生活生产的重要性，形成严谨求实的科学态度。",
+      "category": "attitude",
+      "competencyLink": "科学态度与责任",
+      "assessmentMethod": "课堂讨论表现、反思日志"
+    }
+  ],
+  "assessmentTasks": {
+    "preMethod": "课堂提问+小测验",
+    "preQuestions": [
+      "一杯糖水，糖占10%，是什么意思？",
+      "如何比较两杯糖水的甜度？"
+    ],
+    "prePurpose": "了解学生对浓度概念的日常经验和已有知识，诊断混淆点。",
+    "postMethod": "实验操作评价+书面计算题",
+    "postTasks": [
+      "配制50g质量分数为6%的氯化钠溶液",
+      "计算20g氯化钠配成10%溶液需要多少水？"
+    ],
+    "postRubric": "优秀：操作规范，计算准确，能分析误差原因；合格：操作基本规范，计算正确；需辅导：操作有误或计算错误"
+  },
+  "activities": [
+    {
+      "phase": "B",
+      "title": "情境导入：药液浓度知多少",
+      "duration": 3,
+      "teacherAction": "展示消毒液、糖水等标签，提问：标签上的百分比表示什么？为什么不同药液浓度不同？",
+      "studentAction": "观察标签，讨论并回答",
+      "designIntent": "从生活情境出发，激发兴趣，引出浓度概念",
+      "assessmentEmbedded": ""
+    },
+    {
+      "phase": "O",
+      "title": "明确学习目标",
+      "duration": 2,
+      "teacherAction": "展示本节课的学习目标，解释溶质质量分数的重要性和应用",
+      "studentAction": "听讲，明确学习任务",
+      "designIntent": "让学生明确学什么、怎么学",
+      "assessmentEmbedded": ""
+    },
+    {
+      "phase": "P-participatory",
+      "title": "实验探究：配制6%氯化钠溶液",
+      "duration": 15,
+      "teacherAction": "先提问：要配制50g6%的氯化钠溶液，需要多少氯化钠和水？让学生先尝试计算，再提供天平、药匙、量筒等器材，引导学生分组实验，过程中巡视指导，纠正错误操作。",
+      "studentAction": "先独立计算所需质量，然后分组实验：称量氯化钠、量取水、溶解。记录数据，观察溶解过程。",
+      "designIntent": "困难前置：先让学生面对计算困难再实验；过程保留：学生经历完整探究；抽象保护：通过具体操作理解抽象概念",
+      "assessmentEmbedded": "观察学生计算和操作是否正确，记录实验报告"
+    },
+    {
+      "phase": "P-post",
+      "title": "练习巩固：计算与误差分析",
+      "duration": 8,
+      "teacherAction": "出示变式题：若配制的溶液质量分数偏大或偏小，可能是什么原因？引导学生讨论。",
+      "studentAction": "完成计算练习，小组讨论误差原因并汇报。",
+      "designIntent": "检测学习效果，深化理解",
+      "assessmentEmbedded": "计算题正确率、讨论参与度"
+    },
+    {
+      "phase": "S",
+      "title": "课堂总结与拓展",
+      "duration": 5,
+      "teacherAction": "总结溶质质量分数的公式、计算步骤和实验注意事项，提问：生活中还有哪些地方用到浓度？",
+      "studentAction": "回顾本课内容，举例应用",
+      "designIntent": "归纳核心内容，为后续学习铺垫",
+      "assessmentEmbedded": ""
+    }
+  ],
+  "homework": {
+    "requiredTitle1": "基础计算练习",
+    "requiredDesc1": "完成课本第45页课后习题1-3，计算溶质质量分数。",
+    "requiredTitle2": "实验报告完善",
+    "requiredDesc2": "整理实验报告，包括实验步骤、数据、计算过程和误差分析。",
+    "optionalTitle": "家庭小实验：配制食醋溶液",
+    "optionalDesc": "用食醋和水配制50g质量分数为5%的食醋溶液，并记录过程。",
+    "designIntent": "分层设计，基础作业巩固计算和实验技能，选做作业联系生活，培养兴趣。",
+    "differentiationNote": "基础薄弱学生只做必做作业，学有余力学生完成选做并反思"
+  },
+  "boardDesign": {
+    "layout": "左侧：溶质质量分数定义及公式（ω=m质/m液×100%）；中间：配制6% NaCl溶液的计算步骤（m质=50g×6%=3g，m水=50g-3g=47g）；右侧：实验操作要点（称量、量取、溶解）及误差分析（偏大/偏小原因）",
+    "keyElements": [
+      "溶质质量分数",
+      "计算公式",
+      "配制步骤",
+      "误差分析"
+    ],
+    "structureLogic": "从概念到计算再到实验应用，层层递进"
+  },
+  "reflection": {
+    "targetAchievement": "预计85%学生能掌握计算和基本操作，15%学生需个别辅导。",
+    "improvementMeasures": [
+      "增加计算练习的变式",
+      "实验前强调安全与规范"
+    ],
+    "notableObservations": "注意学生计算时单位换算错误，以及称量时天平使用不规范"
+  },
+  "difficultyDesign": {
+    "targetDifficulty": "核心困难：从具体操作到抽象比例理解，即为什么溶质质量分数是质量比而非体积比。",
+    "educationalValue": "这个困难帮助学生建立定量思维，理解化学中的比例关系，避免后续学习中的概念混淆。",
+    "zpdAlignment": "学生已有溶液和溶解度的基础，通过实验操作和计算引导，困难在最近发展区内。",
+    "meaninglessObstacles": [
+      "复杂的计算技巧",
+      "不必要的高精度称量要求"
+    ],
+    "motivationStrategy": "自主性：让学生自己设计配制方案；胜任感：通过成功配制获得成就感；关系感：小组合作互相帮助。",
+    "difficultyFirst": "先让学生面对“需要多少氯化钠和水”的问题，经历计算困惑，再提供指导。",
+    "processPreservation": "保留学生计算草稿和实验记录，对比正确与错误过程。",
+    "abstractionProtection": "用具体实验数据和实物（如称量出的氯化钠）支撑抽象的比例概念，避免过早符号化。"
+  }
+}

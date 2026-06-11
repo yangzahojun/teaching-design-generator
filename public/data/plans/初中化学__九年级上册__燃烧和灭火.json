@@ -1,0 +1,154 @@
+{
+  "standardAnalysis": {
+    "contentRequirement": "认识燃烧、灭火和爆炸的条件，知道灭火的原理和方法，了解防范爆炸的措施。",
+    "academicRequirement": "能运用燃烧与灭火的知识解释生活中的相关现象，设计简单的灭火方案。",
+    "teachingHint": "通过实验探究燃烧的条件和灭火的原理，引导学生从化学视角认识燃烧与灭火。",
+    "coreCompetencyNames": [
+      "科学探究与实践",
+      "科学思维",
+      "科学态度与责任"
+    ]
+  },
+  "textbookAnalysis": {
+    "verticalAnalysis": "本课位于人教版九年级上册第七单元《燃料及其利用》课题1《燃烧和灭火》。在学完氧气、碳及其化合物等物质性质后，学生已具备一定的化学基础。本课是学生首次系统学习燃烧与灭火的化学原理，为后续学习燃料的合理利用、化学反应中的能量变化等知识奠定基础。教材通过实验探究燃烧条件，再引出灭火原理，体现了从现象到本质的认知逻辑。",
+    "crossAnalysis": "人教版教材以实验探究为主线，通过‘红磷与白磷燃烧对比实验’直观呈现燃烧条件；而鲁教版等版本更侧重于生活情境引入。人教版特色在于实验设计清晰，强调控制变量法，并融入‘灭火器原理’等实用知识，突出化学与生活的联系。",
+    "bigConcept": "化学反应的条件与调控",
+    "keyKnowledge": [
+      "燃烧的条件（可燃物、氧气、温度达到着火点）",
+      "灭火的原理（清除可燃物、隔绝氧气、降低温度至着火点以下）",
+      "灭火器的原理与使用方法"
+    ],
+    "difficulties": [
+      "教学重点：燃烧的条件和灭火的原理",
+      "教学难点：理解‘着火点’是物质固有属性，以及灭火中‘降低温度’与‘降低着火点’的区别"
+    ]
+  },
+  "learnerAnalysis": {
+    "priorKnowledge": "学生已学习氧气支持燃烧的性质，知道常见物质的可燃性，初步掌握控制变量实验的设计方法。",
+    "priorExperience": "学生在生活中有用火、灭火（如用水浇灭蜡烛）的经验，但缺乏对原理的深入理解，可能存在‘用水灭火是因为水降低了着火点’的迷思概念。",
+    "cognitiveDifficulty": "学生容易混淆‘降低温度’与‘降低着火点’，认为着火点可改变；对灭火器原理的化学机制理解较难。",
+    "preAssessment": "通过课堂提问和简短的纸笔前测（如‘为什么水能灭火？’）了解学生已有认知和迷思概念。"
+  },
+  "learningObjectives": [
+    {
+      "content": "通过实验探究，学生能说出燃烧的三个必要条件，并能用其解释生活中的燃烧现象。",
+      "category": "knowledge",
+      "competencyLink": "科学思维",
+      "assessmentMethod": "课堂提问、实验报告"
+    },
+    {
+      "content": "通过分析灭火实例，学生能归纳出灭火的三种原理，并设计简单的灭火方案。",
+      "category": "skill",
+      "competencyLink": "科学探究与实践",
+      "assessmentMethod": "小组讨论、方案设计展示"
+    },
+    {
+      "content": "通过了解灭火器原理和火灾逃生知识，学生能形成安全用火意识和自我保护意识。",
+      "category": "attitude",
+      "competencyLink": "科学态度与责任",
+      "assessmentMethod": "课堂表现、课后反思"
+    }
+  ],
+  "assessmentTasks": {
+    "preMethod": "课堂提问与简答",
+    "preQuestions": [
+      "你认为燃烧需要什么条件？",
+      "为什么用水能浇灭火焰？"
+    ],
+    "prePurpose": "诊断学生对燃烧条件的已有认识，识别‘着火点可降低’等迷思概念。",
+    "postMethod": "纸笔测试与实验设计",
+    "postTasks": [
+      "列举三种灭火方法并说明原理",
+      "设计一个实验证明燃烧需要氧气"
+    ],
+    "postRubric": "优秀：能准确解释原理并设计合理实验；合格：能说出条件但解释不完整；需辅导：无法区分条件或原理错误。"
+  },
+  "activities": [
+    {
+      "phase": "B",
+      "title": "火柴燃烧与熄灭",
+      "duration": 3,
+      "teacherAction": "点燃一根火柴，让学生观察燃烧现象，再吹灭，提问‘为什么吹气能灭火？’",
+      "studentAction": "观察、思考并尝试回答",
+      "designIntent": "从生活现象切入，激发好奇心，揭示学习主题",
+      "assessmentEmbedded": "学生回答情况反映前概念"
+    },
+    {
+      "phase": "O",
+      "title": "明确学习目标",
+      "duration": 2,
+      "teacherAction": "展示本课学习目标：探究燃烧条件、灭火原理，并学会安全用火。",
+      "studentAction": "阅读目标，明确学习任务",
+      "designIntent": "让学生知道学什么、怎么学",
+      "assessmentEmbedded": ""
+    },
+    {
+      "phase": "P-participatory",
+      "title": "探究燃烧的条件",
+      "duration": 15,
+      "teacherAction": "演示教材P128实验7-1：在铜片上分别放置红磷和白磷，热水中的白磷通入氧气。引导学生观察并分析。先让学生预测现象，再观察。",
+      "studentAction": "预测、观察、记录现象，小组讨论并归纳燃烧的三个条件。",
+      "designIntent": "困难前置：先让学生基于已有经验预测，再通过实验数据修正认知，保留探究过程。",
+      "assessmentEmbedded": "小组讨论记录、现象分析是否正确"
+    },
+    {
+      "phase": "P-post",
+      "title": "灭火原理应用练习",
+      "duration": 8,
+      "teacherAction": "展示多种灭火场景（油锅着火、森林大火、电器着火），要求学生选择合适方法并解释原理。",
+      "studentAction": "独立思考后小组交流，代表发言",
+      "designIntent": "检测学生对灭火原理的迁移应用能力",
+      "assessmentEmbedded": "发言准确性、小组互评"
+    },
+    {
+      "phase": "S",
+      "title": "课堂总结",
+      "duration": 5,
+      "teacherAction": "引导学生总结燃烧条件、灭火原理，并强调着火点不可改变。",
+      "studentAction": "口头总结，记录关键点",
+      "designIntent": "归纳核心知识，纠正迷思概念，为下一节‘燃料’铺垫",
+      "assessmentEmbedded": ""
+    }
+  ],
+  "homework": {
+    "requiredTitle1": "基础巩固",
+    "requiredDesc1": "完成教材P130练习与应用第1-3题，写出灭火原理。",
+    "requiredTitle2": "生活观察",
+    "requiredDesc2": "观察家中至少三种灭火方法（如锅盖盖灭油锅），说明其原理。",
+    "optionalTitle": "创意挑战",
+    "optionalDesc": "设计一个简易灭火器（利用小苏打和醋），并解释其工作原理。",
+    "designIntent": "分层设计：基础题巩固知识，观察题联系生活，挑战题激发创新。",
+    "differentiationNote": "基础薄弱学生完成必做1即可，能力较强学生鼓励完成选做挑战题。"
+  },
+  "boardDesign": {
+    "layout": "左侧：燃烧条件（三角形图示：可燃物、氧气、温度达到着火点）；右侧：灭火原理（对应三点：清除、隔绝、降温）；下方：灭火器原理（化学方程式）。",
+    "keyElements": [
+      "燃烧条件",
+      "灭火原理",
+      "着火点",
+      "灭火器"
+    ],
+    "structureLogic": "从燃烧条件出发，逆向推导灭火原理，体现条件与调控的对应关系。"
+  },
+  "reflection": {
+    "targetAchievement": "预计80%学生能准确说出燃烧条件和灭火原理，60%能设计简单方案。",
+    "improvementMeasures": [
+      "增加更多生活实例帮助学生理解着火点不可改变",
+      "对灭火器原理可补充视频演示"
+    ],
+    "notableObservations": "注意学生对‘降低温度’与‘降低着火点’的混淆，需反复强调。"
+  },
+  "difficultyDesign": {
+    "targetDifficulty": "理解‘着火点’是物质固有属性，灭火中‘降低温度’不是降低着火点。",
+    "educationalValue": "此困难帮助学生建立科学概念，纠正生活迷思，培养科学思维。",
+    "zpdAlignment": "学生已有‘温度高才能燃烧’的认知，通过实验对比（如热水中的白磷不燃，通氧气后才燃）引导其区分温度与着火点。",
+    "meaninglessObstacles": [
+      "避免复杂化学方程式",
+      "避免过度解释燃烧类型"
+    ],
+    "motivationStrategy": "通过‘吹气灭火’等生活现象引发认知冲突，满足自主性（让学生预测）、胜任感（实验成功可解释）、关系感（小组合作）。",
+    "difficultyFirst": "导入后立即抛出‘用水灭火是降低了着火点吗？’的问题，让学生先暴露错误想法。",
+    "processPreservation": "实验探究中先记录学生预测，再对比实验现象，保留认知转变过程。",
+    "abstractionProtection": "用图示（燃烧三角形）和实物模型（灭火器）降低抽象程度，避免过早引入概念定义。"
+  }
+}

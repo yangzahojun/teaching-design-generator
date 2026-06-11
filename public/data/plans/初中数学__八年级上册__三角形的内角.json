@@ -1,0 +1,151 @@
+{
+  "standardAnalysis": {
+    "contentRequirement": "理解三角形内角和定理及其证明，掌握三角形内角和等于180°",
+    "academicRequirement": "能利用三角形内角和定理解决简单的几何问题，发展推理能力和几何直观",
+    "teachingHint": "通过实验操作、观察、猜想、验证等方式，引导学生发现并证明三角形内角和定理，注重从合情推理到演绎推理的过渡",
+    "coreCompetencyNames": [
+      "几何直观",
+      "推理能力",
+      "运算能力"
+    ]
+  },
+  "textbookAnalysis": {
+    "verticalAnalysis": "本课位于人教版八年级上册第十一章《三角形》第2节。学生在七年级已学习平行线、相交线及角的度量，为探究三角形内角和奠定基础；后续将学习三角形外角、多边形内角和等，本课是几何推理的起点。教材通过撕角拼角实验引入，再通过平行线性质进行证明，体现从实验几何到论证几何的过渡。",
+    "crossAnalysis": "北师大版采用活动探究为主，苏教版注重拼图验证；人教版更强调实验与证明结合，先动手操作再逻辑推理，特色在于利用平行线性质进行严谨证明，培养推理能力。",
+    "bigConcept": "三角形内角和为180°是几何学中基本度量关系，体现公理化思想与推理方法",
+    "keyKnowledge": [
+      "三角形内角和定理内容",
+      "三角形内角和定理的证明方法（利用平行线）",
+      "三角形内角和定理的应用"
+    ],
+    "difficulties": [
+      "教学重点：三角形内角和定理的证明与应用",
+      "教学难点：通过添加辅助线（平行线）进行逻辑证明"
+    ]
+  },
+  "learnerAnalysis": {
+    "priorKnowledge": "学生已掌握平行线的性质与判定、角的度量、三角形基本概念，具备初步的推理能力。",
+    "priorExperience": "生活中常见三角形，如三角尺、屋顶等，对角度和有一定的直观感知。",
+    "cognitiveDifficulty": "从实验操作到逻辑证明的思维跃迁，特别是辅助线添加的合理性和必要性。",
+    "preAssessment": "通过课堂提问和简短纸笔测试：如已知三角形两角求第三角，检查学生对角度和已有认知。"
+  },
+  "learningObjectives": [
+    {
+      "content": "通过撕角拼角实验，能猜想并说出三角形内角和为180°，发展几何直观。",
+      "category": "knowledge",
+      "competencyLink": "几何直观",
+      "assessmentMethod": "观察学生实验操作与口头表述"
+    },
+    {
+      "content": "能利用平行线性质证明三角形内角和定理，并独立完成证明书写，发展推理能力。",
+      "category": "skill",
+      "competencyLink": "推理能力",
+      "assessmentMethod": "检查证明过程的完整性与逻辑性"
+    },
+    {
+      "content": "在探究过程中体会合作与严谨求证的科学态度，增强学习几何的兴趣。",
+      "category": "attitude",
+      "competencyLink": "推理能力",
+      "assessmentMethod": "课堂参与度观察与反思日志"
+    }
+  ],
+  "assessmentTasks": {
+    "preMethod": "课堂提问与纸笔小测",
+    "preQuestions": [
+      "一个三角形，已知两个角分别是30°和60°，第三个角是多少度？",
+      "你能用什么方法验证三角形内角和？"
+    ],
+    "prePurpose": "了解学生对角度和的前概念及实验经验",
+    "postMethod": "课后练习与课堂展示",
+    "postTasks": [
+      "完成教材第12页练习第1题（已知两角求第三角）",
+      "证明一个给定三角形的内角和为180°（需写出完整推理过程）"
+    ],
+    "postRubric": "优秀：证明完整、逻辑清晰、书写规范；合格：证明基本正确有少量遗漏；需辅导：无法独立完成证明或概念不清"
+  },
+  "activities": [
+    {
+      "phase": "B",
+      "title": "撕角拼角实验导入",
+      "duration": 5,
+      "teacherAction": "展示三角形纸片，引导学生撕下三个角拼在一起观察，提问：你发现什么？",
+      "studentAction": "动手操作，观察三个角拼成一个平角，猜想内角和为180°",
+      "designIntent": "通过直观操作激发兴趣，为证明铺垫，体现困难前置",
+      "assessmentEmbedded": "观察学生操作与回答"
+    },
+    {
+      "phase": "O",
+      "title": "明确学习目标",
+      "duration": 2,
+      "teacherAction": "板书课题并口述本课目标：探究并证明三角形内角和定理",
+      "studentAction": "聆听并记录目标",
+      "designIntent": "让学生明确学什么、怎么学",
+      "assessmentEmbedded": ""
+    },
+    {
+      "phase": "P-participatory",
+      "title": "探索证明方法",
+      "duration": 15,
+      "teacherAction": "提出问题：如何用推理证明内角和为180°？引导学生回忆平行线性质，提示添加辅助线。巡视并个别指导。",
+      "studentAction": "先独立尝试添加辅助线，再小组交流，最后全班展示不同方法（如过顶点作平行线）",
+      "designIntent": "体现困难前置、过程保留、抽象保护原则——学生先经历困惑，再合作解决",
+      "assessmentEmbedded": "小组互评证明思路"
+    },
+    {
+      "phase": "P-post",
+      "title": "巩固练习",
+      "duration": 8,
+      "teacherAction": "出示教材例题：已知三角形两角求第三角，并变式训练",
+      "studentAction": "独立完成练习，板演并讲解思路",
+      "designIntent": "检测学习效果，强化定理应用",
+      "assessmentEmbedded": "即时反馈与纠正"
+    },
+    {
+      "phase": "S",
+      "title": "课堂总结",
+      "duration": 5,
+      "teacherAction": "引导学生回顾探究过程，总结定理内容和证明方法",
+      "studentAction": "口头总结，梳理知识结构",
+      "designIntent": "归纳本课核心内容，为后续学习铺垫",
+      "assessmentEmbedded": ""
+    }
+  ],
+  "homework": {
+    "requiredTitle1": "基础练习",
+    "requiredDesc1": "教材第12页练习第2、3题",
+    "requiredTitle2": "证明巩固",
+    "requiredDesc2": "写出三角形内角和定理的另一种证明方法（如过顶点作平行线）",
+    "optionalTitle": "拓展挑战",
+    "optionalDesc": "已知一个三角形的两个角为(2x)°和(3x)°，第三个角是(4x)°，求各角度数",
+    "designIntent": "分层设计，基础题巩固定理应用，选做题培养推理和方程思想",
+    "differentiationNote": "基础薄弱学生重点完成必做，选做题鼓励尝试；学有余力学生可探索多种证明方法"
+  },
+  "boardDesign": {
+    "layout": "左侧：实验操作区（撕角拼图），中间：定理内容与证明过程（辅助线画法），右侧：例题与练习",
+    "keyElements": [
+      "三角形内角和=180°",
+      "辅助线：过顶点作平行线",
+      "平行线性质：同位角相等，内错角相等"
+    ],
+    "structureLogic": "从实验到证明，再到应用，体现知识生成脉络"
+  },
+  "reflection": {
+    "targetAchievement": "预计80%学生能掌握定理证明，60%能独立完成辅助线添加",
+    "improvementMeasure1": "增加小组交流时间，让更多学生参与证明讨论",
+    "improvementMeasure2": "准备不同难度的变式题，分层指导",
+    "notableObservations": "关注学生在辅助线添加时的思维障碍，及时给予提示"
+  },
+  "difficultyDesign": {
+    "targetDifficulty": "从实验观察到逻辑证明的思维跃迁，特别是辅助线添加的合理性",
+    "educationalValue": "培养推理能力和几何直观，体会数学的严谨性",
+    "zpdAlignment": "学生已掌握平行线性质，通过教师引导和小组合作，可跨越最近发展区",
+    "meaninglessObstacles": [
+      "避免复杂图形干扰，使用标准三角形",
+      "避免过早引入多种证明方法造成混淆"
+    ],
+    "motivationStrategy": "通过撕角实验获得成就感（胜任感），小组合作增强关系感，自主选择证明方法体现自主性",
+    "difficultyFirst": "先让学生尝试证明，经历困惑后再提供平行线提示",
+    "processPreservation": "保留学生原始证明草稿，展示不同思路",
+    "abstractionProtection": "先用具体三角形纸片操作，再抽象为一般三角形"
+  }
+}

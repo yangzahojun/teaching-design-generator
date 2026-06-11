@@ -1,0 +1,156 @@
+{
+  "standardAnalysis": {
+    "contentRequirement": "能在语境中理解并使用过去进行时描述过去某个时间点正在发生的事情；能在听、说、读、看、写等语言活动中，运用恰当的时态表达意义。",
+    "academicRequirement": "能就日常生活中的话题，运用所学语言知识进行简单的描述和表达，语法基本正确。",
+    "teachingHint": "注重在真实语境中呈现和操练语法项目，避免孤立讲解规则；通过任务型活动引导学生感知、理解、归纳和运用。",
+    "coreCompetencyNames": [
+      "语言能力",
+      "文化意识",
+      "思维品质",
+      "学习能力"
+    ]
+  },
+  "textbookAnalysis": {
+    "verticalAnalysis": "本课为人教版八年级下册Unit 5 Section A 1a-2d，单元主题为‘难忘的事件’。学生此前在七年级已学习一般现在时、现在进行时、一般过去时，本课首次系统学习过去进行时，为后续Unit 6（过去进行时与一般过去时对比）及九年级过去完成时做铺垫。教材通过听力、对话、图片描述等方式呈现语法，注重在情境中理解。",
+    "crossAnalysis": "相比外研版（强调表格归纳）和牛津版（任务链驱动），人教版更注重听说先行、语法隐性呈现，通过真实语境（暴风雨等突发事件）导入，体现‘用中学’理念。本版本特色是使用大量真实图片和录音，降低认知负荷。",
+    "bigConcept": "时态是表达时间关系的重要语法手段，不同时态反映事件发生的时间、状态和视角。",
+    "keyKnowledge": [
+      "过去进行时的构成（was/were + doing）",
+      "过去进行时的肯定、否定和疑问句形式",
+      "过去进行时表示过去某个时刻正在进行的动作"
+    ],
+    "difficulties": [
+      "教学重点：过去进行时的结构和基本用法",
+      "教学难点：区分过去进行时与一般过去时（动作正在进行vs. 动作已完成）"
+    ]
+  },
+  "learnerAnalysis": {
+    "priorKnowledge": "学生已掌握一般现在时、现在进行时、一般过去时，能识别动词的-ed形式，了解现在进行时的构成（be+doing）。",
+    "priorExperience": "学生有谈论过去经历（如‘昨天下午我在做什么’）的生活经验，对‘暴风雨’等话题有常识。",
+    "cognitiveDifficulty": "学生可能混淆过去进行时与一般过去时的语义差别（持续vs.完成）；否定句和疑问句中助动词的使用易出错。",
+    "preAssessment": "课堂前测：给出5个句子（如‘I ____ (read) a book at 8 pm yesterday.’），让学生填空，检测对时态的初步感知。"
+  },
+  "learningObjectives": [
+    {
+      "content": "学生通过观察图片和听力材料，能说出过去进行时的结构（was/were + doing），准确率90%以上。",
+      "category": "knowledge",
+      "competencyLink": "语言能力",
+      "assessmentMethod": "课堂提问、填空练习"
+    },
+    {
+      "content": "学生能在教师提供的语境中（如谈论暴风雨时正在做的事），用过去进行时正确描述至少3个过去动作，语法基本正确。",
+      "category": "skill",
+      "competencyLink": "语言能力、思维品质",
+      "assessmentMethod": "角色扮演、写作任务"
+    },
+    {
+      "content": "学生通过分享过去经历，体会在突发事件中互帮互助的情感，增强安全意识和同理心。",
+      "category": "attitude",
+      "competencyLink": "文化意识、学习能力",
+      "assessmentMethod": "课堂观察、反思日志"
+    }
+  ],
+  "assessmentTasks": {
+    "preMethod": "课堂前测：使用PPT展示5个句子填空（如‘What ____ you ____ (do) at 7 pm yesterday?’），学生独立完成并提交。",
+    "preQuestions": [
+      "What ____ you ____ (do) at 7 pm yesterday?",
+      "I ____ (watch) TV when the rainstorm came."
+    ],
+    "prePurpose": "了解学生对过去进行时的已有认知，诊断常见错误（如遗漏be动词、动词形式错误）。",
+    "postMethod": "后测：学生完成一个‘过去事件报告’写作任务，包含至少4个过去进行时句子。",
+    "postTasks": [
+      "写一段话描述昨天下午4点你和家人正在做什么（至少4句话）。",
+      "根据图片（如暴风雨中人们的行为）用过去进行时写5个句子。"
+    ],
+    "postRubric": "优秀：结构正确，时态使用恰当，句子流畅，无语法错误；合格：主要结构正确，偶有错误但不影响理解；需辅导：结构混淆，动词形式错误较多，需再次练习。"
+  },
+  "activities": [
+    {
+      "phase": "B",
+      "title": "回忆暴风雨",
+      "duration": 3,
+      "teacherAction": "展示暴风雨图片，提问‘What were you doing when the rainstorm came?’，引导学生用中文或简单英语回答。",
+      "studentAction": "观察图片，思考并尝试回答。",
+      "designIntent": "利用生活经验激发兴趣，引入话题，激活已有知识。",
+      "assessmentEmbedded": ""
+    },
+    {
+      "phase": "O",
+      "title": "明确学习目标",
+      "duration": 2,
+      "teacherAction": "用PPT展示本课目标：学会用过去进行时描述过去正在做的事。",
+      "studentAction": "阅读目标，了解学习任务。",
+      "designIntent": "让学生明确学什么、怎么学。",
+      "assessmentEmbedded": ""
+    },
+    {
+      "phase": "P-participatory",
+      "title": "核心探索：发现结构",
+      "duration": 15,
+      "teacherAction": "播放听力1b，让学生听并匹配人物与活动；然后呈现句子（如‘He was reading’），引导学生归纳结构。先让学生独立尝试填空（困难前置），再小组讨论。",
+      "studentAction": "学生先独立完成听力任务和填空，然后小组交流归纳was/were+doing规则。",
+      "designIntent": "体现困难前置、过程保留、抽象保护原则：先听再填空，再归纳，最后教师点拨。",
+      "assessmentEmbedded": "小组展示归纳结果，教师即时反馈。嵌入式评价：观察小组合作和归纳准确性。"
+    },
+    {
+      "phase": "P-post",
+      "title": "角色扮演：过去正在做的事",
+      "duration": 8,
+      "teacherAction": "提供场景卡片（如‘昨天下午3点你在图书馆’），让学生两人一组用过去进行时问答。",
+      "studentAction": "学生先独立准备句子，然后与同伴对话，交换角色。",
+      "designIntent": "在真实语境中运用语法，检测学习效果。",
+      "assessmentEmbedded": "教师巡视并记录典型错误，之后集中纠正。"
+    },
+    {
+      "phase": "S",
+      "title": "归纳总结",
+      "duration": 5,
+      "teacherAction": "用板书引导学生总结过去进行时的结构、用法和易错点。",
+      "studentAction": "学生口头复述规则，并完成一个填空练习（后测）。",
+      "designIntent": "归纳本课核心内容，为后续学习铺垫。",
+      "assessmentEmbedded": ""
+    }
+  ],
+  "homework": {
+    "requiredTitle1": "基础练习",
+    "requiredDesc1": "完成课本2d对话填空，并仿写一段关于自己昨天下午活动的对话（至少6句）。",
+    "requiredTitle2": "听力拓展",
+    "requiredDesc2": "听课本2a录音，写出至少3个过去进行时句子。",
+    "optionalTitle": "挑战任务",
+    "optionalDesc": "写一篇小短文，描述上周末一个难忘的时刻（如生日、比赛），使用至少5个过去进行时句子。",
+    "designIntent": "分层设计：基础任务巩固结构，挑战任务提升综合运用能力。",
+    "differentiationNote": "基础薄弱学生可只完成基础练习；学有余力学生必须完成挑战任务，并尝试使用连接词。"
+  },
+  "boardDesign": {
+    "layout": "左栏：课题（Unit 5 What were you doing when the rainstorm came?）\n中栏：过去进行时结构（was/were + doing）\n右栏：例句（肯定/否定/疑问）及时间状语（at 8 pm yesterday, when...）",
+    "keyElements": [
+      "was/were + doing",
+      "肯定句",
+      "否定句",
+      "疑问句",
+      "时间状语"
+    ],
+    "structureLogic": "从结构到例句，再到时间状语，体现‘形式-意义-使用’的语法教学逻辑。"
+  },
+  "reflection": {
+    "targetAchievement": "预估80%学生能正确使用过去进行时进行简单描述，20%学生需课后辅导。",
+    "improvementMeasures": [
+      "增加更多图片和视频素材，强化语境感知",
+      "设计更多对比练习（过去进行时vs.一般过去时）"
+    ],
+    "notableObservations": "注意学生是否混淆was/were与动词形式，需在小组活动中及时纠正。"
+  },
+  "difficultyDesign": {
+    "targetDifficulty": "核心困难：区分过去进行时与一般过去时的语义差异（正在进行vs.已完成）。",
+    "educationalValue": "这个困难能帮助学生建立时态与时间关系的深层理解，避免机械记忆。",
+    "zpdAlignment": "通过先呈现典型例句（如‘I was reading when he came’），再引导对比，确保难度在最近发展区内。",
+    "meaninglessObstacles": [
+      "复杂的语法术语（如‘进行体’）",
+      "过长的听力材料"
+    ],
+    "motivationStrategy": "自主性：让学生选择自己经历的事件进行描述；胜任感：提供支架（句型模板）；关系感：小组合作分享。",
+    "difficultyFirst": "在听力后先让学生独立尝试填空（如‘He ___ (read)’），暴露错误，再提供帮助。",
+    "processPreservation": "保留学生讨论和归纳的过程，不直接给答案，鼓励试错。",
+    "abstractionProtection": "在归纳规则前，先用大量具体例句支撑，避免直接抽象讲解。"
+  }
+}

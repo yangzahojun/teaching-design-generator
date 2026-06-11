@@ -1,0 +1,155 @@
+{
+  "standardAnalysis": {
+    "contentRequirement": "能在教师的帮助和图片的提示下描述或讲述简单的小故事；能根据图片、语篇标题等预测语篇内容；能借助图片等理解简单语篇的基本逻辑关系；能在口语表达中使用基本的词汇和句型，就熟悉的话题进行简短对话或叙述。",
+    "academicRequirement": "能围绕个人职业理想、他人职业等话题，运用所学语言进行简单的信息交流与表达；能在口语表达中基本正确地使用核心句型，语音、语调基本正确；能根据图片或提示，写出简短的语句描述职业特点。",
+    "teachingHint": "创设真实的语言交际情境，引导学生在完成任务的过程中感知、理解、运用语言；关注语用功能，将语言学习与实际生活相结合；鼓励学生大胆表达，允许试错，通过活动内化语言。",
+    "coreCompetencyNames": [
+      "语言能力",
+      "文化意识",
+      "思维品质",
+      "学习能力"
+    ]
+  },
+  "textbookAnalysis": {
+    "verticalAnalysis": "本课是PEP六年级上册Unit 5 What does he do?的第一课时（Part A Let's talk & Let's learn）。在三年级下册已学习过家庭成员称呼（father, mother, brother, sister）和简单动词（cook, read, play）；四年级上册学习过职业类词汇（doctor, nurse, farmer, driver）和句型What's his/her job?；本单元在此基础上拓展更多职业词汇（singer, writer, postman, police officer, fisherman, scientist, pilot, coach）并聚焦询问和描述他人职业的句型What does he/she do? He/She is a...以及Where does he/she work? How does he/she go to work?等。本课时为单元起始课，承担核心词汇与句型呈现功能，为后续对话、阅读和写作奠定基础。",
+    "crossAnalysis": "与其他版本（如外研版、牛津版）相比，PEP教材在职业话题上更注重情境对话的完整性，Let's talk部分提供了真实自然的语篇（如Oliver和Sarah谈论父母职业），而Let's learn部分集中呈现单词并配有图片，便于直观理解。本版特色在于词汇与句型同步呈现，且对话中自然融合了职业、工作地点和交通方式等子话题，为后续学习做铺垫。取舍方面，本课时暂不涉及工作地点和交通方式的具体描述，留待后续课时深入学习。",
+    "bigConcept": "职业与个人社会角色——通过语言描述他人职业，了解不同职业的社会贡献，初步形成职业平等观和职业理想意识。",
+    "keyKnowledge": [
+      "核心词汇：singer, writer, postman, police officer, fisherman, scientist, pilot, coach",
+      "核心句型：What does he/she do? He/She is a...",
+      "语用功能：询问和描述他人的职业"
+    ],
+    "difficulties": [
+      "教学重点：核心词汇的听说认读与核心句型的理解和运用",
+      "教学难点：第三人称单数does在问句中的使用，以及he/she的区分"
+    ]
+  },
+  "learnerAnalysis": {
+    "priorKnowledge": "学生已掌握一些基础职业词汇（如doctor, nurse, teacher, farmer, driver）和家庭成员称呼，能用What's his/her job?进行简单问答，对第三人称单数有初步感知但不够熟练。",
+    "priorExperience": "学生在生活中对父母及周围人的职业有一定了解，对‘长大想做什么’有初步的想象和表达意愿，具备一定的口语表达兴趣。",
+    "cognitiveDifficulty": "学生容易混淆he/she的指代，以及does在问句中的用法（常误用为do或is）；对部分词汇（如scientist, police officer）的发音和拼写可能感到困难。",
+    "preAssessment": "通过课堂前测小游戏（快速闪现职业图片并说出名称）和自由谈话（What does your father/mother do?）了解学生已有词汇和句型掌握情况。"
+  },
+  "learningObjectives": [
+    {
+      "content": "学生通过观察图片和听录音，能正确认读、说出singer, writer, postman, police officer, fisherman, scientist, pilot, coach等8个职业词汇，发音准确。",
+      "category": "knowledge",
+      "competencyLink": "语言能力",
+      "assessmentMethod": "课堂观察、词汇卡片认读检测"
+    },
+    {
+      "content": "学生能在教师创设的情境中，运用句型What does he/she do? He/She is a... 就他人职业进行问答，语音语调基本正确。",
+      "category": "skill",
+      "competencyLink": "语言能力、思维品质",
+      "assessmentMethod": "角色扮演、对话展示"
+    },
+    {
+      "content": "学生能通过谈论职业，初步形成对不同职业的尊重意识，并能简单表达自己的职业理想。",
+      "category": "attitude",
+      "competencyLink": "文化意识、学习能力",
+      "assessmentMethod": "课堂讨论、情感态度观察"
+    }
+  ],
+  "assessmentTasks": {
+    "preMethod": "课堂前测：图片闪现+自由谈话",
+    "preQuestions": [
+      "What's this? (出示医生图片)",
+      "What does your father do?"
+    ],
+    "prePurpose": "检测学生对已学职业词汇和句型的掌握情况，为新课教学起点提供依据。",
+    "postMethod": "课堂后测：情境对话表演+词汇书写小练习",
+    "postTasks": [
+      "两人一组，根据教师提供的职业卡片进行角色扮演对话",
+      "完成句子填空：What ___ he do? He ___ a writer."
+    ],
+    "postRubric": "优秀：能流利使用核心句型进行问答，发音准确，词汇书写正确；合格：能基本使用句型，偶有错误但能自我纠正，词汇认读正确；需辅导：不能独立使用句型，词汇认读有困难，需要教师或同伴帮助。"
+  },
+  "activities": [
+    {
+      "phase": "B",
+      "title": "职业猜猜看",
+      "duration": 3,
+      "teacherAction": "教师出示遮盖的职业图片（如医生、护士），引导学生用What's his/her job?猜测，复习旧知。",
+      "studentAction": "学生观察图片局部，举手猜测职业并用英语说出。",
+      "designIntent": "通过游戏激活已有知识，激发学习兴趣，营造轻松氛围。",
+      "assessmentEmbedded": "观察学生旧词反应速度，判断复习效果。"
+    },
+    {
+      "phase": "O",
+      "title": "明确本课目标",
+      "duration": 2,
+      "teacherAction": "教师展示本课学习目标（会认读新职业词、会用新句型问答），并简要说明学习路径。",
+      "studentAction": "学生倾听、阅读目标，明确本节课要学什么、怎么学。",
+      "designIntent": "让学生对学习任务有清晰预期，增强学习定向性。",
+      "assessmentEmbedded": ""
+    },
+    {
+      "phase": "P-participatory",
+      "title": "探索新词汇与句型",
+      "duration": 15,
+      "teacherAction": "教师播放Let's learn部分录音，先不展示文字，让学生听音猜测职业；然后出示图片和单词，引导学生跟读；接着展示Let's talk对话动画，提出问题：What does Oliver's father do? 学生先自主尝试回答，再小组讨论。教师最后总结并板书核心句型。",
+      "studentAction": "学生先听音猜测，再跟读单词；观看对话后尝试独立回答问题，遇到困难时与同伴交流；最后在教师引导下归纳句型。",
+      "designIntent": "困难前置：先让学生尝试听音猜测（困惑），再提供图片和文字支持；过程保留：学生先独立思考再合作；抽象保护：通过具体语境理解抽象语法。",
+      "assessmentEmbedded": "教师巡视小组讨论，倾听学生表达，即时纠正发音和语法错误。"
+    },
+    {
+      "phase": "P-post",
+      "title": "后测：角色扮演",
+      "duration": 8,
+      "teacherAction": "教师发放职业卡片（含本课新词和部分旧词），组织学生两人一组进行角色扮演：一人扮演询问者，一人扮演被询问者，使用What does he/she do? He/She is a...进行对话。教师邀请2-3组展示。",
+      "studentAction": "学生抽取卡片，与同伴进行角色扮演对话，展示时认真倾听其他组发言。",
+      "designIntent": "在真实情境中检测学生对核心句型和词汇的掌握情况，锻炼口语表达能力。",
+      "assessmentEmbedded": "教师根据后测量规对展示组进行即时评价，其他同学也可互评。"
+    },
+    {
+      "phase": "S",
+      "title": "课堂总结",
+      "duration": 5,
+      "teacherAction": "教师引导学生回顾本课所学词汇和句型，并用板书结构图总结；提问：What do you want to be? 鼓励学生简单表达理想。",
+      "studentAction": "学生回忆并复述核心词汇和句型，举手分享自己的职业理想。",
+      "designIntent": "归纳核心内容，建立知识结构，为后续学习（工作地点、交通方式）做铺垫，同时渗透职业理想教育。",
+      "assessmentEmbedded": ""
+    }
+  ],
+  "homework": {
+    "requiredTitle1": "词汇跟读与书写",
+    "requiredDesc1": "听录音跟读本课8个新职业词汇3遍，并在四线三格中正确书写每个单词2遍。",
+    "requiredTitle2": "对话创编",
+    "requiredDesc2": "用What does he/she do? He/She is a...向家人询问至少两位家人的职业，并写下对话（不少于4句）。",
+    "optionalTitle": "职业小调查",
+    "optionalDesc": "用英语调查班上3位同学的理想职业，并制作一张简单的调查表（含姓名和职业）。",
+    "designIntent": "分层设计：基础作业巩固词汇与句型，提升作业培养综合语用能力，选做作业激发兴趣与创造力。",
+    "differentiationNote": "基础薄弱学生可只完成必做1和口头练习；中等学生完成必做1和2；学有余力学生鼓励完成选做挑战题。"
+  },
+  "boardDesign": {
+    "layout": "中央标题：Unit 5 What does he do? 左侧：新词汇区（图片+单词卡片，分类排列），右侧：核心句型区（What does he/she do? He/She is a...），下方：学生职业理想分享区（简笔画+关键词）",
+    "keyElements": [
+      "8个新职业词汇",
+      "核心句型",
+      "he/she区分提示",
+      "职业图片"
+    ],
+    "structureLogic": "以‘职业’为核心，左词汇右句型，上下呼应，直观展示本课知识结构，便于学生记忆与迁移。"
+  },
+  "reflection": {
+    "targetAchievement": "预估85%学生能认读新词汇并运用核心句型进行简单对话，15%学生需要课后巩固。",
+    "improvementMeasures": [
+      "增加更多听觉输入（如chant）帮助记忆词汇发音",
+      "设计更多he/she区分专项练习（如配对游戏）"
+    ],
+    "notableObservations": "需关注部分学生对police officer和scientist发音的困难，以及does在问句中与主语的一致性错误。"
+  },
+  "difficultyDesign": {
+    "targetDifficulty": "核心困难：在真实交际中正确区分he/she并运用第三人称单数does提问。",
+    "educationalValue": "这个困难能促使学生关注语法细节，培养语言的准确性，同时强化性别意识与语言指代的关系。",
+    "zpdAlignment": "学生已有What's his/her job?基础，对he/she有初步感知，通过情境对话和教师示范，困难处于可解决范围内。",
+    "meaninglessObstacles": [
+      "避免过早引入does的否定形式（doesn't）",
+      "避免同时教授工作地点和交通方式等超纲内容"
+    ],
+    "motivationStrategy": "自主性：让学生选择自己感兴趣的职业进行问答；胜任感：通过分层任务让每个学生都能获得成功体验；关系感：角色扮演中同伴合作增强互动。",
+    "difficultyFirst": "在核心探索环节先让学生听音猜测、尝试回答（暴露困难），再提供词汇和句型支持。",
+    "processPreservation": "学生先独立尝试回答问题，再小组讨论，最后全班交流，保留完整的思维过程。",
+    "abstractionProtection": "通过具体的人物图片和语境（如Oliver's father）呈现抽象语法，避免直接讲解语法规则。"
+  }
+}

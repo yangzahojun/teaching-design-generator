@@ -1,0 +1,156 @@
+{
+  "standardAnalysis": {
+    "contentRequirement": "理解并运用一般将来时态（will）描述未来的预测；能就未来生活进行简单的讨论和表达观点；掌握与未来科技相关的词汇和表达方式。",
+    "academicRequirement": "能运用一般将来时态（will）谈论未来的预测，表达个人观点；能听懂并简单描述未来的科技发展；能在口语和写作中正确使用本单元的核心词汇和句型。",
+    "teachingHint": "创设真实或模拟的语境，引导学生通过任务型活动学习和运用语言；鼓励学生合作探究，培养其预测和表达能力；注重语言的实际运用，避免机械操练。",
+    "coreCompetencyNames": [
+      "语言能力",
+      "文化意识",
+      "思维品质",
+      "学习能力"
+    ]
+  },
+  "textbookAnalysis": {
+    "verticalAnalysis": "本课是人教版八年级上册Unit 7的第一课时（Section A 1a-2d）。单元主题为“未来预测”，属于“人与社会”范畴下的科技发展子主题。学生此前在七年级已学习一般现在时和现在进行时，本课首次引入一般将来时（will），为后续学习be going to及更多时态奠定基础。教材通过图片、对话和听力活动呈现核心句型“Will people have robots?”及肯定/否定回答。",
+    "crossAnalysis": "相比外研版（Module 5）和牛津版（Unit 3），人教版更注重通过真实语境（如机器人、未来生活）激发兴趣，听力活动循序渐进（1b为匹配，2a为选择，2b为填空），且融入语法聚焦（Grammar Focus）帮助学生归纳。本版特色是任务链清晰，从输入到输出过渡自然。",
+    "bigConcept": "语言是表达预测和观点的工具；一般将来时用于描述未发生的事件。",
+    "keyKnowledge": [
+      "一般将来时（will）的基本结构：will + 动词原形",
+      "核心词汇：robot, prediction, future, paper, pollution, environment, planet, earth, plant, sea, sky, moon, space station",
+      "核心句型：Will people have robots? Yes, they will./No, they won't. People will live to be 200 years old."
+    ],
+    "difficulties": [
+      "教学重点：一般将来时（will）的肯定句、否定句和疑问句结构",
+      "教学难点：正确区分will和be going to的用法（本课仅涉及will）；在真实语境中灵活运用will进行预测和表达"
+    ]
+  },
+  "learnerAnalysis": {
+    "priorKnowledge": "学生已掌握一般现在时和现在进行时，能进行简单日常交流；了解一些科技词汇（如computer, phone, car等）；初步接触过情态动词（can）。",
+    "priorExperience": "学生生活中接触过机器人玩具、电影或新闻，对“未来科技”有一定好奇心和兴趣；部分学生可能看过《机器人总动员》等影视作品。",
+    "cognitiveDifficulty": "学生可能混淆will后接动词原形的规则；对否定和疑问句结构不熟练；难以在无准备情况下用完整句子进行预测表达。",
+    "preAssessment": "前测方式：课堂口头提问+简短小问卷。设计3个问题：1) Can you guess what life will be like in 100 years? 2) Do you know how to say “机器人” in English? 3) Can you make a sentence using “will”? 通过举手和回答记录学生已有知识。"
+  },
+  "learningObjectives": [
+    {
+      "content": "通过观察图片和听力活动，学生能正确识别并说出本课核心词汇（robot, prediction, future等）和句型（Will people have robots?），准确率达80%以上。",
+      "category": "knowledge",
+      "competencyLink": "语言能力",
+      "assessmentMethod": "课堂提问+听力检测"
+    },
+    {
+      "content": "在小组讨论中，学生能运用“will+动词原形”结构就未来生活（交通、环境、家庭等）进行至少3轮问答，语音语调基本正确。",
+      "category": "skill",
+      "competencyLink": "语言能力、思维品质",
+      "assessmentMethod": "口语表现评价表"
+    },
+    {
+      "content": "通过观看未来科技视频和讨论，学生能表达对科技发展的积极或谨慎态度，并用英语简单说明理由。",
+      "category": "attitude",
+      "competencyLink": "文化意识、思维品质",
+      "assessmentMethod": "观察记录+口头表达"
+    }
+  ],
+  "assessmentTasks": {
+    "preMethod": "课堂口头提问+简短小问卷（3个问题）",
+    "preQuestions": [
+      "Can you guess what life will be like in 100 years?",
+      "Do you know how to say “机器人” in English?",
+      "Can you make a sentence using “will”?"
+    ],
+    "prePurpose": "了解学生对未来预测话题的兴趣和已有词汇、句型基础，为教学调整提供依据。",
+    "postMethod": "口语任务（小组展示）+ 书面填空练习",
+    "postTasks": [
+      "小组内每人用will说一个未来预测，组员记录并汇报",
+      "完成教材2c的填空练习（Will people have robots? 对话填空）"
+    ],
+    "postRubric": "优秀：能准确使用will进行3个以上不同预测，语音清晰；合格：能使用will进行1-2个预测，有少量语法错误；需辅导：无法独立使用will表达预测"
+  },
+  "activities": [
+    {
+      "phase": "B",
+      "title": "未来视频导入",
+      "duration": 3,
+      "teacherAction": "播放一段1分钟的未来科技短视频（含机器人、飞行汽车等），提问：What do you see? Do you think these will come true?",
+      "studentAction": "观看视频，自由说出看到的物品和想法，用中文或简单英文表达。",
+      "designIntent": "利用视觉冲击激发兴趣，自然引入“未来预测”话题，降低学生焦虑。",
+      "assessmentEmbedded": ""
+    },
+    {
+      "phase": "O",
+      "title": "明确学习目标",
+      "duration": 2,
+      "teacherAction": "展示本课目标：学会用will谈论未来预测；能听懂并说出关于机器人的对话。",
+      "studentAction": "齐读目标，明确本节课要学什么。",
+      "designIntent": "让学生清楚学习路径，增强目标感。",
+      "assessmentEmbedded": ""
+    },
+    {
+      "phase": "P-participatory",
+      "title": "核心探索：will的用法",
+      "duration": 15,
+      "teacherAction": "1. 展示图片（机器人、100年后城市等），提问：Will people have robots? 引导学生猜测，板书核心句型。2. 播放1b听力，学生完成匹配。3. 组织pair work：互相提问Will...? 并回答。教师巡视，对困难学生提供句式支架。",
+      "studentAction": "1. 先独立观察图片，尝试用will说出预测（困难前置）。2. 听录音完成1b。3. 同桌互练，先自己尝试造句，再与同伴交流（过程保留）。",
+      "designIntent": "困难前置：学生先尝试表达，再通过听力获得输入；过程保留：学生练习中保留错误，教师后续纠正；抽象保护：先通过具体图片和听力感知，再归纳语法规则。",
+      "assessmentEmbedded": "教师巡视时用观察表记录学生使用will的频率和准确性，及时给予个别反馈。"
+    },
+    {
+      "phase": "P-post",
+      "title": "后测练习",
+      "duration": 8,
+      "teacherAction": "1. 发放填空练习纸（2c对话填空）。2. 组织小组活动：每人用will说一个未来预测，组员记录并准备汇报。",
+      "studentAction": "独立完成填空，再小组内分享预测，互相记录。",
+      "designIntent": "检测学生对will的掌握程度，为后续教学提供依据。",
+      "assessmentEmbedded": "收集填空纸批改；小组活动观察记录。"
+    },
+    {
+      "phase": "S",
+      "title": "课堂总结",
+      "duration": 5,
+      "teacherAction": "引导学生回顾本课核心内容：will的肯定、否定、疑问句结构；总结常见错误。布置分层作业。",
+      "studentAction": "在教师引导下口头复述will的用法，记录作业。",
+      "designIntent": "巩固所学，为下一课时（Section A 2d-3c）做铺垫。",
+      "assessmentEmbedded": ""
+    }
+  ],
+  "homework": {
+    "requiredTitle1": "基础练习",
+    "requiredDesc1": "完成教材Section A 1c的对话编写（至少4个问答）。",
+    "requiredTitle2": "拓展写作",
+    "requiredDesc2": "写3个句子预测你未来的生活（如：I will have a robot. It will help me clean the house.）。",
+    "optionalTitle": "挑战任务",
+    "optionalDesc": "录制一段1分钟英文视频，谈论你想象中100年后的世界，至少用5个will句子。",
+    "designIntent": "分层设计：基础练习巩固核心句型；拓展写作训练书面表达；挑战任务提供创造性运用机会。",
+    "differentiationNote": "基础薄弱学生只需完成基础练习和拓展写作；学有余力学生鼓励完成挑战任务；所有学生均可选做挑战任务。"
+  },
+  "boardDesign": {
+    "layout": "左侧：核心句型（Will...? Yes/No...） 中间：词汇（robot, future, prediction等） 右侧：学生生成句子示例（错误示范+正确示范）",
+    "keyElements": [
+      "核心句型",
+      "核心词汇",
+      "学生错误案例"
+    ],
+    "structureLogic": "先呈现句型结构，再补充词汇，最后通过对比错误案例强化正确用法。"
+  },
+  "reflection": {
+    "targetAchievement": "预计80%学生能掌握will的基本用法，60%能在口语中灵活运用。",
+    "improvementMeasures": [
+      "增加更多听力输入（如2a选择）",
+      "对困难学生提供句型卡片支架",
+      "下次课增加will和be going to的对比练习"
+    ],
+    "notableObservations": "注意学生是否混淆will和be going to（本课不要求对比，但个别学生可能提问）；关注内向学生的小组参与度。"
+  },
+  "difficultyDesign": {
+    "targetDifficulty": "核心困难：在无准备情况下用完整句子进行未来预测表达（尤其是否定句和疑问句）。",
+    "educationalValue": "这个困难促使学生主动调用已有语言知识，在真实交流中内化语法规则，培养语言运用能力。",
+    "zpdAlignment": "通过图片和听力提供可理解输入（i+1），pair work时教师巡回提供句式支架，确保困难在最近发展区内。",
+    "meaninglessObstacles": [
+      "生僻词汇（如prediction可先不要求拼写）",
+      "复杂的听力材料（如2d长对话可留到第二课时）"
+    ],
+    "motivationStrategy": "自主性：让学生选择自己感兴趣的预测话题（交通、环境、家庭等）；胜任感：通过图片和听力降低难度，成功体验后鼓励上台展示；关系感：小组合作，互相支持。",
+    "difficultyFirst": "在听力前先让学生尝试用will造句（即使错误），再通过听力获得正确输入，实现困难前置。",
+    "processPreservation": "pair work时学生先独立尝试造句，再与同伴交流，教师不立即纠正错误，而是记录共性问题在总结环节统一讲解。",
+    "abstractionProtection": "先通过具体图片和听力感知will的用法，再在Grammar Focus环节归纳规则，避免过早抽象讲解。"
+  }
+}

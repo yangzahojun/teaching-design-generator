@@ -1,0 +1,155 @@
+{
+  "standardAnalysis": {
+    "contentRequirement": "了解图形的位似，知道利用位似可以将一个图形放大或缩小。",
+    "academicRequirement": "能利用位似将一个图形放大或缩小，能识别位似图形，了解位似图形的性质。",
+    "teachingHint": "通过具体实例认识位似，引导学生利用位似性质进行图形放大或缩小的操作，注重直观感知与逻辑推理的结合。",
+    "coreCompetencyNames": [
+      "几何直观",
+      "空间观念",
+      "推理能力"
+    ]
+  },
+  "textbookAnalysis": {
+    "verticalAnalysis": "本课位于人教版九年级下册第二十七章《相似》的第三节。前有相似三角形的判定和性质，后有相似三角形的应用。位似是相似的一种特殊形式，是图形放缩的几何变换工具，为后续学习投影、视图等内容奠定基础。教材通过实例引入位似概念，强调位似中心、位似比等要素。",
+    "crossAnalysis": "与其他版本（如北师大版）相比，人教版更注重通过生活实例（如照片放大）引入，强调位似与相似的关联。教材特色是采用“观察-思考-探究”结构，先给出位似定义，再通过作图活动深化理解，最后总结性质。",
+    "bigConcept": "图形变换与相似关系：位似是保持形状不变的放缩变换，核心是位似中心和位似比。",
+    "keyKnowledge": [
+      "位似图形的定义",
+      "位似中心与位似比",
+      "利用位似将图形放大或缩小的方法"
+    ],
+    "difficulties": [
+      "理解位似中心的位置对图形放缩的影响",
+      "位似比与相似比的关系及正确应用"
+    ]
+  },
+  "learnerAnalysis": {
+    "priorKnowledge": "学生已掌握相似三角形的判定与性质，能识别相似图形，理解对应边成比例、对应角相等。",
+    "priorExperience": "生活中常见照片放大、地图缩放等实例，学生对“放缩”有直观感受。",
+    "cognitiveDifficulty": "学生可能混淆位似与一般相似，难以理解位似中心的作用，尤其是当位似中心在图形内部或边上时。",
+    "preAssessment": "课堂提问：请举出生活中图形放缩的例子，并说明它们是否相似。"
+  },
+  "learningObjectives": [
+    {
+      "content": "通过观察生活实例和几何图形，学生能准确描述位似图形的定义，并指出位似中心和位似比。",
+      "category": "knowledge",
+      "competencyLink": "几何直观",
+      "assessmentMethod": "课堂提问和判断练习"
+    },
+    {
+      "content": "利用位似性质，学生能独立完成将一个简单图形放大或缩小的作图（如三角形），并验证对应边比例。",
+      "category": "skill",
+      "competencyLink": "空间观念",
+      "assessmentMethod": "作图操作与小组互评"
+    },
+    {
+      "content": "通过小组合作探究位似中心位置对图形位置的影响，学生能体会数学的严谨与美感，增强合作意识。",
+      "category": "attitude",
+      "competencyLink": "推理能力",
+      "assessmentMethod": "课堂观察与反思日志"
+    }
+  ],
+  "assessmentTasks": {
+    "preMethod": "口头提问与简短笔答",
+    "preQuestions": [
+      "什么是相似图形？举例说明。",
+      "两个相似三角形的对应边有什么关系？"
+    ],
+    "prePurpose": "检测学生对相似概念的掌握程度，为位似学习铺垫。",
+    "postMethod": "课堂练习与作品展示",
+    "postTasks": [
+      "给定一个三角形和位似中心，按位似比2:1放大图形。",
+      "判断一组图形是否位似，并说明理由。"
+    ],
+    "postRubric": "优秀：作图准确，位似中心、位似比正确，能清晰解释。合格：作图基本正确，位似中心或比有误但可纠正。需辅导：无法独立完成作图，概念混淆。"
+  },
+  "activities": [
+    {
+      "phase": "B",
+      "title": "照片放大引入",
+      "duration": 3,
+      "teacherAction": "展示两张相似照片（一张是另一张的放大版），提问：如何精确放大？引出位似概念。",
+      "studentAction": "观察照片，思考放大过程，尝试描述。",
+      "designIntent": "利用生活实例激发兴趣，建立直观感知。",
+      "assessmentEmbedded": ""
+    },
+    {
+      "phase": "O",
+      "title": "明确学习目标",
+      "duration": 2,
+      "teacherAction": "展示本课目标：理解位似定义、学会作图、探究性质。",
+      "studentAction": "朗读目标，明确任务。",
+      "designIntent": "让学生清楚学什么、怎么学，增强目标感。",
+      "assessmentEmbedded": ""
+    },
+    {
+      "phase": "P-participatory",
+      "title": "探索位似性质与作图",
+      "duration": 15,
+      "teacherAction": "给出一个三角形ABC和点O，先让学生尝试将三角形放大2倍，再引导讨论位似中心不同位置（内部、外部）的影响。提供指导，但不直接给出答案。",
+      "studentAction": "先独立作图，再小组交流，比较不同位似中心下的结果。",
+      "designIntent": "困难前置：学生先经历作图困惑；过程保留：保留尝试痕迹。",
+      "assessmentEmbedded": "教师巡视，记录学生作图过程中的常见错误。"
+    },
+    {
+      "phase": "P-post",
+      "title": "巩固练习",
+      "duration": 8,
+      "teacherAction": "布置两个练习：判断位似图形、按给定比放大图形。巡回指导。",
+      "studentAction": "独立完成练习，同桌互批。",
+      "designIntent": "检测学习效果，及时反馈。",
+      "assessmentEmbedded": "练习结果作为后测依据。"
+    },
+    {
+      "phase": "S",
+      "title": "课堂总结",
+      "duration": 5,
+      "teacherAction": "引导学生总结位似定义、性质、作图步骤，强调与相似的联系。",
+      "studentAction": "口头总结，记录关键点。",
+      "designIntent": "归纳核心内容，为后续学习投影等铺垫。",
+      "assessmentEmbedded": ""
+    }
+  ],
+  "homework": {
+    "requiredTitle1": "基础作图",
+    "requiredDesc1": "给定四边形和位似中心，按位似比3:1放大图形。",
+    "requiredTitle2": "判断与解释",
+    "requiredDesc2": "判断教材课后练习题中的图形是否位似，并说明理由。",
+    "optionalTitle": "位似中心探究",
+    "optionalDesc": "探索当位似中心在图形边上时，放大后的图形位置有何变化？画图说明。",
+    "designIntent": "分层设计：基础题巩固技能，挑战题激发探究。",
+    "differentiationNote": "基础薄弱学生完成必做，学有余力学生尝试选做，鼓励合作。"
+  },
+  "boardDesign": {
+    "layout": "左侧：位似定义与要素（位似中心、位似比）；中间：位似性质（对应点连线交于一点，对应边平行或共线）；右侧：作图步骤示例（三角形放大）。",
+    "keyElements": [
+      "位似图形",
+      "位似中心",
+      "位似比",
+      "对应点连线",
+      "作图步骤"
+    ],
+    "structureLogic": "从左到右：概念→性质→应用，体现知识生成逻辑。"
+  },
+  "reflection": {
+    "targetAchievement": "预计85%学生能完成基本作图，70%能正确解释位似性质。",
+    "improvementMeasures": [
+      "增加位似中心在图形内部的实例",
+      "提供更多变式练习帮助学生区分位似与相似"
+    ],
+    "notableObservations": "关注学生在位似中心选择上的困惑，及时个别指导。"
+  },
+  "difficultyDesign": {
+    "targetDifficulty": "理解位似中心位置对图形位置的影响，并正确作图。",
+    "educationalValue": "该困难促使学生深入思考位似变换的本质，培养空间想象和推理能力。",
+    "zpdAlignment": "学生已掌握相似三角形知识，位似是相似的特例，通过直观操作和小组讨论可突破。",
+    "meaninglessObstacles": [
+      "复杂图形（如多边形）的放缩",
+      "抽象符号化表达"
+    ],
+    "motivationStrategy": "自主性：让学生选择不同位似中心作图；胜任感：通过成功作图获得成就感；关系感：小组合作交流。",
+    "difficultyFirst": "在核心探索活动中，先让学生尝试作图（不提供标准步骤），经历困惑后再引导。",
+    "processPreservation": "要求学生保留作图痕迹和错误尝试，便于反思讨论。",
+    "abstractionProtection": "先用具体图形（三角形）操作，再抽象出位似性质，避免直接给出抽象定义。"
+  }
+}

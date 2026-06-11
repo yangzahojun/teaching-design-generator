@@ -1,0 +1,157 @@
+{
+  "standardAnalysis": {
+    "contentRequirement": "能理解和运用描述天气的词汇和句型，在具体语境中询问和描述天气情况。",
+    "academicRequirement": "能围绕天气话题，运用所学语言进行简单的口头和书面交流，表达准确、得体。",
+    "teachingHint": "创设真实语境，通过任务型活动引导学生运用语言，注重听说能力的培养。",
+    "coreCompetencyNames": [
+      "语言能力",
+      "文化意识",
+      "思维品质",
+      "学习能力"
+    ]
+  },
+  "textbookAnalysis": {
+    "verticalAnalysis": "本课是人教版七年级下册Unit 7《It's raining!》的第一课时。本单元主题是天气，属于人与自然的范畴。在七年级上册，学生已学习过表示天气的形容词（如cold, hot, warm, cool）和一般现在时。本课在此基础上，引入现在进行时描述正在进行的天气状况和活动，并为后续学习现在进行时的一般疑问句和特殊疑问句做铺垫。教材通过图片、对话和听力活动呈现核心词汇和句型，强调在真实语境中的运用。",
+    "crossAnalysis": "与其他版本（如外研版、牛津版）相比，人教版本单元更侧重听说能力的培养，通过大量图片和情境对话引入新知识，活动设计由浅入深。本版本特色在于将天气话题与日常活动紧密结合，通过角色扮演和调查活动提升学生的交际能力。本课选取了Section A的1a-2d部分，聚焦于描述天气的句型和相关活动。",
+    "bigConcept": "语言是描述和解释自然现象及人类活动的工具；现在进行时用于描述正在发生的事件。",
+    "keyKnowledge": [
+      "描述天气的词汇：rainy, windy, cloudy, sunny, snowy, hot, cold, warm, cool",
+      "询问天气的句型：How's the weather? / What's the weather like?",
+      "回答天气的句型：It's + 天气形容词",
+      "现在进行时的基本结构：be + doing"
+    ],
+    "difficulties": [
+      "教学重点：掌握描述天气的词汇和句型；运用How's the weather? / What's the weather like?进行问答。",
+      "教学难点：现在进行时与一般现在时的区分；在真实语境中灵活运用现在进行时描述天气和活动。"
+    ]
+  },
+  "learnerAnalysis": {
+    "priorKnowledge": "学生已掌握一些基本天气词汇（如hot, cold, warm, cool）和一般现在时的用法。",
+    "priorExperience": "学生对天气变化有直观感受，能根据天气选择活动。",
+    "cognitiveDifficulty": "学生可能混淆现在进行时与一般现在时的用法，尤其是动词的ing形式变化规则。",
+    "preAssessment": "通过简短的问答和图片匹配，检测学生对基础天气词汇和一般现在时的掌握情况。"
+  },
+  "learningObjectives": [
+    {
+      "content": "通过观察图片和听力活动，学生能准确识别并说出描述天气的词汇（rainy, windy等）和句型（How's the weather? It's...）。",
+      "category": "knowledge",
+      "competencyLink": "语言能力",
+      "assessmentMethod": "课堂提问和听力检测"
+    },
+    {
+      "content": "学生能运用所学句型进行角色扮演，询问和描述不同城市的天气情况。",
+      "category": "skill",
+      "competencyLink": "语言能力、学习能力",
+      "assessmentMethod": "角色扮演和同伴评价"
+    },
+    {
+      "content": "通过小组活动，学生能合作完成天气报告，培养合作意识和跨文化交际能力。",
+      "category": "attitude",
+      "competencyLink": "文化意识、思维品质",
+      "assessmentMethod": "小组展示和教师观察"
+    }
+  ],
+  "assessmentTasks": {
+    "preMethod": "课堂前测：口头问答和图片匹配练习",
+    "preQuestions": [
+      "What's the weather like today?",
+      "Can you name some weather words?",
+      "Match the picture with the weather word."
+    ],
+    "prePurpose": "了解学生已有的天气词汇和一般现在时基础，为新课教学提供依据。",
+    "postMethod": "后测：听力填空和情景对话",
+    "postTasks": [
+      "听录音，填写城市天气信息表",
+      "两人一组，根据图片创编对话询问和描述天气"
+    ],
+    "postRubric": "优秀：词汇准确，句型运用正确，对话流畅自然；合格：词汇基本正确，句型基本掌握，对话基本完成；需辅导：词汇混淆，句型错误较多，对话无法完成。"
+  },
+  "activities": [
+    {
+      "phase": "B",
+      "title": "天气播报导入",
+      "duration": 3,
+      "teacherAction": "播放一段天气预报视频，提问：What's the weather like? 引导学生回答。",
+      "studentAction": "观看视频，尝试用已有词汇回答。",
+      "designIntent": "激活学生已有知识，激发学习兴趣，引出本课主题。",
+      "assessmentEmbedded": ""
+    },
+    {
+      "phase": "O",
+      "title": "明确学习目标",
+      "duration": 2,
+      "teacherAction": "展示本课学习目标，用中文解释，强调重点和难点。",
+      "studentAction": "了解目标，明确学习任务。",
+      "designIntent": "让学生明确学什么、怎么学，增强学习目的性。",
+      "assessmentEmbedded": ""
+    },
+    {
+      "phase": "P-participatory",
+      "title": "核心探索：天气词汇与句型",
+      "duration": 15,
+      "teacherAction": "呈现四幅天气图片，先让学生尝试描述，再播放听力，引导学生发现新词汇和句型。设计问题：How's the weather in Picture 1? 学生回答后，教师板书正确表达。随后组织两人练习。",
+      "studentAction": "先独立观察图片，尝试用英语描述；听录音后，核对并学习新词；与同伴进行问答练习。",
+      "designIntent": "困难前置：先让学生尝试表达，暴露问题；过程保留：学生经历从不会到会的过程；抽象保护：通过图片和听力提供具体语境。",
+      "assessmentEmbedded": "教师巡视，观察学生问答情况，给予即时反馈。"
+    },
+    {
+      "phase": "P-post",
+      "title": "后测练习：天气报告",
+      "duration": 8,
+      "teacherAction": "展示世界地图和几个城市的天气符号，要求学生两人一组，一人扮演天气预报员，另一人记录并复述。",
+      "studentAction": "两人合作，用所学句型完成天气报告。",
+      "designIntent": "检测学生对新知识的掌握和运用能力，促进语言输出。",
+      "assessmentEmbedded": "同伴互评和教师点评。"
+    },
+    {
+      "phase": "S",
+      "title": "课堂总结",
+      "duration": 5,
+      "teacherAction": "引导学生总结本课学到的天气词汇和句型，强调现在进行时的用法。布置课后作业。",
+      "studentAction": "回顾本课内容，完成总结表格。",
+      "designIntent": "归纳本课核心内容，为后续学习现在进行时做铺垫。",
+      "assessmentEmbedded": ""
+    }
+  ],
+  "homework": {
+    "requiredTitle1": "天气词汇抄写",
+    "requiredDesc1": "抄写本课新学的天气词汇各两遍，并写出中文意思。",
+    "requiredTitle2": "天气对话创编",
+    "requiredDesc2": "与同伴创编一段关于天气的对话（至少6个来回），并录音提交。",
+    "optionalTitle": "天气预报小报",
+    "optionalDesc": "制作一张天气预报小报，包含至少5个城市的天气信息和相关活动建议。",
+    "designIntent": "分层设计，基础作业巩固词汇和句型，拓展作业提升综合语言运用能力。",
+    "differentiationNote": "基础薄弱学生可只完成必做作业1和2的简版；学有余力学生完成选做作业。"
+  },
+  "boardDesign": {
+    "layout": "左侧：天气词汇（配图）；中间：核心句型 How's the weather? It's...；右侧：现在进行时结构 be+doing 示例。",
+    "keyElements": [
+      "天气词汇",
+      "How's the weather? / What's the weather like?",
+      "It's + 天气形容词",
+      "现在进行时"
+    ],
+    "structureLogic": "由具体词汇到句型，再到语法结构，层层递进。"
+  },
+  "reflection": {
+    "targetAchievement": "预计大部分学生能掌握核心词汇和句型，部分学生可能在现在进行时的灵活运用上需要进一步练习。",
+    "improvementMeasures": [
+      "增加更多听力输入，强化语音语调",
+      "设计更多小组活动，提高学生参与度"
+    ],
+    "notableObservations": "关注学生在角色扮演中的表现，及时纠正发音和语法错误。"
+  },
+  "difficultyDesign": {
+    "targetDifficulty": "核心困难：在真实语境中区分并正确使用现在进行时描述天气和活动。",
+    "educationalValue": "这个困难促使学生思考时态与语境的关系，培养语言运用的准确性。",
+    "zpdAlignment": "通过图片、听力支架和同伴互助，确保困难在学生的最近发展区内。",
+    "meaninglessObstacles": [
+      "生僻词汇",
+      "过长的句子结构"
+    ],
+    "motivationStrategy": "自主性：让学生选择自己感兴趣的城市进行描述；胜任感：通过分层任务确保成功体验；关系感：同伴合作增强互动。",
+    "difficultyFirst": "在核心探索环节，先让学生尝试描述图片，暴露困难，再进行教学。",
+    "processPreservation": "学生先独立尝试，再听录音核对，最后同伴练习，保留学习过程。",
+    "abstractionProtection": "通过具体图片和情境对话，帮助学生理解抽象语法概念。"
+  }
+}

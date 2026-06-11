@@ -1,0 +1,156 @@
+{
+  "standardAnalysis": {
+    "contentRequirement": "能在教师帮助下，借助图片、手势等，听懂或读懂简单的对话或故事，并做出相应的反应；能围绕相关主题，运用所学语言进行简单的交流，表达自己的情感和喜好。",
+    "academicRequirement": "能围绕个人喜好、学校生活等话题，在教师帮助下，运用所学词汇和句型进行简单的对话和描述，语言基本准确。",
+    "teachingHint": "创设真实、有趣的语境，通过听、说、读、看、写等活动，引导学生感知、理解、内化和运用语言；注重语言实践，鼓励学生在完成任务的过程中学习和运用语言。",
+    "coreCompetencyNames": [
+      "语言能力",
+      "文化意识",
+      "思维品质",
+      "学习能力"
+    ]
+  },
+  "textbookAnalysis": {
+    "verticalAnalysis": "本课是PEP小学英语五年级下册Unit 3 My school calendar的第一课时（Part A Let's talk & Let's learn）。本单元围绕“学校日历”主题展开，主要学习月份名称（January-December）和询问、回答某活动在哪个月份的句型（When is...? It's in...）。在知识体系上，学生已在四年级下册学习过季节（spring, summer, autumn, winter）和部分月份（如May, June, July, August），本课在此基础上扩展所有月份，并为后续学习序数词和具体日期（如January 1st）做铺垫。教材通过Mike和Zhang Peng的对话呈现核心句型，并通过图片和单词表呈现12个月份词汇。本课是单元起始课，侧重听说和词汇认读。",
+    "crossAnalysis": "对比外研版、牛津版等教材，PEP本单元以“学校活动”作为月份学习的载体，贴近学生生活，趣味性强。PEP的特色在于将月份词汇融入真实对话和任务活动（如制作校历），强调语用功能。本版本未直接呈现月份缩写或拼写规律，需要教师补充。",
+    "bigConcept": "时间表达与日程规划：使用月份词汇描述和询问特定活动的时间安排。",
+    "keyKnowledge": [
+      "12个月份词汇: January, February, March, April, May, June, July, August, September, October, November, December",
+      "核心句型: When is the school trip? It's in October./We'll have an English party in February.",
+      "文化知识: 中西方学校常见活动及其月份"
+    ],
+    "difficulties": [
+      "教学重点: 12个月份词汇的音、义、形的掌握及核心句型When is...? It's in...的运用",
+      "教学难点: 部分月份词汇的发音（如January, February）和拼写；将月份与具体活动匹配进行真实交流"
+    ]
+  },
+  "learnerAnalysis": {
+    "priorKnowledge": "学生已掌握四季词汇和部分月份（May, June, July, August），能听懂并运用一般现在时描述日常活动。对学校活动（如sports meet, school trip）有基本认知。",
+    "priorExperience": "学生在学校生活中参与过运动会、郊游、英语派对等活动，对月份和活动有直接体验。部分学生可能知道自己的生日月份或节日月份。",
+    "cognitiveDifficulty": "月份词汇量大（12个），且部分单词音节多、发音难（如February, September），学生可能混淆发音和拼写。将月份与活动建立联系并进行口头交流时，可能出现表达不流畅。",
+    "preAssessment": "通过快速问答（What month is it now? When is your birthday?）和图片匹配活动（将季节与月份连线）了解学生对月份和活动的已有认知。"
+  },
+  "learningObjectives": [
+    {
+      "content": "学生能借助图片和录音，听懂并准确说出12个月份词汇，发音基本正确。",
+      "category": "knowledge",
+      "competencyLink": "语言能力",
+      "assessmentMethod": "课堂听音指图、跟读纠音"
+    },
+    {
+      "content": "学生能在教师创设的学校活动情境中，运用核心句型When is the...? It's in...进行问答，至少完成3轮对话。",
+      "category": "skill",
+      "competencyLink": "语言能力、思维品质",
+      "assessmentMethod": "角色扮演对话、教师观察记录"
+    },
+    {
+      "content": "学生能通过小组合作制作班级月度活动日历，并用英语向全班介绍至少2个月份的活动安排，感受规划时间的乐趣。",
+      "category": "attitude",
+      "competencyLink": "文化意识、学习能力",
+      "assessmentMethod": "小组展示互评、自评表"
+    }
+  ],
+  "assessmentTasks": {
+    "preMethod": "课堂问答+图片匹配活动",
+    "preQuestions": [
+      "What month is it now?",
+      "When is your birthday? (in which month?)",
+      "Which months do you know? Can you name three?"
+    ],
+    "prePurpose": "了解学生对月份词汇和学校活动的已有认知，诊断发音和词汇量差距。",
+    "postMethod": "角色扮演对话+小组展示",
+    "postTasks": [
+      "同伴互问：每人至少问3个关于学校活动月份的问题，并记录答案",
+      "小组合作：制作一张班级活动日历（4个月份），并向全班介绍"
+    ],
+    "postRubric": "优秀：能准确使用所有月份词汇，对话流畅，介绍完整；合格：能使用大部分月份词汇，对话基本完整，有少量错误；需辅导：月份词汇混淆较多，对话不完整，需要教师提示。"
+  },
+  "activities": [
+    {
+      "phase": "B",
+      "title": "月份歌曲与季节复习",
+      "duration": 3,
+      "teacherAction": "播放月份歌曲视频，引导学生跟唱；展示四季图片，提问What season is it? Which months are in spring? 激活旧知。",
+      "studentAction": "跟唱歌曲，回答问题，回忆已知月份。",
+      "designIntent": "利用歌曲激发兴趣，激活月份和季节的已有知识，为新课做铺垫。",
+      "assessmentEmbedded": "观察学生跟唱和回答的参与度"
+    },
+    {
+      "phase": "O",
+      "title": "明确学习目标",
+      "duration": 2,
+      "teacherAction": "展示本课核心词汇和句型图片，告知学生今天要学习12个月份并学会用英语谈论学校活动的时间。",
+      "studentAction": "观看图片，明确学习任务。",
+      "designIntent": "让学生清楚本课学习内容和目标，建立学习期待。",
+      "assessmentEmbedded": ""
+    },
+    {
+      "phase": "P-participatory",
+      "title": "月份词汇探索与对话建构",
+      "duration": 15,
+      "teacherAction": "先播放Let's talk录音，但只播放对话前半部分（到It's in October.），提问What month is the school trip? 让学生猜测答案；然后呈现月份图片和单词卡，引导学生观察拼写规律（如-ary, -ber结尾），带读难点单词；再完整播放对话，让学生跟读。",
+      "studentAction": "先听前半段录音，尝试猜测月份；然后观察图片和单词，跟读月份词汇；最后完整听对话，模仿语音语调。",
+      "designIntent": "困难前置：先让学生猜测，暴露认知缺口，再提供支架；过程保留：学生先尝试再听读；抽象保护：用图片和实物日历辅助理解。",
+      "assessmentEmbedded": "教师巡视，记录学生发音问题，及时纠正"
+    },
+    {
+      "phase": "P-post",
+      "title": "角色扮演与信息差活动",
+      "duration": 8,
+      "teacherAction": "出示学校活动图片（sports meet, English party, school trip, reading festival），提供信息差表格（A表有活动无月份，B表有月份无活动），示范对话：When is the sports meet? It's in April. 然后组织学生pair work。",
+      "studentAction": "两人一组，利用信息差表格进行问答，完成表格填写。",
+      "designIntent": "后测检验目标2达成情况，信息差任务增加交际真实性和趣味性。",
+      "assessmentEmbedded": "教师巡视记录对话表现，选取小组展示"
+    },
+    {
+      "phase": "S",
+      "title": "课堂总结与日历制作预告",
+      "duration": 5,
+      "teacherAction": "引导学生回顾本课月份词汇和核心句型；布置课后小组任务：制作班级月度活动日历（4个月份），介绍给全班。",
+      "studentAction": "跟读月份词汇，复述核心句型；明确课后任务要求。",
+      "designIntent": "归纳核心内容，为后续课时的日历制作和展示做铺垫。",
+      "assessmentEmbedded": ""
+    }
+  ],
+  "homework": {
+    "requiredTitle1": "月份词汇听写",
+    "requiredDesc1": "听录音，写出12个月份词汇（中英文对照），至少正确写出8个。",
+    "requiredTitle2": "对话创编",
+    "requiredDesc2": "与同伴创编一段新的对话，谈论至少3个学校活动的月份，并录音提交。",
+    "optionalTitle": "月份海报",
+    "optionalDesc": "选择你最喜欢的一个月份，画一张海报，包含月份名称、至少一个活动（如My birthday is in...）和一幅插图。",
+    "designIntent": "分层设计：基础作业巩固词汇和句型，挑战作业鼓励创意和综合运用。",
+    "differentiationNote": "对于基础薄弱学生，可只要求听写6个月份，对话可参考课本；对于学有余力学生，鼓励使用更多月份和活动，并尝试写句子。"
+  },
+  "boardDesign": {
+    "layout": "左侧：月份词汇卡片（按季节分组，配图）；中间：核心句型 When is the...? It's in...；右侧：学校活动图片（sports meet, school trip, English party, reading festival）",
+    "keyElements": [
+      "12个月份词汇（带音标）",
+      "核心句型框架",
+      "学校活动图片"
+    ],
+    "structureLogic": "按“词汇-句型-应用”的逻辑呈现，词汇按季节分组帮助学生记忆，句型用彩色粉笔突出，活动图片用于操练。"
+  },
+  "reflection": {
+    "targetAchievement": "预估80%学生能掌握12个月份词汇并完成对话，20%学生需要课后个别辅导。",
+    "improvementMeasures": [
+      "增加月份拼写游戏（如拼写接力）",
+      "提供更多发音示范和跟读机会",
+      "设计分层任务卡，照顾不同水平学生"
+    ],
+    "notableObservations": "关注January和February的发音困难，以及学生对学校活动词汇的熟悉程度。"
+  },
+  "difficultyDesign": {
+    "targetDifficulty": "核心困难：学生能否在信息差任务中准确使用月份词汇和句型进行真实交流。",
+    "educationalValue": "这个困难促使学生将词汇和句型转化为交际工具，培养真实语用能力。",
+    "zpdAlignment": "通过信息差表格提供支架（一半信息已知），使任务难度处于学生最近发展区内。",
+    "meaninglessObstacles": [
+      "避免直接呈现所有月份词汇列表并要求死记硬背",
+      "避免机械重复的句型操练"
+    ],
+    "motivationStrategy": "自主性：学生可自由选择活动进行问答；胜任感：信息差任务确保成功；关系感：小组合作和角色扮演增强互动。",
+    "difficultyFirst": "先让学生听对话前半部分猜测月份，暴露认知缺口，再提供完整输入。",
+    "processPreservation": "学生先尝试猜测，再听读验证，保留思考过程。",
+    "abstractionProtection": "使用月份图片、活动图片和实物日历作为直观支持，降低抽象程度。"
+  }
+}

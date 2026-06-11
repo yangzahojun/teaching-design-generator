@@ -1,0 +1,155 @@
+{
+  "standardAnalysis": {
+    "contentRequirement": "阅读浅易文言文，能借助注释和工具书理解基本内容。注重积累、感悟和运用，提高自己的欣赏品位。",
+    "academicRequirement": "能借助注释和工具书理解诗文大意，并联系作品的文化背景，对作品的思想感情倾向作出自己的评价。",
+    "teachingHint": "诵读古代诗词，阅读浅易文言文，能借助注释和工具书理解基本内容。注重积累、感悟和运用，提高自己的欣赏品位。",
+    "coreCompetencyNames": [
+      "语言建构与运用",
+      "思维发展与提升",
+      "审美鉴赏与创造",
+      "文化传承与理解"
+    ]
+  },
+  "textbookAnalysis": {
+    "verticalAnalysis": "《记承天寺夜游》是统编版八年级上册第三单元第11课《短文二篇》中的第二篇。本单元以“山水之美”为主题，选编了《三峡》《答谢中书书》《记承天寺夜游》《观潮》等写景散文。本课是学生进入初中后接触的第二篇苏轼作品（第一篇为七年级下册《卜算子·黄州定慧院寓居作》），在写景中融入情感与哲思，为后续学习《醉翁亭记》《岳阳楼记》等借景抒情散文奠定基础。",
+    "crossAnalysis": "相较于人教版，统编版将《记承天寺夜游》与《答谢中书书》组合为《短文二篇》，更强调对比阅读。统编版教材在注释上更为详尽，补充了“闲人”一词的文化内涵，有助于学生理解作者情感。",
+    "bigConcept": "借景抒情与闲适心境",
+    "keyKnowledge": [
+      "文言词汇（月色入户、念无与为乐者、相与步于中庭、庭下如积水空明、盖竹柏影也、但少闲人如吾两人者耳）",
+      "写景手法（比喻、虚实结合）",
+      "作者情感（闲人内涵）"
+    ],
+    "difficulties": [
+      "教学重点：通过诵读和品析，体会文中写景的妙处和作者的情感",
+      "教学难点：理解“闲人”一词的深层含义，体会苏轼在贬谪中的豁达与孤寂"
+    ]
+  },
+  "learnerAnalysis": {
+    "priorKnowledge": "学生已学过《三峡》《答谢中书书》等文言文，掌握了基本的文言词汇和诵读方法；对苏轼有初步了解，知道他是宋代著名文学家。",
+    "priorExperience": "学生有夜间散步的生活经验，对月光、竹柏影等自然景物有直观感受。",
+    "cognitiveDifficulty": "难以理解“闲人”一词的双关含义（既指清闲之人，又指有闲情雅致之人）；难以体会苏轼在贬谪中的复杂心境。",
+    "preAssessment": "通过课堂提问和简单默写，检测学生对苏轼及本文背景的已知程度。"
+  },
+  "learningObjectives": [
+    {
+      "content": "学生通过反复诵读和借助注释，能准确翻译全文，积累“念”“相与”“但”等文言词语。",
+      "category": "knowledge",
+      "competencyLink": "语言建构与运用",
+      "assessmentMethod": "课堂提问与翻译练习"
+    },
+    {
+      "content": "学生通过品析“庭下如积水空明”等句，能分析比喻、虚实结合的写景手法及其表达效果。",
+      "category": "skill",
+      "competencyLink": "审美鉴赏与创造",
+      "assessmentMethod": "小组讨论与口头分析"
+    },
+    {
+      "content": "学生通过联系写作背景和讨论“闲人”一词，能说出苏轼在贬谪中的豁达与孤寂，并表达自己的感悟。",
+      "category": "attitude",
+      "competencyLink": "文化传承与理解",
+      "assessmentMethod": "课后小短文与课堂分享"
+    }
+  ],
+  "assessmentTasks": {
+    "preMethod": "课堂提问与简单默写",
+    "preQuestions": [
+      "你知道苏轼的哪些作品？",
+      "你能说出“月色入户”中“户”的意思吗？"
+    ],
+    "prePurpose": "了解学生对苏轼及文言词汇的掌握程度，为教学调整提供依据。",
+    "postMethod": "书面翻译与片段写作",
+    "postTasks": [
+      "准确翻译全文",
+      "写一段100字左右的文字，描述你眼中的“闲人”形象"
+    ],
+    "postRubric": "优秀：翻译准确，能结合背景深入理解“闲人”；合格：翻译基本准确，能说出“闲人”的表面含义；需辅导：翻译有较多错误，对“闲人”理解模糊。"
+  },
+  "activities": [
+    {
+      "phase": "B",
+      "title": "月夜导入",
+      "duration": 3,
+      "teacherAction": "展示月夜图片，提问：你曾在月夜有过怎样的经历？引出苏轼的月夜漫步。",
+      "studentAction": "回忆并分享自己的月夜经历。",
+      "designIntent": "激活学生生活经验，自然引入课文情境。",
+      "assessmentEmbedded": ""
+    },
+    {
+      "phase": "O",
+      "title": "明确学习目标",
+      "duration": 2,
+      "teacherAction": "出示本课学习目标，并简要解释。",
+      "studentAction": "阅读目标，明确本课任务。",
+      "designIntent": "让学生明确学什么、怎么学。",
+      "assessmentEmbedded": ""
+    },
+    {
+      "phase": "P-participatory",
+      "title": "品读“闲人”",
+      "duration": 15,
+      "teacherAction": "先让学生独立朗读并思考“闲人”的含义，再组织小组讨论，最后提供背景资料（苏轼被贬黄州）。",
+      "studentAction": "先独立朗读并标注不理解之处，再小组交流，最后全班分享。",
+      "designIntent": "困难前置：先让学生困惑，再提供帮助；过程保留：学生先尝试解释。",
+      "assessmentEmbedded": "小组讨论中观察学生的参与度和理解深度。"
+    },
+    {
+      "phase": "P-post",
+      "title": "写景赏析",
+      "duration": 8,
+      "teacherAction": "出示“庭下如积水空明”等句，引导学生分析写景手法。",
+      "studentAction": "圈点批注，分析比喻和虚实结合的效果。",
+      "designIntent": "检测学生对写景手法的掌握。",
+      "assessmentEmbedded": "提问与批注检查。"
+    },
+    {
+      "phase": "S",
+      "title": "课堂总结",
+      "duration": 5,
+      "teacherAction": "总结“闲人”的双重含义和写景手法，布置作业。",
+      "studentAction": "回顾本课内容，记录作业。",
+      "designIntent": "归纳核心，为后续学习铺垫。",
+      "assessmentEmbedded": ""
+    }
+  ],
+  "homework": {
+    "requiredTitle1": "翻译全文",
+    "requiredDesc1": "准确翻译《记承天寺夜游》全文，注意关键词句。",
+    "requiredTitle2": "写景片段",
+    "requiredDesc2": "模仿本文写景手法，写一段100字左右的月夜景致。",
+    "optionalTitle": "“闲人”新解",
+    "optionalDesc": "结合苏轼生平，写一篇200字的短文，谈谈你对“闲人”的理解。",
+    "designIntent": "分层设计：基础作业巩固文言知识，提升作业锻炼写作与思维能力，挑战作业鼓励深度思考。",
+    "differentiationNote": "基础薄弱学生完成必做作业1和2；学有余力学生可选做挑战题。"
+  },
+  "boardDesign": {
+    "layout": "中心：记承天寺夜游（苏轼）\n左栏：叙事——寻友赏月\n右栏：写景——积水空明、藻荇交横\n下栏：抒情——闲人（清闲/闲情）",
+    "keyElements": [
+      "叙事",
+      "写景",
+      "抒情",
+      "闲人"
+    ],
+    "structureLogic": "按照文章脉络，从叙事到写景再到抒情，层层递进。"
+  },
+  "reflection": {
+    "targetAchievement": "预计80%学生能达成知识目标，70%能达成技能目标，60%能达成情感目标。",
+    "improvementMeasures": [
+      "增加背景资料的补充",
+      "设计更多层次的问题链"
+    ],
+    "notableObservations": "关注学生对“闲人”一词的讨论，可能产生多种解读。"
+  },
+  "difficultyDesign": {
+    "targetDifficulty": "理解“闲人”一词的双关含义和苏轼的复杂心境。",
+    "educationalValue": "这个困难能培养学生结合背景深入理解文本的能力，提升审美鉴赏水平。",
+    "zpdAlignment": "学生已学过苏轼作品，具备一定基础，通过小组讨论和教师引导可以达成。",
+    "meaninglessObstacles": [
+      "避免过度讲解文言语法术语",
+      "避免直接给出标准答案"
+    ],
+    "motivationStrategy": "自主性：让学生先自由朗读并尝试解释；胜任感：通过小组交流获得同伴支持；关系感：教师适时提供背景资料。",
+    "difficultyFirst": "先让学生独立尝试理解“闲人”，再提供背景资料和讨论。",
+    "processPreservation": "保留学生从困惑到理解的过程，不直接给出答案。",
+    "abstractionProtection": "通过具体句子和背景资料，帮助学生从抽象概念中理解具体含义。"
+  }
+}

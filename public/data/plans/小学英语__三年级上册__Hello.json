@@ -1,0 +1,156 @@
+{
+  "standardAnalysis": {
+    "contentRequirement": "能理解和运用基本的问候语和告别语，如‘Hello’‘Goodbye’等，能根据语境进行简单的日常交流。",
+    "academicRequirement": "能在教师帮助下，借助图片或动作，理解并回应简单的问候与自我介绍。",
+    "teachingHint": "创设真实或模拟的交际情境，通过角色扮演、游戏等活动，激发学生兴趣，培养初步的英语交际能力。",
+    "coreCompetencyNames": [
+      "语言能力",
+      "文化意识",
+      "思维品质",
+      "学习能力"
+    ]
+  },
+  "textbookAnalysis": {
+    "verticalAnalysis": "本课位于PEP三年级上册Unit 1《Hello!》的第一课时，是小学英语学习的起始课。学生首次接触英语，本课建立最基本的问候与自我介绍框架，为后续学习颜色、数字等话题奠定交际基础。在学段中，本课承担着激发兴趣、建立基本交际习惯的任务。",
+    "crossAnalysis": "与其他版本（如外研版）相比，PEP教材更突出情境化对话和歌曲活动，本单元以‘Hello’为主题，通过主情景图呈现校园场景，对话简洁，注重听说领先。特色在于利用Let's talk、Let's play等板块实现交际循环。",
+    "bigConcept": "语言是交际的工具，基本问候语是建立人际关系的起点。",
+    "keyKnowledge": [
+      "Hello/Hi",
+      "I'm...",
+      "Goodbye/Bye"
+    ],
+    "difficulties": [
+      "教学重点：能听懂、会说并运用‘Hello/Hi’‘I'm...’进行问候与自我介绍",
+      "教学难点：正确发音‘I'm’的连读，以及在不同情境下灵活运用问候语"
+    ]
+  },
+  "learnerAnalysis": {
+    "priorKnowledge": "大部分学生为零基础，少数可能通过学前班或家庭接触过简单英语单词。",
+    "priorExperience": "学生在日常生活中可能通过动画、歌曲等接触过‘Hello’‘Hi’，但对正式交际场景不熟悉。",
+    "cognitiveDifficulty": "对英语语音不敏感，尤其连读和语调；初次面对英语课堂规则，注意力易分散。",
+    "preAssessment": "通过课前简短的师生互动（如教师用中文打招呼，观察学生反应）和家庭问卷了解学生英语接触情况。"
+  },
+  "learningObjectives": [
+    {
+      "content": "学生能在教师创设的校园见面情境中，借助图片和动作，正确说出‘Hello/Hi’和‘I'm...’进行问候与自我介绍。",
+      "category": "knowledge",
+      "competencyLink": "语言能力",
+      "assessmentMethod": "观察学生角色扮演中的语言输出"
+    },
+    {
+      "content": "学生能模仿录音中的语音语调，用‘Hello/Hi’和‘I'm...’与同伴进行至少一轮对话交流。",
+      "category": "skill",
+      "competencyLink": "语言能力、学习能力",
+      "assessmentMethod": "同伴对话录音或课堂展示"
+    },
+    {
+      "content": "学生能积极参与课堂活动，在小组合作中礼貌问候他人，体验英语交流的乐趣。",
+      "category": "attitude",
+      "competencyLink": "文化意识、学习能力",
+      "assessmentMethod": "课堂观察记录表"
+    }
+  ],
+  "assessmentTasks": {
+    "preMethod": "教师出示‘Hello’单词卡片，询问学生是否认识并尝试发音。",
+    "preQuestions": [
+      "你听过‘Hello’这个词吗？",
+      "你知道‘Hello’是什么意思吗？"
+    ],
+    "prePurpose": "了解学生已有基础，确定教学起点。",
+    "postMethod": "角色扮演：学生两人一组，模拟课间见面场景，使用目标语言问候。",
+    "postTasks": [
+      "用‘Hello/Hi’和‘I'm...’互相问候",
+      "用‘Goodbye/Bye’告别"
+    ],
+    "postRubric": "优秀：语音清晰，能主动发起问候并回应；合格：能基本模仿说出句子；需辅导：需教师提示才能说出关键单词"
+  },
+  "activities": [
+    {
+      "phase": "B",
+      "title": "歌曲导入：Hello Song",
+      "duration": 3,
+      "teacherAction": "播放英语问候歌曲，带领学生做动作",
+      "studentAction": "听歌曲，跟唱并做动作",
+      "designIntent": "利用歌曲激活兴趣，建立英语课堂氛围",
+      "assessmentEmbedded": ""
+    },
+    {
+      "phase": "O",
+      "title": "明确学习目标",
+      "duration": 2,
+      "teacherAction": "展示本课目标图片：学会用英语打招呼和自我介绍",
+      "studentAction": "观察图片，知道今天要学什么",
+      "designIntent": "让学生明确学什么、怎么学",
+      "assessmentEmbedded": ""
+    },
+    {
+      "phase": "P-participatory",
+      "title": "核心探索：遇见新朋友",
+      "duration": 15,
+      "teacherAction": "创设情境：教师扮演新同学，先不教，让学生尝试用已知方式打招呼（可能用中文），然后教师用英语回应‘Hello, I'm Miss Wang’，引发学生好奇。接着播放对话录音，引导学生发现关键句，并分组练习",
+      "studentAction": "先尝试用中文或已知单词打招呼，经历困惑；然后听录音，模仿并小组内角色扮演",
+      "designIntent": "体现困难前置、过程保留、抽象保护原则，通过真实交际需求驱动学习",
+      "assessmentEmbedded": "教师巡视，记录学生发音和参与度"
+    },
+    {
+      "phase": "P-post",
+      "title": "后测练习：问候接力",
+      "duration": 8,
+      "teacherAction": "组织学生围圈，用‘Hello’和‘I'm...’依次自我介绍，教师给予即时反馈",
+      "studentAction": "依次说出句子，注意倾听同伴",
+      "designIntent": "检测学习效果，巩固目标语言",
+      "assessmentEmbedded": "教师使用评价量规记录学生表现"
+    },
+    {
+      "phase": "S",
+      "title": "课堂总结",
+      "duration": 5,
+      "teacherAction": "引导学生回顾今天学到的问候语，并展示下一课将学习的告别语",
+      "studentAction": "跟读总结，知道课后要练习",
+      "designIntent": "归纳本课核心内容，为后续学习铺垫",
+      "assessmentEmbedded": ""
+    }
+  ],
+  "homework": {
+    "requiredTitle1": "听录音跟读",
+    "requiredDesc1": "听Unit 1 Let's talk录音3遍，模仿语音语调跟读。",
+    "requiredTitle2": "向家人问候",
+    "requiredDesc2": "回家后用英语向至少两位家人说‘Hello, I'm (自己的名字)’并道晚安。",
+    "optionalTitle": "制作姓名卡",
+    "optionalDesc": "用彩色卡纸制作英文姓名卡，并练习用英语介绍自己。",
+    "designIntent": "分层设计：必做作业巩固基础，选做作业满足学有余力学生，延伸学习兴趣。",
+    "differentiationNote": "对基础薄弱学生，只要求完成跟读和简单问候；对能力较强学生，鼓励完整对话并制作姓名卡。"
+  },
+  "boardDesign": {
+    "layout": "黑板中央画两个卡通人物（Mike和Sarah），对话气泡写出关键句：Hello! / Hi! / I'm Mike. / I'm Sarah. 下方列出单词卡片：Hello, Hi, I'm, Goodbye, Bye。右侧留白用于学生展示。",
+    "keyElements": [
+      "Hello",
+      "Hi",
+      "I'm",
+      "Goodbye",
+      "Bye"
+    ],
+    "structureLogic": "以情境对话为主线，从问候到自我介绍，再到告别，体现交际逻辑顺序。"
+  },
+  "reflection": {
+    "targetAchievement": "预计80%学生能基本掌握目标语言，20%需课后个别辅导。",
+    "improvementMeasures": [
+      "增加TPR活动强化语音",
+      "对发音困难学生设计额外操练环节"
+    ],
+    "notableObservations": "需关注害羞学生，鼓励其参与，避免因初次开口受挫。"
+  },
+  "difficultyDesign": {
+    "targetDifficulty": "如何在真实交际情境中自然运用‘I'm...’进行自我介绍，而非机械背诵。",
+    "educationalValue": "培养学生在真实语境中运用语言的能力，建立交际自信心。",
+    "zpdAlignment": "学生零基础，但通过模仿和情境支撑，在教师帮助下可完成简单自我介绍。",
+    "meaninglessObstacles": [
+      "避免过早引入语法规则",
+      "不要纠音过度影响积极性"
+    ],
+    "motivationStrategy": "自主性：让学生选择自己的英文名；胜任感：通过成功介绍自己获得成就感；关系感：小组合作和同伴鼓励。",
+    "difficultyFirst": "先让学生尝试用中文或已知单词打招呼，经历无法用英语表达的困难，再引入目标语言。",
+    "processPreservation": "保留学生尝试、犯错、纠正的全过程，不急于给出标准答案。",
+    "abstractionProtection": "通过具体人物卡片和情境图帮助学生理解，不直接讲解语法概念。"
+  }
+}

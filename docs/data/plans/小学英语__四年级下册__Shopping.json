@@ -1,0 +1,157 @@
+{
+  "standardAnalysis": {
+    "contentRequirement": "能在教师帮助下，借助图片、动作等，在购物等日常生活情境中，理解并使用所学词汇和句型进行简单交流。",
+    "academicRequirement": "能在教师帮助下，运用本课核心句型“Can I help you? Yes, I want... How much is it? It's...”等完成简单的购物对话。",
+    "teachingHint": "创设真实语境，通过角色扮演等活动，帮助学生理解和运用核心句型。",
+    "coreCompetencyNames": [
+      "语言能力",
+      "文化意识",
+      "思维品质",
+      "学习能力"
+    ]
+  },
+  "textbookAnalysis": {
+    "verticalAnalysis": "本课是PEP四年级下册Unit 6 Shopping的第一课时（Part A Let's talk & Let's learn）。在三年级下册和四年级上册已学过衣物、颜色、数字等词汇（如shirt, skirt, red, blue, ten, twenty等）。本课引入购物场景，学习核心句型“Can I help you?”和“How much is it?”以及价格询问和回答，为后续学习更大数字和更复杂购物对话奠定基础。",
+    "crossAnalysis": "对比外研版等教材，PEP本单元更注重真实语境下的对话模仿和角色扮演，词汇和句型相对基础，重视听说领先。本版本特色是对话与词汇学习紧密结合，通过Let's talk展示完整对话，Let's learn集中呈现核心词汇。",
+    "bigConcept": "语言在真实情境中用于沟通和解决问题（购物交易）。",
+    "keyKnowledge": [
+      "Can I help you? 及其回答 Yes, I want...",
+      "How much is it? 及其回答 It's... yuan.",
+      "衣物类词汇：shirt, skirt, dress, hat, pants等"
+    ],
+    "difficulties": [
+      "教学重点：核心句型在购物情境中的理解和运用",
+      "教学难点：价格询问和回答中数字的正确使用（尤其是几十几的表达）"
+    ]
+  },
+  "learnerAnalysis": {
+    "priorKnowledge": "已掌握颜色、数字（1-100）、部分衣物词汇（shoe, socks, coat等），能听懂并简单回答“What colour is it?”等句型。",
+    "priorExperience": "大多数学生有和家长去商店购物的生活经验，对购物流程有基本认知。",
+    "cognitiveDifficulty": "1. 价格数字的表达（如thirty-two, forty-five）易混淆；2. 购物对话中角色切换和礼貌用语的使用。",
+    "preAssessment": "通过快速问答复习数字和衣物词汇，播放一段购物视频片段，观察学生能说出哪些购物用语。"
+  },
+  "learningObjectives": [
+    {
+      "content": "学生借助图片和录音，能听懂并说出核心句型“Can I help you? Yes, I want... How much is it? It's... yuan.”",
+      "category": "knowledge",
+      "competencyLink": "语言能力",
+      "assessmentMethod": "课堂观察和即时问答"
+    },
+    {
+      "content": "学生能在教师创设的购物情境中，运用核心句型进行角色扮演，完成简单的购物对话。",
+      "category": "skill",
+      "competencyLink": "语言能力、思维品质",
+      "assessmentMethod": "角色扮演表现评价"
+    },
+    {
+      "content": "学生能通过购物活动，体验礼貌交流的重要性，并形成初步的消费意识。",
+      "category": "attitude",
+      "competencyLink": "文化意识、学习能力",
+      "assessmentMethod": "课堂观察和自评"
+    }
+  ],
+  "assessmentTasks": {
+    "preMethod": "课堂问答和观察",
+    "preQuestions": [
+      "What colour is it? (指着红色裙子)",
+      "How much is it? (展示10元价格标签)",
+      "What do you say when you buy something in a shop?"
+    ],
+    "prePurpose": "了解学生对相关词汇和购物用语的前备知识。",
+    "postMethod": "角色扮演展示和自评表",
+    "postTasks": [
+      "学生两人一组，用本课核心句型创编一个购物对话并展示。",
+      "学生完成自评表，评价自己能否用英语完成基本购物交流。"
+    ],
+    "postRubric": "优秀：能流畅运用核心句型，语音语调正确，有适当肢体语言。合格：能基本使用核心句型，但不够流畅或有少量错误。需辅导：无法独立完成对话，需教师提示。"
+  },
+  "activities": [
+    {
+      "phase": "B",
+      "title": "购物视频导入",
+      "duration": 3,
+      "teacherAction": "播放一段英文购物动画片段（约30秒），提问“What are they doing? Where are they?”",
+      "studentAction": "观看视频，尝试回答教师问题。",
+      "designIntent": "利用动画激发兴趣，引出购物主题，激活已有生活经验。",
+      "assessmentEmbedded": ""
+    },
+    {
+      "phase": "O",
+      "title": "明确学习目标",
+      "duration": 2,
+      "teacherAction": "板书课题“Shopping”，呈现本课目标：学会用英语购物，询问价格。",
+      "studentAction": "齐读课题，了解本课学习目标。",
+      "designIntent": "让学生明确学什么、怎么学，增强目标意识。",
+      "assessmentEmbedded": ""
+    },
+    {
+      "phase": "P-participatory",
+      "title": "核心句型探索",
+      "duration": 15,
+      "teacherAction": "设置困难：教师扮演售货员，用英语问学生“Can I help you?” 学生可能不懂如何回答。教师展示图片和句型卡，引导学生尝试回答。之后播放录音，学生跟读。再创设情境：教师展示不同衣物图片和价格，引导提问“How much is it?”并回答。",
+      "studentAction": "先尝试回答教师提问，遇到困难后听录音学习核心句型。然后两人一组，用图片和价格标签练习对话。",
+      "designIntent": "困难前置，让学生经历不会说到学会说的过程；对话练习保留过程，逐步内化。",
+      "assessmentEmbedded": "教师巡视，记录学生使用句型的情况，即时纠正发音和语法错误。"
+    },
+    {
+      "phase": "P-post",
+      "title": "购物角色扮演",
+      "duration": 8,
+      "teacherAction": "布置任务：学生两人一组，利用教师提供的衣物图片和价格标签，创编一个购物对话并展示。教师提供评价标准。",
+      "studentAction": "组内练习后，自愿上台展示对话。其他学生根据评价标准进行评价。",
+      "designIntent": "检测学习效果，通过展示和评价巩固核心句型。",
+      "assessmentEmbedded": "学生互评和教师点评相结合。"
+    },
+    {
+      "phase": "S",
+      "title": "课堂总结",
+      "duration": 5,
+      "teacherAction": "引导学生回顾本课核心句型和词汇，总结购物用语。布置作业。",
+      "studentAction": "学生总结本课所学，记录作业。",
+      "designIntent": "归纳本课核心内容，为后续学习铺垫。",
+      "assessmentEmbedded": ""
+    }
+  ],
+  "homework": {
+    "requiredTitle1": "朗读作业",
+    "requiredDesc1": "听录音，跟读P58 Let's talk部分对话3遍。",
+    "requiredTitle2": "书写作业",
+    "requiredDesc2": "抄写本课核心句型“Can I help you? How much is it? It's... yuan.”各1遍。",
+    "optionalTitle": "创编对话",
+    "optionalDesc": "用本课句型，和父母或同学用英语模拟一次购物（可录音或视频）。",
+    "designIntent": "分层设计，基础作业巩固核心内容，挑战作业促进实际运用。",
+    "differentiationNote": "基础薄弱学生完成必做作业即可；学有余力学生鼓励完成选做作业，可给予额外积分奖励。"
+  },
+  "boardDesign": {
+    "layout": "左侧：课题Shopping，核心句型Can I help you? / How much is it? 右侧：衣物词汇图片和价格标签示例（如dress 50 yuan）",
+    "keyElements": [
+      "Shopping",
+      "Can I help you?",
+      "How much is it?",
+      "It's... yuan.",
+      "dress, shirt, skirt, hat, pants"
+    ],
+    "structureLogic": "板书以购物对话流程为线索，左侧展示对话框架，右侧提供替换词汇和价格信息，便于学生参考。"
+  },
+  "reflection": {
+    "targetAchievement": "预估80%学生能基本掌握核心句型并进行简单购物对话。",
+    "improvementMeasures": [
+      "增加更多真实购物场景的图片或视频，增强语境感。",
+      "对数字表达困难的学生，课前准备数字卡片进行专项练习。"
+    ],
+    "notableObservations": "注意部分学生可能在角色扮演中害羞，可先进行小组练习再展示。"
+  },
+  "difficultyDesign": {
+    "targetDifficulty": "核心困难：如何用英语完整表达购物需求和询问价格。",
+    "educationalValue": "这个困难是真实生活场景的缩影，解决它有助于学生将语言知识转化为实际交际能力。",
+    "zpdAlignment": "学生在教师帮助下，借助图片和句型支架，能完成购物对话，困难在最近发展区内。",
+    "meaninglessObstacles": [
+      "避免过多生僻词汇",
+      "避免复杂语法讲解"
+    ],
+    "motivationStrategy": "通过角色扮演和购物游戏，满足学生的自主性（选择商品）、胜任感（成功完成对话）和关系感（与同伴合作）。",
+    "difficultyFirst": "导入环节直接呈现购物场景，让学生尝试应答，暴露困难后再提供学习支持。",
+    "processPreservation": "学生先尝试回答，再听录音模仿，最后自主练习，保留从失败到成功的学习过程。",
+    "abstractionProtection": "通过图片、实物和动作辅助理解，避免过早抽象讲解句型结构。"
+  }
+}

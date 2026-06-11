@@ -1,0 +1,156 @@
+{
+  "standardAnalysis": {
+    "contentRequirement": "能在教师帮助下，借助图片、动作、表情等，理解有关问路和指路的小故事或对话；能围绕‘问路与指路’话题，运用所学语言进行简单的交流，表达基本的方位和路线信息。",
+    "academicRequirement": "能根据图片或提示，运用核心句型‘Where is the ...? It's near/next to/behind the ...’以及‘How can I get there? Turn left/right at the ...’等进行简单问答；能借助图片理解并朗读对话。",
+    "teachingHint": "创设真实或模拟的语境（如学校周边或虚拟地图），引导学生在完成任务的过程中感知、理解和运用语言；注重语言实践，鼓励学生合作交流。",
+    "coreCompetencyNames": [
+      "语言能力",
+      "文化意识",
+      "思维品质",
+      "学习能力"
+    ]
+  },
+  "textbookAnalysis": {
+    "verticalAnalysis": "本课是PEP六年级上册Unit 1《How can I get there?》的第一课时（Let's talk & Let's learn）。在五年级下册已学过一些方位介词（如in, on, under, near, behind, next to）及‘Where is ...?’句型。本单元在此基础上引入‘How can I get there?’和‘Turn left/right at the ...’等指路表达，为后续学习更复杂的路线描述（如‘Go straight’‘cross the street’）做铺垫。教材呈现方式：以对话形式展示Robin和Wu Yifan在科学博物馆附近问路的情景，配有地图和图片，帮助学生理解方位词和路线。",
+    "crossAnalysis": "与其他版本（如外研版、牛津版）相比，PEP更注重通过对话情境整体呈现语言，词汇与句型融合在交际任务中。本教材特色是用真实街道地图辅助教学，突出语言的实用性；取舍方面，本课未单独列出所有方位词，而是通过对话自然呈现。",
+    "bigConcept": "语言用于解决真实生活中的空间定位与路线规划问题，方位和指路表达是进行有效沟通的工具。",
+    "keyKnowledge": [
+      "核心句型: How can I get there? Turn left/right at the ...",
+      "方位介词短语: near/next to/behind the ...",
+      "地点词汇: science museum, hospital, cinema, post office, bookstore"
+    ],
+    "difficulties": [
+      "教学重点: 能听懂、会说并运用核心句型进行问路和指路",
+      "教学难点: 在实际情境中准确运用‘Turn left/right at the ...’及方位介词描述路线"
+    ]
+  },
+  "learnerAnalysis": {
+    "priorKnowledge": "学生已掌握‘Where is ...?’句型及简单方位介词（in, on, under, near, behind, next to）；已学过一些地点词汇（如school, park, zoo）。",
+    "priorExperience": "学生在生活中常有问路或被问路的经历，对街道、地图有一定认知，但用英语表达路线尚不熟练。",
+    "cognitiveDifficulty": "学生可能混淆‘left’和‘right’的方向，以及在描述连续路线时（如‘Turn left at the hospital. It's next to the cinema.’）的语序和逻辑。",
+    "preAssessment": "通过快速问答‘Where is your desk?’（用near/next to/behind描述）和‘Do you know left and right?’（举手示意方向）进行前测。"
+  },
+  "learningObjectives": [
+    {
+      "content": "学生能在图片和教师提示下，听懂并说出有关问路和指路的对话，正确朗读核心句型‘How can I get there? Turn left/right at the ...’。",
+      "category": "knowledge",
+      "competencyLink": "语言能力",
+      "assessmentMethod": "课堂观察与朗读检测"
+    },
+    {
+      "content": "学生能运用‘Where is the ...? It's near/next to/behind the ...’和‘How can I get there? Turn left/right at the ...’进行角色扮演，模拟问路与指路。",
+      "category": "skill",
+      "competencyLink": "语言能力、学习能力",
+      "assessmentMethod": "角色扮演表现性评价"
+    },
+    {
+      "content": "学生能意识到礼貌问路和帮助他人的重要性，在小组合作中主动参与，积极交流。",
+      "category": "attitude",
+      "competencyLink": "文化意识、思维品质",
+      "assessmentMethod": "小组合作观察记录"
+    }
+  ],
+  "assessmentTasks": {
+    "preMethod": "课堂提问与举手示意",
+    "preQuestions": [
+      "你能用英语说出你的座位在教室的什么位置吗？（提示: near/next to/behind）",
+      "请举起你的左手/右手。"
+    ],
+    "prePurpose": "了解学生对已有方位词和左右方向的掌握程度，确定教学起点。",
+    "postMethod": "情景任务表现性评价",
+    "postTasks": [
+      "根据教师提供的简易地图，两人一组进行问路和指路对话表演。",
+      "完成听力排序练习（听录音，将路线描述与地图上的地点按顺序连线）。"
+    ],
+    "postRubric": "优秀：能流利、准确使用核心句型完成问路指路，方向正确；合格：能基本使用句型，偶有错误但能理解；需辅导：无法独立完成，需要教师或同伴提示。"
+  },
+  "activities": [
+    {
+      "phase": "B",
+      "title": "地图猜谜导入",
+      "duration": 3,
+      "teacherAction": "展示一张学校周边的简图，提问: Where is the library? (学生用near/next to回答) 然后说: How can I get there from here? 引发思考。",
+      "studentAction": "观察地图，用已知句型回答位置，并尝试猜测新句型意思。",
+      "designIntent": "利用学生熟悉的环境激发兴趣，自然过渡到本课核心问题。",
+      "assessmentEmbedded": ""
+    },
+    {
+      "phase": "O",
+      "title": "明确学习目标",
+      "duration": 2,
+      "teacherAction": "板书课题并呈现本课目标: 学会用英语问路和指路。",
+      "studentAction": "齐读课题，了解本节课要学什么。",
+      "designIntent": "让学生明确学习任务，增强目标意识。",
+      "assessmentEmbedded": ""
+    },
+    {
+      "phase": "P-participatory",
+      "title": "核心探索：问路与指路",
+      "duration": 15,
+      "teacherAction": "播放Let's talk录音，呈现对话和地图。先不提供翻译，引导学生观察地图，猜一猜对话意思。然后提问: Where is the museum? How can they get there? 让学生两人一组尝试从地图中找出路线。之后教师示范‘Turn left/right at the ...’，并带领学生用手势练习。最后全班听录音跟读。",
+      "studentAction": "先独立观察地图和对话图片，尝试理解；然后与同伴讨论路线；再跟读模仿。",
+      "designIntent": "困难前置：先让学生面对陌生语言和地图，尝试猜测和探索，产生认知冲突后再提供示范和帮助。过程保留：学生经历猜测、讨论、模仿的过程。抽象保护：用手势辅助理解left/right。",
+      "assessmentEmbedded": "教师巡视，观察学生讨论和手势情况，及时给予反馈。"
+    },
+    {
+      "phase": "P-post",
+      "title": "角色扮演练习",
+      "duration": 8,
+      "teacherAction": "提供另一张简单地图（含hospital, cinema, post office），给出提示句型，组织学生两人一组进行角色扮演（一人问路，一人指路）。",
+      "studentAction": "两人一组，选择地点和路线，用核心句型进行对话表演。",
+      "designIntent": "检测学生能否在新情境中迁移运用所学语言。",
+      "assessmentEmbedded": "教师选取2-3组展示，根据评价量规进行即时点评。"
+    },
+    {
+      "phase": "S",
+      "title": "课堂总结与延伸",
+      "duration": 5,
+      "teacherAction": "引导学生回顾本课核心句型，总结问路指路的关键词和方向。布置课后任务。",
+      "studentAction": "跟读板书上的核心句型，用英语向同桌描述从教室到学校大门怎么走。",
+      "designIntent": "巩固本课内容，为下一课学习‘Go straight’等做铺垫。",
+      "assessmentEmbedded": ""
+    }
+  ],
+  "homework": {
+    "requiredTitle1": "朗读对话",
+    "requiredDesc1": "听录音，模仿朗读Let's talk对话3遍，注意语音语调。",
+    "requiredTitle2": "画地图说路线",
+    "requiredDesc2": "画一张从家到学校（或某地点）的简单地图，用英语写或说出路线（至少包含两个转弯）。",
+    "optionalTitle": "挑战任务",
+    "optionalDesc": "用英语向家人或朋友介绍从学校到附近一个地点的路线，并请对方评价。",
+    "designIntent": "基础作业保证全体学生巩固核心语言；选做作业鼓励学有余力的学生在真实情境中应用。",
+    "differentiationNote": "对于基础薄弱的学生，可只要求完成朗读和口头描述（不写）；对于能力较强的学生，鼓励写完整句子并尝试更多地点。"
+  },
+  "boardDesign": {
+    "layout": "左侧：课题 Unit 1 How can I get there?；中间：核心句型 How can I get there? Turn left/right at the ...；右侧：地点词汇 science museum, hospital, cinema, post office, bookstore；下方：简笔画箭头表示left/right。",
+    "keyElements": [
+      "核心句型",
+      "方位词",
+      "地点词汇",
+      "方向箭头"
+    ],
+    "structureLogic": "从上到下：课题→核心问题→回答方式→词汇支持→方向图示，体现语言结构与功能对应。"
+  },
+  "reflection": {
+    "targetAchievement": "预计80%学生能达成目标1和2，60%学生能在新情境中较流利运用；目标3通过小组合作基本达成。",
+    "improvementMeasures": [
+      "增加更多手势和肢体动作辅助记忆左右方向",
+      "在角色扮演前提供更多示范和支架",
+      "对基础弱的小组给予更多巡视指导"
+    ],
+    "notableObservations": "注意个别学生左右不分，需特别关注；地图活动时间要控制，避免拖沓。"
+  },
+  "difficultyDesign": {
+    "targetDifficulty": "在真实或模拟地图中，准确使用‘Turn left/right at the ...’并结合方位描述路线。",
+    "educationalValue": "该困难能促使学生综合运用方位词和方向指令，培养空间思维和语言组织能力，具有真实交际价值。",
+    "zpdAlignment": "学生已掌握基础方位词和‘Where is’句型，通过地图和教师示范，新句型在最近发展区内，通过同伴合作可达成。",
+    "meaninglessObstacles": [
+      "生僻地点词汇（如science museum可提前带读）",
+      "复杂的多路口路线（本课只要求一个转弯）"
+    ],
+    "motivationStrategy": "自主性：让学生自己选择地图上的起点和终点；胜任感：通过手势和小组练习逐步建立信心；关系感：角色扮演中互相帮助。",
+    "difficultyFirst": "先展示对话和地图，不直接翻译，让学生猜测路线，产生困惑后再讲解。",
+    "processPreservation": "学生先独立看地图猜测，再与同伴讨论，最后全班交流，保留探索过程。",
+    "abstractionProtection": "用手势、简笔画箭头、地图标记等具体形象支撑左右和路线概念，避免纯文字抽象讲解。"
+  }
+}

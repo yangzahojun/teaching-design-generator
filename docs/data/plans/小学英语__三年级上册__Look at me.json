@@ -1,0 +1,154 @@
+{
+  "standardAnalysis": {
+    "contentRequirement": "能在教师帮助下，借助图片、动作等，理解并说出有关身体部位的单词：head, face, nose, mouth, eye, ear, arm, hand, leg, foot。能运用Look at me! This is my... 介绍自己的身体部位。",
+    "academicRequirement": "能根据图片和动作提示，理解并回应简单的指令，如Touch your...；能围绕主题，运用所学语言进行简单的自我介绍。",
+    "teachingHint": "建议通过歌曲、游戏、TPR等活动激发学生兴趣，在真实或模拟的情境中感知、理解和运用语言，注重语言实践和语用功能。",
+    "coreCompetencyNames": [
+      "语言能力",
+      "文化意识",
+      "思维品质",
+      "学习能力"
+    ]
+  },
+  "textbookAnalysis": {
+    "verticalAnalysis": "本课是PEP三年级上册Unit 3 Look at me!的第一课时（Part A Let's talk & Let's learn）。前接Unit 2 Colours，学生已掌握颜色词汇和问候语；后续本单元Part B将进一步学习身体部位及描述他人。本课在学段中处于基础词汇和简单句型积累阶段，为后续描述人物外貌和情感表达做铺垫。",
+    "crossAnalysis": "与其他版本（如外研版、牛津版）相比，PEP版本更注重情境对话和TPR活动，本课通过Mike和Chen Jie的对话引入核心词汇，并配以Let's do的指令活动，强调语言在真实交流中的运用。特色是图文并茂、活动丰富，但词汇量较大（10个身体部位），需合理分配教学时间。",
+    "bigConcept": "语言是描述自我与世界的工具；通过身体部位词汇的学习，学生能初步用英语介绍自己，建立自我认知和表达自信。",
+    "keyKnowledge": [
+      "身体部位词汇：head, face, nose, mouth, eye, ear, arm, hand, leg, foot",
+      "核心句型：Look at me! This is my...",
+      "指令理解与反应：Touch your... / Clap your hands / Wave your arms / Shake your leg"
+    ],
+    "difficulties": [
+      "教学重点：身体部位词汇的音形义对应及正确发音（特别是mouth, foot的发音）",
+      "教学难点：单复数形式的初步感知（如eye/eyes, arm/arms）以及句型This is my...在真实语境中的灵活运用"
+    ]
+  },
+  "learnerAnalysis": {
+    "priorKnowledge": "学生已学过颜色词汇（red, yellow, green, blue等）及问候语（Hello, Hi, Good morning, How are you? I'm fine, thank you），能进行简单日常问候。",
+    "priorExperience": "学生在生活中对身体部位有直观认知，部分学生在幼儿园或课外接触过英语身体部位词汇，但发音和拼写不准确。",
+    "cognitiveDifficulty": "1. 部分词汇发音困难（如mouth的/θ/音，foot的短元音/ʊ/）；2. 单复数形式混淆（如eye/eyes）；3. 句型This is my...与My ... is ... 的混淆。",
+    "preAssessment": "通过课堂问答和图片指认进行前测：教师出示身体部位图片，询问'What's this?'，观察学生能否用中文或英文说出。"
+  },
+  "learningObjectives": [
+    {
+      "content": "学生能借助图片和动作提示，正确说出head, face, nose, mouth, eye, ear, arm, hand, leg, foot等10个身体部位词汇，发音基本准确。",
+      "category": "knowledge",
+      "competencyLink": "语言能力",
+      "assessmentMethod": "教师观察、词汇指认游戏"
+    },
+    {
+      "content": "学生能运用句型'Look at me! This is my...'向同伴介绍自己的1-2个身体部位，语音语调基本正确。",
+      "category": "skill",
+      "competencyLink": "语言能力、学习能力",
+      "assessmentMethod": "角色扮演、同伴互评"
+    },
+    {
+      "content": "学生能听懂并执行'Clap your hands. Wave your arms. Shake your leg. Touch your...'等指令，积极参与课堂活动，表现出对英语学习的兴趣。",
+      "category": "attitude",
+      "competencyLink": "文化意识、学习能力",
+      "assessmentMethod": "课堂参与度观察、TPR活动表现"
+    }
+  ],
+  "assessmentTasks": {
+    "preMethod": "教师展示身体部位图片（无文字），让学生尝试用中文或英文说出名称，记录学生已知词汇。",
+    "preQuestions": [
+      "What's this? (指着自己的鼻子)",
+      "Can you say any body parts in English?"
+    ],
+    "prePurpose": "了解学生已有的身体部位英语词汇量，确定教学起点，重点关注易错词汇。",
+    "postMethod": "设计“身体部位小侦探”活动：学生两人一组，一人描述（This is my...），另一人指认图片，教师巡视记录。",
+    "postTasks": [
+      "任务1：听指令Touch your...，学生快速指认并说出单词。",
+      "任务2：向同伴介绍自己的两个身体部位，使用Look at me! This is my... 句型。"
+    ],
+    "postRubric": "优秀：能准确说出8个以上词汇，句型使用正确，语音清晰；合格：能说出5-7个词汇，句型基本正确；需辅导：能说出3个以下词汇，需教师提示句型。"
+  },
+  "activities": [
+    {
+      "phase": "B",
+      "title": "歌曲热身，激活已知",
+      "duration": 3,
+      "teacherAction": "播放儿歌Head, Shoulders, Knees and Toes，带领学生做动作。",
+      "studentAction": "跟唱歌曲并做动作，感知身体部位词汇。",
+      "designIntent": "通过歌曲激活学生已有知识，调动学习兴趣，为新课铺垫。",
+      "assessmentEmbedded": "观察学生能否跟上节奏和动作"
+    },
+    {
+      "phase": "O",
+      "title": "明确学习目标",
+      "duration": 2,
+      "teacherAction": "出示本课目标图（身体部位和句型），用中文简要说明：今天我们要学会用英语介绍自己的身体部位。",
+      "studentAction": "看目标图，知道这节课要学什么。",
+      "designIntent": "让学生明确学习任务，增强目标意识。",
+      "assessmentEmbedded": ""
+    },
+    {
+      "phase": "P-participatory",
+      "title": "核心探索：词汇与句型学习",
+      "duration": 15,
+      "teacherAction": "展示Mike的图片，播放录音，引导学生听对话并找出身体部位。然后出示词汇卡片，示范发音，强调mouth和foot的发音。设计困难：先让学生尝试自己指认并说出词汇，再纠正。",
+      "studentAction": "听录音，模仿跟读；看教师口型，尝试发音；两人一组，一人指图，一人说词。",
+      "designIntent": "困难前置：先让学生尝试发音，暴露问题，再针对性纠正。过程保留：通过指认、跟读、同伴练习逐步内化。抽象保护：用图片和动作辅助理解。",
+      "assessmentEmbedded": "教师巡视，记录学生发音问题，及时纠正"
+    },
+    {
+      "phase": "P-post",
+      "title": "后测练习：指令游戏与角色扮演",
+      "duration": 8,
+      "teacherAction": "发布指令Touch your... / Clap your hands，示范动作。组织学生两人一组进行角色扮演（一人当Mike，一人当Chen Jie）。",
+      "studentAction": "听指令做动作；用Look at me! This is my... 向同伴介绍自己。",
+      "designIntent": "通过TPR和角色扮演检测词汇和句型的掌握程度，巩固输出。",
+      "assessmentEmbedded": "教师观察并记录学生表现，使用评价量规"
+    },
+    {
+      "phase": "S",
+      "title": "课堂总结",
+      "duration": 5,
+      "teacherAction": "带领学生回顾本课词汇和句型，用思维导图板书总结。布置作业。",
+      "studentAction": "跟读词汇，复述句型。",
+      "designIntent": "归纳核心内容，强化记忆，为下节课学习描述他人做铺垫。",
+      "assessmentEmbedded": ""
+    }
+  ],
+  "homework": {
+    "requiredTitle1": "听读模仿",
+    "requiredDesc1": "听录音跟读P25-26单词和对话3遍，模仿语音语调。",
+    "requiredTitle2": "身体部位介绍",
+    "requiredDesc2": "向家人用英语介绍自己的三个身体部位，请家人签字。",
+    "optionalTitle": "身体部位小画家",
+    "optionalDesc": "画一个自己或朋友，标注5个以上身体部位英语单词。",
+    "designIntent": "分层设计：基础作业巩固词汇和句型，选做作业满足学有余力学生的创造需求。",
+    "differentiationNote": "对于基础薄弱学生，只要求听读和介绍1-2个部位；对于学优生，鼓励使用更多词汇和完整句型。"
+  },
+  "boardDesign": {
+    "layout": "左侧：身体部位词汇（配简笔画或图片）；中间：核心句型Look at me! This is my...；右侧：指令动词（Clap, Wave, Shake, Touch）",
+    "keyElements": [
+      "身体部位词汇卡片",
+      "句型框架",
+      "指令动词"
+    ],
+    "structureLogic": "从左到右：词汇输入→句型输出→动作巩固，体现语言学习路径。"
+  },
+  "reflection": {
+    "targetAchievement": "预计80%学生能掌握8个以上词汇并正确使用句型，20%学生需课后额外练习。",
+    "improvementMeasures": [
+      "增加mouth和foot的发音练习时间",
+      "设计更多小组合作活动，增加语言输出机会"
+    ],
+    "notableObservations": "关注学生发音困难，特别是mouth的/θ/音，可借助镜子观察口型。"
+  },
+  "difficultyDesign": {
+    "targetDifficulty": "核心困难：如何准确发出mouth和foot的音，以及如何在真实情境中灵活运用This is my...句型。",
+    "educationalValue": "发音困难有助于学生感知英语发音特点，句型运用困难能培养语言交际能力，具有长期学习价值。",
+    "zpdAlignment": "通过前测了解学生已知词汇，将困难控制在学生‘跳一跳够得着’的范围：先尝试发音，教师再示范纠正。",
+    "meaninglessObstacles": [
+      "避免一次性呈现所有10个词汇，分两组（面部/四肢）教学",
+      "避免过早强调拼写"
+    ],
+    "motivationStrategy": "自主性：让学生选择介绍哪个身体部位；胜任感：通过游戏和同伴练习获得成功体验；关系感：小组合作和角色扮演增强互动。",
+    "difficultyFirst": "在核心探索环节，先让学生尝试指认和说出词汇，暴露发音问题，再教师示范纠正。",
+    "processPreservation": "学生在指认、跟读、同伴练习过程中保留尝试痕迹，教师不急于纠正，给予思考时间。",
+    "abstractionProtection": "使用图片、实物和动作辅助理解，避免过早进入抽象拼写和语法规则。"
+  }
+}

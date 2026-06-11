@@ -1,0 +1,154 @@
+{
+  "standardAnalysis": {
+    "contentRequirement": "能在语境中理解并运用被动语态（一般现在时、一般过去时、一般将来时）描述事物和过程，表达观点和情感。",
+    "academicRequirement": "学生能正确运用被动语态进行口头和书面表达，描述物品的制作材料、产地和用途。",
+    "teachingHint": "通过真实语境和任务型活动，引导学生感知、归纳和运用被动语态，注重语法与语用的结合。",
+    "coreCompetencyNames": [
+      "语言能力",
+      "文化意识",
+      "思维品质",
+      "学习能力"
+    ]
+  },
+  "textbookAnalysis": {
+    "verticalAnalysis": "本课位于人教版九年级全一册Unit 5 'What are the shirts made of?' Section A 1a-2d。本单元首次系统引入被动语态（一般现在时），是初中英语语法的重要转折点。前有八年级下册一般过去时和情态动词的主动语态基础，后接本单元Section B和Unit 6的被动语态深化学习。教材通过听力、对话和阅读活动，呈现被动语态在描述物品材料、产地和用途中的使用。",
+    "crossAnalysis": "相比外研版（九年级上Module 2）和牛津版（9A Unit 4），人教版更注重在真实语境中逐步呈现被动语态，语法规则归纳较晚，强调语用先行。本单元特色在于以'Made in China'为文化主题，融合语言学习与文化认知。",
+    "bigConcept": "语言结构（被动语态）服务于交际功能（描述物品的制造过程、材料与产地）。",
+    "keyKnowledge": [
+      "被动语态的基本结构（be + 过去分词）",
+      "一般现在时被动语态的用法",
+      "by短语的使用"
+    ],
+    "difficulties": [
+      "教学重点：被动语态的结构和用法",
+      "教学难点：区分主动与被动语态，正确使用be动词和过去分词"
+    ]
+  },
+  "learnerAnalysis": {
+    "priorKnowledge": "学生已掌握一般现在时、一般过去时和一般将来时的主动语态，熟悉常见动词的过去式，了解主语、谓语、宾语的基本概念。",
+    "priorExperience": "学生在生活中常接触各种物品（如衣服、手机、玩具），对'某物由什么制成'有直观经验，但缺乏英语表达。",
+    "cognitiveDifficulty": "学生可能混淆主动与被动语态，尤其是当主语是事物时；对过去分词的规则和不规则变化记忆不牢。",
+    "preAssessment": "前测：通过5道选择题检测学生对主动语态和被动语态基本概念的了解，以及常见动词过去分词的掌握情况。"
+  },
+  "learningObjectives": [
+    {
+      "content": "学生能通过观察例句和听力活动，归纳一般现在时被动语态的结构（am/is/are + 过去分词），并说出其基本用法。",
+      "category": "knowledge",
+      "competencyLink": "语言能力",
+      "assessmentMethod": "课堂提问与归纳活动"
+    },
+    {
+      "content": "学生能在情境中正确运用被动语态描述物品的材料、产地和用途，完成角色扮演或口头报告。",
+      "category": "skill",
+      "competencyLink": "语言能力、思维品质",
+      "assessmentMethod": "口语任务表现性评价"
+    },
+    {
+      "content": "学生能通过讨论中国制造的产品，增强民族自豪感，并尊重不同国家的制造文化。",
+      "category": "attitude",
+      "competencyLink": "文化意识",
+      "assessmentMethod": "课堂观察与反思日志"
+    }
+  ],
+  "assessmentTasks": {
+    "preMethod": "发放简短前测纸，包含5道选择题和2道翻译题。",
+    "preQuestions": [
+      "1. The shirt is made ___ cotton. A. of B. from C. in",
+      "2. 翻译：这种玩具是在中国制造的。"
+    ],
+    "prePurpose": "了解学生对被动语态基本结构和动词过去分词的掌握情况，确定教学起点。",
+    "postMethod": "课堂后测：完成一段关于物品制作过程的填空短文，并进行同伴互评。",
+    "postTasks": [
+      "任务1：补充短文（如'This phone ___ (make) in China. It ___ (design) by...）",
+      "任务2：向同桌介绍一件物品的材料和产地，使用被动语态。"
+    ],
+    "postRubric": "优秀：能正确使用被动语态，结构完整，表达流畅；合格：基本结构正确，偶有错误，表达基本达意；需辅导：被动语态结构混乱，需要进一步练习。"
+  },
+  "activities": [
+    {
+      "phase": "B",
+      "title": "物品猜谜导入",
+      "duration": 3,
+      "teacherAction": "展示一个包裹，让学生猜里面是什么物品，用中文提示'它是由什么制成的？'，引出被动语态。",
+      "studentAction": "积极猜测，用中文或简单英语回答。",
+      "designIntent": "利用好奇心和真实物品激发兴趣，自然引入被动语态。",
+      "assessmentEmbedded": ""
+    },
+    {
+      "phase": "O",
+      "title": "明确学习目标",
+      "duration": 2,
+      "teacherAction": "展示本课目标：学会用被动语态描述物品的材料和产地。",
+      "studentAction": "阅读目标，明确学习重点。",
+      "designIntent": "让学生明确学什么、怎么学，增强学习方向感。",
+      "assessmentEmbedded": ""
+    },
+    {
+      "phase": "P-participatory",
+      "title": "探索被动语态结构",
+      "duration": 15,
+      "teacherAction": "呈现教材1a图片和听力文本，引导学生观察划线句子（如'The shirts are made of cotton.'），提问'这些句子有什么共同点？'，然后让学生尝试归纳结构。教师先让学生独立思考，再小组讨论，最后全班分享。",
+      "studentAction": "先独立观察并尝试归纳，然后小组交流，最后全班汇报。",
+      "designIntent": "体现困难前置（先让学生自己发现规律）、过程保留（小组讨论保留思维过程）、抽象保护（先具体句子再抽象规则）。",
+      "assessmentEmbedded": "教师巡视，观察学生归纳是否正确，适时提供提示。"
+    },
+    {
+      "phase": "P-post",
+      "title": "后测练习",
+      "duration": 8,
+      "teacherAction": "发放填空短文，要求学生独立完成，然后同桌互评。",
+      "studentAction": "独立完成填空，然后与同桌交换批改。",
+      "designIntent": "检测学习效果，通过互评巩固知识。",
+      "assessmentEmbedded": "同伴互评后教师收集典型错误进行全班讲解。"
+    },
+    {
+      "phase": "S",
+      "title": "课堂总结",
+      "duration": 5,
+      "teacherAction": "引导学生总结被动语态的结构和用法，并联系下一课（被动语态的一般过去时）。",
+      "studentAction": "口头总结，记录关键词。",
+      "designIntent": "归纳本课核心内容，为后续学习铺垫。",
+      "assessmentEmbedded": ""
+    }
+  ],
+  "homework": {
+    "requiredTitle1": "基础练习",
+    "requiredDesc1": "完成课本Grammar Focus的填空练习（2道题）。",
+    "requiredTitle2": "描述物品",
+    "requiredDesc2": "选择家中3件物品，用被动语态写句子描述其材料和产地（如'The cup is made of glass.'）。",
+    "optionalTitle": "创意挑战",
+    "optionalDesc": "写一段60词左右的短文，介绍一件中国制造的产品（如华为手机），至少使用3个被动语态句子。",
+    "designIntent": "分层设计，满足不同水平学生的需求，基础题巩固结构，提高题注重应用。",
+    "differentiationNote": "基础薄弱学生只需完成必做作业1；中等学生完成必做作业2；学有余力学生挑战选做作业。"
+  },
+  "boardDesign": {
+    "layout": "左侧：被动语态结构（am/is/are + 过去分词 + by...）；中间：例句（The shirts are made of cotton. The cars are made in Japan.）；右侧：常见动词过去分词表。",
+    "keyElements": [
+      "结构公式",
+      "例句",
+      "过去分词表"
+    ],
+    "structureLogic": "从规则到例子，再到词汇支持，形成完整学习支架。"
+  },
+  "reflection": {
+    "targetAchievement": "预估85%学生能掌握被动语态基本结构，70%能正确运用。",
+    "improvementMeasures": [
+      "增加更多可理解性输入（如视频片段）",
+      "设计更多小组活动增加练习机会"
+    ],
+    "notableObservations": "注意部分学生可能因过去分词不熟而卡壳，需及时提供词汇表。"
+  },
+  "difficultyDesign": {
+    "targetDifficulty": "核心困难：学生难以从主动语态思维转换到被动语态，尤其是主语是事物时。",
+    "educationalValue": "这个困难促使学生重新思考句子结构，理解主语与动作的关系，发展语法思维。",
+    "zpdAlignment": "通过前测了解学生已有知识，设计从简单到复杂的例句（如从'People make shirts.'到'Shirts are made by people.'），确保困难在最近发展区内。",
+    "meaninglessObstacles": [
+      "去除不常用动词的过去分词",
+      "避免复杂时态（如完成时被动语态）"
+    ],
+    "motivationStrategy": "自主性：让学生选择自己感兴趣的物品描述；胜任感：通过小组合作降低难度；关系感：同伴互评增强互动。",
+    "difficultyFirst": "在核心探索活动中，先让学生独立观察例句并尝试归纳，教师不急于讲解，让学生经历困惑。",
+    "processPreservation": "小组讨论时，要求每组记录思考过程（如'我们觉得这个句子是因为...'），保留思维痕迹。",
+    "abstractionProtection": "在归纳规则后，立即回到具体句子进行练习，避免空谈语法。"
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "standardAnalysis": {
+    "contentRequirement": "能在教师帮助下，借助图片、动作、表情等，听懂简单话语或录音；能就个人熟悉的话题进行简短对话；能正确朗读所学的词语和对话。",
+    "academicRequirement": "能在教师帮助下，借助图片等完成简单的角色扮演；能就个人喜好进行简单问答，语音语调基本正确。",
+    "teachingHint": "创设真实语境，通过游戏、歌曲、角色扮演等活动激发学生兴趣；注重语音语调的模仿和操练；鼓励学生大胆开口，不怕犯错。",
+    "coreCompetencyNames": [
+      "语言能力",
+      "文化意识",
+      "思维品质",
+      "学习能力"
+    ]
+  },
+  "textbookAnalysis": {
+    "verticalAnalysis": "本课是PEP三年级下册Unit 5 Do you like pears?的第一课时（Part A Let's talk & Let's play）。本单元围绕水果喜好话题展开，前接Unit 4 Where is my car?（方位介词），后续Unit 6 How many?（数字）。本课为对话课，核心句型为Do you like...? Yes, I do. / No, I don't. 学生已在三年级上册学习过水果词汇（apple, banana, pear, orange等）和一般疑问句的简单回答（Yes/No）。本课在知识上起承上启下作用，为后续学习第三人称单数句型做准备。",
+    "crossAnalysis": "相比人教版（PEP），外研版（新标准）在三年级上册已出现类似句型，但水果词汇更丰富；译林版在三年级下册才出现。PEP教材特色在于情境连贯、图文并茂，Let's talk部分通过Sarah和妈妈在水果店的对话呈现核心句型，Let's play通过猜谜游戏巩固。本版本省略了其他版本中的复杂语法讲解，更注重语用功能。",
+    "bigConcept": "用英语表达个人喜好并进行简单交际",
+    "keyKnowledge": [
+      "核心句型：Do you like...? Yes, I do. / No, I don't.",
+      "水果词汇：pear, apple, banana, orange",
+      "语用功能：询问和表达喜好"
+    ],
+    "difficulties": [
+      "教学重点：正确运用Do you like...?句型进行问答",
+      "教学难点：Yes, I do.和No, I don't.的完整回答及语音语调"
+    ]
+  },
+  "learnerAnalysis": {
+    "priorKnowledge": "学生已掌握水果词汇（apple, banana, pear, orange）和一般疑问句的简单回答（Yes/No），能听懂简单课堂指令。",
+    "priorExperience": "学生在生活中对水果有直接经验，喜欢谈论食物，对水果店场景熟悉。",
+    "cognitiveDifficulty": "学生可能混淆Do you like...?和Do you have...?；部分学生对完整回答（Yes, I do.）的语音语调掌握困难。",
+    "preAssessment": "通过课前Free talk提问：What fruit do you know? 出示水果图片让学生认读，检查词汇基础；用Yes/No快速问答检测学生对一般疑问句的感知。"
+  },
+  "learningObjectives": [
+    {
+      "content": "学生能在图片和教师帮助下，听懂并理解对话内容，正确朗读对话。",
+      "category": "knowledge",
+      "competencyLink": "语言能力",
+      "assessmentMethod": "课堂观察、朗读检查"
+    },
+    {
+      "content": "学生能运用Do you like...?句型询问他人喜好，并用Yes, I do. / No, I don't.做出正确回应，语音语调基本正确。",
+      "category": "skill",
+      "competencyLink": "语言能力、思维品质",
+      "assessmentMethod": "角色扮演、对话展示"
+    },
+    {
+      "content": "学生能在小组活动中积极合作，乐于用英语表达自己的喜好，尊重他人不同喜好。",
+      "category": "attitude",
+      "competencyLink": "文化意识、学习能力",
+      "assessmentMethod": "课堂观察、自评互评"
+    }
+  ],
+  "assessmentTasks": {
+    "preMethod": "课前Free talk + 图片认读",
+    "preQuestions": [
+      "What fruit do you know? Can you name them?",
+      "Do you like apples? (用Yes/No快速回答)"
+    ],
+    "prePurpose": "检测学生水果词汇掌握情况和一般疑问句的初步反应能力",
+    "postMethod": "角色扮演展示 + 对话创编",
+    "postTasks": [
+      "两人一组表演Let's talk对话",
+      "创编新对话：用其他水果替换，询问同伴喜好"
+    ],
+    "postRubric": "优秀：能流利、正确运用句型，语音语调自然，有表情和动作；合格：能基本正确运用句型，有少量错误但可理解；需辅导：句型运用不熟练，需教师提示"
+  },
+  "activities": [
+    {
+      "phase": "B",
+      "title": "歌曲导入：Fruit Song",
+      "duration": 3,
+      "teacherAction": "播放水果歌曲视频，引导学生跟唱并做动作",
+      "studentAction": "跟唱歌曲，边唱边指认水果图片",
+      "designIntent": "通过歌曲激活已有词汇，激发学习兴趣，营造轻松氛围",
+      "assessmentEmbedded": ""
+    },
+    {
+      "phase": "O",
+      "title": "明确学习目标",
+      "duration": 2,
+      "teacherAction": "出示本课核心句型Do you like...?并告诉学生今天要学习如何询问和表达对水果的喜好",
+      "studentAction": "认真听，明确学习任务",
+      "designIntent": "让学生明确学什么、怎么学",
+      "assessmentEmbedded": ""
+    },
+    {
+      "phase": "P-participatory",
+      "title": "核心探索：对话学习与角色扮演",
+      "duration": 15,
+      "teacherAction": "1. 出示情境图（水果店），提问Who are they? Where are they? 2. 播放录音，让学生整体感知；3. 再次播放，引导学生关注Do you like...?句型；4. 设计困难：先让学生尝试猜测对话内容（困难前置），再提供图片和关键词帮助；5. 组织小组练习和角色扮演",
+      "studentAction": "1. 观察图片，猜测人物和地点；2. 听录音，尝试理解大意；3. 回答教师问题，跟读模仿；4. 小组内分角色练习，展示对话",
+      "designIntent": "体现困难前置（先猜测后验证）、过程保留（多次听练）、抽象保护（用图片和动作辅助理解）原则",
+      "assessmentEmbedded": "教师巡视观察小组练习，及时纠正语音语调；角色扮演后同伴互评"
+    },
+    {
+      "phase": "P-post",
+      "title": "后测练习：Let's play猜水果",
+      "duration": 8,
+      "teacherAction": "组织猜水果游戏：一人背对图片，其他同学用Do you like...?提问，猜对加分",
+      "studentAction": "参与游戏，运用句型进行问答",
+      "designIntent": "检测学习效果，在游戏中巩固句型",
+      "assessmentEmbedded": "教师记录学生句型运用情况，给予即时反馈"
+    },
+    {
+      "phase": "S",
+      "title": "课堂总结",
+      "duration": 5,
+      "teacherAction": "引导学生总结本课所学句型，用思维导图板书归纳；布置作业",
+      "studentAction": "跟教师一起总结，记录作业",
+      "designIntent": "归纳本课核心内容，为后续学习铺垫",
+      "assessmentEmbedded": ""
+    }
+  ],
+  "homework": {
+    "requiredTitle1": "听读模仿",
+    "requiredDesc1": "听录音跟读P49 Let's talk对话3遍，注意语音语调",
+    "requiredTitle2": "对话创编",
+    "requiredDesc2": "用Do you like...?句型询问家人对三种水果的喜好，并记录回答",
+    "optionalTitle": "挑战题：水果小调查",
+    "optionalDesc": "用英语调查3位同学最喜欢的水果，制作简单统计图",
+    "designIntent": "分层设计，基础作业巩固听说，拓展作业培养交际能力，挑战题锻炼综合语用",
+    "differentiationNote": "基础薄弱学生可只完成听读模仿；中等学生完成对话创编；学有余力学生完成挑战题"
+  },
+  "boardDesign": {
+    "layout": "中间：核心句型Do you like...? Yes, I do. / No, I don't. 两侧：水果图片（pear, apple, banana, orange）及单词",
+    "keyElements": [
+      "核心句型",
+      "水果词汇",
+      "表情符号（笑脸/哭脸）表示喜好"
+    ],
+    "structureLogic": "以核心句型为中心，词汇为支撑，通过表情符号辅助理解喜好表达"
+  },
+  "reflection": {
+    "targetAchievement": "预估80%学生能正确运用句型进行问答，20%学生可能需要额外练习语音语调",
+    "improvementMeasures": [
+      "增加TPR活动强化语音语调",
+      "对困难学生提供一对一示范"
+    ],
+    "notableObservations": "注意部分学生可能因害羞不敢开口，需多鼓励"
+  },
+  "difficultyDesign": {
+    "targetDifficulty": "核心困难：完整回答Yes, I do. / No, I don't. 的语音语调及语用准确性",
+    "educationalValue": "完整回答体现交际礼貌，语音语调影响交际效果，值得重点训练",
+    "zpdAlignment": "学生已掌握Yes/No简单回答，通过模仿和操练可达到完整回答，符合最近发展区",
+    "meaninglessObstacles": [
+      "避免过早引入第三人称单数（He/She likes...）",
+      "避免过多语法讲解"
+    ],
+    "motivationStrategy": "自主性：让学生选择自己喜欢的水果进行练习；胜任感：通过游戏和角色扮演获得成功体验；关系感：小组合作，互相鼓励",
+    "difficultyFirst": "先让学生尝试模仿完整回答，暴露问题后再进行示范和纠正",
+    "processPreservation": "保留学生尝试、犯错、纠正的过程，不急于给答案",
+    "abstractionProtection": "用图片、动作、表情辅助理解，避免纯文字讲解"
+  }
+}

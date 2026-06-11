@@ -1,0 +1,154 @@
+{
+  "standardAnalysis": {
+    "contentRequirement": "学会汉语拼音。能读准声母、韵母、声调和整体认读音节。能准确地拼读音节，正确书写声母、韵母和音节。",
+    "academicRequirement": "能正确认读单韵母i、u、ü，读准四声，并能正确书写。",
+    "teachingHint": "拼音教学要充分利用情境图，将学习内容与生活经验建立联系，在游戏活动中学习，避免枯燥的机械练习。",
+    "coreCompetencyNames": [
+      "语言建构与运用",
+      "思维发展与提升",
+      "审美鉴赏与创造"
+    ]
+  },
+  "textbookAnalysis": {
+    "verticalAnalysis": "本课是统编版一年级上册第二单元汉语拼音的第3课，位于a、o、e之后，是单韵母学习的延续。学生已掌握a、o、e的发音和四声，本课学习i、u、ü，为后续学习声母及整体认读音节（yi、wu、yu）打下基础。在学段中处于拼音学习的起始阶段，重在建立音形联系，培养拼读兴趣。",
+    "crossAnalysis": "统编版教材采用情境图+儿歌的方式呈现，与苏教版、人教版旧版相比，更强调情境的整体性和趣味性。本版教材的特色在于：情境图（衣服、乌龟、鲤鱼）贴近儿童生活，儿歌朗朗上口，且i、u、ü的书写指导细致，注重笔顺和占格。",
+    "bigConcept": "拼音是识字的工具，音形对应是拼音学习的核心。",
+    "keyKnowledge": [
+      "i、u、ü的正确发音",
+      "i、u、ü的四声",
+      "i、u、ü的正确书写"
+    ],
+    "difficulties": [
+      "教学重点：i、u、ü的发音和四声",
+      "教学难点：ü的发音及i上标调时点的省略规则"
+    ]
+  },
+  "learnerAnalysis": {
+    "priorKnowledge": "已掌握a、o、e的发音和四声，能认识四线三格，有初步的书写经验。",
+    "priorExperience": "学生在生活中常接触“衣服”“乌龟”“鲤鱼”等词语，对i、u、ü的发音有模糊感知。",
+    "cognitiveDifficulty": "ü的发音需要撮口，部分学生易与u混淆；i上标调时点省略规则抽象，学生易忘记。",
+    "preAssessment": "通过课堂提问和观察，让学生尝试发i、u、ü的音，并观察口型差异。"
+  },
+  "learningObjectives": [
+    {
+      "content": "学生通过观察情境图和教师示范，能正确认读单韵母i、u、ü，发音准确，口型到位。",
+      "category": "knowledge",
+      "competencyLink": "语言建构与运用",
+      "assessmentMethod": "课堂观察、个别抽读"
+    },
+    {
+      "content": "学生通过听读和游戏练习，能正确认读i、u、ü的四声，并能按笔顺在四线三格中正确书写i、u、ü。",
+      "category": "skill",
+      "competencyLink": "语言建构与运用、思维发展与提升",
+      "assessmentMethod": "书写练习、四声卡片抽读"
+    },
+    {
+      "content": "学生通过参与情境游戏和儿歌朗读，产生对拼音学习的兴趣，乐于模仿和参与。",
+      "category": "attitude",
+      "competencyLink": "审美鉴赏与创造",
+      "assessmentMethod": "课堂参与度观察"
+    }
+  ],
+  "assessmentTasks": {
+    "preMethod": "课堂提问：请几位学生尝试发i、u、ü的音，教师观察口型和发音准确性。",
+    "preQuestions": [
+      "你能发一下‘衣服’的‘衣’吗？",
+      "你会读‘乌龟’的‘乌’吗？",
+      "你见过‘鲤鱼’吗？它的‘鱼’怎么读？"
+    ],
+    "prePurpose": "了解学生对i、u、ü发音的已有感知，发现发音难点。",
+    "postMethod": "通过卡片抽读和书写展示，检测目标达成度。",
+    "postTasks": [
+      "认读i、u、ü及四声卡片",
+      "在四线三格中书写i、u、ü各一行"
+    ],
+    "postRubric": "优秀：发音准确，四声正确，书写规范；合格：发音基本正确，四声个别错误，书写占格基本规范；需辅导：发音混淆，四声错误较多，书写不规范。"
+  },
+  "activities": [
+    {
+      "phase": "B",
+      "title": "情境导入：参观拼音农场",
+      "duration": 3,
+      "teacherAction": "出示情境图（衣服、乌龟、鲤鱼），提问：图上有什么？你能学学它们的声音或名字吗？",
+      "studentAction": "观察图片，自由发言，尝试发音。",
+      "designIntent": "利用生活经验激发学习兴趣，自然引出本课三个单韵母。",
+      "assessmentEmbedded": ""
+    },
+    {
+      "phase": "O",
+      "title": "明确学习目标",
+      "duration": 2,
+      "teacherAction": "出示课题《i u ü》，告诉学生今天要认识三个拼音朋友，学会读、学会写。",
+      "studentAction": "齐读课题，了解学习任务。",
+      "designIntent": "让学生明确本节课的学习内容，有目标地学习。",
+      "assessmentEmbedded": ""
+    },
+    {
+      "phase": "P-participatory",
+      "title": "探索发音与口型",
+      "duration": 15,
+      "teacherAction": "教师示范i、u、ü的发音，引导学生观察口型（i：牙齿对齐；u：嘴巴突出；ü：像吹笛子）。然后让学生先自己尝试，再同桌互看口型。教师巡视指导，对ü的发音重点纠正。",
+      "studentAction": "先独立练习发音，观察镜子或同桌口型；然后跟读，四声打乱顺序练习。",
+      "designIntent": "困难前置：先让学生尝试，暴露发音问题；过程保留：通过互看口型保留探索过程；抽象保护：用比喻（吹笛子）降低理解难度。",
+      "assessmentEmbedded": "嵌入式评价：教师巡视时用笑脸贴纸奖励发音正确的学生。"
+    },
+    {
+      "phase": "P-post",
+      "title": "书写练习与展示",
+      "duration": 8,
+      "teacherAction": "示范i、u、ü的书写（强调i的点、ü上两点），学生描红，教师巡视指导。",
+      "studentAction": "在练习本上书写，先描红再独立写。",
+      "designIntent": "即时检测书写目标达成，巩固书写规范。",
+      "assessmentEmbedded": "展示优秀书写，同伴互评。"
+    },
+    {
+      "phase": "S",
+      "title": "课堂总结",
+      "duration": 5,
+      "teacherAction": "带领学生回顾本课三个单韵母，用儿歌总结：衣服衣服iii，乌龟乌龟uuu，鲤鱼鲤鱼üüü。",
+      "studentAction": "跟读儿歌，齐读i、u、ü。",
+      "designIntent": "归纳核心内容，强化记忆，为后续学习整体认读音节铺垫。",
+      "assessmentEmbedded": ""
+    }
+  ],
+  "homework": {
+    "requiredTitle1": "读一读",
+    "requiredDesc1": "回家把i、u、ü读给家人听，注意口型。",
+    "requiredTitle2": "写一写",
+    "requiredDesc2": "在四线三格本上书写i、u、ü各一行。",
+    "optionalTitle": "找一找",
+    "optionalDesc": "在家里或路上找一找带有i、u、ü音的词语（如：衣服、乌龟、雨伞），说给家人听。",
+    "designIntent": "分层设计，必做巩固基础，选做拓展应用，联系生活。",
+    "differentiationNote": "基础薄弱学生只完成必做作业；学有余力学生完成选做挑战。"
+  },
+  "boardDesign": {
+    "layout": "左：情境图粘贴；中：i u ü（带四声）；右：书写示范（四线三格）",
+    "keyElements": [
+      "i u ü",
+      "四线三格书写",
+      "情境图"
+    ],
+    "structureLogic": "从左到右：情境激发→音形对应→书写示范，符合认知顺序。"
+  },
+  "reflection": {
+    "targetAchievement": "预估85%学生能准确发音和书写，15%学生需课后个别辅导。",
+    "improvementMeasures": [
+      "增加ü的发音练习时间",
+      "利用口诀强化i标调规则（小i有礼貌，标调就摘帽）"
+    ],
+    "notableObservations": "注意方言区学生u和ü的混淆问题。"
+  },
+  "difficultyDesign": {
+    "targetDifficulty": "ü的发音及i上标调时点的省略规则。",
+    "educationalValue": "ü的发音是拼音学习中的典型难点，克服它有助于后续整体认读音节学习；i标调规则是书写规范的重要基础。",
+    "zpdAlignment": "通过情境图和生活经验（鲤鱼）引入ü，借助口型模仿和反复练习，确保难度在最近发展区内。",
+    "meaninglessObstacles": [
+      "避免过早引入复杂标调规则",
+      "不要求一次性掌握所有四声顺序"
+    ],
+    "motivationStrategy": "自主性：让学生选择喜欢的动物（乌龟或鲤鱼）来发音；胜任感：用笑脸贴纸即时奖励；关系感：同桌互看口型，互相鼓励。",
+    "difficultyFirst": "先让学生尝试发ü，暴露困难，再教师示范，学生对比纠正。",
+    "processPreservation": "让学生用镜子观察自己口型，保留尝试和调整的过程。",
+    "abstractionProtection": "用‘吹笛子’比喻ü的发音，降低抽象度；用儿歌帮助记忆。"
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "standardAnalysis": {
+    "contentRequirement": "认识常见酸的主要性质和用途，知道酸具有通性的原因。",
+    "academicRequirement": "能依据酸的通性设计简单的实验方案，完成实验操作，并解释相关现象。",
+    "teachingHint": "通过实验探究，引导学生从宏观现象到微观本质，理解酸的通性。",
+    "coreCompetencyNames": [
+      "宏观辨识与微观探析",
+      "科学探究与创新意识",
+      "证据推理与模型认知"
+    ]
+  },
+  "textbookAnalysis": {
+    "verticalAnalysis": "本课是人教版九年级下册第十单元《酸和碱》课题1《常见的酸》的第一课时。此前学生已学习了氧气、二氧化碳等物质的性质，初步具备物质分类和性质探究的能力。本课是学生系统学习酸类物质的开端，为后续学习碱、中和反应及盐的性质奠定基础。教材通过实验探究盐酸和硫酸的物理性质及化学性质，引导学生归纳酸的通性。",
+    "crossAnalysis": "人教版教材以盐酸和硫酸为例，通过实验对比突出酸的共性；鲁教版教材则更注重从微观角度解释酸的通性；沪教版教材以稀盐酸和稀硫酸为例，强调实验探究。人教版教材特色在于实验设计直观，便于学生从现象到本质的认知。",
+    "bigConcept": "物质的性质与用途的关系；酸的通性源于氢离子的共性。",
+    "keyKnowledge": [
+      "盐酸和硫酸的物理性质",
+      "酸与指示剂反应",
+      "酸与活泼金属反应",
+      "酸与金属氧化物反应"
+    ],
+    "difficulties": [
+      "教学重点：酸的通性及其应用",
+      "教学难点：从微观角度理解酸的通性本质"
+    ]
+  },
+  "learnerAnalysis": {
+    "priorKnowledge": "学生已掌握常见金属与酸的反应（如铁与稀盐酸）、指示剂变色现象，了解酸碱指示剂的概念。",
+    "priorExperience": "学生生活中接触过食醋（含醋酸）、柠檬酸等，有酸味体验，但未系统认识酸的化学性质。",
+    "cognitiveDifficulty": "学生可能难以从宏观现象迁移到微观本质，不理解不同酸具有相似性质的原因。",
+    "preAssessment": "课堂提问：请列举你知道的酸，并描述它们有什么共同特点？"
+  },
+  "learningObjectives": [
+    {
+      "content": "通过观察和实验，能说出盐酸和硫酸的物理性质（颜色、状态、气味等）。",
+      "category": "knowledge",
+      "competencyLink": "宏观辨识与微观探析",
+      "assessmentMethod": "课堂提问、实验报告"
+    },
+    {
+      "content": "通过实验探究，能归纳酸与指示剂、活泼金属、金属氧化物反应的规律，并能书写化学方程式。",
+      "category": "skill",
+      "competencyLink": "科学探究与创新意识",
+      "assessmentMethod": "实验操作观察、小组汇报"
+    },
+    {
+      "content": "通过对比实验，能从微观角度解释酸的通性，形成“结构决定性质”的观念。",
+      "category": "attitude",
+      "competencyLink": "证据推理与模型认知",
+      "assessmentMethod": "课堂讨论、后测练习"
+    }
+  ],
+  "assessmentTasks": {
+    "preMethod": "课堂提问与小组讨论",
+    "preQuestions": [
+      "你知道哪些生活中常见的酸？",
+      "猜猜它们有什么共同点？"
+    ],
+    "prePurpose": "了解学生已有认知，诊断前概念，为教学设计提供依据。",
+    "postMethod": "课堂练习与实验报告",
+    "postTasks": [
+      "完成酸的通性总结表格",
+      "设计实验鉴别稀盐酸和稀硫酸"
+    ],
+    "postRubric": "优秀：能准确归纳通性并设计合理实验；合格：能归纳通性但实验设计有漏洞；需辅导：仅能列举个别性质。"
+  },
+  "activities": [
+    {
+      "phase": "B",
+      "title": "情境导入：生活中的酸",
+      "duration": 3,
+      "teacherAction": "展示食醋、柠檬、洁厕灵等图片，提问：这些物质都有什么共同点？",
+      "studentAction": "观察图片，联系生活经验回答",
+      "designIntent": "从生活经验切入，激发兴趣，建立新旧知识联系",
+      "assessmentEmbedded": ""
+    },
+    {
+      "phase": "O",
+      "title": "明确学习目标",
+      "duration": 2,
+      "teacherAction": "展示本课学习目标，简要解释各目标要求",
+      "studentAction": "阅读目标，明确本课任务",
+      "designIntent": "让学生清楚学习方向和评价标准",
+      "assessmentEmbedded": ""
+    },
+    {
+      "phase": "P-participatory",
+      "title": "实验探究：盐酸和硫酸的性质",
+      "duration": 15,
+      "teacherAction": "提供稀盐酸、稀硫酸、石蕊试液、镁条、生锈铁钉等，设计问题：如何探究它们的性质？先让学生分组讨论方案，再动手实验",
+      "studentAction": "小组讨论实验方案，记录现象，分析原因，归纳通性",
+      "designIntent": "困难前置：学生先尝试设计实验，教师再指导；过程保留：记录原始现象；抽象保护：通过对比归纳微观本质",
+      "assessmentEmbedded": "教师巡视指导，评价实验操作和记录规范性"
+    },
+    {
+      "phase": "P-post",
+      "title": "后测练习：应用酸的通性",
+      "duration": 8,
+      "teacherAction": "出示练习题：鉴别稀盐酸和稀硫酸；解释铁制品除锈原理",
+      "studentAction": "独立完成练习，小组互评",
+      "designIntent": "检测目标达成，巩固迁移",
+      "assessmentEmbedded": "小组互评，教师点评"
+    },
+    {
+      "phase": "S",
+      "title": "课堂总结：酸的通性与微观本质",
+      "duration": 5,
+      "teacherAction": "引导学生归纳酸的通性，并用微观示意图解释原因",
+      "studentAction": "绘制思维导图，总结本课内容",
+      "designIntent": "结构化知识，为后续学习碱和中和反应铺垫",
+      "assessmentEmbedded": ""
+    }
+  ],
+  "homework": {
+    "requiredTitle1": "完成实验报告",
+    "requiredDesc1": "整理本课实验现象，写出化学方程式，总结酸的通性。",
+    "requiredTitle2": "课后练习",
+    "requiredDesc2": "完成课本第56页第2、3题。",
+    "optionalTitle": "挑战题：微观解释",
+    "optionalDesc": "用微观示意图解释为什么不同的酸（盐酸、硫酸）具有相似的化学性质。",
+    "designIntent": "分层设计：必做巩固基础，选做促进深度理解。",
+    "differentiationNote": "基础薄弱学生完成必做即可；学有余力学生尝试选做，鼓励用微观模型表达。"
+  },
+  "boardDesign": {
+    "layout": "左侧：盐酸和硫酸的物理性质对比；中间：酸的通性（与指示剂、金属、金属氧化物反应）；右侧：微观示意图（H+的作用）",
+    "keyElements": [
+      "盐酸、硫酸的物理性质",
+      "酸的通性",
+      "化学方程式",
+      "微观解释"
+    ],
+    "structureLogic": "从具体到一般，从宏观到微观，体现归纳推理"
+  },
+  "reflection": {
+    "targetAchievement": "预计多数学生能掌握酸的通性，部分学生能进行微观解释。",
+    "improvementMeasures": [
+      "增加对比实验的直观性",
+      "提供更多微观模型帮助学生理解"
+    ],
+    "notableObservations": "注意学生在设计实验时的安全规范，尤其是使用稀硫酸时。"
+  },
+  "difficultyDesign": {
+    "targetDifficulty": "从宏观现象归纳酸的通性并理解其微观本质。",
+    "educationalValue": "帮助学生建立“结构决定性质”的核心观念，为后续学习碱和盐打下基础。",
+    "zpdAlignment": "学生已能描述个别酸的性质，通过对比实验引导归纳，困难在最近发展区内。",
+    "meaninglessObstacles": [
+      "复杂的实验装置",
+      "陌生化学术语的堆砌"
+    ],
+    "motivationStrategy": "自主性：让学生自主设计实验；胜任感：通过小组合作完成探究；关系感：鼓励小组互评和交流。",
+    "difficultyFirst": "先让学生尝试设计实验方案，暴露困惑，再教师指导。",
+    "processPreservation": "要求学生记录原始实验现象，不急于修正错误。",
+    "abstractionProtection": "使用微观示意图辅助，避免过早引入电离等抽象概念。"
+  }
+}

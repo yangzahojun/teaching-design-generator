@@ -1,0 +1,157 @@
+{
+  "standardAnalysis": {
+    "contentRequirement": "理解日常活动的表达方式，能就喜好和原因进行简单交流；掌握描述性形容词的基本用法；能运用所学语言描述动物特征并表达个人观点。",
+    "academicRequirement": "能围绕熟悉话题进行简单对话，表达情感和喜好；能在教师帮助下参与角色扮演和简单讨论；能根据提示写出简短的描述性句子。",
+    "teachingHint": "创设真实语境，通过听说任务驱动语言学习；注重情境化教学，鼓励学生在交流中运用目标语言；利用图片、视频等多模态资源激发学生兴趣。",
+    "coreCompetencyNames": [
+      "语言能力",
+      "文化意识",
+      "思维品质",
+      "学习能力"
+    ]
+  },
+  "textbookAnalysis": {
+    "verticalAnalysis": "本课是七年级下册Unit 5的第一课时（Section A 1a-1c），单元话题为“动物与喜好”。学生在七年级上册已学习过一般现在时和be动词用法，以及like、don’t like等表达喜好句型。本课在此基础上引入动物词汇（panda, lion, elephant, giraffe等）和描述性形容词（cute, lazy, smart, beautiful等），并学习用Why...? Because...句型询问和说明原因。本课为后续Section B的读写任务和单元综合运用奠定基础。",
+    "crossAnalysis": "相比外研版（动物话题分散在多个模块），人教版将动物与喜好原因集中在一个单元，更聚焦功能句型。本版本特色是采用‘词汇-对话-听力’递进呈现，辅以大量图片和真实语境，便于学生直观理解。教材舍弃了复杂语法解释，强调在对话中自然习得。",
+    "bigConcept": "语言用于表达个人情感和观点，描述性语言使交流更生动。",
+    "keyKnowledge": [
+      "动物词汇：panda, lion, elephant, giraffe, koala, tiger",
+      "描述性形容词：cute, lazy, smart, beautiful, scary, interesting",
+      "功能句型：Why do you like...? Because they are...",
+      "一般现在时第三人称单数（likes, doesn’t like）的初步感知"
+    ],
+    "difficulties": [
+      "教学重点：运用Why...? Because...句型询问和说明喜好原因",
+      "教学难点：正确使用描述性形容词并注意动词第三人称单数形式"
+    ]
+  },
+  "learnerAnalysis": {
+    "priorKnowledge": "学生已掌握常见动物名称（cat, dog, bird等），能使用I like.../I don’t like...表达喜好，了解一般现在时基本结构。",
+    "priorExperience": "大多数学生有参观动物园、观看动物纪录片或养宠物的经历，对动物有自然兴趣。",
+    "cognitiveDifficulty": "学生可能混淆描述性形容词的语义（如scary与lazy的区别）；在对话中容易忘记使用第三人称单数（He likes...而非He like...）。",
+    "preAssessment": "课前通过简短的‘动物喜好问卷’（纸质或在线）了解学生已知动物词汇和喜好表达，并设计3个简单问题（如：What animals do you know? Do you like cats? Why?）"
+  },
+  "learningObjectives": [
+    {
+      "content": "学生通过看图匹配和听力活动，能正确说出并辨认至少8种动物词汇和6个描述性形容词。",
+      "category": "knowledge",
+      "competencyLink": "语言能力",
+      "assessmentMethod": "课堂观察、听力检测"
+    },
+    {
+      "content": "学生能在教师提供的对话框架下，与同伴用Why...? Because...句型进行至少2轮问答，描述动物特征并表达喜好原因。",
+      "category": "skill",
+      "competencyLink": "语言能力、思维品质",
+      "assessmentMethod": "对话展示、同伴互评"
+    },
+    {
+      "content": "学生通过讨论动物保护话题，能表达对动物的喜爱并意识到保护动物的重要性。",
+      "category": "attitude",
+      "competencyLink": "文化意识、学习能力",
+      "assessmentMethod": "课堂讨论参与度、反思日志"
+    }
+  ],
+  "assessmentTasks": {
+    "preMethod": "课堂口头问答+动物图片快速识别",
+    "preQuestions": [
+      "What animals do you know? Can you name 5?",
+      "Do you like cats? Why?"
+    ],
+    "prePurpose": "了解学生已有动物词汇和喜好表达基础，诊断潜在困难。",
+    "postMethod": "角色扮演对话+书面描述",
+    "postTasks": [
+      "两人一组，一人扮演动物管理员，一人扮演游客，就至少3种动物进行问答（如：Why do you like pandas? Because they are cute.）",
+      "写2-3句话描述自己最喜欢的动物并说明原因"
+    ],
+    "postRubric": "优秀：能流畅使用Why...? Because...句型，形容词准确，语法基本正确；合格：能使用句型但偶有错误，形容词基本恰当；需辅导：无法独立完成对话，词汇或句型错误较多。"
+  },
+  "activities": [
+    {
+      "phase": "B",
+      "title": "动物猜猜猜",
+      "duration": 3,
+      "teacherAction": "播放动物叫声音频或展示动物部分图片，引导学生猜测动物名称，并追问‘Do you like it? Why?’",
+      "studentAction": "听声音/看局部图片，举手抢答动物名称，并尝试用中文或简单英文回答喜好原因。",
+      "designIntent": "利用声音和图片激发兴趣，激活已有知识，自然导入话题。",
+      "assessmentEmbedded": "教师观察学生已有词汇量，记录典型错误。"
+    },
+    {
+      "phase": "O",
+      "title": "明确学习目标",
+      "duration": 2,
+      "teacherAction": "展示本节课目标（词汇+句型+情感），用中文简述：今天我们要学会描述动物并说明原因。",
+      "studentAction": "倾听并浏览板书上的目标。",
+      "designIntent": "让学生明确学习方向，增强目标感。",
+      "assessmentEmbedded": ""
+    },
+    {
+      "phase": "P-participatory",
+      "title": "探索动物特征与原因表达",
+      "duration": 15,
+      "teacherAction": "教师呈现教材1a图片，先让学生独立尝试将动物与形容词配对（困难前置：不提供答案）。然后播放听力1b，让学生核对并纠正。之后教师示范Why...? Because...对话，引导学生模仿。最后组织小组活动：每人选一种动物，用形容词描述，其他组员猜测。",
+      "studentAction": "先独立完成1a配对（可能出错），再听听力核对；接着两人一组练习对话；最后参与小组猜测游戏。",
+      "designIntent": "困难前置：先让学生尝试配对，暴露认知冲突；过程保留：听力核对后保留学生原有思考痕迹；抽象保护：通过游戏降低句型操练的机械感。",
+      "assessmentEmbedded": "教师巡视记录学生配对错误类型，作为后续讲解依据；小组活动中观察句型使用情况。"
+    },
+    {
+      "phase": "P-post",
+      "title": "后测：角色扮演",
+      "duration": 8,
+      "teacherAction": "创设‘动物园游览’情境，提供对话支架（如：A: Why do you like...? B: Because they are...）。邀请2-3组展示。",
+      "studentAction": "两人一组准备并展示对话，其他同学根据量规互评。",
+      "designIntent": "检测目标达成度，提供展示机会，促进语言输出。",
+      "assessmentEmbedded": "同伴互评表（包含句型、形容词、流利度三项）"
+    },
+    {
+      "phase": "S",
+      "title": "课堂总结与情感升华",
+      "duration": 5,
+      "teacherAction": "引导学生总结今天学的词汇和句型，并提问‘我们应该如何对待动物？’展示动物保护图片。",
+      "studentAction": "回顾并复述重点内容，分享保护动物的想法。",
+      "designIntent": "归纳核心内容，渗透文化意识，为后续写作铺垫。",
+      "assessmentEmbedded": ""
+    }
+  ],
+  "homework": {
+    "requiredTitle1": "基础练习：词汇与句型",
+    "requiredDesc1": "完成课本P26 1c的对话编写（至少4组问答），并抄写新学动物和形容词各3遍。",
+    "requiredTitle2": "拓展应用：制作动物卡片",
+    "requiredDesc2": "选择一种动物，画或贴图片，在背面用英文写3句描述（如：This is a panda. It is cute and lazy. I like it because it is interesting.）",
+    "optionalTitle": "选做挑战：动物保护倡议",
+    "optionalDesc": "查阅一种濒危动物，用英文写2-3句话呼吁保护（如：Please protect pandas! They are beautiful and important.）",
+    "designIntent": "分层设计，基础题巩固词汇句型，拓展题培养写作能力，挑战题提升文化意识。",
+    "differentiationNote": "基础薄弱学生可选做必做1+半张卡片；学有余力学生必做全部并尝试挑战题。"
+  },
+  "boardDesign": {
+    "layout": "左侧：动物词汇（图片+英文）；中间：描述性形容词（带中文释义）；右侧：核心句型（Why...? Because...）及学生示例。下方留白用于学生展示。",
+    "keyElements": [
+      "动物词汇列表",
+      "形容词列表",
+      "Why...? Because...句型框架",
+      "学生对话示例"
+    ],
+    "structureLogic": "词汇-形容词-句型，由具体到抽象，符合认知逻辑。"
+  },
+  "reflection": {
+    "targetAchievement": "预计80%学生能掌握核心词汇和句型，70%能在对话中正确使用，20%可能需要课后辅导。",
+    "improvementMeasures": [
+      "增加视觉辅助（如实物图片）帮助记忆形容词",
+      "对语法错误给予即时纠正示范",
+      "课后提供在线跟读资源"
+    ],
+    "notableObservations": "注意部分学生可能因害羞不敢开口，需多鼓励小组活动。"
+  },
+  "difficultyDesign": {
+    "targetDifficulty": "核心困难：如何用Why...? Because...句型准确表达喜好原因，并正确使用描述性形容词。",
+    "educationalValue": "该困难促使学生思考因果关系，提升逻辑表达和词汇选择能力。",
+    "zpdAlignment": "学生已掌握动物词汇和like句型，本课在最近发展区内引入新句型和形容词，通过听力、模仿、游戏搭建支架。",
+    "meaninglessObstacles": [
+      "生僻动物词汇（如peacock等不在课标内）",
+      "复杂语法术语（如‘原因状语从句’）"
+    ],
+    "motivationStrategy": "自主性：学生可自选动物和形容词；胜任感：通过游戏获得即时成功；关系感：小组合作增强互动。",
+    "difficultyFirst": "在1a配对活动中先让学生独立尝试，允许出错，再通过听力纠正。",
+    "processPreservation": "保留学生配对错误的纸面痕迹，用于对比分析。",
+    "abstractionProtection": "用具体动物图片和角色扮演情境，避免抽象语法讲解。"
+  }
+}

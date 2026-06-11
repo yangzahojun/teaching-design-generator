@@ -1,0 +1,155 @@
+{
+  "standardAnalysis": {
+    "contentRequirement": "能在教师帮助下，借助图片、图像等，围绕语篇内容进行简单的口头交流；能就常见话题进行简单的叙述；能根据上下文猜测生词的含义；能利用简单的拼读规则拼读单词；能根据图片、表格等非文字提示理解语篇内容。",
+    "academicRequirement": "能根据图片、表格等非文字提示，理解语篇主要内容；能就个人喜好、电视节目类型等话题进行简单交流；能在教师帮助下，运用本课核心句型表达对电视节目的看法。",
+    "teachingHint": "注重培养学生的语言运用能力，创设真实语境，鼓励学生大胆表达；采用任务型教学途径，设计有梯度的教学活动；关注学生的情感态度，激发学习兴趣。",
+    "coreCompetencyNames": [
+      "语言能力",
+      "文化意识",
+      "思维品质",
+      "学习能力"
+    ]
+  },
+  "textbookAnalysis": {
+    "verticalAnalysis": "本课是人教版八年级上册Unit 5 Do you want to watch a game show?的第一课时(Section A 1a-2c)。在七年级下册学生已学习过一般现在时、like/love/don't like等表达喜好的句型。本单元在此基础上引入电视节目类型词汇和询问/表达喜好的新句型(Do you want to...?/What do you think of...?)，为后续Section B谈论电影类型和影评打下基础。本课在学段中处于承上启下的位置。",
+    "crossAnalysis": "人教版此单元以电视节目为话题，贴近学生生活，词汇量大但分类清晰。相比外研版等教材，人教版更注重句型操练和情景对话，活动设计层次分明(1a-1c为词汇和句型呈现，2a-2c为听力与对话练习)。本版本特色是图片丰富，活动任务明确，便于教师组织教学。",
+    "bigConcept": "用英语表达个人喜好并询问他人意见",
+    "keyKnowledge": [
+      "电视节目类型词汇：talk show, soap opera, sports show, game show, news, sitcom",
+      "核心句型：Do you want to watch...? / What do you think of...? / I like/love/don't mind/can't stand...",
+      "听力策略：抓取关键词获取信息"
+    ],
+    "difficulties": [
+      "教学重点：电视节目类型词汇的认读与运用，核心句型的理解与口头表达",
+      "教学难点：can't stand, don't mind等情感态度的准确使用；听力中快速抓取节目类型和态度关键词"
+    ]
+  },
+  "learnerAnalysis": {
+    "priorKnowledge": "学生已掌握一般现在时，学过like/love/don't like等基本表达喜好的句型；对常见电视节目有基本的分类概念。",
+    "priorExperience": "学生日常接触各种电视节目，对节目类型有直观感受，但部分节目类型英文名称(如sitcom, soap opera)可能不熟悉。",
+    "cognitiveDifficulty": "部分抽象词汇(can't stand, don't mind)的理解和使用；听力中同时处理节目类型和人物态度信息容易混淆。",
+    "preAssessment": "课堂前测：通过图片展示常见电视节目，让学生用中文说出节目类型，并尝试用英文说出已知词汇；提问学生是否看过或喜欢某些节目。"
+  },
+  "learningObjectives": [
+    {
+      "content": "通过观察图片和听录音，学生能正确认读并说出talk show, soap opera, sports show, game show, news, sitcom等6个电视节目类型词汇，准确率达到80%以上",
+      "category": "knowledge",
+      "competencyLink": "语言能力",
+      "assessmentMethod": "课堂提问与即时反馈"
+    },
+    {
+      "content": "通过听力活动和同伴对话练习，学生能运用Do you want to watch...?和What do you think of...?句型询问他人对电视节目的看法，并能用I like/love/don't mind/can't stand...表达自己的态度",
+      "category": "skill",
+      "competencyLink": "语言能力、学习能力",
+      "assessmentMethod": "对话展示与互评"
+    },
+    {
+      "content": "通过小组讨论与分享，学生能了解不同电视节目的特点，尊重他人不同的节目喜好，并表达自己的合理选择",
+      "category": "attitude",
+      "competencyLink": "文化意识、思维品质",
+      "assessmentMethod": "观察与反思日志"
+    }
+  ],
+  "assessmentTasks": {
+    "preMethod": "课堂口头问答+图片匹配小活动",
+    "preQuestions": [
+      "你能说出哪些电视节目类型的英文名称？",
+      "你最喜欢什么电视节目？为什么？"
+    ],
+    "prePurpose": "了解学生已有的词汇量和表达喜好句型的基础，确定教学起点",
+    "postMethod": "角色扮演对话展示+书面填空练习",
+    "postTasks": [
+      "与同伴进行2分钟对话，询问并表达对至少3种电视节目的看法",
+      "完成课本2c的填空练习，用正确的词汇和句型完成对话"
+    ],
+    "postRubric": "优秀：能流利使用所有核心词汇和句型，表达清晰，态度明确；合格：能使用大部分词汇和句型，有少量错误但能理解；需辅导：词汇或句型错误较多，表达不完整"
+  },
+  "activities": [
+    {
+      "phase": "B",
+      "title": "电视节目猜猜看",
+      "duration": 3,
+      "teacherAction": "展示不同电视节目的图片或短视频片段，提问：What TV shows are these? Do you like them? 引出话题",
+      "studentAction": "观看图片/视频，用中文或已知英文说出节目类型，回答教师问题",
+      "designIntent": "利用学生熟悉的生活经验激发兴趣，激活已有知识，自然导入本课主题",
+      "assessmentEmbedded": "观察学生反应，记录已知词汇量"
+    },
+    {
+      "phase": "O",
+      "title": "明确学习目标",
+      "duration": 2,
+      "teacherAction": "展示本课学习目标（PPT），用中文简要解释：今天我们要学会用英语谈论电视节目",
+      "studentAction": "阅读学习目标，了解本课任务",
+      "designIntent": "让学生明确学什么、怎么学，增强学习的方向感",
+      "assessmentEmbedded": ""
+    },
+    {
+      "phase": "P-participatory",
+      "title": "词汇与句型探索",
+      "duration": 15,
+      "teacherAction": "先展示图片和英文词汇，让学生尝试匹配；随后播放听力1b，引导学生抓取关键信息；再提供句型支架，组织同伴对话。困难前置：先让学生自己尝试用英语表达节目看法，再呈现句型帮助",
+      "studentAction": "先独立匹配图片和词汇；听录音完成1b；与同伴尝试对话，互相纠正和补充",
+      "designIntent": "体现困难前置原则：先让学生尝试表达，暴露问题后再提供支架；过程保留：学生自主尝试错误后修正，加深印象",
+      "assessmentEmbedded": "教师巡视，记录学生常见错误，即时给予纠错和示范"
+    },
+    {
+      "phase": "P-post",
+      "title": "听力与对话练习",
+      "duration": 8,
+      "teacherAction": "播放2a-2b听力，指导学生完成练习；组织角色扮演活动",
+      "studentAction": "听录音，完成2a-2b填空；与同伴进行角色扮演，运用句型",
+      "designIntent": "检测学生对词汇和句型的掌握程度，巩固听力策略",
+      "assessmentEmbedded": "通过听力答案和角色扮演表现进行形成性评价"
+    },
+    {
+      "phase": "S",
+      "title": "课堂总结与情感升华",
+      "duration": 5,
+      "teacherAction": "总结本课核心词汇和句型；提问：不同的人喜欢不同的节目，我们应该怎么做？引导学生尊重他人",
+      "studentAction": "回顾本课内容，分享自己的收获；思考并回答教师问题",
+      "designIntent": "归纳本课核心内容，渗透文化意识，为后续学习铺垫",
+      "assessmentEmbedded": ""
+    }
+  ],
+  "homework": {
+    "requiredTitle1": "词汇巩固",
+    "requiredDesc1": "抄写并朗读本课6个电视节目类型词汇各3遍，并写出中文意思",
+    "requiredTitle2": "对话创编",
+    "requiredDesc2": "与同伴创编一段关于电视节目的对话（至少包含3种节目类型），并录音提交",
+    "optionalTitle": "电视节目调查",
+    "optionalDesc": "调查3位家人或朋友最喜欢的电视节目，用英语记录并写出简短报告（如：My mother likes...）",
+    "designIntent": "分层设计：必做作业巩固基础，选做挑战题拓展应用，满足不同层次学生需求",
+    "differentiationNote": "基础薄弱学生可只完成必做作业1和2中的简单对话；学有余力学生可完成选做挑战题，并尝试使用更多句型"
+  },
+  "boardDesign": {
+    "layout": "左侧：Unit 5 Title + 节目类型词汇（配图）；中间：核心句型（Do you want to watch...? / What do you think of...? / I like/love/don't mind/can't stand...）；右侧：学生对话范例或关键词",
+    "keyElements": [
+      "电视节目类型词汇",
+      "核心句型",
+      "情感态度词汇(love, like, don't mind, can't stand)"
+    ],
+    "structureLogic": "词汇→句型→对话应用，层层递进"
+  },
+  "reflection": {
+    "targetAchievement": "预计80%学生能掌握核心词汇和句型，60%学生能在对话中灵活运用，部分学生对can't stand和don't mind的使用可能仍需巩固",
+    "improvementMeasures": [
+      "增加词汇游戏环节（如Bingo）强化记忆",
+      "针对听力困难学生提供听力脚本辅助",
+      "课后布置分层练习"
+    ],
+    "notableObservations": "注意学生对soap opera和sitcom的发音和拼写困难，需重点示范；鼓励内向学生参与对话活动"
+  },
+  "difficultyDesign": {
+    "targetDifficulty": "本课核心困难：如何准确运用不同情感态度词汇（love/like/don't mind/can't stand）表达对电视节目的看法",
+    "educationalValue": "这个困难值得保留，因为它帮助学生区分不同情感层次，提升语言表达的精确性和丰富性，同时培养尊重他人不同观点的意识",
+    "zpdAlignment": "通过图片、语境和教师示范，学生能在已知like/don't like基础上，逐步理解并运用更细致的情感词汇；听力活动提供输入，对话练习提供输出，确保难度适中",
+    "meaninglessObstacles": [
+      "生词发音障碍（如sitcom, opera）——提前带读和拼读练习",
+      "听力语速过快——可放慢语速或重复播放"
+    ],
+    "motivationStrategy": "自主性：让学生选择自己喜欢的节目类型进行表达；胜任感：通过配对和小组活动降低焦虑，及时鼓励；关系感：同伴合作和互相评价增强互动",
+    "difficultyFirst": "在词汇呈现后，先让学生尝试用已知句型表达对节目的看法，暴露问题后再呈现新句型，帮助学生对比和修正",
+    "processPreservation": "学生先独立完成图片匹配和听力任务，再与同伴交流答案和想法，保留思考过程",
+    "abstractionProtection": "用图片、视频和具体例子（如I can't stand scary movies）直观展示情感词汇的含义，避免抽象解释"
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "standardAnalysis": {
+    "contentRequirement": "认识溶解现象，知道溶液是由溶质和溶剂组成的，知道水是最重要的溶剂；了解饱和溶液和溶解度的含义。",
+    "academicRequirement": "能运用溶解度概念解释生活中的相关现象，能根据溶解度曲线获取信息并解决简单问题。",
+    "teachingHint": "通过实验探究和数据分析，帮助学生建立饱和溶液与溶解度的概念，注重从定性到定量的过渡。",
+    "coreCompetencyNames": [
+      "科学探究与实践",
+      "科学思维",
+      "科学态度与责任"
+    ]
+  },
+  "textbookAnalysis": {
+    "verticalAnalysis": "本课选自人教版九年级下册第九单元《溶液》课题2《溶解度》。在课题1《溶液的形成》中，学生已学习了溶液的概念、组成及溶解时的吸热放热现象。本课进一步研究溶液的量度关系，为后续课题3《溶液的浓度》及酸碱盐知识奠定基础。教材通过“氯化钠和硝酸钾在水中溶解”的对比实验引入饱和溶液概念，再通过溶解度的定义和溶解度曲线，培养学生数据处理与图表分析能力。",
+    "crossAnalysis": "与沪教版相比，人教版更强调实验探究和图表分析，将溶解度曲线作为重点工具；鲁教版则更侧重生活实例。人教版特色在于通过对比实验（氯化钠与硝酸钾）直观呈现饱和溶液概念，并利用曲线图强化定量思维。",
+    "bigConcept": "物质溶解的限度与溶解度是定量描述溶液性质的学科大概念，体现了宏观现象与微观粒子相互作用的统一。",
+    "keyKnowledge": [
+      "饱和溶液与不饱和溶液的概念及转化",
+      "溶解度的定义及影响因素",
+      "溶解度曲线的绘制与解读"
+    ],
+    "difficulties": [
+      "理解饱和溶液与不饱和溶液的相对性",
+      "运用溶解度曲线进行数据分析与问题解决"
+    ]
+  },
+  "learnerAnalysis": {
+    "priorKnowledge": "学生已掌握溶液、溶质、溶剂的概念，了解溶解过程及温度对溶解的影响，具备基本的实验操作和数据分析能力。",
+    "priorExperience": "生活中常见饱和现象（如糖水加糖不溶、海水晒盐等），但缺乏系统定量认识。",
+    "cognitiveDifficulty": "难以理解饱和溶液是动态平衡状态，容易将“饱和”绝对化；对溶解度曲线中点的含义及趋势分析存在困难。",
+    "preAssessment": "通过课堂提问和简单前测题，评估学生对溶液基本概念和温度影响溶解的已有认知。"
+  },
+  "learningObjectives": [
+    {
+      "content": "通过实验探究，能判断饱和溶液与不饱和溶液，并能说出二者转化的方法",
+      "category": "knowledge",
+      "competencyLink": "科学探究与实践",
+      "assessmentMethod": "课堂观察与实验报告"
+    },
+    {
+      "content": "能根据溶解度曲线，读取物质的溶解度，比较不同物质的溶解度大小，并解释相关现象",
+      "category": "skill",
+      "competencyLink": "科学思维",
+      "assessmentMethod": "后测练习题"
+    },
+    {
+      "content": "通过分析溶解度曲线，认识定量研究对生活和生产的重要性，培养严谨求实的科学态度",
+      "category": "attitude",
+      "competencyLink": "科学态度与责任",
+      "assessmentMethod": "课堂讨论表现"
+    }
+  ],
+  "assessmentTasks": {
+    "preMethod": "课堂提问+纸笔前测",
+    "preQuestions": [
+      "一杯糖水再加糖不溶了，说明什么？",
+      "温度升高，糖在水中的溶解能力会怎样变化？"
+    ],
+    "prePurpose": "诊断学生对饱和现象和温度影响的朴素认知，确定教学起点",
+    "postMethod": "纸笔后测+实验操作评价",
+    "postTasks": [
+      "根据溶解度曲线回答：20℃时氯化钠和硝酸钾的溶解度各是多少？",
+      "设计实验将接近饱和的硝酸钾溶液变为饱和溶液"
+    ],
+    "postRubric": "优秀：能准确读取数据并解释变化趋势，实验设计合理；合格：基本能读取数据，但解释不完整；需辅导：无法独立读取曲线数据或理解饱和概念"
+  },
+  "activities": [
+    {
+      "phase": "B",
+      "title": "糖水之谜导入",
+      "duration": 3,
+      "teacherAction": "展示一杯糖水和一杯盐水，提问：为什么糖水加糖还能溶，而盐水加盐却不再溶？",
+      "studentAction": "观察、猜测、讨论",
+      "designIntent": "利用生活矛盾现象激发认知冲突，体现动机优先",
+      "assessmentEmbedded": ""
+    },
+    {
+      "phase": "O",
+      "title": "明确学习目标",
+      "duration": 2,
+      "teacherAction": "展示本课学习目标，简要说明学习路径",
+      "studentAction": "阅读目标，明确学习任务",
+      "designIntent": "让学生知道学什么、怎么学",
+      "assessmentEmbedded": ""
+    },
+    {
+      "phase": "P-participatory",
+      "title": "探究饱和溶液与不饱和溶液",
+      "duration": 15,
+      "teacherAction": "提供氯化钠和硝酸钾固体、水、酒精灯等器材，布置任务：探究不同温度下溶质溶解的限度。先让学生自主设计实验，再引导对比现象，揭示饱和概念。",
+      "studentAction": "分组实验：分别向20mL水中加入氯化钠和硝酸钾，观察溶解情况；再加热硝酸钾溶液，观察是否继续溶解。记录现象并讨论。",
+      "designIntent": "困难前置：学生先经历“加盐不溶”的困惑，再通过加热发现饱和可转化，保留探究过程。",
+      "assessmentEmbedded": "观察学生实验操作和记录，及时反馈"
+    },
+    {
+      "phase": "P-post",
+      "title": "溶解度曲线应用练习",
+      "duration": 8,
+      "teacherAction": "提供溶解度曲线图，设计问题链：①找出20℃时氯化钠和硝酸钾的溶解度；②温度升高时，哪种物质溶解度变化更明显？③如何从曲线判断饱和与不饱和？",
+      "studentAction": "独立读图分析，小组交流答案，代表展示",
+      "designIntent": "检测学生从定性到定量的理解，巩固曲线应用",
+      "assessmentEmbedded": "练习题即时批改，针对性讲解"
+    },
+    {
+      "phase": "S",
+      "title": "课堂总结",
+      "duration": 5,
+      "teacherAction": "引导学生回顾饱和溶液概念、溶解度定义和曲线意义，强调定量研究的重要性",
+      "studentAction": "绘制概念图或口头总结",
+      "designIntent": "归纳核心内容，为下一节溶液浓度做铺垫",
+      "assessmentEmbedded": ""
+    }
+  ],
+  "homework": {
+    "requiredTitle1": "基础巩固",
+    "requiredDesc1": "完成课本习题第1、2、3题，巩固饱和溶液与溶解度概念",
+    "requiredTitle2": "曲线分析",
+    "requiredDesc2": "根据课本中溶解度曲线图，回答：50℃时硝酸钾的溶解度是多少？若将50℃的饱和硝酸钾溶液降温至20℃，会有什么现象？",
+    "optionalTitle": "生活探究",
+    "optionalDesc": "调查生活中利用溶解度变化的例子（如冬季捞碱、海水晒盐），写一段科学解释",
+    "designIntent": "分层巩固，基础题保证全体达标，挑战题促进学有余力者深入",
+    "differentiationNote": "基础薄弱学生只做必做题；学优生可进一步完成选做题，并尝试用曲线解释现象"
+  },
+  "boardDesign": {
+    "layout": "左侧：饱和溶液定义与转化（箭头图）；中间：溶解度定义+影响因素（温度）；右侧：溶解度曲线示例（坐标轴标注）",
+    "keyElements": [
+      "饱和溶液",
+      "不饱和溶液",
+      "转化方法",
+      "溶解度",
+      "溶解度曲线"
+    ],
+    "structureLogic": "从定性到定量，从概念到应用，逐步展开"
+  },
+  "reflection": {
+    "targetAchievement": "预计80%学生能理解饱和概念并正确读图，60%能解释转化原理",
+    "improvementMeasures": [
+      "增加微观动画展示溶解平衡",
+      "针对读图困难学生设计分层练习"
+    ],
+    "notableObservations": "注意学生是否将饱和与未溶解固体混淆，需强调动态平衡"
+  },
+  "difficultyDesign": {
+    "targetDifficulty": "理解饱和溶液是动态平衡，而非绝对不溶",
+    "educationalValue": "帮助学生建立平衡观念，为后续化学平衡学习奠定基础",
+    "zpdAlignment": "通过实验现象（加热后继续溶解）搭建支架，使困难可克服",
+    "meaninglessObstacles": [
+      "避免使用过多专业术语",
+      "简化计算"
+    ],
+    "motivationStrategy": "自主性：让学生自主设计实验；胜任感：通过成功观察到溶解变化获得成就感；关系感：小组合作交流",
+    "difficultyFirst": "先让学生尝试加盐至不溶，产生困惑，再提供加热方法",
+    "processPreservation": "保留学生实验记录和讨论过程，不急于给出结论",
+    "abstractionProtection": "用具体实验现象和曲线图作为抽象概念的支撑，避免直接背诵定义"
+  }
+}

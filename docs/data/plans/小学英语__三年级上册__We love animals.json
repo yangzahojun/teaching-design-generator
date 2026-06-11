@@ -1,0 +1,156 @@
+{
+  "standardAnalysis": {
+    "contentRequirement": "能在教师帮助下，借助图片、动作、表情等，理解有关动物名称的简单话语；能在教师帮助下，围绕动物主题，运用所学语言进行简单的交流；能正确朗读所学的有关动物的词汇和简单句子。",
+    "academicRequirement": "能根据图片或动作提示，说出常见动物的名称；能在教师帮助下，用简单的语言描述动物的特征或动作；能对动物表达喜爱之情。",
+    "teachingHint": "注重创设真实语境，通过多模态语篇（如图片、视频、歌谣）激发学生兴趣；采用游戏、角色扮演等活动，让学生在体验中学习语言；关注学生情感，培养爱护动物的意识。",
+    "coreCompetencyNames": [
+      "语言能力",
+      "文化意识",
+      "思维品质",
+      "学习能力"
+    ]
+  },
+  "textbookAnalysis": {
+    "verticalAnalysis": "本课是PEP三年级上册Unit 4《We love animals》的第一课时（Part A Let's learn & Let's chant）。本单元是学生首次系统学习动物主题词汇（cat, dog, monkey, duck, panda等），前续教材中（Unit 1-3）学生已掌握基本问候语、文具、身体部位等词汇和简单句型（如What's this? It's a...），为动物词汇学习提供了语言支架。后续课时将扩展更多动物词汇及描述性语言。本课在学段中处于词汇积累和简单句型运用阶段，为后续学习动物特征、动作等奠定基础。",
+    "crossAnalysis": "与其他版本（如外研版、牛津版）相比，PEP教材本课以Let's learn和Let's chant为主要呈现方式，通过图片、歌谣和TPR活动强化词汇记忆，特色在于语言与动作结合，趣味性强，适合三年级学生认知特点。教材选取了5种常见动物，贴近学生生活，且通过chant节奏感强，易于模仿和记忆。",
+    "bigConcept": "动物是人类的朋友，我们应爱护动物；通过语言描述动物的名称和特征，可以表达对动物的喜爱。",
+    "keyKnowledge": [
+      "动物词汇：cat, dog, monkey, duck, panda",
+      "核心句型：What's this? It's a...",
+      "情感表达：I like... / We love animals."
+    ],
+    "difficulties": [
+      "教学重点：正确听、说、认读5个动物词汇，并能在语境中运用句型What's this? It's a...进行问答。",
+      "教学难点：词汇的准确发音（如panda, monkey），以及句型在实际情境中的灵活运用。"
+    ]
+  },
+  "learnerAnalysis": {
+    "priorKnowledge": "学生已掌握字母和简单单词的拼读；能听懂并回应基本课堂指令（如Stand up, Sit down, Point to...）；已学过What's this? It's a...句型（用于文具等物品）；对动物有初步认知但词汇量有限。",
+    "priorExperience": "大多数学生有饲养或接触宠物的经历，对动物有天然兴趣；学生通过动画、绘本等已接触过部分动物英文名称（如cat, dog），但发音可能不标准。",
+    "cognitiveDifficulty": "部分动物词汇（如panda, monkey）音节较长，发音困难；学生可能混淆动物名称（如duck和dog）；在真实情境中主动运用句型进行交流有困难。",
+    "preAssessment": "通过课堂提问（点图说词）和简笔画游戏，了解学生对动物英文名称的已有认知；设计“动物声音猜谜”活动，评估学生的听力基础。"
+  },
+  "learningObjectives": [
+    {
+      "content": "学生通过观察图片、听录音和模仿，能正确听、说、认读cat, dog, monkey, duck, panda五个动物词汇，发音准确。",
+      "category": "knowledge",
+      "competencyLink": "语言能力",
+      "assessmentMethod": "课堂观察：学生能否准确指认图片并说出单词；后测词汇配对练习"
+    },
+    {
+      "content": "学生能在教师创设的动物园情境中，运用句型What's this? It's a...进行问答，描述动物名称。",
+      "category": "skill",
+      "competencyLink": "语言能力、思维品质",
+      "assessmentMethod": "角色扮演活动表现；对话展示"
+    },
+    {
+      "content": "学生通过歌谣和游戏，体会动物的可爱，培养爱护动物的情感，并乐于用英语表达对动物的喜爱。",
+      "category": "attitude",
+      "competencyLink": "文化意识、学习能力",
+      "assessmentMethod": "课堂参与度；情感表达（如说I like...）的主动性"
+    }
+  ],
+  "assessmentTasks": {
+    "preMethod": "教师展示动物图片（部分遮挡），引导学生尝试说出动物英文名称；播放动物声音，让学生猜测动物。",
+    "preQuestions": [
+      "What's this? (展示猫的图片)",
+      "Can you say the name of this animal? (展示狗)",
+      "What animal says 'quack'?"
+    ],
+    "prePurpose": "了解学生已有动物词汇量及发音基础，为教学重点和难点调整提供依据。",
+    "postMethod": "设计“动物配对”游戏（图片与单词匹配）和“小导游”角色扮演（在模拟动物园中介绍动物）。",
+    "postTasks": [
+      "任务1：将5张动物图片与对应单词卡片配对，并正确读出单词。",
+      "任务2：两人一组，一人指图问What's this?，另一人回答It's a...，然后交换角色。"
+    ],
+    "postRubric": "优秀：能准确配对并流利朗读所有词汇，句型运用正确，语音语调自然；合格：能配对4-5个词汇，发音基本正确，句型运用基本正确；需辅导：配对少于3个，发音不准确，句型运用困难。"
+  },
+  "activities": [
+    {
+      "phase": "B",
+      "title": "动物声音猜谜",
+      "duration": 3,
+      "teacherAction": "播放动物叫声录音（猫、狗、鸭子等），提问What's this? 引导学生猜测；同时展示动物图片引出主题。",
+      "studentAction": "听声音猜测动物，用中文或英文回答；观察图片，产生兴趣。",
+      "designIntent": "利用多感官刺激（听觉）激发学生好奇心，自然导入动物主题，体现动机优先原则。",
+      "assessmentEmbedded": "观察学生猜测的准确性及参与热情，评估前测水平。"
+    },
+    {
+      "phase": "O",
+      "title": "明确学习目标",
+      "duration": 2,
+      "teacherAction": "展示本节课的动物图片和句型卡片，用简单语言告诉学生：Today we will learn animal names and how to ask and answer 'What's this?'",
+      "studentAction": "倾听并观察，明确本节课学习任务。",
+      "designIntent": "让学生明确学什么、怎么学，建立学习预期。",
+      "assessmentEmbedded": ""
+    },
+    {
+      "phase": "P-participatory",
+      "title": "探索动物词汇与句型",
+      "duration": 15,
+      "teacherAction": "教师先呈现5种动物图片（不标单词），播放录音，让学生尝试跟读并猜测单词；随后教师提供单词卡片，引导学生将图片与单词配对；设计“困难前置”：先让学生在没有提示的情况下尝试看图说词（可能出错），再提供正确发音和拼写；组织小组合作：一人指图，其他人尝试说出单词。",
+      "studentAction": "先独立尝试看图说词（可能发音不准）；听录音纠正；小组内互相指认，合作学习。",
+      "designIntent": "体现困难前置（先尝试后纠正）、过程保留（小组合作保留学习过程）、抽象保护（从具体图片到抽象单词）原则。",
+      "assessmentEmbedded": "教师巡视，记录学生发音和配对情况，及时反馈。"
+    },
+    {
+      "phase": "P-post",
+      "title": "后测练习：动物配对与角色扮演",
+      "duration": 8,
+      "teacherAction": "发放动物图片和单词卡片，组织配对游戏；随后创设“动物园”情境，示范对话What's this? It's a...，并让学生两人一组练习。",
+      "studentAction": "完成配对任务；两人一组进行角色扮演，一人指图问，一人回答。",
+      "designIntent": "检测学习效果，巩固词汇和句型，培养综合语言运用能力。",
+      "assessmentEmbedded": "观察配对正确率和角色扮演的流利度，根据评价量规进行记录。"
+    },
+    {
+      "phase": "S",
+      "title": "课堂总结与情感升华",
+      "duration": 5,
+      "teacherAction": "引导学生回顾本课学到的动物词汇和句型；播放本单元歌曲（Let's chant），带领学生边做动作边唱；总结We love animals，培养爱护动物意识。",
+      "studentAction": "跟教师一起总结；跟唱歌曲并做动作；表达对动物的喜爱。",
+      "designIntent": "归纳本课核心内容，为后续学习铺垫；通过歌谣强化记忆，升华情感。",
+      "assessmentEmbedded": ""
+    }
+  ],
+  "homework": {
+    "requiredTitle1": "动物单词跟读",
+    "requiredDesc1": "听录音，跟读本课5个动物单词各3遍，并尝试用句型What's this? It's a...向家人介绍。",
+    "requiredTitle2": "动物图画配词",
+    "requiredDesc2": "画一幅你最喜欢的动物，并在旁边写上英文单词和句子（如I like cats.）。",
+    "optionalTitle": "动物小调查",
+    "optionalDesc": "用英语询问家人或朋友最喜欢的动物（What's your favourite animal?），记录至少3个回答，并尝试用英语写出。",
+    "designIntent": "分层设计：必做作业巩固基础（词汇、句型），选做作业拓展运用能力，满足不同水平学生需求。",
+    "differentiationNote": "对于基础薄弱学生，重点完成跟读和图画配词；对于学有余力学生，鼓励完成选做调查任务，提升综合语用能力。"
+  },
+  "boardDesign": {
+    "layout": "中间上方：课题 We love animals；左侧：5张动物图片（cat, dog, monkey, duck, panda）对应单词；右侧：核心句型What's this? It's a...；下方：学生作品展示区。",
+    "keyElements": [
+      "动物图片",
+      "动物单词",
+      "核心句型"
+    ],
+    "structureLogic": "以图片和单词对应呈现词汇，句型单独列出，便于学生直观对比和模仿；整体布局体现从具体到抽象的认知路径。"
+  },
+  "reflection": {
+    "targetAchievement": "预计80%学生能准确认读词汇并运用句型进行简单问答；20%学生可能在发音和句型运用上需要额外辅导。",
+    "improvementMeasures": [
+      "增加TPR活动（如模仿动物动作）强化词汇记忆",
+      "针对发音困难学生，设计小组互助和个别辅导",
+      "在后续课时中通过故事和游戏巩固运用"
+    ],
+    "notableObservations": "部分学生可能因害羞不敢开口，需多鼓励；动物词汇中panda和monkey的发音需重点纠正。"
+  },
+  "difficultyDesign": {
+    "targetDifficulty": "本课核心困难：在无提示情境下准确说出动物词汇并运用句型进行真实交流。",
+    "educationalValue": "该困难促使学生从被动记忆转向主动运用，培养语言交际能力和思维灵活性。",
+    "zpdAlignment": "学生已有What's this?句型基础（用于文具），通过动物图片和动作辅助，难度适中；词汇通过歌谣和游戏反复强化，确保在最近发展区内。",
+    "meaninglessObstacles": [
+      "避免一次性呈现过多词汇",
+      "排除发音相似词汇（如dog和duck）的混淆，通过对比和动作区分"
+    ],
+    "motivationStrategy": "自主性：提供选择（如学生自选动物介绍）；胜任感：通过歌谣和游戏降低焦虑，确保成功体验；关系感：小组合作和角色扮演增强互动。",
+    "difficultyFirst": "在探索阶段，先让学生尝试看图说词（可能出错），再提供正确示范和纠正，将困难前置。",
+    "processPreservation": "小组合作中保留学生尝试、纠错的过程，教师不急于纠正，鼓励学生同伴互助。",
+    "abstractionProtection": "从具体动物图片到单词卡片，再到句型运用，逐步抽象；通过chant和动作保护学生对词汇的整体感知。"
+  }
+}

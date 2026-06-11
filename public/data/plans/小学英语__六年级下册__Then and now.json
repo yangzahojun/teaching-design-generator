@@ -1,0 +1,155 @@
+{
+  "standardAnalysis": {
+    "contentRequirement": "能在教师帮助下，借助图片等，讲述或描述简单的小故事或事件；能就个人熟悉的话题进行简单的交流；能正确朗读所学的故事或短文。",
+    "academicRequirement": "能围绕个人熟悉的话题，运用所学语言进行简单的描述和表达，语音、语调基本正确。",
+    "teachingHint": "创设真实语境，设计有意义的语言实践活动，引导学生感知、理解、运用语言；关注学生思维品质的培养，鼓励学生比较、分析事物。",
+    "coreCompetencyNames": [
+      "语言能力",
+      "文化意识",
+      "思维品质",
+      "学习能力"
+    ]
+  },
+  "textbookAnalysis": {
+    "verticalAnalysis": "本课是PEP小学英语六年级下册Unit 4《Then and now》的第一课时（Part A Let's talk & Let's learn）。本单元围绕“过去与现在”的变化主题展开，前续知识包括五年级下册的过去时态初步接触（如was/were），后续将在本单元B部分深入学习更多动词过去式。本课时通过Mike和John的对话，呈现核心句型“Before, I was... Now, I am...”以及描述外貌、性格的形容词词汇，为后续谈论个人变化打下基础。教材以图片和简短对话形式呈现，强调听说领先。",
+    "crossAnalysis": "相比外研社版《新标准英语》在四年级直接呈现过去时态变化，PEP版本更注重在真实语境中逐步渗透。本版本特色是围绕“变化”这一主题，通过对比图片和真实人物经历，降低语法抽象度，侧重语用功能。教材取舍上，本课时未过多强调动词过去式变化规则，而是聚焦核心句型。",
+    "bigConcept": "事物是发展变化的，我们可以通过对比过去和现在来描述和认识变化。",
+    "keyKnowledge": [
+      "核心句型：Before, I was... Now, I am...",
+      "描述外貌、性格的形容词：short, tall, quiet, active, thin, strong等",
+      "词汇：was, were, am, is, are的现在与过去对应"
+    ],
+    "difficulties": [
+      "教学重点：运用核心句型Before, I was... Now, I am...描述个人变化",
+      "教学难点：正确理解并运用was/were与am/is/are的时态转换，以及形容词的恰当使用"
+    ]
+  },
+  "learnerAnalysis": {
+    "priorKnowledge": "学生已学过描述外貌、性格的形容词（如tall, short, quiet, active），初步接触过be动词的过去式was/were（在五年级下册Unit 2中简单涉及）。",
+    "priorExperience": "学生有自身成长变化的直观体验（如身高、性格、爱好变化），对“过去与现在”有生活感知。",
+    "cognitiveDifficulty": "学生可能混淆was/were与am/is/are的使用场景，对过去时态缺乏语感；部分形容词如quiet/active的对比理解需借助图片。",
+    "preAssessment": "通过课堂问答和图片配对，了解学生对形容词和be动词过去式的掌握程度。"
+  },
+  "learningObjectives": [
+    {
+      "content": "学生能借助图片和教师提示，听懂并说出描述个人过去与现在变化的句子，如Before, I was short. Now, I am tall.",
+      "category": "knowledge",
+      "competencyLink": "语言能力",
+      "assessmentMethod": "课堂观察与口头反馈"
+    },
+    {
+      "content": "学生能运用核心句型Before, I was... Now, I am...与同伴进行简单对话，描述自己或他人的变化，语音语调基本正确。",
+      "category": "skill",
+      "competencyLink": "语言能力、思维品质",
+      "assessmentMethod": "同伴对话展示与教师评价"
+    },
+    {
+      "content": "学生能通过对比自身变化，体会到成长的意义，并愿意用英语分享。",
+      "category": "attitude",
+      "competencyLink": "文化意识、学习能力",
+      "assessmentMethod": "课堂参与度与情感表达观察"
+    }
+  ],
+  "assessmentTasks": {
+    "preMethod": "课堂提问与图片配对活动",
+    "preQuestions": [
+      "你能用英语描述你现在的样子吗？",
+      "你知道“以前”怎么说吗？试着说一句。",
+      "看到这两张图片（一个矮小孩和一个高大人），你能用英语对比吗？"
+    ],
+    "prePurpose": "了解学生对形容词和过去时态的已有认知，确定教学起点。",
+    "postMethod": "角色扮演与书面填空",
+    "postTasks": [
+      "两人一组，用Before... Now...句型描述自己和同伴的变化，并展示。",
+      "完成填空练习：Before, I ____ (am/was) quiet. Now, I ____ (am/was) active."
+    ],
+    "postRubric": "优秀：能正确使用was/were和am/is/are，流畅描述2-3个变化，语音语调好。合格：能使用核心句型描述1个变化，偶有语法错误但可理解。需辅导：无法独立完成句子，需要教师提示。"
+  },
+  "activities": [
+    {
+      "phase": "B",
+      "title": "热身导入：猜猜我是谁",
+      "duration": 3,
+      "teacherAction": "展示自己小时候和现在的两张照片，让学生猜测哪张是过去，并用中文或简单英语描述变化。",
+      "studentAction": "观察图片，尝试说出‘过去’‘现在’等关键词。",
+      "designIntent": "利用真实照片激发兴趣，自然引入‘变化’主题，降低焦虑。",
+      "assessmentEmbedded": "观察学生是否能理解‘before’和‘now’的概念。"
+    },
+    {
+      "phase": "O",
+      "title": "明确学习目标",
+      "duration": 2,
+      "teacherAction": "用PPT展示本课目标：学会用英语描述自己‘过去’和‘现在’的变化。",
+      "studentAction": "听讲并跟读目标关键词。",
+      "designIntent": "让学生明确学习方向，增强目的性。",
+      "assessmentEmbedded": ""
+    },
+    {
+      "phase": "P-participatory",
+      "title": "核心探索：对比变化说句子",
+      "duration": 15,
+      "teacherAction": "先展示教材中Mike和John的对话图片，播放录音；然后出示不同人物的对比图（如一个孩子以前矮现在高），引导学生尝试用Before... Now...造句。教师先让学生自由尝试，再纠正并提供支架（板书句型结构）。",
+      "studentAction": "先独立看图尝试说句子，再与同伴交流，最后在全班展示。",
+      "designIntent": "困难前置：学生先尝试面对语言表达困难，再获得支持，加深记忆。过程保留：允许学生犯错并修正。",
+      "assessmentEmbedded": "教师巡视并记录学生典型错误，用于即时反馈。"
+    },
+    {
+      "phase": "P-post",
+      "title": "后测练习：角色扮演",
+      "duration": 8,
+      "teacherAction": "组织学生两人一组，用Before... Now...句型描述自己或同伴的变化，并提供语言支架卡。",
+      "studentAction": "两人合作，一人说自己的变化，另一人复述或补充。",
+      "designIntent": "检测学生是否能迁移运用，同时培养合作能力。",
+      "assessmentEmbedded": "学生互评与教师点评相结合。"
+    },
+    {
+      "phase": "S",
+      "title": "课堂总结",
+      "duration": 5,
+      "teacherAction": "带领学生齐读核心句型，并用板书总结本课重点。",
+      "studentAction": "跟读句型，并分享一个自己学到的变化句子。",
+      "designIntent": "巩固核心知识，为B部分学习过去式变化做铺垫。",
+      "assessmentEmbedded": ""
+    }
+  ],
+  "homework": {
+    "requiredTitle1": "基础练习：完成填空",
+    "requiredDesc1": "完成课本Let's learn部分的填空练习，用was/were或am/is/are填空。",
+    "requiredTitle2": "口语任务：录制视频",
+    "requiredDesc2": "用Before... Now...句型描述自己的两个变化，录制一段30秒的英语视频。",
+    "optionalTitle": "挑战任务：采访家人",
+    "optionalDesc": "采访一位家人，用英语记录他/她过去和现在的两个变化（如Before, my mother was a student. Now, she is a teacher.），并尝试写下来。",
+    "designIntent": "分层设计满足不同水平学生需求，必做任务巩固基础，选做任务拓展应用。",
+    "differentiationNote": "基础薄弱学生可只完成填空；中等学生完成填空和视频；学有余力学生可尝试采访任务。"
+  },
+  "boardDesign": {
+    "layout": "中间主板书：Unit 4 Then and now\n核心句型：Before, I was... Now, I am...\n左侧：形容词对比（tall/short, quiet/active等）\n右侧：学生生成句子示例",
+    "keyElements": [
+      "核心句型",
+      "形容词对比",
+      "学生例句"
+    ],
+    "structureLogic": "以句型为中心，辅以词汇和实例，形成清晰的认知结构。"
+  },
+  "reflection": {
+    "targetAchievement": "预计大部分学生能正确说出1-2个变化句子，约70%学生能灵活运用。",
+    "improvementMeasures": [
+      "增加更多肢体语言和图片辅助，帮助理解quiet/active等抽象词",
+      "对语法错误采用延迟纠正，避免打断交流流畅性"
+    ],
+    "notableObservations": "注意性格内向学生，鼓励其参与同伴对话，避免当众压力。"
+  },
+  "difficultyDesign": {
+    "targetDifficulty": "核心困难：在真实交流中正确转换be动词的过去与现在形式。",
+    "educationalValue": "这个困难能让学生意识到时态在英语中的重要性，培养语法意识，同时通过对比理解语言功能。",
+    "zpdAlignment": "学生已有基础词汇和简单过去式认知，通过支架（句型结构板、教师示范）确保困难在最近发展区内。",
+    "meaninglessObstacles": [
+      "复杂的语法术语（如‘过去式’‘系动词’）",
+      "过多生僻形容词"
+    ],
+    "motivationStrategy": "自主性：让学生选择自己感兴趣的变化点描述；胜任感：提供语言支架卡和同伴支持；关系感：通过小组合作和分享，增强归属感。",
+    "difficultyFirst": "在核心探索环节，先让学生看图自由尝试造句，暴露困难，再提供句型结构帮助。",
+    "processPreservation": "允许学生先说出不完整的句子，教师再引导修正，保留学生思维过程。",
+    "abstractionProtection": "将抽象语法概念转化为具体句子和图片对比，降低认知负荷。"
+  }
+}

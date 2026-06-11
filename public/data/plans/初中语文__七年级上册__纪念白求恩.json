@@ -1,0 +1,153 @@
+{
+  "standardAnalysis": {
+    "contentRequirement": "阅读表现人与社会、人与他人的优秀文学作品，体会作者对生命的感悟和思考，学习从不同角度分析人物形象，理解作品的思想内涵。",
+    "academicRequirement": "能通过分析议论性文章的观点和材料，把握作者的观点和态度，体会议论性语言的特点。",
+    "teachingHint": "教学应注重引导学生通过阅读、讨论、写作等方式，深入理解文本内涵，培养理性思维和表达能力。",
+    "coreCompetencyNames": [
+      "语言建构与运用",
+      "思维发展与提升",
+      "文化传承与理解"
+    ]
+  },
+  "textbookAnalysis": {
+    "verticalAnalysis": "《纪念白求恩》是统编版七年级上册第四单元的第一篇课文。第四单元主题为“人生之舟”，旨在引导学生感悟人生价值。本课是一篇议论文，位于单元之首，为后续学习《植树的牧羊人》《走一步，再走一步》等课文提供议论文阅读的基础。前有第三单元记叙文阅读基础，后有第五单元说明文阅读，本课起到从记叙到议论的过渡作用。教材呈现方式：课文后附有“思考探究”和“积累拓展”，强调对论点、论据的分析和语言品味。",
+    "crossAnalysis": "不同版本教材（如人教版、苏教版）均收录《纪念白求恩》，但统编版更强调议论文文体特征（论点、论据、论证）和对比手法。统编版特色在于将本课置于“人生之舟”单元，突出价值引领，并通过课后练习强化思维训练。",
+    "bigConcept": "议论性文章通过观点和材料的结合，表达作者对人物或事件的评价和思考。",
+    "keyKnowledge": [
+      "议论文三要素（论点、论据、论证）",
+      "对比论证手法",
+      "白求恩精神的内涵"
+    ],
+    "difficulties": [
+      "教学重点：理解并分析对比论证手法的作用",
+      "教学难点：把握白求恩精神与当代价值的联系"
+    ]
+  },
+  "learnerAnalysis": {
+    "priorKnowledge": "学生已学习过记叙文阅读，能初步分析人物形象和事件，但对议论文文体特征（如论点、论据）认识不足。",
+    "priorExperience": "学生在小学或生活中可能听说过白求恩的名字，但对他的具体事迹和精神了解有限。",
+    "cognitiveDifficulty": "学生可能难以区分“记叙”和“议论”的表达方式，对“对比论证”的概念理解较抽象。",
+    "preAssessment": "课前通过问卷或口头提问，了解学生对白求恩的认知程度及议论文的初步印象。"
+  },
+  "learningObjectives": [
+    {
+      "content": "学生通过默读课文，能准确找出文章的中心论点和分论点，并用自己的话概括。",
+      "category": "knowledge",
+      "competencyLink": "思维发展与提升",
+      "assessmentMethod": "课堂提问和小组讨论记录"
+    },
+    {
+      "content": "学生通过小组合作，能分析文中对比论证（白求恩与部分党员对比）的作用，并举例说明。",
+      "category": "skill",
+      "competencyLink": "语言建构与运用",
+      "assessmentMethod": "小组汇报和课堂练习"
+    },
+    {
+      "content": "学生通过联系实际，能表达对白求恩精神（如国际主义、无私奉献）的理解，并反思自身行为。",
+      "category": "attitude",
+      "competencyLink": "文化传承与理解",
+      "assessmentMethod": "课后小短文和课堂分享"
+    }
+  ],
+  "assessmentTasks": {
+    "preMethod": "课前问卷",
+    "preQuestions": [
+      "你知道白求恩是谁吗？请写出你知道的信息。",
+      "你觉得议论文和记叙文有什么区别？"
+    ],
+    "prePurpose": "了解学生背景知识，诊断议论文认知起点。",
+    "postMethod": "课堂练习和课后小测",
+    "postTasks": [
+      "找出课文中一处对比论证，并写出其作用。",
+      "写一段话，用对比手法表达你对一种精神的理解。"
+    ],
+    "postRubric": "优秀：能准确分析对比论证且联系实际；合格：能找出对比并基本说明作用；需辅导：需要提示才能识别对比。"
+  },
+  "activities": [
+    {
+      "phase": "B",
+      "title": "导入：白求恩印象",
+      "duration": 3,
+      "teacherAction": "展示白求恩图片和简短事迹，提问：你从这些事迹中感受到什么？",
+      "studentAction": "观察图片，自由发言分享感受。",
+      "designIntent": "激发兴趣，激活前备知识，为理解白求恩精神做铺垫。",
+      "assessmentEmbedded": "口头回答观察学生已有认知"
+    },
+    {
+      "phase": "O",
+      "title": "明确学习目标",
+      "duration": 2,
+      "teacherAction": "出示学习目标，解释本课将学习议论文的对比论证方法。",
+      "studentAction": "倾听并记录目标。",
+      "designIntent": "让学生明确学习方向和重点。",
+      "assessmentEmbedded": ""
+    },
+    {
+      "phase": "P-participatory",
+      "title": "探索对比论证",
+      "duration": 15,
+      "teacherAction": "引导学生默读课文第2-4段，找出描写白求恩和“部分党员”的语句，提问：作者为什么这样对比？先让学生独立思考，再小组交流。",
+      "studentAction": "独立圈画语句，思考对比作用；小组内分享并记录共同观点。",
+      "designIntent": "困难前置：先让学生自主发现对比，再通过合作深化理解；过程保留：保留学生思考痕迹。",
+      "assessmentEmbedded": "小组记录单和代表发言"
+    },
+    {
+      "phase": "P-post",
+      "title": "后测练习",
+      "duration": 8,
+      "teacherAction": "布置练习：分析课文中一处对比论证的作用。",
+      "studentAction": "独立完成练习，并同桌互评。",
+      "designIntent": "检测学生对对比论证的理解程度。",
+      "assessmentEmbedded": "练习答案和互评反馈"
+    },
+    {
+      "phase": "S",
+      "title": "课堂总结",
+      "duration": 5,
+      "teacherAction": "引导学生总结本课学到的议论文知识和白求恩精神，布置课后作业。",
+      "studentAction": "分享收获，记录作业。",
+      "designIntent": "归纳本课核心内容，为后续学习《植树的牧羊人》铺垫。",
+      "assessmentEmbedded": ""
+    }
+  ],
+  "homework": {
+    "requiredTitle1": "基础巩固：对比论证分析",
+    "requiredDesc1": "从课文中再找一处对比论证，写出对比双方和作者意图（100字左右）。",
+    "requiredTitle2": "拓展阅读：白求恩故事",
+    "requiredDesc2": "阅读课后“积累拓展”中的白求恩事迹，用一句话概括他的精神。",
+    "optionalTitle": "挑战题：用对比写人",
+    "optionalDesc": "写一段200字左右的短文，用对比手法介绍一位你敬佩的人。",
+    "designIntent": "分层设计：基础题巩固课堂所学，拓展题深化理解，挑战题提升写作能力。",
+    "differentiationNote": "基础薄弱学生只做必做作业；学有余力学生完成挑战题。"
+  },
+  "boardDesign": {
+    "layout": "左侧：白求恩精神（国际主义、无私奉献、极端负责）→ 右侧：部分党员表现（不负责任、拈轻怕重）→ 中间：对比论证（突出白求恩精神可贵）→ 底部：中心论点（学习白求恩）",
+    "keyElements": [
+      "白求恩精神",
+      "对比论证",
+      "中心论点"
+    ],
+    "structureLogic": "从具体事例到抽象精神，通过对比突出论点。"
+  },
+  "reflection": {
+    "targetAchievement": "预估80%学生能掌握对比论证的基本分析，60%能联系实际。",
+    "improvementMeasures": [
+      "增加学生自主发现对比的环节时间",
+      "提供更多生活化例子帮助理解对比"
+    ],
+    "notableObservations": "关注学生对“无私奉献”的当代价值理解是否流于表面。"
+  },
+  "difficultyDesign": {
+    "targetDifficulty": "本课核心困难：如何从具体对比语句中抽象出对比论证的作用。",
+    "educationalValue": "这个困难能训练学生的归纳和抽象思维，是议论文阅读的关键能力。",
+    "zpdAlignment": "学生已有记叙文分析基础，通过小组合作和教师引导，能在最近发展区内完成。",
+    "meaninglessObstacles": [
+      "生僻词汇（如“殉职”）提前解释",
+      "历史背景复杂（如诺尔曼·白求恩）提供简要背景"
+    ],
+    "motivationStrategy": "自主性：让学生自主选择对比语句分析；胜任感：通过小组分享获得成功体验；关系感：小组合作增强互动。",
+    "difficultyFirst": "先让学生独立寻找对比语句并尝试分析，再提供教师示范。",
+    "processPreservation": "保留学生圈画和批注的痕迹，用于后续讨论。",
+    "abstractionProtection": "在分析对比作用时，先让学生用口语表达，再引导使用“对比论证”术语。"
+  }
+}

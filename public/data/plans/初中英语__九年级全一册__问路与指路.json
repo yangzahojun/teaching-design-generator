@@ -1,0 +1,157 @@
+{
+  "standardAnalysis": {
+    "contentRequirement": "能在日常生活中运用英语进行简单的信息交流，如问路、指路等；能使用礼貌用语向他人求助；能理解并运用简单的方位介词和表达方式。",
+    "academicRequirement": "学生能根据具体情境，运用所学语言知识，准确、得体地完成问路与指路的交际任务，表达基本清晰，无明显语法错误。",
+    "teachingHint": "利用真实或模拟的场景，如地图、校园布局等，创设交际情境，鼓励学生在实践中学习和运用语言；注重培养学生的交际策略和跨文化意识。",
+    "coreCompetencyNames": [
+      "语言能力",
+      "文化意识",
+      "思维品质",
+      "学习能力"
+    ]
+  },
+  "textbookAnalysis": {
+    "verticalAnalysis": "本课是人教版九年级全一册Unit 3 'Could you please tell me where the restrooms are?' 的第一课时。本单元围绕'问路与指路'这一话题展开，是前两册中'问路'相关话题的延续与深化。七年级下册Unit 8 'Is there a post office near here?' 已涉及基本的问路表达（如Where is...?），本单元在此基础上引入更礼貌、更复杂的宾语从句问路句式（Could you please tell me where...?），并增加指路细节。本课为单元核心课，为后续的听力、阅读和写作（如写指路邮件）奠定基础。教材以对话形式呈现，包含Section A 1a-2d的听力输入和口语输出，教材呈现了地图、对话示例和角色扮演任务。",
+    "crossAnalysis": "对比外研版九年级上册Module 8 'Sports life' 中问路内容（更侧重体育场馆问路），人教版本单元更系统地从礼貌请求（Could you please...）切入，突出语用功能。人教版特色在于：1. 使用真实地图（如购物中心）创设情境；2. 强调礼貌用语的文化差异；3. 通过听力任务逐步引导学生从识别到产出。教材取舍：未涉及复杂道路描述（如转几个弯），但保留核心表达（go straight, turn left/right, next to等），符合九年级学生认知水平。",
+    "bigConcept": "语言交际中的礼貌策略与空间定位",
+    "keyKnowledge": [
+      "礼貌请求句式：Could you please tell me where...?",
+      "方位介词与短语：next to, between, across from, on the left/right",
+      "指路指令：go straight, turn left/right, take the first/second turning"
+    ],
+    "difficulties": [
+      "教学重点：运用宾语从句礼貌问路（Could you please tell me where...?）",
+      "教学难点：正确使用方位介词和指路指令，在动态对话中准确描述路线"
+    ]
+  },
+  "learnerAnalysis": {
+    "priorKnowledge": "学生已掌握基本问路句型（Where is...?）和简单方位词（near, next to, behind），能够听懂并说出简单指令（turn left, go straight）。",
+    "priorExperience": "学生在生活中都有问路或指路的经历，对商场、学校等场所布局熟悉，但可能缺乏用英语表达复杂路线的经验。",
+    "cognitiveDifficulty": "学生可能混淆宾语从句的语序（Could you please tell me where the restrooms are? 而非where are the restrooms），以及在不同情境下选择合适礼貌程度的表达。",
+    "preAssessment": "通过快速问答（如：How do you ask for directions in English?）和简单地图配对任务（如标出地点位置），检测学生已有词汇和句型掌握情况。"
+  },
+  "learningObjectives": [
+    {
+      "content": "学生通过观察地图和听力输入，能准确识别并说出6个常见场所词汇（restroom, bookstore, post office, supermarket, bank, museum）及5个方位介词短语（next to, between, across from, on the left, on the right）。",
+      "category": "knowledge",
+      "competencyLink": "语言能力",
+      "assessmentMethod": "课堂提问、配对练习"
+    },
+    {
+      "content": "学生通过角色扮演和情境对话，能运用'Could you please tell me where...?'和指路指令（go straight, turn left/right）完成至少3次问路与指路交际，表达基本流畅、礼貌得体。",
+      "category": "skill",
+      "competencyLink": "语言能力、文化意识",
+      "assessmentMethod": "对话展示、同伴互评"
+    },
+    {
+      "content": "学生通过对比中英文问路礼貌用语的差异，能意识到在英语文化中使用礼貌请求的重要性，并在对话中主动使用'Excuse me'和'Thank you'等礼貌表达。",
+      "category": "attitude",
+      "competencyLink": "文化意识、思维品质",
+      "assessmentMethod": "观察记录、反思日志"
+    }
+  ],
+  "assessmentTasks": {
+    "preMethod": "教师展示一张简单地图，口头提问：Where is the bookstore? 学生指图回答；教师再问：How do you ask politely? 学生尝试回答。",
+    "preQuestions": [
+      "你能用英语说出三个场所的英文名称吗？",
+      "如果你在商场里迷路了，你会怎么礼貌地问路？"
+    ],
+    "prePurpose": "检测学生对场所词汇和基本问路句型的掌握程度，为后续教学提供起点。",
+    "postMethod": "学生两人一组，根据教师提供的新地图（不同布局），进行问路与指路的角色扮演，教师录制并分析。",
+    "postTasks": [
+      "任务1：根据地图，从起点到指定地点完成一次问路和指路对话。",
+      "任务2：互换角色，完成第二次对话。",
+      "任务3：书面写出三条指路指令。"
+    ],
+    "postRubric": "优秀：能熟练运用宾语从句礼貌问路，指路指令准确、顺序清晰，对话流畅自然；合格：能使用基本句型问路和指路，偶有语法错误但可理解，对话基本完整；需辅导：仅能使用简单问句，指路指令不完整或顺序混乱，对话中有明显停顿。"
+  },
+  "activities": [
+    {
+      "phase": "B",
+      "title": "地图谜题导入",
+      "duration": 3,
+      "teacherAction": "展示一张局部模糊的商场地图，问：Where is the restroom? 引导学生猜测，引出问路需求。",
+      "studentAction": "观察地图，尝试用已知句型回答。",
+      "designIntent": "利用认知冲突（地图模糊）激发学生好奇心，自然导入问路话题，体现动机优先原则。",
+      "assessmentEmbedded": "教师观察学生已有句型使用情况。"
+    },
+    {
+      "phase": "O",
+      "title": "明确学习目标",
+      "duration": 2,
+      "teacherAction": "用PPT展示本课目标：学会礼貌问路和清晰指路。",
+      "studentAction": "看目标，思考自己能否做到。",
+      "designIntent": "让学生明确学什么、怎么学，建立学习期待。",
+      "assessmentEmbedded": ""
+    },
+    {
+      "phase": "P-participatory",
+      "title": "核心探索：问路与指路",
+      "duration": 15,
+      "teacherAction": "1. 播放Section A 1b听力，学生完成地图配对；2. 教师板书关键句型（Could you please tell me where...?），但先不解释，让学生尝试自己总结规律；3. 提供购物中心简化地图，设置困难：学生需先独立尝试用新句型问路，再小组交流纠正。",
+      "studentAction": "1. 听录音，完成配对；2. 观察板书，尝试总结宾语从句语序；3. 两人一组，先独立尝试对话，再交换角色，最后小组内分享并修正错误。",
+      "designIntent": "体现困难前置原则：先让学生经历困惑（宾语从句语序），再通过合作交流解决；过程保留：学生独立尝试和小组讨论记录错误，教师最后点拨。",
+      "assessmentEmbedded": "教师巡视，记录学生常见错误，用于后续总结；同伴互评使用礼貌用语情况。"
+    },
+    {
+      "phase": "P-post",
+      "title": "后测练习：新地图角色扮演",
+      "duration": 8,
+      "teacherAction": "提供一张新的学校地图，设置不同起点和终点，要求学生进行3分钟对话准备并展示。",
+      "studentAction": "两人一组，抽取任务卡（起点和终点），编写并展示对话。",
+      "designIntent": "检测学生能否迁移运用所学句型，完成真实交际任务。",
+      "assessmentEmbedded": "教师使用评价量规现场点评，同伴根据礼貌用语和准确性打分。"
+    },
+    {
+      "phase": "S",
+      "title": "课堂总结",
+      "duration": 5,
+      "teacherAction": "引导学生总结本课重点：宾语从句语序、礼貌用语、方位短语；布置分层作业。",
+      "studentAction": "口头总结，完成反思日志（如：我学会了... 我还需要练习...）。",
+      "designIntent": "归纳本课核心内容，为后续写作课（写指路邮件）铺垫。",
+      "assessmentEmbedded": "反思日志用于了解学生自我评价。"
+    }
+  ],
+  "homework": {
+    "requiredTitle1": "基础练习：句型转换",
+    "requiredDesc1": "将5个简单问句（Where is the library?）改为礼貌问句（Could you please tell me where the library is?）。",
+    "requiredTitle2": "应用任务：绘制指路地图",
+    "requiredDesc2": "绘制一张从学校大门到图书馆的简单地图，并用英语写出至少3条指路指令。",
+    "optionalTitle": "挑战任务：创意对话",
+    "optionalDesc": "编写一段在陌生城市问路与指路的对话，至少包含3个地点和2次转弯，并录音提交。",
+    "designIntent": "分层设计：基础题巩固语法，应用题训练实际运用，挑战题鼓励创造和口语输出。",
+    "differentiationNote": "基础薄弱学生重点完成句型转换和简单指路指令；能力较强学生可挑战创意对话，并尝试使用更多方位词（如go past, on the corner）。"
+  },
+  "boardDesign": {
+    "layout": "左侧：核心句型（Could you please tell me where...?  + 回答框架）；中间：方位短语列表（next to, between, across from等）；右侧：指路指令（go straight, turn left, take the first turning）；下方：学生常见错误修正区（如语序错误）。",
+    "keyElements": [
+      "Could you please tell me where...?",
+      "方位短语：next to, between, across from",
+      "指路指令：go straight, turn left/right"
+    ],
+    "structureLogic": "从问句到回答，再到具体指令，体现交际流程；错误修正区强化难点。"
+  },
+  "reflection": {
+    "targetAchievement": "预计80%学生能完成基本交际任务，60%能熟练运用宾语从句；部分学生可能在语序上仍有困难。",
+    "improvementMeasures": [
+      "增加更多听力输入，如不同场景的问路对话",
+      "设计语序专项练习，如排序游戏",
+      "课后提供微课视频供学生复习"
+    ],
+    "notableObservations": "注意学生在角色扮演中的紧张情绪，鼓励使用肢体语言辅助表达。"
+  },
+  "difficultyDesign": {
+    "targetDifficulty": "核心困难：宾语从句语序的转换（Could you please tell me where the restrooms are? 而非 where are the restrooms）",
+    "educationalValue": "这个困难直接关系到英语语法的核心（从句语序），对后续学习其他从句（如宾语从句、定语从句）有奠基作用，值得保留。",
+    "zpdAlignment": "学生已掌握简单问句（Where is...?），通过听力输入和教师示范，在合作交流中逐步内化新结构，困难在最近发展区内。",
+    "meaninglessObstacles": [
+      "生僻词汇（如escalator、directory）",
+      "复杂地图（如立交桥）",
+      "过长对话（超过4轮）"
+    ],
+    "motivationStrategy": "自主性：学生选择对话起点和终点；胜任感：通过小组合作降低焦虑；关系感：同伴互助和教师鼓励。",
+    "difficultyFirst": "在核心探索环节，先让学生听录音后独立尝试总结宾语从句语序，教师不直接讲解，让学生经历困惑。",
+    "processPreservation": "学生独立尝试和小组讨论的记录（如错误语序的句子）保留在白板上，用于全班修正。",
+    "abstractionProtection": "在总结环节，教师引导学生抽象出规则（主句+疑问词+陈述语序），并用颜色标注结构，避免过早给规则导致机械记忆。"
+  }
+}

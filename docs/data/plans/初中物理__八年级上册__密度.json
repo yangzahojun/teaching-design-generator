@@ -1,0 +1,156 @@
+{
+  "standardAnalysis": {
+    "contentRequirement": "通过实验，理解密度。会测量固体和液体的密度。解释生活中一些与密度有关的物理现象。",
+    "academicRequirement": "能根据实验目的设计实验方案，使用常见器材进行实验获取数据，基于数据得出实验结论；能运用密度知识解释生产生活中的相关现象。",
+    "teachingHint": "引导学生通过实验探究，理解密度是物质的一种特性，体会比值定义物理量的方法。",
+    "coreCompetencyNames": [
+      "物理观念",
+      "科学思维",
+      "科学探究",
+      "科学态度与责任"
+    ]
+  },
+  "textbookAnalysis": {
+    "verticalAnalysis": "本课位于人教版八年级上册第六章《质量与密度》第二节。学生已学习质量概念及天平使用（第一节），为密度概念的建立提供测量基础。后续将学习密度应用（第三节）及测量固体液体密度（第四节）。密度是力学中重要的物质属性概念，是连接质量与体积的桥梁，为后续学习浮力、压强等奠定基础。",
+    "crossAnalysis": "人教版本课特色：通过“同种物质质量与体积成正比”的探究实验引入，强调比值定义法；苏教版更侧重密度概念的直接应用；沪科版则先给出密度定义再实验验证。人教版注重过程探究，符合学生认知规律。",
+    "bigConcept": "物质具有不同的性质，密度是描述物质疏密程度的物理量，是物质的一种特性。",
+    "keyKnowledge": [
+      "密度概念",
+      "密度公式ρ=m/V",
+      "密度单位及换算",
+      "密度是物质特性"
+    ],
+    "difficulties": [
+      "教学重点：密度概念的建立和公式理解",
+      "教学难点：密度是物质特性的理解，比值定义法的体会"
+    ]
+  },
+  "learnerAnalysis": {
+    "priorKnowledge": "已掌握质量概念、天平使用方法、体积测量（量筒、刻度尺）方法，具备简单实验操作能力。",
+    "priorExperience": "生活中常接触“铁比木头重”等直观说法，但缺乏对密度本质的认识。",
+    "cognitiveDifficulty": "学生易将“密度”与“质量”混淆，难以理解密度是物质本身的特性，与质量和体积无关。",
+    "preAssessment": "课堂提问：铁和木头哪个重？为什么？让学生暴露前概念。"
+  },
+  "learningObjectives": [
+    {
+      "content": "通过探究同种物质质量与体积的关系，能说出同种物质质量与体积成正比，并正确写出密度公式。",
+      "category": "knowledge",
+      "competencyLink": "科学探究",
+      "assessmentMethod": "课堂观察+实验报告"
+    },
+    {
+      "content": "能用密度公式进行简单计算，并正确使用密度单位（g/cm³与kg/m³）及换算。",
+      "category": "skill",
+      "competencyLink": "物理观念",
+      "assessmentMethod": "课堂练习+后测"
+    },
+    {
+      "content": "通过实验探究和数据分析，养成严谨的科学态度，体会密度是物质特性的意义。",
+      "category": "attitude",
+      "competencyLink": "科学态度与责任",
+      "assessmentMethod": "实验过程表现+反思交流"
+    }
+  ],
+  "assessmentTasks": {
+    "preMethod": "提问与小组讨论",
+    "preQuestions": [
+      "铁和木头，哪个更重？为什么？",
+      "同样大小的铁块和木块，哪个质量大？"
+    ],
+    "prePurpose": "暴露学生前概念，诊断对“密度”的模糊认识。",
+    "postMethod": "课堂练习与实验报告评价",
+    "postTasks": [
+      "计算一块铁的质量（已知体积和密度）",
+      "设计实验鉴别两个外观相同的金属块（铁和铝）"
+    ],
+    "postRubric": "优秀：能准确计算并解释鉴别原理；合格：能正确计算但解释不清；需辅导：计算错误且不能理解密度特性。"
+  },
+  "activities": [
+    {
+      "phase": "B",
+      "title": "情境导入：铁比木头重？",
+      "duration": 3,
+      "teacherAction": "展示大小不同的铁块和木块，提问“铁比木头重”这句话对吗？引发认知冲突。",
+      "studentAction": "观察、思考、讨论，发表观点。",
+      "designIntent": "激活前概念，制造认知冲突，激发探究欲望。",
+      "assessmentEmbedded": ""
+    },
+    {
+      "phase": "O",
+      "title": "明确学习目标",
+      "duration": 2,
+      "teacherAction": "展示本节课学习目标，解释“密度”概念的重要性。",
+      "studentAction": "阅读目标，明确任务。",
+      "designIntent": "让学生知道学什么、怎么学，增强目标感。",
+      "assessmentEmbedded": ""
+    },
+    {
+      "phase": "P-participatory",
+      "title": "探究质量与体积的关系",
+      "duration": 15,
+      "teacherAction": "提供铁块、铝块、天平、量筒等器材，引导学生设计实验测量不同体积下铁块和铝块的质量。先让学生独立尝试，再小组交流。教师巡视，适时提示测量方法。",
+      "studentAction": "分组实验：测量不同体积铁块和铝块的质量和体积，记录数据。先独立设计，再合作操作。",
+      "designIntent": "困难前置：让学生先尝试测量，暴露问题（如体积测量不准），再通过讨论改进。过程保留：记录原始数据，分析规律。",
+      "assessmentEmbedded": "观察学生实验操作规范性，数据记录完整性。"
+    },
+    {
+      "phase": "P-post",
+      "title": "数据分析与概念建立",
+      "duration": 8,
+      "teacherAction": "引导学生分析数据，发现同种物质质量与体积成正比，比值相同；不同物质比值不同。引出密度概念和公式。",
+      "studentAction": "计算质量与体积的比值，绘制m-V图像，总结规律。",
+      "designIntent": "从数据到概念，体会比值定义法。",
+      "assessmentEmbedded": "提问：为什么同种物质比值相同？不同物质比值不同？"
+    },
+    {
+      "phase": "S",
+      "title": "课堂总结与拓展",
+      "duration": 5,
+      "teacherAction": "总结密度概念、公式、单位及特性。布置课后思考：如何鉴别一块金牌是纯金的？",
+      "studentAction": "整理笔记，完成课堂练习。",
+      "designIntent": "归纳核心内容，联系生活应用。",
+      "assessmentEmbedded": ""
+    }
+  ],
+  "homework": {
+    "requiredTitle1": "基础练习",
+    "requiredDesc1": "完成课本第122页“动手动脑学物理”第1、2题，计算密度并解释现象。",
+    "requiredTitle2": "实验报告完善",
+    "requiredDesc2": "整理课堂实验数据，撰写实验报告，包括实验目的、步骤、数据表格、结论。",
+    "optionalTitle": "挑战题：鉴别物质",
+    "optionalDesc": "小明捡到一块金属，测得质量为54g，体积为20cm³，请计算密度并判断它可能是什么物质（查阅密度表）。",
+    "designIntent": "分层设计：基础题巩固公式应用，实验报告培养科学写作，挑战题激发探究兴趣。",
+    "differentiationNote": "基础薄弱学生完成必做1即可；中等学生完成必做1和2；学有余力学生挑战选做题。"
+  },
+  "boardDesign": {
+    "layout": "左侧：实验数据表格（铁块、铝块的质量与体积数据）；中间：密度概念、公式ρ=m/V、单位及换算；右侧：密度是物质特性，与m、V无关。",
+    "keyElements": [
+      "质量与体积成正比",
+      "密度=质量/体积",
+      "ρ=m/V",
+      "g/cm³ = 10³ kg/m³"
+    ],
+    "structureLogic": "从实验数据到概念定义，再到特性总结，体现探究逻辑。"
+  },
+  "reflection": {
+    "targetAchievement": "预计80%学生能掌握密度概念和公式，60%学生能理解密度是物质特性。",
+    "improvementMeasures": [
+      "增加更多生活实例对比（如油和水）",
+      "设计更开放的实验探究环节"
+    ],
+    "notableObservations": "注意纠偏“铁比木头重”的日常说法，强化密度与质量的区别。"
+  },
+  "difficultyDesign": {
+    "targetDifficulty": "理解密度是物质特性，与质量和体积无关。",
+    "educationalValue": "这是学生从日常经验（质量）转向科学概念（密度）的关键，有助于培养抽象思维和物质观念。",
+    "zpdAlignment": "学生在已有质量、体积测量能力基础上，通过实验数据比较，可逐步领悟比值的意义。",
+    "meaninglessObstacles": [
+      "复杂的单位换算（先只讲g/cm³与kg/m³基本换算）",
+      "过多理论推导"
+    ],
+    "motivationStrategy": "通过“铁比木头重”的认知冲突激发好奇心；实验探究中赋予学生自主设计权（自主性）；小组合作增强关系感；成功发现规律获得胜任感。",
+    "difficultyFirst": "在导入后直接让学生尝试回答“铁和木头哪个重”，暴露错误概念；然后在实验中让学生自己发现矛盾，再引导至密度概念。",
+    "processPreservation": "要求学生保留原始实验数据，包括错误数据，分析原因，而非直接给出正确结论。",
+    "abstractionProtection": "先通过具体数据表格和图像直观展示比值，再抽象出密度概念；用“单位体积的质量”降低抽象程度。"
+  }
+}

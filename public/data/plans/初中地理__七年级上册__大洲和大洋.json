@@ -1,0 +1,153 @@
+{
+  "standardAnalysis": {
+    "contentRequirement": "运用地图和地球仪，说出大洲和大洋的分布，并在地图上辨认七大洲和四大洋。",
+    "academicRequirement": "学生能够在地图上准确指出七大洲和四大洋的位置，并描述其相对位置关系。",
+    "teachingHint": "通过地球仪和世界地图的观察，引导学生从整体到局部认识海陆分布，注重培养学生的读图能力和空间想象能力。",
+    "coreCompetencyNames": [
+      "区域认知",
+      "地理实践力",
+      "综合思维"
+    ]
+  },
+  "textbookAnalysis": {
+    "verticalAnalysis": "本课位于人教版七年级上册第二章《陆地和海洋》第一节。在第一章《地球和地图》之后，学生已掌握地球仪和地图的基本知识。本课是认识世界海陆分布的基础，为后续学习《海陆的变迁》和世界气候等知识奠定基础。教材通过地球仪和地图呈现七大洲和四大洋的分布，强调读图技能。",
+    "crossAnalysis": "相比湘教版等教材，人教版更突出从地球仪到地图的过渡，强调空间位置关系，并配以大量示意图和活动题，降低抽象性。本版教材的特色是图文并茂，活动设计注重学生动手操作（如拼图）。",
+    "bigConcept": "地球表面的海陆分布是动态的、有规律的，人类通过地图和模型来认知和描述这一分布。",
+    "keyKnowledge": [
+      "七大洲的名称、轮廓和位置",
+      "四大洋的名称、位置和面积",
+      "大洲和大洋的分布规律（如大陆轮廓的互补性）"
+    ],
+    "difficulties": [
+      "教学重点：七大洲和四大洋的名称、位置及分布",
+      "教学难点：大洲和大洋的空间位置关系（如相对位置、界线）"
+    ]
+  },
+  "learnerAnalysis": {
+    "priorKnowledge": "学生已掌握地球仪的基本使用方法，能识别经线、纬线，并了解地图三要素。",
+    "priorExperience": "学生通过新闻、旅行或影视作品对某些大洲和大洋有模糊印象，如亚洲、太平洋。",
+    "cognitiveDifficulty": "学生可能难以在脑海中构建全球海陆分布的立体空间模型，容易混淆大洲和大洋的相对位置。",
+    "preAssessment": "课前通过提问（如“你知道世界上有哪些大洲？”）和画图（画出你印象中的世界海陆分布）进行前测。"
+  },
+  "learningObjectives": [
+    {
+      "content": "通过观察地球仪和世界地图，学生能准确说出七大洲和四大洋的名称，并在地图上正确指出它们的位置。",
+      "category": "knowledge",
+      "competencyLink": "区域认知",
+      "assessmentMethod": "课堂提问与地图指认"
+    },
+    {
+      "content": "学生能运用地图比较不同大洲和大洋的面积大小，并描述大洲和大洋的相对位置关系。",
+      "category": "skill",
+      "competencyLink": "地理实践力",
+      "assessmentMethod": "小组合作拼图活动"
+    },
+    {
+      "content": "通过认识全球海陆分布，学生能体会人类对地球认知的探索过程，形成尊重自然、保护地球家园的意识。",
+      "category": "attitude",
+      "competencyLink": "综合思维",
+      "assessmentMethod": "课堂讨论与反思"
+    }
+  ],
+  "assessmentTasks": {
+    "preMethod": "课堂提问与简笔画",
+    "preQuestions": [
+      "你知道地球上有几个大洲吗？请说出它们的名字。",
+      "你能简单画出你印象中的世界海陆分布吗？"
+    ],
+    "prePurpose": "了解学生对七大洲四大洋的已有认知程度，诊断常见错误。",
+    "postMethod": "地图填图与口头描述",
+    "postTasks": [
+      "在空白世界地图上填出七大洲和四大洋的名称。",
+      "向同桌描述亚洲与非洲的相对位置。"
+    ],
+    "postRubric": "优秀：准确填出所有名称，并清晰描述相对位置；合格：填出大部分名称，描述基本正确；需辅导：混淆较多，需要进一步引导。"
+  },
+  "activities": [
+    {
+      "phase": "B",
+      "title": "海陆分布猜谜",
+      "duration": 3,
+      "teacherAction": "展示地球卫星图，提问：“你看到了什么？为什么叫‘地球’而不是‘水球’？”",
+      "studentAction": "观察图片，自由发言。",
+      "designIntent": "激发好奇心，引出海陆分布主题。",
+      "assessmentEmbedded": ""
+    },
+    {
+      "phase": "O",
+      "title": "明确学习目标",
+      "duration": 2,
+      "teacherAction": "展示本课学习目标，强调要能在地图上认出七大洲和四大洋。",
+      "studentAction": "齐读目标，明确任务。",
+      "designIntent": "让学生知道学什么、怎么学。",
+      "assessmentEmbedded": ""
+    },
+    {
+      "phase": "P-participatory",
+      "title": "探索七大洲和四大洋",
+      "duration": 15,
+      "teacherAction": "先让学生独立观察地球仪和世界地图，尝试说出看到的大洲和大洋。然后组织小组合作，用拼图拼出七大洲轮廓，并贴在相应位置。教师巡视，提供引导性问题（如“哪个大洲最大？”）。",
+      "studentAction": "先独立观察，再小组合作拼图，讨论大洲大洋的分布。",
+      "designIntent": "困难前置：先让学生自己探索，经历困惑；过程保留：保留拼图过程中的尝试和错误；抽象保护：用实物拼图降低抽象性。",
+      "assessmentEmbedded": "观察学生拼图是否正确，记录常见错误。"
+    },
+    {
+      "phase": "P-post",
+      "title": "后测练习",
+      "duration": 8,
+      "teacherAction": "发放空白世界地图，要求学生独立填图。",
+      "studentAction": "独立完成填图练习。",
+      "designIntent": "检测学习效果，巩固知识。",
+      "assessmentEmbedded": "学生互评，教师点评。"
+    },
+    {
+      "phase": "S",
+      "title": "课堂总结",
+      "duration": 5,
+      "teacherAction": "引导学生总结七大洲和四大洋的名称、位置和分布规律，强调从整体到局部的认知方法。",
+      "studentAction": "回顾本课内容，分享收获。",
+      "designIntent": "归纳核心知识，为后续学习做铺垫。",
+      "assessmentEmbedded": ""
+    }
+  ],
+  "homework": {
+    "requiredTitle1": "地图填图",
+    "requiredDesc1": "完成课本P30活动题，在空白世界地图上填出七大洲和四大洋名称。",
+    "requiredTitle2": "家庭观察",
+    "requiredDesc2": "在家用地球仪或地图，向家长介绍七大洲和四大洋的位置。",
+    "optionalTitle": "创意拼图",
+    "optionalDesc": "用橡皮泥或纸板制作七大洲轮廓模型，并标注名称。",
+    "designIntent": "分层设计，基础作业巩固知识，选做作业激发兴趣和创造力。",
+    "differentiationNote": "对学困生，可提供提示卡（如大洲名称列表）；对学优生，鼓励探索大洲分界线。"
+  },
+  "boardDesign": {
+    "layout": "左侧：七大洲名称及轮廓简图（按面积大小排列）；右侧：四大洋名称及位置简图；中间：全球海陆分布简图（标出赤道和主要经纬线）。",
+    "keyElements": [
+      "七大洲名称",
+      "四大洋名称",
+      "海陆分布简图"
+    ],
+    "structureLogic": "从左到右，从大到小的空间逻辑，先认识到大洲再到大洋，最后综合成整体分布。"
+  },
+  "reflection": {
+    "targetAchievement": "预计85%的学生能准确指认七大洲和四大洋，70%的学生能描述相对位置。",
+    "improvementMeasures": [
+      "增加更多地球仪操作环节，强化空间感",
+      "对混淆的大洲（如南美洲和非洲）设计对比活动"
+    ],
+    "notableObservations": "注意学生拼图时的常见错误，如将欧洲和亚洲混淆，及时纠正。"
+  },
+  "difficultyDesign": {
+    "targetDifficulty": "核心困难：在头脑中建立全球海陆分布的立体空间模型。",
+    "educationalValue": "这个困难能训练学生的空间想象能力和地理读图技能，是地理学科核心素养的基础。",
+    "zpdAlignment": "通过地球仪和拼图工具降低抽象性，确保学生在教师引导下可以完成。",
+    "meaninglessObstacles": [
+      "复杂的经纬度知识",
+      "大洲分界线的详细记忆"
+    ],
+    "motivationStrategy": "自主性：让学生自主选择观察顺序；胜任感：通过拼图成功获得成就感；关系感：小组合作增强互动。",
+    "difficultyFirst": "先让学生独立观察地球仪，尝试说出大洲名称，经历困惑后再进行拼图活动。",
+    "processPreservation": "保留学生拼图过程中的错误尝试，通过讨论和修正加深理解。",
+    "abstractionProtection": "用实物地球仪、彩色拼图等直观教具，避免纯文字讲解。"
+  }
+}

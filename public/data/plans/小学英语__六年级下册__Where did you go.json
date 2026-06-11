@@ -1,0 +1,154 @@
+{
+  "standardAnalysis": {
+    "contentRequirement": "理解日常学习和生活中所熟悉的简单的语言材料，获取、梳理基本的事实性信息；能用简单的语言描述个人经历和熟悉的事物。",
+    "academicRequirement": "能在口语和书面语表达中，运用一般过去时描述过去发生的事情；能使用所学语言与他人进行简单的交流。",
+    "teachingHint": "创设真实语境，引导学生感知、理解、模仿和运用一般过去时的表达；注重语言实践，让学生在完成任务的过程中学习和使用语言。",
+    "coreCompetencyNames": [
+      "语言能力",
+      "文化意识",
+      "思维品质",
+      "学习能力"
+    ]
+  },
+  "textbookAnalysis": {
+    "verticalAnalysis": "本课是PEP小学英语六年级下册Unit 3《Where did you go?》的第一课时（Part A Let's talk & Let's learn）。本单元围绕“假期活动”话题展开，本课时主要学习一般过去时特殊疑问句“Where did you go?”及回答“I went to...”，以及动词过去式规则变化（如went, visited, saw等）。本课承接五年级下册学习的一般过去时基础（如was/were），并为后续学习不规则动词过去式、一般过去时否定句和一般疑问句做铺垫。在小学英语学段中，本课处于从基础语法感知向自主运用过渡的关键阶段。",
+    "crossAnalysis": "与其他版本（如外研社Join in、人教新起点）相比，PEP教材更注重对话情境的完整性和交际性，通过Let's talk呈现真实对话，再通过Let's learn集中呈现核心词汇和句型。本版本特色在于以John的假期经历为主线，融合视听、说、读、写多种活动，语言输入量大且复现率高。",
+    "bigConcept": "语言结构反映时间概念：一般过去时用于描述过去发生的事情。",
+    "keyKnowledge": [
+      "核心句型：Where did you go? I went to...",
+      "核心词汇：went, visited, saw, took, bought等动词过去式",
+      "一般过去时特殊疑问句的结构与用法"
+    ],
+    "difficulties": [
+      "教学重点：能运用Where did you go? I went to...进行问答",
+      "教学难点：不规则动词过去式的记忆与正确使用（如went, saw, took）"
+    ]
+  },
+  "learnerAnalysis": {
+    "priorKnowledge": "学生已学过一般现在时、现在进行时，对一般过去时be动词（was/were）有初步了解，能简单描述过去状态。已掌握一些常见动词原形（如go, see, take, buy）。",
+    "priorExperience": "学生有假期旅游、探亲、参加活动的生活经验，能用中文简单描述。部分学生可能已有用英语简单分享假期经历的经历。",
+    "cognitiveDifficulty": "动词过去式的不规则变化（如go→went, see→saw）与规则变化（-ed）容易混淆；特殊疑问句语序（Where did you go?）与陈述句语序不同，学生可能受母语负迁移影响。",
+    "preAssessment": "课前通过简短问答（如“What did you do last weekend?”）和填空小测（如“Yesterday I ___ (go) to the park.”）了解学生对一般过去时的掌握程度。"
+  },
+  "learningObjectives": [
+    {
+      "content": "学生通过听录音、看动画，能正确理解Let's talk对话内容，获取John假期去了哪里、做了什么等关键信息。",
+      "category": "knowledge",
+      "competencyLink": "语言能力",
+      "assessmentMethod": "课堂提问、听力检测"
+    },
+    {
+      "content": "学生能在教师提供的图片和关键词提示下，运用句型“Where did you go? I went to...”和动词过去式进行角色扮演和简单对话。",
+      "category": "skill",
+      "competencyLink": "语言能力、学习能力",
+      "assessmentMethod": "对话表演、交际任务"
+    },
+    {
+      "content": "学生能通过小组合作，介绍自己或同伴的假期经历，培养乐于分享和交流的态度。",
+      "category": "attitude",
+      "competencyLink": "文化意识、思维品质",
+      "assessmentMethod": "小组展示、自我评价"
+    }
+  ],
+  "assessmentTasks": {
+    "preMethod": "课堂问答+填空小测",
+    "preQuestions": [
+      "What did you do last weekend?",
+      "Yesterday I ___ (go) to the zoo. (用正确形式填空)"
+    ],
+    "prePurpose": "了解学生对一般过去时的已有认知，特别是动词过去式的掌握情况。",
+    "postMethod": "口语任务+书面小练笔",
+    "postTasks": [
+      "Pair work: 两人一组，用Where did you go? I went to...互问互答并记录。",
+      "Write 3 sentences about your last trip using past tense verbs."
+    ],
+    "postRubric": "优秀：能熟练运用句型，动词过去式基本正确，表达流畅；合格：能运用主要句型，偶有语法错误，但能完成交流；需辅导：句型运用困难，动词过去式混淆，需要提示。"
+  },
+  "activities": [
+    {
+      "phase": "B",
+      "title": "假期趣事分享",
+      "duration": 3,
+      "teacherAction": "展示自己假期去某地的照片，用简单英语描述（如：I went to the beach. I saw many fish.）",
+      "studentAction": "观看并尝试理解，个别学生分享自己假期去了哪里。",
+      "designIntent": "从真实生活经验切入，激发学生兴趣，激活已有知识。",
+      "assessmentEmbedded": ""
+    },
+    {
+      "phase": "O",
+      "title": "明确学习目标",
+      "duration": 2,
+      "teacherAction": "板书课题并出示本节课学习目标：学会用Where did you go?询问他人假期去向并回答；掌握几个动词过去式。",
+      "studentAction": "齐读目标，明确本节课任务。",
+      "designIntent": "让学生清楚学什么、怎么学，增强学习目的性。",
+      "assessmentEmbedded": ""
+    },
+    {
+      "phase": "P-participatory",
+      "title": "核心探索：Where did John go?",
+      "duration": 15,
+      "teacherAction": "播放Let's talk动画，提出任务：John去了哪里？做了什么？然后出示动词原形（go, see, take, buy），让学生先猜测过去式形式，再提供答案。组织小组讨论：为什么有的加-ed，有的变成新词？",
+      "studentAction": "先独立观看并记录信息；小组内交流猜测的过去式，尝试总结规则；在全班分享发现。",
+      "designIntent": "通过猜测和对比，让学生主动发现不规则变化，经历困惑后教师点拨，符合困难前置和过程保留原则。",
+      "assessmentEmbedded": "观察小组讨论记录，随机提问检查理解"
+    },
+    {
+      "phase": "P-post",
+      "title": "后测练习：假期采访",
+      "duration": 8,
+      "teacherAction": "出示采访任务卡，示范采访一名学生：Where did you go last summer? I went to... 然后组织全班进行同伴采访。",
+      "studentAction": "两人一组互问互答，记录对方回答；几组在全班展示。",
+      "designIntent": "在真实交际中检测目标句型掌握情况，培养语言运用能力。",
+      "assessmentEmbedded": "同伴互评：是否用对句型，动词过去式是否正确"
+    },
+    {
+      "phase": "S",
+      "title": "课堂总结",
+      "duration": 5,
+      "teacherAction": "引导学生回顾本节课核心句型和不规则动词过去式，总结记忆技巧（如：go-went, see-saw）。",
+      "studentAction": "自主梳理并口头复述关键内容，完成自我评价表。",
+      "designIntent": "强化记忆，建立知识结构，为下一课学习一般过去时否定句和一般疑问句做铺垫。",
+      "assessmentEmbedded": ""
+    }
+  ],
+  "homework": {
+    "requiredTitle1": "基础练习：动词变形",
+    "requiredDesc1": "写出下列动词的过去式：go, see, take, buy, visit, like, play。并用其中两个造句。",
+    "requiredTitle2": "口语任务：假期分享",
+    "requiredDesc2": "用Where did you go? I went to...和至少两个动词过去式，向家长介绍自己的一次假期经历，并请家长签字。",
+    "optionalTitle": "写作挑战：我的旅行日记",
+    "optionalDesc": "用5句话写一篇简短的旅行日记，描述去了哪里、做了什么、看到了什么。要求使用一般过去时。",
+    "designIntent": "分层设计，基础练习巩固核心词汇和句型，口语任务促进真实运用，写作挑战提升综合语言能力。",
+    "differentiationNote": "水平较弱的学生可只完成基础练习，并与家长进行简单对话；水平较高的学生鼓励完成写作挑战。"
+  },
+  "boardDesign": {
+    "layout": "左侧：核心句型（Where did you go? I went to...）+ 示例对话；中间：动词过去式列表（go→went, see→saw, take→took, buy→bought, visit→visited, like→liked, play→played）；右侧：学生生成（采访记录或造句）。",
+    "keyElements": [
+      "Where did you go? I went to...",
+      "动词过去式（规则+不规则）",
+      "假期经历"
+    ],
+    "structureLogic": "从句型到词汇再到应用，层层递进，可视化呈现本课知识结构。"
+  },
+  "reflection": {
+    "targetAchievement": "预计大部分学生能达成目标1和目标2，约70%学生能完成目标3的自主表达。",
+    "improvementMeasures": [
+      "增加不规则动词过去式的歌谣或游戏，强化记忆",
+      "在采访环节提供更多语言支架（如提示卡）"
+    ],
+    "notableObservations": "关注学生对不规则动词过去式的掌握差异，及时提供个别辅导。"
+  },
+  "difficultyDesign": {
+    "targetDifficulty": "核心困难：不规则动词过去式的记忆与正确运用。",
+    "educationalValue": "不规则变化是英语语法中的常见现象，掌握它有助于学生理解语言规律，避免机械记忆。",
+    "zpdAlignment": "学生已知规则变化（-ed）和be动词过去式，通过猜测和对比，不规则变化处于最近发展区内。",
+    "meaninglessObstacles": [
+      "复杂的语法术语",
+      "过多的新词汇同时呈现"
+    ],
+    "motivationStrategy": "自主性：让学生猜测过去式形式；胜任感：小组合作降低难度，成功猜测后获得成就感；关系感：同伴采访和分享增强互动。",
+    "difficultyFirst": "在核心探索环节先让学生猜测过去式，经历困惑后再由教师讲解。",
+    "processPreservation": "小组讨论时保留学生的猜测过程和错误，不急于纠正，鼓励交流。",
+    "abstractionProtection": "使用图片、动画等具象化手段辅助理解，避免过早引入抽象语法规则。"
+  }
+}
