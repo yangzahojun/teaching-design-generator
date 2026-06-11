@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { BookOpen, GraduationCap, ExternalLink, Search, ChevronRight, FileText, Download, Eye } from 'lucide-react';
-import { SUBJECTS } from '../../data/subjects';
+import { SUBJECTS_BY_STAGE } from '../../data/subjects';
+const ALL_SUBJECTS = [...Object.values(SUBJECTS_BY_STAGE).flat()];
 import { getCompetenciesForSubject } from '../../data/core-competencies';
 import { CURRICULUM_STANDARDS } from '../../data/curriculum-standards';
 import Card from '../shared/Card';
@@ -10,43 +11,30 @@ import Button from '../shared/Button';
 // ===== 本地PDF文件映射（站内阅读，无需外部服务）=====
 // PDF文件位于 public/standards/ 目录，构建后自动复制到 docs/standards/
 const LOCAL_PDFS: Record<string, string[]> = {
-  '小学语文': ['语文课程标准2022.pdf'],
-  '初中语文': ['语文课程标准2022.pdf'],
-  '小学数学': ['数学课程标准2022.pdf'],
-  '初中数学': ['数学课程标准2022.pdf'],
-  '小学英语': ['英语课程标准2022.pdf'],
-  '初中英语': ['英语课程标准2022.pdf'],
-  '初中物理': ['物理课程标准2022.pdf'],
-  '初中化学': ['化学课程标准2022.pdf'],
-  '初中生物': ['生物课程标准2022.pdf'],
-  '初中历史': ['历史课程标准2022.pdf'],
-  '初中地理': ['地理课程标准2022.pdf'],
-  '小学科学': ['科学课程标准2022.pdf'],
-  '小学道德与法治': ['道德与法治课程标准2022.pdf'],
-  '初中道德与法治': ['道德与法治课程标准2022.pdf'],
-  '小学信息科技': ['信息科技课程标准2022.pdf'],
-  '小学艺术': ['艺术课程标准2022.pdf'],
-  '小学体育': ['体育与健康课程标准2022.pdf'],
+  '语文': ['语文课程标准2022.pdf'],
+  '数学': ['数学课程标准2022.pdf'],
+  '英语': ['英语课程标准2022.pdf'],
+  '物理': ['物理课程标准2022.pdf'],
+  '化学': ['化学课程标准2022.pdf'],
+  '生物': ['生物课程标准2022.pdf'],
+  '历史': ['历史课程标准2022.pdf'],
+  '地理': ['地理课程标准2022.pdf'],
+  '科学': ['科学课程标准2022.pdf'],
+  '道德与法治': ['道德与法治课程标准2022.pdf'],
+  '信息科技': ['信息科技课程标准2022.pdf'],
+  '艺术': ['艺术课程标准2022.pdf'],
+  '体育与健康': ['体育与健康课程标准2022.pdf'],
 };
 
 // ===== 智慧教育平台教材直达链接（直接打开教材内页）=====
 const TEXTBOOK_DIRECT_LINKS: Record<string, { name: string; grade: string; publisher: string; url: string }[]> = {
-  '小学数学': [
+  '数学': [
     { name: '一年级上册', grade: '一上', publisher: '人教版', url: 'https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/9d2c5e1a-3b4f-4a8c-b6d7-e9f1a2c3d4e5.pkg/pdf.pdf' },
-    { name: '一年级下册', grade: '一下', publisher: '人教版', url: 'https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/a1b2c3d4-5e6f-7a8b-9c0d-1e2f3a4b5c6d.pkg/pdf.pdf' },
-    { name: '二年级上册', grade: '二上', publisher: '人教版', url: 'https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/b2c3d4e5-6f7a-8b9c-0d1e-2f3a4b5c6d7e.pkg/pdf.pdf' },
-  ],
-  '小学语文': [
-    { name: '一年级上册', grade: '一上', publisher: '统编版', url: 'https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/c3d4e5f6-7a8b-9c0d-1e2f-3a4b5c6d7e8f.pkg/pdf.pdf' },
-    { name: '一年级下册', grade: '一下', publisher: '统编版', url: 'https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/d4e5f6a7-8b9c-0d1e-2f3a-4b5c6d7e8f9a.pkg/pdf.pdf' },
-  ],
-  '初中数学': [
     { name: '七年级上册', grade: '七上', publisher: '人教版', url: 'https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/e5f6a7b8-9c0d-1e2f-3a4b-5c6d7e8f9a0b.pkg/pdf.pdf' },
-    { name: '七年级下册', grade: '七下', publisher: '人教版', url: 'https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/f6a7b8c9-0d1e-2f3a-4b5c-6d7e8f9a0b1c.pkg/pdf.pdf' },
   ],
-  '初中语文': [
+  '语文': [
+    { name: '一年级上册', grade: '一上', publisher: '统编版', url: 'https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/c3d4e5f6-7a8b-9c0d-1e2f-3a4b5c6d7e8f.pkg/pdf.pdf' },
     { name: '七年级上册', grade: '七上', publisher: '统编版', url: 'https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/a7b8c9d0-1e2f-3a4b-5c6d-7e8f9a0b1c2d.pkg/pdf.pdf' },
-    { name: '七年级下册', grade: '七下', publisher: '统编版', url: 'https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/b8c9d0e1-2f3a-4b5c-6d7e-8f9a0b1c2d3e.pkg/pdf.pdf' },
   ],
 };
 
@@ -56,8 +44,8 @@ export default function StandardsPage() {
   const [searchQuery, setSearchQuery] = useState('');
 
   const filteredSubjects = searchQuery
-    ? SUBJECTS.filter(s => s.label.includes(searchQuery) || s.value.includes(searchQuery))
-    : SUBJECTS;
+    ? ALL_SUBJECTS.filter((s: {value: string; label: string}) => s.label.includes(searchQuery) || s.value.includes(searchQuery))
+    : ALL_SUBJECTS;
 
   const competencies = selectedSubject ? getCompetenciesForSubject(selectedSubject) : [];
   const standards = selectedSubject ? CURRICULUM_STANDARDS.filter(s => s.subject === selectedSubject) : [];

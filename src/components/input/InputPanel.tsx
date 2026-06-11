@@ -1,7 +1,7 @@
 import { Plus, Trash2, ChevronDown, ChevronUp, Sparkles, Loader2, AlertCircle, Search } from 'lucide-react';
 import { useState } from 'react';
 import { useAppStore } from '../../store/useAppStore';
-import { SUBJECTS, getGradesForSubject, TEXTBOOK_VERSIONS } from '../../data/subjects';
+import { SUBJECTS_BY_STAGE, getGradesForSubject, TEXTBOOK_VERSIONS } from '../../data/subjects';
 import { getCompetenciesForSubject, BOPPPS_PHASES } from '../../data/core-competencies';
 import type { LearningObjective, TeachingActivity, CoreCompetency } from '../../types/teaching-design';
 import { aiAutoGenerate } from '../../ai/full-generator';
@@ -111,10 +111,12 @@ export default function InputPanel() {
     if (value.trim().length >= 1) {
       const results = searchCurriculum(value);
       setTopicSuggestions(results);
-      // 精确匹配关键词 → 自动填充
       const exactMatch = results.find(r => r.keywords.some(kw => kw === value.trim()));
       if (exactMatch) {
+        const isMiddle = exactMatch.grade.startsWith('七') || exactMatch.grade.startsWith('八') || exactMatch.grade.startsWith('九');
+        const stage: '小学'|'初中' = isMiddle ? '初中' : '小学';
         updateMeta({
+          stage,
           subject: exactMatch.subject as typeof meta.subject,
           grade: exactMatch.grade as typeof meta.grade,
           textbookVersion: exactMatch.textbook,
@@ -131,11 +133,13 @@ export default function InputPanel() {
   };
 
   const selectTopic = (entry: CurriculumEntry) => {
-    // 找到最匹配的关键词作为课题名称
     const bestKeyword = entry.keywords[0] || '';
-    const title = bestKeyword.length > meta.title!.length ? bestKeyword : meta.title;
+    const title = bestKeyword.length > (meta.title || '').length ? bestKeyword : meta.title;
+    const isMiddle = entry.grade.startsWith('七') || entry.grade.startsWith('八') || entry.grade.startsWith('九');
+    const stage: '小学'|'初中' = isMiddle ? '初中' : '小学';
     updateMeta({
       title: title || bestKeyword,
+      stage,
       subject: entry.subject as typeof meta.subject,
       grade: entry.grade as typeof meta.grade,
       textbookVersion: entry.textbook,
@@ -155,7 +159,7 @@ export default function InputPanel() {
     try {
       const result = await aiAutoGenerate(
         apiConfig,
-        meta.subject || '小学数学',
+        meta.subject || '数学',
         meta.grade || '五年级',
         meta.title || '',
         meta.textbookVersion || '人教版',
@@ -205,19 +209,16 @@ export default function InputPanel() {
         <SectionHeader id="basic" title="基本信息" icon="📋" />
         {expandedSections.basic && (
           <div className="space-y-2 mt-2">
-            <div className="grid grid-cols-2 gap-2">
-              <Select
-                label="学科"
-                value={meta.subject || ''}
-                onChange={(v) => updateMeta({ subject: v as typeof meta.subject, grade: getGradesForSubject(v as typeof meta.subject)[0] })}
-                options={SUBJECTS.map(s => ({ value: s.value, label: s.label }))}
-              />
-              <Select
-                label="年级"
-                value={meta.grade || ''}
+            <div className="grid grid-cols-3 gap-2">
+              <Select label="学段" value={meta.stage || '小学'}
+                onChange={(v) => updateMeta({ stage: v as typeof meta.stage, grade: v === '初中' ? '七年级' : '一年级' })}
+                options={[{ value: '小学', label: '小学' }, { value: '初中', label: '初中' }]} />
+              <Select label="学科" value={meta.subject || '数学'}
+                onChange={(v) => updateMeta({ subject: v as typeof meta.subject })}
+                options={(SUBJECTS_BY_STAGE[meta.stage || '小学'] || []).map(s => ({ value: s.value, label: s.label }))} />
+              <Select label="年级" value={meta.grade || ''}
                 onChange={(v) => updateMeta({ grade: v as typeof meta.grade })}
-                options={getGradesForSubject(meta.subject || '小学数学').map(g => ({ value: g, label: g }))}
-              />
+                options={getGradesForSubject(meta.subject || '数学', meta.stage || '小学').map(g => ({ value: g, label: g }))} />
             </div>
             {/* 智能课题输入 — 自动匹配年级+单元 */}
             <div className="flex flex-col gap-1 relative overflow-visible">
@@ -286,7 +287,7 @@ export default function InputPanel() {
             <div>
               <label className="text-xs font-medium text-[#64748B] mb-1.5 block">关联核心素养（点击选择）</label>
               <div className="flex flex-wrap gap-1.5">
-                {getCompetenciesForSubject(meta.subject || '小学数学').map((c) => {
+                {getCompetenciesForSubject(meta.subject || '数学').map((c) => {
                   const selected = standardAnalysis.coreCompetencies.some(sc => sc.name === c.name);
                   return (
                     <button

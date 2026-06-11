@@ -2,11 +2,12 @@
 // 融合2022版义务教育新课标 + PDF五项设计原则
 
 // ---- 基础枚举 ----
+export type Stage = '小学' | '初中';
+
 export type Subject =
-  | '小学语文' | '小学数学' | '小学英语' | '小学科学' | '小学道德与法治'
-  | '小学信息科技' | '小学艺术' | '小学体育'
-  | '初中语文' | '初中数学' | '初中英语' | '初中物理' | '初中化学'
-  | '初中生物' | '初中历史' | '初中地理' | '初中道德与法治';
+  | '语文' | '数学' | '英语' | '科学' | '道德与法治'
+  | '信息科技' | '艺术' | '体育与健康'
+  | '物理' | '化学' | '生物' | '历史' | '地理';
 
 export type Grade =
   | '一年级' | '二年级' | '三年级' | '四年级' | '五年级' | '六年级'
@@ -89,6 +90,7 @@ export interface DifficultyDesign {
 export interface TeachingDesign {
   meta: {
     title: string;
+    stage: Stage;           // 学段
     subject: Subject;
     grade: Grade;
     textbookVersion: string;
@@ -244,7 +246,8 @@ export function createEmptyDesign(): TeachingDesign {
   return {
     meta: {
       title: '',
-      subject: '小学数学',
+      stage: '小学' as Stage,
+      subject: '数学' as Subject,
       grade: '五年级',
       textbookVersion: '人教版',
       unit: '',
