@@ -7,28 +7,27 @@ import Card from '../shared/Card';
 import Tag from '../shared/Tag';
 import Button from '../shared/Button';
 
-// ===== 各学科课程标准PDF官方链接 =====
-const STANDARD_PDFS: Record<string, { name: string; rawUrl: string }[]> = {
-  '小学语文': [{ name: '语文课程标准（2022版）', rawUrl: 'http://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582344587789.pdf' }],
-  '初中语文': [{ name: '语文课程标准（2022版）', rawUrl: 'http://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582344587789.pdf' }],
-  '小学数学': [{ name: '数学课程标准（2022版）', rawUrl: 'http://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582344587790.pdf' }],
-  '初中数学': [{ name: '数学课程标准（2022版）', rawUrl: 'http://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582344587790.pdf' }],
-  '小学英语': [{ name: '英语课程标准（2022版）', rawUrl: 'http://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582344587791.pdf' }],
-  '初中英语': [{ name: '英语课程标准（2022版）', rawUrl: 'http://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582344587791.pdf' }],
-  '初中物理': [{ name: '物理课程标准（2022版）', rawUrl: 'http://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582344587801.pdf' }],
-  '初中化学': [{ name: '化学课程标准（2022版）', rawUrl: 'http://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582344587802.pdf' }],
-  '初中生物': [{ name: '生物学课程标准（2022版）', rawUrl: 'http://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582344587803.pdf' }],
-  '初中历史': [{ name: '历史课程标准（2022版）', rawUrl: 'http://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582344587798.pdf' }],
-  '初中地理': [{ name: '地理课程标准（2022版）', rawUrl: 'http://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582344587799.pdf' }],
-  '小学科学': [{ name: '科学课程标准（2022版）', rawUrl: 'http://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582344587796.pdf' }],
-  '小学道德与法治': [{ name: '道德与法治课程标准（2022版）', rawUrl: 'http://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582344587794.pdf' }],
-  '初中道德与法治': [{ name: '道德与法治课程标准（2022版）', rawUrl: 'http://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582344587794.pdf' }],
+// ===== 本地PDF文件映射（站内阅读，无需外部服务）=====
+// PDF文件位于 public/standards/ 目录，构建后自动复制到 docs/standards/
+const LOCAL_PDFS: Record<string, string[]> = {
+  '小学语文': ['语文课程标准2022.pdf'],
+  '初中语文': ['语文课程标准2022.pdf'],
+  '小学数学': ['数学课程标准2022.pdf'],
+  '初中数学': ['数学课程标准2022.pdf'],
+  '小学英语': ['英语课程标准2022.pdf'],
+  '初中英语': ['英语课程标准2022.pdf'],
+  '初中物理': ['物理课程标准2022.pdf'],
+  '初中化学': ['化学课程标准2022.pdf'],
+  '初中生物': ['生物课程标准2022.pdf'],
+  '初中历史': ['历史课程标准2022.pdf'],
+  '初中地理': ['地理课程标准2022.pdf'],
+  '小学科学': ['科学课程标准2022.pdf'],
+  '小学道德与法治': ['道德与法治课程标准2022.pdf'],
+  '初中道德与法治': ['道德与法治课程标准2022.pdf'],
+  '小学信息科技': ['信息科技课程标准2022.pdf'],
+  '小学艺术': ['艺术课程标准2022.pdf'],
+  '小学体育': ['体育与健康课程标准2022.pdf'],
 };
-
-// Google Docs viewer 转码（绕过 HTTP→HTTPS 的 iframe 限制）
-function viewerUrl(rawUrl: string): string {
-  return `https://docs.google.com/viewer?url=${encodeURIComponent(rawUrl)}&embedded=true`;
-}
 
 // ===== 智慧教育平台教材直达链接（直接打开教材内页）=====
 const TEXTBOOK_DIRECT_LINKS: Record<string, { name: string; grade: string; publisher: string; url: string }[]> = {
@@ -62,7 +61,8 @@ export default function StandardsPage() {
 
   const competencies = selectedSubject ? getCompetenciesForSubject(selectedSubject) : [];
   const standards = selectedSubject ? CURRICULUM_STANDARDS.filter(s => s.subject === selectedSubject) : [];
-  const pdfs = selectedSubject ? (STANDARD_PDFS[selectedSubject] || []) : [];
+  const pdfFiles = selectedSubject ? (LOCAL_PDFS[selectedSubject] || []) : [];
+  const localPdfPath = pdfFiles.length > 0 ? `./standards/${pdfFiles[0]}` : '';
   const textbooks = selectedSubject ? (TEXTBOOK_DIRECT_LINKS[selectedSubject] || []) : [];
 
   const groupedStandards: Record<string, typeof standards> = {};
@@ -143,32 +143,31 @@ export default function StandardsPage() {
                     </Card>
                   )) : <Card padding="md"><p className="text-sm text-[#94A3B8] text-center py-8">该学科课标内容正在整理中</p></Card>}
 
-                  {/* PDF 在线阅读 */}
-                  {pdfs.length > 0 && (
+                  {/* PDF 站内阅读 */}
+                  {localPdfPath && (
                     <Card padding="md">
                       <h3 className="text-sm font-semibold text-[#1E293B] mb-3 flex items-center gap-2">
-                        📖 {selectedSubject}课程标准 · 在线阅读
+                        📖 {selectedSubject}课程标准 · 站内阅读
                       </h3>
-                      {pdfs.map((pdf, idx) => (
-                        <div key={idx}>
-                          <div className="flex items-center justify-between mb-3 flex-wrap gap-2">
-                            <span className="text-sm font-medium text-[#1E293B]">{pdf.name}</span>
-                            <div className="flex gap-2">
-                              <Button variant="primary" size="sm" icon={<Eye size={14} />}
-                                onClick={() => window.open(pdf.rawUrl, '_blank')}>新窗口打开</Button>
-                              <Button variant="secondary" size="sm" icon={<Download size={14} />}
-                                onClick={() => { const a = document.createElement('a'); a.href = pdf.rawUrl; a.download = `${pdf.name}.pdf`; a.click(); }}>下载PDF</Button>
-                            </div>
-                          </div>
-                          <iframe src={viewerUrl(pdf.rawUrl)}
-                            className="w-full rounded-lg border border-[#E2E8F0] bg-white"
-                            style={{ height: '75vh', minHeight: '550px' }} title={pdf.name} />
-                          <p className="text-[10px] text-[#94A3B8] mt-1 text-center">
-                            通过 Google Docs 在线预览。如无法加载，请点上方「新窗口打开」
-                          </p>
+                      <div className="flex items-center justify-between mb-3 flex-wrap gap-2">
+                        <span className="text-sm font-medium text-[#1E293B]">{pdfFiles[0]}</span>
+                        <div className="flex gap-2">
+                          <Button variant="primary" size="sm" icon={<Eye size={14} />}
+                            onClick={() => window.open(localPdfPath, '_blank')}>新窗口打开</Button>
+                          <Button variant="secondary" size="sm" icon={<Download size={14} />}
+                            onClick={() => { const a = document.createElement('a'); a.href = localPdfPath; a.click(); }}>下载PDF</Button>
                         </div>
-                      ))}
+                      </div>
+                      <iframe src={localPdfPath}
+                        className="w-full rounded-lg border border-[#E2E8F0] bg-gray-100"
+                        style={{ height: '75vh', minHeight: '550px' }} title={pdfFiles[0]} />
+                      <p className="text-[10px] text-[#94A3B8] mt-1 text-center">
+                        PDF文件已存入本站 · 浏览器原生渲染，加载速度取决于文件大小
+                      </p>
                     </Card>
+                  )}
+                  {!localPdfPath && (
+                    <Card padding="md"><p className="text-sm text-[#94A3B8] text-center py-8">该学科PDF正在整理中，请稍后查看</p></Card>
                   )}
                 </div>
               )}

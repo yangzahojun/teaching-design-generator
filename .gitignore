@@ -23,6 +23,10 @@ dist-ssr
 *.sln
 *.sw?
 
-# Large reference documents
+# Large reference documents (except deployed standards)
 *.pdf
+!/docs/standards/*.pdf
 /index.html
+
+# Local PDF source files (only deployed docs/standards/ is tracked)
+/public/standards/
