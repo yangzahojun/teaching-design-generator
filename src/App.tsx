@@ -4,6 +4,7 @@ import Footer from './components/layout/Footer';
 import InputPanel from './components/input/InputPanel';
 import OutputPanel from './components/output/OutputPanel';
 import ExamplesPage from './components/examples/ExamplesPage';
+import StandardsPage from './components/standards/StandardsPage';
 import SettingsPage from './components/settings/SettingsPage';
 
 function GeneratePage() {
@@ -36,6 +37,7 @@ export default function App() {
           <Routes>
             <Route path="/" element={<GeneratePage />} />
             <Route path="/examples" element={<ExamplesPage />} />
+            <Route path="/standards" element={<StandardsPage />} />
             <Route path="/settings" element={<SettingsPage />} />
           </Routes>
         </main>

@@ -1,4 +1,4 @@
-import { BookOpen, Sparkles, FileText, Settings, Menu, X } from 'lucide-react';
+import { BookOpen, Sparkles, FileText, Settings, Menu, X, Library } from 'lucide-react';
 import { useState } from 'react';
 import { useLocation, Link } from 'react-router-dom';
 
@@ -10,6 +10,7 @@ export default function Header() {
   const navItems = [
     { id: 'generate', label: '生成', icon: Sparkles, path: '/' },
     { id: 'examples', label: '范例', icon: BookOpen, path: '/examples' },
+    { id: 'standards', label: '课标教材', icon: Library, path: '/standards' },
     { id: 'settings', label: '设置', icon: Settings, path: '/settings' },
   ];
 
