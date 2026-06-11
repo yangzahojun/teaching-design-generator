@@ -3,7 +3,6 @@ import Header from './components/layout/Header';
 import Footer from './components/layout/Footer';
 import InputPanel from './components/input/InputPanel';
 import OutputPanel from './components/output/OutputPanel';
-import ExamplesPage from './components/examples/ExamplesPage';
 import StandardsPage from './components/standards/StandardsPage';
 import SettingsPage from './components/settings/SettingsPage';
 
@@ -36,7 +35,6 @@ export default function App() {
         <main className="flex-1 flex flex-col min-h-0">
           <Routes>
             <Route path="/" element={<GeneratePage />} />
-            <Route path="/examples" element={<ExamplesPage />} />
             <Route path="/standards" element={<StandardsPage />} />
             <Route path="/settings" element={<SettingsPage />} />
           </Routes>
