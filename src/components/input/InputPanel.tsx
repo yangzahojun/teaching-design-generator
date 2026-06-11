@@ -1,10 +1,12 @@
-import { Plus, Trash2, ChevronDown, ChevronUp, Sparkles, Loader2, AlertCircle, CheckCircle2 } from 'lucide-react';
+import { Plus, Trash2, ChevronDown, ChevronUp, Sparkles, Loader2, AlertCircle, CheckCircle2, Search } from 'lucide-react';
 import { useState } from 'react';
 import { useAppStore } from '../../store/useAppStore';
 import { SUBJECTS, getGradesForSubject, TEXTBOOK_VERSIONS } from '../../data/subjects';
 import { getCompetenciesForSubject, BOPPPS_PHASES } from '../../data/core-competencies';
 import type { LearningObjective, TeachingActivity, CoreCompetency } from '../../types/teaching-design';
 import { aiAutoGenerate } from '../../ai/full-generator';
+import { searchCurriculum } from '../../data/curriculum-db';
+import type { CurriculumEntry } from '../../data/curriculum-db';
 import Button from '../shared/Button';
 import Select from '../shared/Select';
 import TextInput from '../shared/TextInput';
@@ -14,6 +16,8 @@ export default function InputPanel() {
   const { currentDesign, apiConfig, updateMeta, updateSection } = useAppStore();
   const [aiGenerating, setAiGenerating] = useState(false);
   const [aiToast, setAiToast] = useState<{ type: 'success' | 'error'; message: string } | null>(null);
+  const [topicSuggestions, setTopicSuggestions] = useState<CurriculumEntry[]>([]);
+  const [showSuggestions, setShowSuggestions] = useState(false);
   const { meta, standardAnalysis, textbookAnalysis, learnerAnalysis,
     learningObjectives, assessmentTasks, activities, homework, boardDesign,
     reflection, difficultyDesign } = currentDesign;
@@ -102,6 +106,37 @@ export default function InputPanel() {
     }
   };
 
+  const handleTopicChange = (value: string) => {
+    updateMeta({ title: value });
+    if (value.trim().length >= 1) {
+      const results = searchCurriculum(value);
+      setTopicSuggestions(results);
+      setShowSuggestions(results.length > 0);
+    } else {
+      setTopicSuggestions([]);
+      setShowSuggestions(false);
+    }
+  };
+
+  const selectTopic = (entry: CurriculumEntry) => {
+    // 找到最匹配的关键词作为课题名称
+    const bestKeyword = entry.keywords[0] || '';
+    const title = bestKeyword.length > meta.title!.length ? bestKeyword : meta.title;
+    updateMeta({
+      title: title || bestKeyword,
+      subject: entry.subject as typeof meta.subject,
+      grade: entry.grade as typeof meta.grade,
+      textbookVersion: entry.textbook,
+      unit: entry.unit,
+    });
+    setShowSuggestions(false);
+    setTopicSuggestions([]);
+  };
+
+  const handleTopicBlur = () => {
+    setTimeout(() => setShowSuggestions(false), 200);
+  };
+
   const handleAIGenerate = async () => {
     setAiGenerating(true);
     setAiToast(null);
@@ -174,7 +209,47 @@ export default function InputPanel() {
                 options={getGradesForSubject(meta.subject || '小学数学').map(g => ({ value: g, label: g }))}
               />
             </div>
-            <TextInput label="课题名称" value={meta.title || ''} onChange={(v) => updateMeta({ title: v })} placeholder="例如：三角形的面积" required />
+            {/* 智能课题输入 — 自动匹配年级+单元 */}
+            <div className="flex flex-col gap-1 relative overflow-visible">
+              <label className="text-xs font-medium text-[#64748B]">
+                课题名称<span className="text-[#EF4444] ml-0.5">*</span>
+                <span className="text-[10px] text-[#94A3B8] ml-1 font-normal">输入后自动匹配年级和单元</span>
+              </label>
+              <div className="relative">
+                <input
+                  type="text"
+                  value={meta.title || ''}
+                  onChange={(e) => handleTopicChange(e.target.value)}
+                  onFocus={() => { if (topicSuggestions.length > 0) setShowSuggestions(true); }}
+                  onBlur={handleTopicBlur}
+                  placeholder="例如：三角形的面积"
+                  className="w-full px-3 py-2 text-sm border border-[#E2E8F0] rounded-lg bg-white text-[#1E293B] placeholder-[#94A3B8] focus:outline-none focus:ring-2 focus:ring-[#2563EB] focus:border-transparent transition-all duration-150"
+                />
+                <Search size={14} className="absolute right-3 top-1/2 -translate-y-1/2 text-[#94A3B8]" />
+              </div>
+              {showSuggestions && topicSuggestions.length > 0 && (
+                <div className="absolute top-full left-0 right-0 mt-1 z-50 bg-white border border-[#E2E8F0] rounded-lg shadow-lg max-h-64 overflow-y-auto"
+                  style={{ top: '64px' }}>
+                  {topicSuggestions.map((entry, idx) => (
+                    <button
+                      key={idx}
+                      type="button"
+                      onMouseDown={(e) => { e.preventDefault(); selectTopic(entry); }}
+                      className="w-full text-left px-3 py-2.5 hover:bg-[#DBEAFE] transition-colors border-b border-[#E2E8F0]/50 last:border-0 cursor-pointer"
+                    >
+                      <div className="flex items-center justify-between gap-2">
+                        <span className="text-sm font-medium text-[#1E293B]">{entry.keywords[0]}</span>
+                        <div className="flex items-center gap-1.5 flex-shrink-0">
+                          <span className="text-[10px] px-1.5 py-0.5 bg-[#DBEAFE] text-[#1D4ED8] rounded font-medium">{entry.subject}</span>
+                          <span className="text-[10px] px-1.5 py-0.5 bg-slate-100 text-[#64748B] rounded">{entry.grade}</span>
+                        </div>
+                      </div>
+                      <p className="text-[11px] text-[#64748B] mt-0.5 truncate">{entry.unit} · {entry.textbook}</p>
+                    </button>
+                  ))}
+                </div>
+              )}
+            </div>
             <div className="grid grid-cols-2 gap-2">
               <Select
                 label="教材版本"
