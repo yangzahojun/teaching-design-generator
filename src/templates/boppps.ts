@@ -114,8 +114,11 @@ ${textbookAnalysis.keyKnowledge?.join('、') || '（待填写）'}
 #### 教学重点
 ${textbookAnalysis.difficulties?.[0] || '（待填写）'}
 
-#### 教学难点与突破
-${textbookAnalysis.difficulties?.length > 1 ? textbookAnalysis.difficulties.slice(1).map(d => `- ${d}`).join('\n') : '（待填写）'}
+#### 教学难点
+${textbookAnalysis.difficulties?.[1] || '（待填写）'}
+
+#### 突破策略
+${textbookAnalysis.difficulties?.[2] || '（待填写）'}
 
 ### 学情分析
 - 已有基础：${learnerAnalysis.priorKnowledge || '（待填写）'}

@@ -410,9 +410,11 @@ ${r.keyKnowledge?.join(`、`)||`（待填写）`}
 #### 教学重点
 ${r.difficulties?.[0]||`（待填写）`}
 
-#### 教学难点与突破
-${r.difficulties?.length>1?r.difficulties.slice(1).map(e=>`- ${e}`).join(`
-`):`（待填写）`}
+#### 教学难点
+${r.difficulties?.[1]||`（待填写）`}
+
+#### 突破策略
+${r.difficulties?.[2]||`（待填写）`}
 
 ### 学情分析
 - 已有基础：${i.priorKnowledge||`（待填写）`}
