@@ -56,12 +56,24 @@ function saveToLocalStorage(key: string, value: unknown) {
 
 export const useAppStore = create<AppState>((set, get) => ({
   currentDesign: createEmptyDesign(),
-  apiConfig: loadFromLocalStorage<APIConfig>('tdg-api-config', {
-    provider: 'deepseek',
-    baseUrl: 'https://api.deepseek.com/v1',
-    model: 'deepseek-chat',
-    apiKey: BUILTIN_API_CONFIG.apiKey,
-  }),
+  apiConfig: (() => {
+    // 清除旧版空key缓存，避免覆盖内置密钥
+    const old = localStorage.getItem('tdg-api-config');
+    if (old) {
+      try {
+        const parsed = JSON.parse(old);
+        if (!parsed.apiKey || parsed.apiKey === '') {
+          localStorage.removeItem('tdg-api-config');
+        }
+      } catch { localStorage.removeItem('tdg-api-config'); }
+    }
+    return loadFromLocalStorage<APIConfig>('tdg-api-config', {
+      provider: 'deepseek',
+      baseUrl: 'https://api.deepseek.com/v1',
+      model: 'deepseek-chat',
+      apiKey: BUILTIN_API_CONFIG.apiKey,
+    });
+  })(),
   selectedTemplate: 'standard',
   history: loadFromLocalStorage<TeachingDesign[]>('tdg-history', []),
   isAIGenerating: false,
