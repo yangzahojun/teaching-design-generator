@@ -134,7 +134,7 @@ export default function SettingsPage() {
 
       {/* 关于 */}
       <Card padding="lg">
-        <h2 className="text-base font-semibold text-[#1E293B] mb-3">关于困难的教育价值——教案设计器</h2>
+        <h2 className="text-base font-semibold text-[#1E293B] mb-3">关于小羊的教案设计器</h2>
         <div className="space-y-2 text-sm text-[#64748B]">
           <p>本工具基于以下理论与实践框架：</p>
           <ul className="list-disc list-inside space-y-1">

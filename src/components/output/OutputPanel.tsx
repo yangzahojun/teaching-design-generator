@@ -220,7 +220,7 @@ ${design.learningObjectives.length > 0
 <p><b>抽象保护：</b>${design.difficultyDesign?.abstractionProtection || '（待设计）'}</p>
 
 <div class="footer-note">
-  本教案由「困难的教育价值——教案设计器」生成<br/>
+  本教案由「小羊的教案设计器」生成<br/>
   基于2022版义务教育课程标准 · 融合维果茨基最近发展区、Bjork理想困难理论、Kapur有效失败理论
 </div>`;
 }
