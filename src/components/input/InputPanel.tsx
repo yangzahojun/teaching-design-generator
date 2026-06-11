@@ -1,7 +1,7 @@
 import { Plus, Trash2, ChevronDown, ChevronUp, Sparkles, Loader2, AlertCircle, Search } from 'lucide-react';
 import { useState } from 'react';
 import { useAppStore } from '../../store/useAppStore';
-import { SUBJECTS_BY_STAGE, getGradesForSubject, TEXTBOOK_VERSIONS } from '../../data/subjects';
+import { SUBJECTS_BY_STAGE, getGradesForSubject, getTextbooksForSubject } from '../../data/subjects';
 import { getCompetenciesForSubject, BOPPPS_PHASES } from '../../data/core-competencies';
 import type { LearningObjective, TeachingActivity, CoreCompetency } from '../../types/teaching-design';
 import { aiAutoGenerate } from '../../ai/full-generator';
@@ -266,7 +266,7 @@ export default function InputPanel() {
                 label="教材版本"
                 value={meta.textbookVersion || ''}
                 onChange={(v) => updateMeta({ textbookVersion: v })}
-                options={TEXTBOOK_VERSIONS.map(v => ({ value: v, label: v }))}
+                options={getTextbooksForSubject(meta.subject || '数学', meta.stage || '小学').map(v => ({ value: v, label: v }))}
               />
               <TextInput label="课时(分钟)" value={String(meta.duration || '')} onChange={(v) => updateMeta({ duration: Number(v) || 40 })} placeholder="40" />
             </div>
