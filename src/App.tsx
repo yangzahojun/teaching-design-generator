@@ -1,12 +1,16 @@
+import { useState } from 'react';
 import { HashRouter, Routes, Route } from 'react-router-dom';
 import Header from './components/layout/Header';
 import Footer from './components/layout/Footer';
 import InputPanel from './components/input/InputPanel';
 import OutputPanel from './components/output/OutputPanel';
+import ChatPanel from './components/chat/ChatPanel';
 import StandardsPage from './components/standards/StandardsPage';
 import SettingsPage from './components/settings/SettingsPage';
 
 function GeneratePage() {
+  const [chatOpen, setChatOpen] = useState(false);
+
   return (
     <div className="flex-1 flex flex-col lg:flex-row min-h-0">
       <div className="w-full lg:w-[42%] xl:w-[38%] border-r border-[#E2E8F0] bg-white overflow-hidden">
@@ -17,12 +21,13 @@ function GeneratePage() {
           <p className="text-[11px] text-[#94A3B8] mt-0.5">填写以下信息，右侧预览实时更新</p>
         </div>
         <div className="p-3">
-          <InputPanel />
+          <InputPanel onOpenChat={() => setChatOpen(true)} />
         </div>
       </div>
       <div className="w-full lg:w-[58%] xl:w-[62%] bg-white overflow-hidden flex flex-col min-h-0">
         <OutputPanel />
       </div>
+      <ChatPanel isOpen={chatOpen} onClose={() => setChatOpen(false)} />
     </div>
   );
 }

@@ -1,4 +1,4 @@
-import { Plus, Trash2, ChevronDown, ChevronUp, Sparkles, Loader2, AlertCircle, Search } from 'lucide-react';
+import { Plus, Trash2, ChevronDown, ChevronUp, Sparkles, Loader2, AlertCircle, Search, MessageCircle } from 'lucide-react';
 import { useState } from 'react';
 import { useAppStore } from '../../store/useAppStore';
 import { SUBJECTS_BY_STAGE, getGradesForSubject, getTextbooksForSubject } from '../../data/subjects';
@@ -12,7 +12,7 @@ import Select from '../shared/Select';
 import TextInput from '../shared/TextInput';
 import Card from '../shared/Card';
 
-export default function InputPanel() {
+export default function InputPanel({ onOpenChat }: { onOpenChat?: () => void }) {
   const { currentDesign, apiConfig, updateMeta, updateSection } = useAppStore();
   const [aiGenerating, setAiGenerating] = useState(false);
   const [aiToast, setAiToast] = useState<{ type: 'success' | 'error'; message: string } | null>(null);
@@ -196,6 +196,15 @@ export default function InputPanel() {
             className="flex-shrink-0"
           >
             {aiGenerating ? '生成中...' : '一键生成'}
+          </Button>
+          <Button
+            variant="secondary"
+            size="md"
+            onClick={onOpenChat}
+            icon={<MessageCircle size={16} />}
+            className="flex-shrink-0"
+          >
+            AI助手
           </Button>
         </div>
         {aiToast && aiToast.type === 'error' && (

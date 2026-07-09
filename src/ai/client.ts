@@ -1,16 +1,56 @@
 import type { APIConfig } from '../types/teaching-design';
 
-interface ChatMessage {
-  role: 'system' | 'user' | 'assistant';
-  content: string;
+// ===== 扩展类型：支持 Function Calling =====
+
+export interface ToolCall {
+  id: string;
+  type: 'function';
+  function: {
+    name: string;
+    arguments: string; // JSON string
+  };
 }
 
-// 通用OpenAI兼容API客户端
+export interface ChatMessage {
+  role: 'system' | 'user' | 'assistant' | 'tool';
+  content: string | null;
+  tool_calls?: ToolCall[];
+  tool_call_id?: string;
+  name?: string;
+}
+
+export interface ToolDef {
+  type: 'function';
+  function: {
+    name: string;
+    description: string;
+    parameters: {
+      type: 'object';
+      properties: Record<string, unknown>;
+      required?: string[];
+    };
+  };
+}
+
+export interface ChatCompletionResult {
+  content: string | null;
+  toolCalls?: ToolCall[];
+  finishReason: string;
+}
+
+// ===== 通用 OpenAI 兼容 API 客户端（支持 function calling） =====
+
 export async function chatCompletion(
   config: APIConfig,
   messages: ChatMessage[],
-  options?: { temperature?: number; maxTokens?: number; jsonMode?: boolean }
-): Promise<string> {
+  options?: {
+    temperature?: number;
+    maxTokens?: number;
+    jsonMode?: boolean;
+    tools?: ToolDef[];
+    toolChoice?: 'auto' | 'none';
+  }
+): Promise<ChatCompletionResult> {
   if (!config.apiKey) throw new Error('未配置API密钥');
 
   const body: Record<string, unknown> = {
@@ -22,6 +62,11 @@ export async function chatCompletion(
 
   if (options?.jsonMode) {
     body.response_format = { type: 'json_object' };
+  }
+
+  if (options?.tools && options.tools.length > 0) {
+    body.tools = options.tools;
+    body.tool_choice = options?.toolChoice ?? 'auto';
   }
 
   const response = await fetch(`${config.baseUrl}/chat/completions`, {
@@ -41,16 +86,27 @@ export async function chatCompletion(
   }
 
   const data = await response.json();
-  return data.choices[0].message.content;
+  const choice = data.choices[0];
+  const msg = choice.message;
+
+  return {
+    content: msg.content ?? null,
+    toolCalls: msg.tool_calls as ToolCall[] | undefined,
+    finishReason: choice.finish_reason ?? 'stop',
+  };
 }
 
-// 检查API连接
+// ===== 检查API连接 =====
+
 export async function testAPIConnection(config: APIConfig): Promise<{ success: boolean; message: string }> {
   try {
     const result = await chatCompletion(config, [
       { role: 'user', content: '请回复"连接成功"（只回复这4个字）' },
     ], { maxTokens: 10 });
-    return { success: result.includes('连接成功'), message: result.includes('连接成功') ? '连接成功！' : '响应格式异常' };
+    return {
+      success: (result.content ?? '').includes('连接成功'),
+      message: (result.content ?? '').includes('连接成功') ? '连接成功！' : '响应格式异常',
+    };
   } catch (e: unknown) {
     const msg = e instanceof Error ? e.message : '未知错误';
     return { success: false, message: msg };

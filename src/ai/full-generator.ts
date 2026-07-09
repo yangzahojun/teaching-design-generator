@@ -189,12 +189,13 @@ export async function aiAutoGenerate(
     }
 
     const prompt = FULL_DESIGN_JSON_PROMPT(subject, grade, topic, textbook, duration);
-    const raw = await chatCompletion(config, [
+    const rawResult = await chatCompletion(config, [
       { role: 'system', content: SYSTEM_PROMPT },
       { role: 'user', content: prompt },
     ], { temperature: 0.7, maxTokens: 4000 });
 
     // 解析JSON
+    const raw = rawResult.content ?? '';
     let jsonStr = raw;
     const jsonMatch = raw.match(/```(?:json)?\s*([\s\S]*?)```/);
     if (jsonMatch) jsonStr = jsonMatch[1];

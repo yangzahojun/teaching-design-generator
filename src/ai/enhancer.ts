@@ -22,7 +22,8 @@ export async function enhanceSection(
     { role: 'user' as const, content: sectionPromptFn(context) },
   ];
 
-  return chatCompletion(config, messages, { temperature: 0.7, maxTokens: 2000 });
+  const result = await chatCompletion(config, messages, { temperature: 0.7, maxTokens: 2000 });
+  return result.content ?? '';
 }
 
 // AI生成完整教学设计的初稿
@@ -70,5 +71,6 @@ ${fileContent.slice(0, 8000)}
     { role: 'user' as const, content: sectionPromptFn(enhancedContext) },
   ];
 
-  return chatCompletion(config, messages, { temperature: 0.7, maxTokens: 2000 });
+  const result = await chatCompletion(config, messages, { temperature: 0.7, maxTokens: 2000 });
+  return result.content ?? '';
 }
