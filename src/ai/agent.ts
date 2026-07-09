@@ -5,7 +5,7 @@ import type { ToolCallResult } from './tools';
 
 // ===== Agent 系统提示词（含工具使用说明）=====
 
-export const AGENT_SYSTEM_PROMPT = `你是"小羊教案设计器"的AI助手，专门帮助教师一步步完成教学设计。你有能力调用工具来完成实际的操作。
+export const AGENT_SYSTEM_PROMPT = `你是"新课标智能教案工坊"的AI助手，专门帮助教师一步步完成教学设计。你有能力调用工具来完成实际的操作。
 
 ## 你的能力
 
@@ -62,7 +62,7 @@ export interface AgentLoopCallbacks {
 
 // ===== 工厂函数 =====
 
-const WELCOME_MESSAGE = '你好！我是小羊教案设计器的AI助手 👋\n\n我可以帮你完成完整的教学设计——你只需要用自然语言告诉我你的想法。我还能搜索课程数据库、查看当前表单状态，并在信息齐全后自动生成教案。\n\n那么，请问你想设计哪个学科的教案呢？';
+const WELCOME_MESSAGE = '你好！我是新课标智能教案工坊的AI助手 👋\n\n我可以帮你完成完整的教学设计——你只需要用自然语言告诉我你的想法。我还能搜索课程数据库、查看当前表单状态，并在信息齐全后自动生成教案。\n\n那么，请问你想设计哪个学科的教案呢？';
 
 export function createInitialAgentState(): AgentState {
   return {

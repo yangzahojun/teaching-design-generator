@@ -113,7 +113,7 @@ ${reflection.targetAchievement || '（待评估）'}
 
 ---
 
-*本教案由「小羊的教案设计器」基于UbD逆向设计框架（Wiggins & McTighe）生成*
+*本教案由「新课标智能教案工坊」基于UbD逆向设计框架（Wiggins & McTighe）生成*
 `;
 }
 

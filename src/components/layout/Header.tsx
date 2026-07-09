@@ -22,7 +22,7 @@ export default function Header() {
             <FileText size={18} className="text-white" />
           </div>
           <span className="text-lg font-semibold text-[#1E293B] tracking-tight">
-            小羊的教案设计器
+            新课标智能教案工坊
           </span>
           <span className="hidden sm:inline-flex items-center px-2 py-0.5 text-[10px] font-medium bg-[#DBEAFE] text-[#1D4ED8] rounded-full">
             v1.0

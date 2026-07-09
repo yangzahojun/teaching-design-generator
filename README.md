@@ -1,4 +1,4 @@
-# 小羊的教案设计器
+# 新课标智能教案工坊
 
 > 基于2022版义务教育课程标准，融合认知科学与动机心理学的智能教学设计工具
 
@@ -37,7 +37,7 @@ npm run dev
 git init
 git add .
 git commit -m "初始化教学设计生成器"
-git remote add origin https://github.com/你的用户名/teaching-design-generator.git
+git remote add origin https://github.com/你的用户名/new-curriculum-teaching-design.git
 git push -u origin main
 
 # 2. 在 GitHub 仓库 Settings > Pages 中
@@ -88,7 +88,7 @@ npm run build
 ## 📂 项目结构
 
 ```
-teaching-design-generator/
+new-curriculum-teaching-design/
 ├── src/
 │   ├── types/          # 核心数据类型（TeachingDesign等）
 │   ├── store/          # Zustand状态管理
