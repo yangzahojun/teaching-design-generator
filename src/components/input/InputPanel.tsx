@@ -20,7 +20,7 @@ export default function InputPanel({ onOpenChat }: { onOpenChat?: () => void }) 
   const [showSuggestions, setShowSuggestions] = useState(false);
   const { meta, standardAnalysis, textbookAnalysis, learnerAnalysis,
     learningObjectives, assessmentTasks, activities, homework, boardDesign,
-    reflection, difficultyDesign } = currentDesign;
+    reflection } = currentDesign;
 
   const [expandedSections, setExpandedSections] = useState<Record<string, boolean>>({
     basic: true,
@@ -33,7 +33,6 @@ export default function InputPanel({ onOpenChat }: { onOpenChat?: () => void }) 
     homework: true,
     board: true,
     reflection: true,
-    difficulty: true,
   });
 
   const toggleSection = (key: string) =>
@@ -416,22 +415,6 @@ export default function InputPanel({ onOpenChat }: { onOpenChat?: () => void }) 
           <div className="space-y-2 mt-2">
             <TextInput label="设计意图" value={homework.designIntent || ''} onChange={(v) => updateSection('homework', { designIntent: v })} placeholder="整体设计意图..." />
             <TextInput label="分层说明" value={homework.differentiationNote || ''} onChange={(v) => updateSection('homework', { differentiationNote: v })} placeholder="针对不同水平学生的分层策略..." />
-          </div>
-        )}
-      </Card>
-
-      {/* ===== 困难设计框架 ★ ===== */}
-      <Card padding="sm">
-        <SectionHeader id="difficulty" title="★ 困难设计框架" icon="🧗" />
-        {expandedSections.difficulty && (
-          <div className="space-y-2 mt-2">
-            <TextInput label="核心困难" value={difficultyDesign?.targetDifficulty || ''} onChange={(v) => updateSection('difficultyDesign', { targetDifficulty: v })} placeholder="本课最有教育价值的困难是什么？..." multiline rows={2} />
-            <TextInput label="教育价值" value={difficultyDesign?.educationalValue || ''} onChange={(v) => updateSection('difficultyDesign', { educationalValue: v })} placeholder="为什么这个困难值得保留？..." multiline rows={2} />
-            <TextInput label="ZPD对齐" value={difficultyDesign?.zpdAlignment || ''} onChange={(v) => updateSection('difficultyDesign', { zpdAlignment: v })} placeholder="如何确保困难在最近发展区内..." multiline rows={2} />
-            <TextInput label="动机激发策略" value={difficultyDesign?.motivationStrategy || ''} onChange={(v) => updateSection('difficultyDesign', { motivationStrategy: v })} placeholder="动机优先——如何让学生愿意面对困难..." multiline rows={2} />
-            <TextInput label="困难前置" value={difficultyDesign?.difficultyFirst || ''} onChange={(v) => updateSection('difficultyDesign', { difficultyFirst: v })} placeholder="如何在AI/教师帮助前先让学生经历困惑..." multiline rows={2} />
-            <TextInput label="过程保留" value={difficultyDesign?.processPreservation || ''} onChange={(v) => updateSection('difficultyDesign', { processPreservation: v })} placeholder="如何确保核心思维环节由学生完成..." multiline rows={2} />
-            <TextInput label="抽象保护" value={difficultyDesign?.abstractionProtection || ''} onChange={(v) => updateSection('difficultyDesign', { abstractionProtection: v })} placeholder="如何保护知识的抽象性和思维深度..." multiline rows={2} />
           </div>
         )}
       </Card>

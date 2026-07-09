@@ -44,7 +44,7 @@ export const AGENT_TOOLS: ToolDef[] = [
     function: {
       name: 'generate_full_design',
       description:
-        '生成完整的教学设计（包含课标研读、教材分析、学情分析、学习目标、评价任务、教学活动、作业设计、板书设计、教学反思、困难设计等9大板块）。生成后所有内容会自动填入左侧表单并在右侧预览。调用此工具前，务必确保已从用户处收集齐：学科、年级、课题名称、教材版本、课时时长。',
+        '生成完整的教学设计（包含课标研读、教材分析、学情分析、学习目标、评价任务、教学活动、作业设计、板书设计、教学反思等8大板块）。生成后所有内容会自动填入左侧表单并在右侧预览。调用此工具前，务必确保已从用户处收集齐：学科、年级、课题名称、教材版本、课时时长。',
       parameters: {
         type: 'object',
         properties: {
@@ -56,7 +56,7 @@ export const AGENT_TOOLS: ToolDef[] = [
           template: {
             type: 'string',
             enum: ['standard', 'boppps', 'ubd'],
-            description: '模板类型：standard=标准9板块, boppps=BOPPPS模型, ubd=UbD逆向设计',
+            description: '模板类型：standard=标准8板块, boppps=BOPPPS模型, ubd=UbD逆向设计',
           },
         },
         required: ['subject', 'grade', 'topic', 'textbook', 'duration'],
@@ -75,7 +75,7 @@ export const AGENT_TOOLS: ToolDef[] = [
           section: {
             type: 'string',
             description:
-              '板块名称：standardAnalysis=课标研读, textbookAnalysis=教材分析, learnerAnalysis=学情分析, learningObjectives=学习目标, assessmentTasks=评价任务, activities=教学活动, homework=作业设计, boardDesign=板书设计, reflection=教学反思, difficultyDesign=困难设计框架',
+              '板块名称：standardAnalysis=课标研读, textbookAnalysis=教材分析, learnerAnalysis=学情分析, learningObjectives=学习目标, assessmentTasks=评价任务, activities=教学活动, homework=作业设计, boardDesign=板书设计, reflection=教学反思',
           },
         },
         required: ['section'],
@@ -95,7 +95,6 @@ const SECTION_LABELS: Record<string, string> = {
   homework: '作业设计',
   boardDesign: '板书设计',
   reflection: '教学反思',
-  difficultyDesign: '困难设计框架',
 };
 
 // ===== 工具执行器 =====
@@ -145,14 +144,13 @@ export async function executeTool(
         { key: 'homework', label: '作业设计', filled: !!(design.homework.designIntent || design.homework.required.length > 0) },
         { key: 'boardDesign', label: '板书设计', filled: !!(design.boardDesign.layout || design.boardDesign.keyElements.length > 0) },
         { key: 'reflection', label: '教学反思', filled: !!(design.reflection.targetAchievement || design.reflection.improvementMeasures.length > 0) },
-        { key: 'difficultyDesign', label: '困难设计', filled: !!(design.difficultyDesign?.targetDifficulty) },
       ];
       const filled = sections.filter(s => s.filled).map(s => s.label);
       const empty = sections.filter(s => !s.filled).map(s => s.label);
 
       return {
         success: true,
-        content: `【基本信息】\n学段: ${m.stage || '未设置'}\n学科: ${m.subject || '未设置'}\n年级: ${m.grade || '未设置'}\n课题: ${m.title || '未设置'}\n教材: ${m.textbookVersion || '未设置'}\n课时: ${m.duration || 40}分钟\n模板: ${m.template || 'standard'}\n\n【板块状态】\n已填写(${filled.length}/10): ${filled.join('、') || '无'}\n未填写: ${empty.join('、')}`,
+        content: `【基本信息】\n学段: ${m.stage || '未设置'}\n学科: ${m.subject || '未设置'}\n年级: ${m.grade || '未设置'}\n课题: ${m.title || '未设置'}\n教材: ${m.textbookVersion || '未设置'}\n课时: ${m.duration || 40}分钟\n模板: ${m.template || 'standard'}\n\n【板块状态】\n已填写(${filled.length}/9): ${filled.join('、') || '无'}\n未填写: ${empty.join('、')}`,
       };
     }
 
@@ -175,7 +173,7 @@ export async function executeTool(
       return {
         success: result.success,
         content: result.success
-          ? `教学设计《${topic}》（${grade}${subject}，${textbook}，${duration}分钟）已成功生成！所有9大板块内容已自动填入表单。`
+          ? `教学设计《${topic}》（${grade}${subject}，${textbook}，${duration}分钟）已成功生成！所有8大板块内容已自动填入表单。`
           : `生成失败：${result.message}`,
       };
     }

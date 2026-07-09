@@ -6,7 +6,7 @@ import type { TeachingDesign } from '../types/teaching-design';
 export function renderBOPPPSTemplate(design: TeachingDesign): string {
   const { meta, standardAnalysis, textbookAnalysis, learnerAnalysis,
     learningObjectives, assessmentTasks, activities, homework,
-    boardDesign, reflection, difficultyDesign } = design;
+    boardDesign, reflection } = design;
 
   return `# 《${meta.title}》教学设计（BOPPPS框架）
 
@@ -25,7 +25,7 @@ ${getPhaseActivities(activities, 'B').map(a =>
 - 设计意图：${a.designIntent}`).join('\n\n') || '（待设计导入活动）'}
 
 ### 导入意图
-通过真实情境引出本课核心问题：**${difficultyDesign?.targetDifficulty || meta.title}**
+通过真实情境引出本课核心问题，激发学生探究兴趣。
 
 ---
 
@@ -63,7 +63,6 @@ ${getPhaseActivities(activities, 'P-participatory').map((a, i) =>
 | **设计意图** | ${a.designIntent} |
 | **嵌入式评价** | ${a.assessmentEmbedded || '-'} |
 | **所需材料** | ${a.materials?.join('、') || '-'} |
-| **过程保留** | ${difficultyDesign?.processPreservation || '确保学生亲历思考过程，AI仅用于验证结论'} |
 `).join('\n\n') || '（待设计参与式学习活动）'}
 
 ---

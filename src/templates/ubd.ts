@@ -6,7 +6,7 @@ import type { TeachingDesign } from '../types/teaching-design';
 export function renderUbDTemplate(design: TeachingDesign): string {
   const { meta, standardAnalysis, textbookAnalysis, learnerAnalysis,
     learningObjectives, assessmentTasks, activities, homework,
-    boardDesign, reflection, difficultyDesign } = design;
+    boardDesign, reflection } = design;
 
   return `# 《${meta.title}》教学设计（UbD逆向设计）
 
@@ -27,8 +27,8 @@ ${standardAnalysis.contentRequirement || '（待填写）'}
 ${textbookAnalysis.keyKnowledge?.map(k => `- ${k}`).join('\n') || '（待填写）'}
 
 ### 1.4 基本问题（Essential Questions）
-${difficultyDesign?.targetDifficulty
-    ? `- **核心困难/问题**：${difficultyDesign.targetDifficulty}`
+${textbookAnalysis.bigConcept
+    ? `- **核心问题**：${textbookAnalysis.bigConcept}`
     : '（待设计）'}
 
 ### 1.5 学生将知道……（知识） 学生将能够……（技能）
@@ -86,18 +86,6 @@ ${activities.map((a, i) =>
 | **意图** | ${a.designIntent} |
 | **评价** | ${a.assessmentEmbedded || '-'} |
 `).join('\n\n') || '（待设计活动）'}
-
----
-
-## 困难设计框架（UbD视角）
-
-| 原则 | 在本课中的体现 |
-|------|----------------|
-| **动机优先** | ${difficultyDesign?.motivationStrategy || '（待设计）'} |
-| **困难前置** | ${difficultyDesign?.difficultyFirst || '（待设计）'} |
-| **过程保留** | ${difficultyDesign?.processPreservation || '（待设计）'} |
-| **困难指征** | ${difficultyDesign?.zpdAlignment || '（待分析）'} |
-| **抽象保护** | ${difficultyDesign?.abstractionProtection || '（待设计）'} |
 
 ---
 

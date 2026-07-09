@@ -16,8 +16,8 @@ export function renderTemplate(design: TeachingDesign, template?: TemplateType):
 export const templateMeta = {
   standard: {
     name: '新课标标准模板',
-    description: '完整的9板块教学设计，包含课标分析、教材分析、学情分析、学习目标、评价任务、BOPPPS活动、作业、板书、反思，以及困难设计框架和教学评一致性矩阵。',
-    sections: 12,
+    description: '完整的8板块教学设计，包含课标分析、教材分析、学情分析、学习目标、评价任务、BOPPPS活动、作业、板书、反思，以及教学评一致性矩阵。',
+    sections: 10,
   },
   boppps: {
     name: 'BOPPPS 模型',

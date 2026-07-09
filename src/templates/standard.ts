@@ -1,10 +1,10 @@
 import type { TeachingDesign } from '../types/teaching-design';
 
-// ===== 新课标标准模板（9板块 + 困难设计框架） =====
+// ===== 新课标标准模板（8板块） =====
 export function renderStandardTemplate(design: TeachingDesign): string {
   const { meta, standardAnalysis, textbookAnalysis, learnerAnalysis,
     learningObjectives, assessmentTasks, activities, homework,
-    boardDesign, reflection, difficultyDesign } = design;
+    boardDesign, reflection } = design;
 
   const phaseLabels: Record<string, string> = {
     B: 'B 导入 (Bridge-in)', O: 'O 目标 (Objective)',
@@ -174,37 +174,6 @@ ${boardDesign.layout || '（待设计）'}
 | **证据来源** | ${reflection.evidenceSources?.join('；') || '（待填写）'} |
 | **改进措施** | ${reflection.improvementMeasures?.join('；') || '（待填写）'} |
 | **特别关注** | ${reflection.notableObservations || '（待填写）'} |
-
----
-## 十、困难设计框架
-
-> 核心问题：什么困难值得保留？如何激发学生面对困难的内在意愿？
-
-### 10.1 困难甄别
-
-| 维度 | 分析 |
-|------|------|
-| **核心困难** | ${difficultyDesign?.targetDifficulty || '（待分析）'} |
-| **教育价值** | ${difficultyDesign?.educationalValue || '（待分析）'} |
-| **最近发展区对齐** | ${difficultyDesign?.zpdAlignment || '（待分析）'} |
-| **待清除的无意义障碍** | ${difficultyDesign?.meaninglessObstacles?.join('；') || '（待识别）'} |
-
-### 10.2 动机激发设计（基于SDT自我决定理论）
-
-| 原则 | 策略 |
-|------|------|
-| **动机优先** | ${difficultyDesign?.motivationStrategy || '（待设计）'} |
-| **自主性支持** | ${difficultyDesign?.autonomySupport || '（待设计）'} |
-| **胜任感铺垫** | ${difficultyDesign?.competenceScaffold || '（待设计）'} |
-| **关系感联结** | ${difficultyDesign?.relatednessConnection || '（待设计）'} |
-
-### 10.3 过程设计
-
-| 原则 | 策略 |
-|------|------|
-| **困难前置** | ${difficultyDesign?.difficultyFirst || '（待设计）'} |
-| **过程保留** | ${difficultyDesign?.processPreservation || '（待设计）'} |
-| **抽象保护** | ${difficultyDesign?.abstractionProtection || '（待设计）'} |
 
 ---
 

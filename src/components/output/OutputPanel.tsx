@@ -209,16 +209,6 @@ ${design.learningObjectives.length > 0
   <tr><th>改进措施</th><td>${design.reflection.improvementMeasures?.join('；') || '（待填写）'}</td></tr>
 </table>
 
-<h2>★ 困难设计框架</h2>
-<div class="difficulty-box">
-  <p><b>核心困难：</b>${design.difficultyDesign?.targetDifficulty || '（待分析）'}</p>
-  <p><b>教育价值：</b>${design.difficultyDesign?.educationalValue || '（待分析）'}</p>
-</div>
-<p><b>动机策略：</b>${design.difficultyDesign?.motivationStrategy || '（待设计）'}</p>
-<p><b>困难前置：</b>${design.difficultyDesign?.difficultyFirst || '（待设计）'}</p>
-<p><b>过程保留：</b>${design.difficultyDesign?.processPreservation || '（待设计）'}</p>
-<p><b>抽象保护：</b>${design.difficultyDesign?.abstractionProtection || '（待设计）'}</p>
-
 <div class="footer-note">
   本教案由「新课标智能教案工坊」生成<br/>
   基于2022版义务教育课程标准 · 融合维果茨基最近发展区、Bjork理想困难理论、Kapur有效失败理论

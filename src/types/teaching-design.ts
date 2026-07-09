@@ -66,26 +66,6 @@ export interface AlignmentEntry {
   consistencyNote: string;
 }
 
-// ---- 困难判断框架（来自PDF核心理论） ----
-export interface DifficultyDesign {
-  // 甄别：区分有教育价值的困难 vs 无意义障碍
-  targetDifficulty: string;           // 本课核心困难是什么
-  educationalValue: string;           // 为什么这个困难有教育价值
-  zpdAlignment: string;               // 如何确保处于最近发展区内
-  meaninglessObstacles: string[];     // 需要清除的无意义障碍
-
-  // 激发：动机设计
-  motivationStrategy: string;         // 动机激发策略（动机优先原则）
-  autonomySupport: string;            // 自主性支持（SDT）
-  competenceScaffold: string;         // 胜任感铺垫
-  relatednessConnection: string;      // 关系感联结
-
-  // 过程设计
-  difficultyFirst: string;            // 困难前置的具体安排
-  processPreservation: string;        // 过程保留策略
-  abstractionProtection: string;      // 抽象保护策略
-}
-
 // ---- 主数据结构 ----
 export interface TeachingDesign {
   meta: {
@@ -174,17 +154,6 @@ export interface TeachingDesign {
 
   // 附加：教学评一致性矩阵
   alignmentMatrix: AlignmentEntry[];
-
-  // ★ 困难设计框架（融合PDF五项原则）
-  difficultyDesign: DifficultyDesign;
-
-  // AI在教学设计中的角色定位
-  aiRoleDefinition: {
-    asDifficultyDesigner: string;    // AI为困难设计者
-    asMotivationEnhancer: string;    // AI为动机激发者
-    asObstacleRemover: string;       // AI为无关障碍清除者
-    coreBoundary: string;            // AI不可逾越的边界
-  };
 }
 
 // ===== 表单输入模型 =====
@@ -199,8 +168,6 @@ export interface TeachingDesignForm {
   homework: Partial<TeachingDesign['homework']>;
   boardDesign: Partial<TeachingDesign['boardDesign']>;
   reflection: Partial<TeachingDesign['reflection']>;
-  difficultyDesign: Partial<DifficultyDesign>;
-  aiRoleDefinition: Partial<TeachingDesign['aiRoleDefinition']>;
 }
 
 // ===== AI配置 =====
@@ -300,24 +267,5 @@ export function createEmptyDesign(): TeachingDesign {
       notableObservations: '',
     },
     alignmentMatrix: [],
-    difficultyDesign: {
-      targetDifficulty: '',
-      educationalValue: '',
-      zpdAlignment: '',
-      meaninglessObstacles: [],
-      motivationStrategy: '',
-      autonomySupport: '',
-      competenceScaffold: '',
-      relatednessConnection: '',
-      difficultyFirst: '',
-      processPreservation: '',
-      abstractionProtection: '',
-    },
-    aiRoleDefinition: {
-      asDifficultyDesigner: '',
-      asMotivationEnhancer: '',
-      asObstacleRemover: '',
-      coreBoundary: 'AI不能替代学生亲身经历思考的过程——不愤不启，不悱不发。',
-    },
   };
 }

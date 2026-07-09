@@ -82,23 +82,10 @@ export const FULL_DESIGN_JSON_PROMPT = (subject: string, grade: string, topic: s
     "targetAchievement": "目标达成度预估",
     "improvementMeasures": ["改进措施1", "改进措施2"],
     "notableObservations": "特别关注事项"
-  },
-  "difficultyDesign": {
-    "targetDifficulty": "本课核心困难是什么",
-    "educationalValue": "为什么这个困难有教育价值",
-    "zpdAlignment": "如何确保处于最近发展区",
-    "meaninglessObstacles": ["需清除的障碍1"],
-    "motivationStrategy": "动机激发策略",
-    "autonomySupport": "自主性支持策略",
-    "competenceScaffold": "胜任感铺垫策略",
-    "relatednessConnection": "关系感联结策略",
-    "difficultyFirst": "困难前置安排",
-    "processPreservation": "过程保留策略",
-    "abstractionProtection": "抽象保护策略"
   }
 }
 
-要求：每个字段写出具体、可执行的内容，不要空泛。教学活动体现BOPPPS结构和困难前置原则。只返回JSON，不要其他文字。`;
+要求：每个字段写出具体、可执行的内容，不要空泛。教学活动体现BOPPPS结构。只返回JSON，不要其他文字。`;
 
 // 简易结构化提示词（兜底方案——返回Markdown后手动解析）
 export const SECTION_PROMPTS: Record<string, (context: string) => string> = {
@@ -116,8 +103,6 @@ export const SECTION_PROMPTS: Record<string, (context: string) => string> = {
     `请设计BOPPPS教学活动：\n${ctx}\n体现困难前置和过程保留原则。`,
   homework: (ctx) =>
     `请设计分层作业：\n${ctx}\n包含必做、选做及设计意图。`,
-  difficultyDesign: (ctx) =>
-    `请完成困难设计框架：\n${ctx}\n基于五项原则：动机优先、困难前置、过程保留、困难指征、抽象保护。`,
   fullDesign: (ctx) =>
-    `请为一节课撰写完整教学设计：\n${ctx}\n请按新课标9板块格式输出，确保体现五项设计原则。`,
+    `请为一节课撰写完整教学设计：\n${ctx}\n请按新课标8板块格式输出。`,
 };

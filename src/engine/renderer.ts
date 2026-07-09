@@ -45,13 +45,6 @@ export function getSectionText(design: TeachingDesign, section: string): string 
 选做：${d.homework.optional?.map(h => h.title).join('、')}
 意图：${d.homework.designIntent}`;
 
-    case 'difficultyDesign':
-      return `核心困难：${d.difficultyDesign.targetDifficulty}
-教育价值：${d.difficultyDesign.educationalValue}
-动机策略：${d.difficultyDesign.motivationStrategy}
-困难前置：${d.difficultyDesign.difficultyFirst}
-过程保留：${d.difficultyDesign.processPreservation}`;
-
     default:
       return renderTemplate(design);
   }
@@ -76,8 +69,5 @@ ${getSectionText(design, 'textbookAnalysis')}
 ${getSectionText(design, 'learnerAnalysis')}
 
 === 学习目标 ===
-${getSectionText(design, 'learningObjectives')}
-
-=== 困难设计 ===
-${getSectionText(design, 'difficultyDesign')}`;
+${getSectionText(design, 'learningObjectives')}`;
 }

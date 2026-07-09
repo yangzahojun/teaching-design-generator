@@ -57,8 +57,6 @@ export function generateFullDesign(partial: Partial<TeachingDesign>): TeachingDe
     boardDesign: { ...base.boardDesign, ...partial.boardDesign },
     reflection: { ...base.reflection, ...partial.reflection },
     alignmentMatrix: partial.alignmentMatrix || [],
-    difficultyDesign: { ...base.difficultyDesign, ...partial.difficultyDesign },
-    aiRoleDefinition: { ...base.aiRoleDefinition, ...partial.aiRoleDefinition },
   };
 
   if (merged.alignmentMatrix.length === 0 && merged.learningObjectives.length > 0) {

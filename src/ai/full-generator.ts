@@ -136,23 +136,6 @@ function applyPlanData(data: Record<string, unknown>) {
     });
   }
 
-  // 困难设计
-  if (data.difficultyDesign) {
-    const dd = data.difficultyDesign as Record<string, unknown>;
-    store.updateSection('difficultyDesign', {
-      targetDifficulty: (dd.targetDifficulty as string) || '',
-      educationalValue: (dd.educationalValue as string) || '',
-      zpdAlignment: (dd.zpdAlignment as string) || '',
-      meaninglessObstacles: (dd.meaninglessObstacles as string[]) || [],
-      motivationStrategy: (dd.motivationStrategy as string) || '',
-      autonomySupport: (dd.autonomySupport as string) || '',
-      competenceScaffold: (dd.competenceScaffold as string) || '',
-      relatednessConnection: (dd.relatednessConnection as string) || '',
-      difficultyFirst: (dd.difficultyFirst as string) || '',
-      processPreservation: (dd.processPreservation as string) || '',
-      abstractionProtection: (dd.abstractionProtection as string) || '',
-    });
-  }
 }
 
 // 核心函数：缓存优先 → API兜底
