@@ -58,7 +58,7 @@ export const useAppStore = create<AppState>((set, get) => ({
   currentDesign: createEmptyDesign(),
   apiConfig: (() => {
     // 移除旧缓存，确保新内置密钥生效
-    localStorage.removeItem('tdg-api-key-v2');
+    localStorage.removeItem('tdg-api-key');
     return loadFromLocalStorage<APIConfig>('tdg-api-key-v2', {
       provider: 'deepseek',
       baseUrl: 'https://api.deepseek.com/v1',
